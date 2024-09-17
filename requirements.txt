@@ -1,0 +1,7 @@
+azure_storage==0.37.0
+fastapi==0.114.2
+openai==1.45.0
+pydantic==2.9.1
+python-dotenv==1.0.1
+replicate==0.32.1
+sympy==1.13.2
