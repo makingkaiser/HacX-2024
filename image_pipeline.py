@@ -1,19 +1,22 @@
 import openai  
 import re  
-  
 # Set up your OpenAI API key  
 openai.api_key = 'your-api-key'  
   
 # Step 1: Set up initial user input and variables  
-AGE_GROUP = "young adults"  
-user_described_desired_layout = "a modern, visually appealing layout with sections for information, testimonials, and resources."  
-STRUCTURE = "information pamphlet"  
-  
+TARGET_AUDIENCE = "young adults"  
+STYLISTIC_DESCRIPTION = "a modern, visually appealing layout."  
+CONTENT_DESCRIPTION = "sections for information, testimonials, and resources"  
+FORMAT = "information pamphlet"
 # Step 2: Define the prompt template  
 prompt_template = """  
 I am trying to make a page for the ministry of Health in Singapore, dedicated to warning {AGE_GROUP} on the dangers of drugs.  
-Following {user_described_desired_layout}:  
-Create a {STRUCTURE} using html with ONLY text and visuals, with a modern and sleek look.  
+Following the following guidelines:
+TARGET AUDIENCE: {TARGET_AUDIENCE}
+STYLISTIC DESCRIPTION: {STYLISTIC_DESCRIPTION}
+CONTENT DESCRIPTION: {CONTENT_DESCRIPTION}
+FORMAT: {FORMAT}
+Create what is specified using html with ONLY text and visuals, with a modern and sleek look.  
   
 Do not include things like <li><a href="#">Home</a></li> <li><a href="#">About</a></li> <li><a href="#">Contact</a></li>   
 as it is supposed to look like a static page. Do not just arrange elements in a boring, linear manner.   
@@ -26,7 +29,7 @@ Include help hotline at the end and a QR code image placeholder for more informa
 """  
   
 # Fill in the template with user input  
-prompt = prompt_template.format(AGE_GROUP=AGE_GROUP, user_described_desired_layout=user_described_desired_layout, STRUCTURE=STRUCTURE)  
+prompt = prompt_template.format(target_audience=TARGET_AUDIENCE,stylistic_description=STYLISTIC_DESCRIPTION,content_description=CONTENT_DESCRIPTION,format=FORMAT)
   
 # Step 3: Make an API call to GPT  
 response = openai.Completion.create(  

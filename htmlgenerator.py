@@ -108,27 +108,38 @@ def extract_html_content(text):
 #Base query to gpt4-o 
 
 
+TARGET_AUDIENCE = "general audience" 
+STYLISTIC_DESCRIPTION = "90's cartoon style"
+CONTENT_DESCRIPTION = "various scenes and landscapes"
+FORMAT = "digital art"
+ 
 
-AGE_GROUP = "university students"
-STRUCTURE = 'pamphlet'
-STYLE = 'modern and sleek'
 user_response_wrapper_prompt = """
-Your task is to create Preventive Drug Education material for the Central Narcotics Bureau, the lead agency for preventive drug education in Singapore, dedicated to warning people on the dangers of drugs. Create a {STRUCTURE} that has the following style: {STYLE} using html with ONLY text and visuals. Do not include elements like 
+Your task is to create Preventive Drug Education material for the Central Narcotics Bureau, the lead agency for preventive drug education in Singapore, dedicated to warning people on the dangers of drugs. 
 
+Following the following guidelines:
+TARGET AUDIENCE: {TARGET_AUDIENCE}
+STYLISTIC DESCRIPTION: {STYLISTIC_DESCRIPTION}
+CONTENT DESCRIPTION: {CONTENT_DESCRIPTION}
+FORMAT: {FORMAT}
+Create what is specified using html with ONLY text and visuals, with a modern and sleek look.
+
+Do not include things like
     <li><a href="#">Home</a></li>  
     <li><a href="#">About</a></li>  
     <li><a href="#">Contact</a></li>  
-as it is supposed to look like a static page. Do not just arrange elements in a boring, linear manner. 
-Your material should target {AGE_GROUP}
+as it is supposed to look like a static page. 
+
 
 1. for the text content, it is sufficient to write [DESCRIPTION: ""],  with a short description text describing what is the content supposed to be. e.g: [DESCRIPTION: A brief introduction to the dangers of drug abuse]
 
 2. For any images, specify the dimension, then replace the image link with a detailed description of a single image suitable for prompting an image model, like this: <div class="IMAGE_PLACEHOLDER"> [Image: 600x400] - A supportive scene showing a counselor or support group helping young adults. The image should convey a sense of hope and community, with warm, welcoming colors and expressions.] </div> 
 the image descriptions should all follow a similar theme and be similar to stock image descriptions or visual elements for icons. Do not describe textual elements. 
-Include help hotline at the end and a QR code image placeholder for more information at the bottom.
+Include this help hotline at the end: CNB Hotline (24-hours): 1800 325 6666 and a QR code image link bottom.
 
-For html layouts other than posters, you MUST ensure that the width of the images is set to to 100 percent nd the height to auto so that they can adapt to the size of their containers
-EXAMPLE OUTPUT (for a pamphlet specific to families):
+3. For html layouts other than posters, you MUST ensure that the width of the images is set to to 100 percent nd the height to auto so that they can adapt to the size of their containers. Do not just arrange elements in a boring, linear manner. 
+
+EXAMPLE OUTPUT :
 
 <!DOCTYPE html>
 <html lang="en">
@@ -136,7 +147,100 @@ EXAMPLE OUTPUT (for a pamphlet specific to families):
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Family Drug Awareness - Central Narcotics Bureau</title>
-    
+    <style>  
+        body {  
+            font-family: 'Arial', sans-serif;  
+            margin: 0;  
+            padding: 0;  
+            background-color: #f0f4f8;  
+            color: #333;  
+        }  
+        .container {  
+            max-width: 1200px;  
+            margin: 0 auto;  
+            padding: 20px;  
+            display: grid;  
+            grid-template-columns: repeat(4, 1fr);  
+            grid-gap: 20px;  
+        }  
+        .header {  
+            grid-column: 1 / -1;  
+            background-color: #2c3e50;  
+            color: white;  
+            padding: 40px;  
+            text-align: center;  
+            border-radius: 10px;  
+        }  
+        .content-box {  
+            background-color: white;  
+            padding: 20px;  
+            border-radius: 10px;  
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+        }  
+        .span-2 {  
+            grid-column: span 2;  
+        }  
+        .span-3 {  
+            grid-column: span 3;  
+        }  
+        .full-width {  
+            grid-column: 1 / -1;  
+        }  
+        .content-box img {  
+            width: 100%;  
+            height: auto;  
+            border-radius: 5px;  
+        }  
+        .image-placeholder {  
+            background-color: #e0e0e0;  
+            height: 200px;  
+            display: flex;  
+            justify-content: center;  
+            align-items: center;  
+            margin-bottom: 15px;  
+            border-radius: 5px;  
+            font-style: italic;  
+            text-align: center;  
+            padding: 10px;  
+        }  
+        .footer {  
+            grid-column: 1 / -1;  
+            background-color: #2c3e50;  
+            color: white;  
+            padding: 20px;  
+            text-align: center;  
+            border-radius: 10px;  
+            display: flex;  
+            justify-content: space-around;  
+            align-items: center;  
+        }  
+        .qr-placeholder img {
+            width: 100px; /* Set the desired width */
+            height: 100px; /* Set the desired height */
+            object-fit: cover; /* Ensure the image covers the area without distortion */
+        }
+  
+        /* Responsive adjustments */  
+        @media (max-width: 768px) {  
+            .container {  
+                grid-template-columns: repeat(2, 1fr);  
+            }  
+            .span-2 {  
+                grid-column: span 2;  
+            }  
+            .span-3 {  
+                grid-column: span 2;  
+            }  
+        }  
+        @media (max-width: 480px) {  
+            .container {  
+                grid-template-columns: 1fr;  
+            }  
+            .span-2, .span-3, .full-width {  
+                grid-column: span 1;  
+            }  
+        }  
+    </style> 
 </head>
 <body>
     <div class="container">
@@ -200,11 +304,11 @@ EXAMPLE OUTPUT (for a pamphlet specific to families):
 
         <footer class="footer">
             <div>
-                <h3>24/7 Family Support Hotline</h3>
-                <p>1800-FAMILY-CNB</p>
+                <h3>24/7 CNB Hotline</h3>
+                <p>1800 325 6666</p>
             </div>
             <div class="qr-placeholder">
-                [QR Code]
+                <img src="qr.png" alt="QR Code">
             </div>
         </footer>
     </div>
@@ -224,7 +328,7 @@ response = openai_client.chat.completions.create(
 )
 output = extract_html_content(response.choices[0].message.content)
 
-with open("output.html", "w") as file:
+with open("first_draft.html", "w") as file:
     file.write(output)
 
 

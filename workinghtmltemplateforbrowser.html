@@ -71,15 +71,11 @@
             justify-content: space-around;  
             align-items: center;  
         }  
-        .qr-placeholder {  
-            width: 100px;  
-            height: 100px;  
-            background-color: white;  
-            display: flex;  
-            justify-content: center;  
-            align-items: center;  
-            font-style: italic;  
-        }  
+        .qr-placeholder img {
+            width: 100px; /* Set the desired width */
+            height: 100px; /* Set the desired height */
+            object-fit: cover; /* Ensure the image covers the area without distortion */
+        }
   
         /* Responsive adjustments */  
         @media (max-width: 768px) {  
@@ -165,11 +161,11 @@
 
         <footer class="footer">
             <div>
-                <h3>24/7 Family Support Hotline</h3>
-                <p>1800-FAMILY-CNB</p>
+                <h3>24/7 CNB Hotline</h3>
+                <p>1800 325 6666</p>
             </div>
             <div class="qr-placeholder">
-                [QR Code]
+                <img src="qr.png" alt="QR Code">
             </div>
         </footer>
     </div>
