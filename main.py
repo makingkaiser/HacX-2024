@@ -20,30 +20,29 @@ class GraphicElement:
         self.refined = refined
   
 
-async def main():
-    # call to llm > output.html
-    with open("first_draft.html", "r") as file:
-        file_content = file.read()  # Read the file content as a string (file content is first output of llm as of now, replace later with actual function)
-        text_elements = extract_text_descriptions(file_content)
-        image_elements = extract_image_descriptions(file_content)
-        refined_image_elements = await run_multiple_image_refinements(
+
+async def flesh_out_html(input_html: str, target_audience: str, stylistic_description: str, content_description: str, format: str) -> str:
+    # Process the input HTML content
+    text_elements = extract_text_descriptions(input_html)
+    image_elements = extract_image_descriptions(input_html)
+    
+    # Refine and generate image elements
+    refined_image_elements = await run_multiple_image_refinements(
         image_elements,
-        target_audience="general audience",
-        stylistic_description="90's cartoon style",
-        content_description="various scenes and landscapes",
-        format="digital art"
+        target_audience=target_audience,
+        stylistic_description=stylistic_description,
+        content_description=content_description,
+        format=format
     )
-        generated_image_elements = await run_multiple_image_predictions(refined_image_elements)
-        output = replace_image_descriptions(file_content, generated_image_elements)
+    generated_image_elements = await run_multiple_image_predictions(refined_image_elements)
+    
+    # Replace image descriptions with generated image elements
+    output = replace_image_descriptions(input_html, generated_image_elements)
+    
+    return output
 
-    with open("output.html", "w") as f:
-        f.write(output)
 
 
-
-
-# Run the main function
-asyncio.run(main())
 
 
     
