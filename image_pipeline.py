@@ -51,10 +51,10 @@ def extract_image_descriptions(html):
 # query gpt4o to improve upon descriptions for prompting, loosely based on stylistic elements of {user_described_desired_layout}
 
 
-
 # Utility function to refine image descriptions (if needed)  
 def refine_image_description(description):  
-    # For the sake of example, we assume description is already suitable  
+    #HAS TO PULL USER INPUT AS JSON AND IS PASSED IN PLACEHOLDER IMAGE DESC
+    #image_caption_rag_refinement(user_input, placeholder_image_desc)
     return description  
   
 # Utility function to generate image from description  

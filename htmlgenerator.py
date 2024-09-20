@@ -31,7 +31,7 @@ from azure.search.documents.indexes.models import (
 )
 from azure.storage.blob import BlobServiceClient
 from azure.search.documents import SearchClient
-from utils import create_openai_completion
+from utils.initialize_client import create_openai_completion
 # Retrieve environment variables
 azure_openai_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
 azure_openai_api_key = os.getenv("AZURE_OPENAI_API_KEY")
