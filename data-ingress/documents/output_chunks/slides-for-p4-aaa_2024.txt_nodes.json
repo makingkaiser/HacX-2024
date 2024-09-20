@@ -1,0 +1,346 @@
+[
+    {
+        "id_": "dc9f9b37-9278-4646-88ea-69a6dea8fd64",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+            "file_name": "slides-for-p4-aaa_2024.txt",
+            "file_type": "text/plain",
+            "file_size": 3579,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "c42d1ffc-cef7-4fd0-b9ae-76b9167fc607",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+                    "file_name": "slides-for-p4-aaa_2024.txt",
+                    "file_type": "text/plain",
+                    "file_size": 3579,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "128a6451b430e30fee9ee3631dfa6247ffe2bc8c13a2bdf9a5f44eb2f0730427",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "9d2ad9b3-50f0-421d-b464-79d872ec5924",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "a5d97f0fed7b19cb2986d0f7a590373427e5283f50de6f10412171e19e7d6cfe",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "THE HARMS OF \r\n\r\nDRUG ABUSE\r\n\r\nWhy it’s important to say “no” to drugs\r\n\r\nWhat is a Drug?\r\n\r\nDrugs can be addictive and harmful, \r\n\r\nespecially when used irresponsibly or when \r\n\r\nthey are not needed. \r\n\r\nTo protect people from harm, some drugs \r\n\r\nare made illegal (illicit drugs).\r\n\r\nA substance that changes your body or your \r\n\r\nmind when taken e.g. medicine given by doctors \r\n\r\n(prescription drugs)\r\n\r\nBUT!\r\n\r\nExamples of Illicit Drugs\r\n\r\nMETHAMPHETAMINE\r\n\r\nAlso known as ‘ice’, \r\n\r\n‘crystal’, ‘yaba’\r\n\r\nCANNABIS\r\nINHALANTS\r\n\r\nAlso known as \r\n\r\n‘weed’, ‘pot’, \r\n\r\n‘marijuana’, ‘ganja’, \r\n\r\n‘grass’\r\n\r\nAlso known as ‘bath \r\n\r\nsalts’, ‘spice’, ‘K2,’ \r\n\r\n‘bromo-dragonfly’, \r\n\r\nAlso known as \r\n\r\n‘glue sniffing’\r\n\r\nNEW PSYCHOACTIVE \r\n\r\nSUBSTANCES (NPS)\r\n\r\nBeware of chocolates/sweets \r\n\r\ninfused with cannabis!\r\n\r\nHow do Drugs Affect You?\r\n\r\nDrugs affect your learning\r\n\r\nMemory Loss\r\n\r\nLoss of Coordination \r\n\r\nMood \r\nSwings\r\n\r\nThis means you are likely to\r\n•\r\nPerform less well in school \r\n\r\n•\r\nMake poor decisions\r\n\r\n•\r\nHurt yourselves or others \r\naround you\r\n\r\nDrugs tear families apart\r\n\r\nDrug addiction \r\n\r\ndestroys lives, \r\n\r\ntears apart \r\n\r\nfamilies and \r\n\r\nharms society.\r\n\r\nHow Do Drugs Affect You?\r\n\r\nHEAD \r\n•\r\nPermanent damage to the brain \r\n\r\nEYES \r\n•\r\nDisturbed sight and judgement \r\n\r\nHEART\r\n•\r\nIncreased risk of lung cancer\r\n\r\nLUNGS\r\n•\r\nImpaired lung function \r\n\r\nSTOMACH \r\n•\r\nGastric pain \r\n\r\nLIVER\r\n•\r\nDamaged to liver\r\n\r\nKIDNEY\r\n•\r\nDecreased kidney function \r\n\r\nBLADDER\r\n•\r\nBladder problems\r\n\r\nDrugs will affect your ability to grow up \r\n\r\nhealthily and may even lead to death.\r\n\r\nDrugs come with Severe Punishment\r\n\r\nIf a person takes drugs;\r\nIf a person sells drugs;\r\nIf drugs are found on a person…\r\n\r\nThe person could be jailed for up to 30 \r\nyears, and subjected to caning of up to 15 \r\nstrokes. \r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 0,
+        "end_char_idx": 1827,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "9d2ad9b3-50f0-421d-b464-79d872ec5924",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+            "file_name": "slides-for-p4-aaa_2024.txt",
+            "file_type": "text/plain",
+            "file_size": 3579,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "c42d1ffc-cef7-4fd0-b9ae-76b9167fc607",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+                    "file_name": "slides-for-p4-aaa_2024.txt",
+                    "file_type": "text/plain",
+                    "file_size": 3579,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "128a6451b430e30fee9ee3631dfa6247ffe2bc8c13a2bdf9a5f44eb2f0730427",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "dc9f9b37-9278-4646-88ea-69a6dea8fd64",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+                    "file_name": "slides-for-p4-aaa_2024.txt",
+                    "file_type": "text/plain",
+                    "file_size": 3579,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "f1854cc475faacc48686df5100b744cdb7664486ff1ee22447b9c817bff22c70",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "ed3bd2a2-5cf9-4337-8dd9-ea86442fae49",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "aa004a92408b4b1c05758e3d28b8925be420b3cd0113087cc34f15e6b455d2eb",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Drugs are very harmful, so Singapore has to \r\n\r\ntake strong action to control them and protect \r\n\r\nour people!\r\n\r\nWILL I GET CAUGHT IF I \r\n\r\nTRY?\r\n\r\nUrine \r\n\r\nTesting\r\n\r\nHair \r\n\r\nAnalysis\r\n\r\nHair analysis enables CNB to detect drugs in \r\n\r\nthe body even months after use.\r\n\r\nTo detect drug abusers, CNB \r\n\r\nis able to administer; \r\n\r\nCONSUMPTION OF\r\n\r\nCONTROLLED DRUGS\r\nOUTSIDE SINGAPORE \r\n\r\nAll Singapore/Permanent Residents \r\n\r\nfound to have consumed illegal substances, \r\n\r\nEVEN OUTSIDE SINGAPORE, will face a penalty \r\n\r\nof IMPRISONMENT up to 10 years, FINE not \r\n\r\nexceeding $20,000 or both. \r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 1827,
+        "end_char_idx": 2428,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "ed3bd2a2-5cf9-4337-8dd9-ea86442fae49",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+            "file_name": "slides-for-p4-aaa_2024.txt",
+            "file_type": "text/plain",
+            "file_size": 3579,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "c42d1ffc-cef7-4fd0-b9ae-76b9167fc607",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+                    "file_name": "slides-for-p4-aaa_2024.txt",
+                    "file_type": "text/plain",
+                    "file_size": 3579,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "128a6451b430e30fee9ee3631dfa6247ffe2bc8c13a2bdf9a5f44eb2f0730427",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "9d2ad9b3-50f0-421d-b464-79d872ec5924",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+                    "file_name": "slides-for-p4-aaa_2024.txt",
+                    "file_type": "text/plain",
+                    "file_size": 3579,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "8b88c378e5d8c2b9edceabd755c2c31f5a7e4492c60ac1eb42d7842755a37f3f",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "5db05a80-e164-4ce6-8c27-608ff5c5d08a",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "98b8e008aba2a94f869dac3dfd1e6fc927479f60d65c5e09a95e86db680faba4",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "If I can’t do it here, \r\ncan I do it overseas?\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 2428,
+        "end_char_idx": 2478,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "5db05a80-e164-4ce6-8c27-608ff5c5d08a",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+            "file_name": "slides-for-p4-aaa_2024.txt",
+            "file_type": "text/plain",
+            "file_size": 3579,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "c42d1ffc-cef7-4fd0-b9ae-76b9167fc607",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+                    "file_name": "slides-for-p4-aaa_2024.txt",
+                    "file_type": "text/plain",
+                    "file_size": 3579,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "128a6451b430e30fee9ee3631dfa6247ffe2bc8c13a2bdf9a5f44eb2f0730427",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "ed3bd2a2-5cf9-4337-8dd9-ea86442fae49",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+                    "file_name": "slides-for-p4-aaa_2024.txt",
+                    "file_type": "text/plain",
+                    "file_size": 3579,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "80175977212069b7afa7cdf63d2863104bbdae9dfe35746c9bbbd6c1ac55d58e",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "2d2ff0fc-4931-46e5-a73a-8f6404964f61",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "c9a01ccc0088d3aea54f814e055623f769066bd3cfdb38a9877e7e8ff2f82af1",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Video Link\r\n\r\n•\r\nWhat fills your “feelings \r\n\r\nbar”? \r\n\r\n•\r\nWhat are some of the \r\n\r\nconsequences of \r\n\r\ntaking drugs?\r\n\r\n•\r\nWhat are some \r\n\r\npositive outcomes \r\n\r\nwhen we choose to \r\n\r\nstay drug-free?\r\n\r\nCHOICE\r\n\r\nHow to Say NO\r\n\r\nChange the topic\r\n\r\n“No thanks. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 2478,
+        "end_char_idx": 2743,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "2d2ff0fc-4931-46e5-a73a-8f6404964f61",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+            "file_name": "slides-for-p4-aaa_2024.txt",
+            "file_type": "text/plain",
+            "file_size": 3579,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "c42d1ffc-cef7-4fd0-b9ae-76b9167fc607",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+                    "file_name": "slides-for-p4-aaa_2024.txt",
+                    "file_type": "text/plain",
+                    "file_size": 3579,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "128a6451b430e30fee9ee3631dfa6247ffe2bc8c13a2bdf9a5f44eb2f0730427",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "5db05a80-e164-4ce6-8c27-608ff5c5d08a",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+                    "file_name": "slides-for-p4-aaa_2024.txt",
+                    "file_type": "text/plain",
+                    "file_size": 3579,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "72d15bc34511b821b835b0910e4b644f4462693232d6c52df9529683cfa3152e",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "By the way, \r\n\r\nhow’s the school \r\n\r\nproject you said you \r\n\r\nwere working on?”\r\n\r\nGive a reason for \r\n\r\nstaying away from \r\n\r\ndrugs\r\n\r\n“No thanks, it’s bad for \r\n\r\nmy health.”\r\n\r\nCounter-challenge by \r\n\r\nreminding them on the \r\n\r\nharmful effects of \r\n\r\ndrugs\r\n\r\n“You shouldn’t be \r\n\r\ntaking drugs, don’t you \r\nknow it’s addictive and \r\n\r\ndangerous?”\r\n\r\nHow to Say NO\r\n\r\nAvoid situations that \r\n\r\nexpose you to drugs\r\n\r\nEngage in healthy \r\n\r\nactivities\r\n\r\nWalk away from \r\n\r\nsuch situations\r\n\r\nI have to \r\n\r\ngo now!\r\n\r\n•\r\nDrugs are addictive\r\n\r\n•\r\nDrugs have harmful \r\neffects on your mind \r\nand body \r\n\r\n•\r\nDrugs can badly \r\naffect your life and \r\nyour loved ones\r\n\r\n•\r\nSay ‘no’ to drugs!\r\n\r\nREMEMBER…\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 2743,
+        "end_char_idx": 3449,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    }
+]

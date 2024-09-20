@@ -1,0 +1,171 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preventive Drug Education - Central Narcotics Bureau</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+        }
+        .header {
+            grid-column: 1 / -1;
+            background-color: #2c3e50;
+            color: white;
+            padding: 40px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .content-box {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .span-2 {
+            grid-column: span 2;
+        }
+        .span-3 {
+            grid-column: span 3;
+        }
+        .full-width {
+            grid-column: 1 / -1;
+        }
+        .content-box img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .image-placeholder {
+            background-color: #e0e0e0;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            font-style: italic;
+            text-align: center;
+            padding: 10px;
+        }
+        .footer {
+            grid-column: 1 / -1;
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .qr-placeholder img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .span-2 {
+                grid-column: span 2;
+            }
+            .span-3 {
+                grid-column: span 2;
+            }
+        }
+        @media (max-width: 480px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+            .span-2, .span-3, .full-width {
+                grid-column: span 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Preventive Drug Education: Understanding the Dangers of Drugs</h1>
+        </header>
+
+        <div class="content-box span-2">
+            <div class="image-placeholder">
+                [Image: 600x400] - An illustration of Singapore's iconic skyline with a bold "Say No to Drugs" message overlay. The image should be vibrant, with a mix of modern and traditional architectural elements.
+            </div>
+        </div>
+
+        <div class="content-box span-2">
+            [DESCRIPTION: "A brief introduction to the dangers of drug abuse, highlighting the physical, emotional, and social consequences."]
+        </div>
+
+        <div class="content-box span-3">
+            [DESCRIPTION: "Information on the common types of drugs abused, their street names, and their harmful effects on the body and mind."]
+        </div>
+
+        <div class="content-box">
+            <div class="image-placeholder">
+                [Image: 300x300] - An infographic showing the various harmful effects of drugs on the human body, with specific organs highlighted and labeled.
+            </div>
+        </div>
+
+        <div class="content-box span-2">
+            [DESCRIPTION: "Steps individuals can take to avoid drug abuse, including seeking support, engaging in healthy activities, and building a strong support network."]
+        </div>
+
+        <div class="content-box span-2">
+            <div class="image-placeholder">
+                [Image: 600x300] - A group of young people participating in a community sports event, emphasizing healthy and positive activities.
+            </div>
+        </div>
+
+        <div class="content-box full-width">
+            [DESCRIPTION: "Signs and symptoms of drug abuse to watch out for, including changes in behavior, physical appearance, and social interactions."]
+        </div>
+
+        <div class="content-box span-2">
+            <div class="image-placeholder">
+                [Image: 600x400] - A warm and inviting community center with posters and literature about drug prevention, and people engaging in discussions.
+            </div>
+        </div>
+
+        <div class="content-box span-2">
+            [DESCRIPTION: "Resources available for those struggling with drug abuse, including counseling services, support groups, and helplines."]
+        </div>
+
+        <div class="content-box span-3">
+            [DESCRIPTION: "An overview of Singapore’s strict drug laws and the severe penalties for drug-related offenses, reinforcing the importance of staying drug-free."]
+        </div>
+
+        <div class="content-box">
+            <div class="image-placeholder">
+                [Image: 300x300] - A conceptual illustration of Singapore's legal system, with a gavel and scales of justice prominently featured.
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div>
+                <h3>24/7 CNB Hotline</h3>
+                <p>1800 325 6666</p>
+            </div>
+            <div class="qr-placeholder">
+                <a href="https://imgbb.com/"><img src="https://i.ibb.co/6tcJ0tB/qr.png" alt="qr"></a>
+            </div>
+        </footer>
+    </div>
+</body>

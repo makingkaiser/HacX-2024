@@ -1,0 +1,1733 @@
+[
+    {
+        "id_": "59635479-a4b7-4c93-a988-10361fda1dd2",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "f7c0b0a1-0ccb-4947-8b31-4c1dd7064b54",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "7e6b45a95f84aa0b6fefbd61d547060f2fc0339f80debacd208b59d4cc542a67",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "HANDBOOK\r\n\r\nPREVENTIVE DRUG EDUCATION\r\n\r\nWhat you need to know about Singapore's drug policy and laws, \r\n\r\nand how you can help others stay away from drugs\r\n\r\n02\r\n\r\nRECEIVING THIS HANDBOOK?\r\nWHY AM I\r\n\r\nThe Central Narcotics Bureau (CNB) seeks your support in our common vision\r\nfor a drug-free Singapore.\r\n\r\nSingapore's proximity to the world's largest drug-producing region continues\r\nto pose a significant threat to our society. The harms of drugs are extensive\r\nand real - they don't just affect your mind and body, but also the people\r\naround you. Livelihoods are lost, relationships are destroyed, and those who\r\ngrow up in a home environment of a drug abuser suffer. The wider community\r\nis also affected because drug abuse often leads to other crimes being\r\ncommitted. \r\n\r\nThis handbook, together with the accompanying deck of PowerPoint slides\r\nand set of FAQs, has been designed to help you share within your\r\norganisation and spheres of influence what the public needs to know about\r\nSingapore's drug policy and laws, and how collectively we can help Singapore\r\nremain drug-free. \r\n\r\nWe hope you find this set of resources useful. Let's work together towards a\r\ndrug-free society!\r\n\r\nThis handbook contains the following information:\r\n\r\n01     Singapore's Drug Policy - Why Singapore is Tough on Drugs\r\n02     Laws in Place to Help Us\r\n03     Singapore's Drug Law - Misuse of Drugs Act 1973\r\n04     Commonly Abused Drugs and Their Effects\r\n05     How Can I Help My Friends and Loved Ones?\r\n06     What Should I Do If....?\r\n07      Making a Report to CNB\r\n08     Contacts and Helplines\r\n09     Resources\r\n\r\nPg 03\r\nPg 05\r\nPg 09 \r\nPg 12\r\nPg 17\r\nPg 19\r\nPg 20\r\nPg 21\r\nPg 22\r\n\r\nYouths today tend to have more\r\nliberal views towards drugs, which is\r\nlargely influenced by the internet and\r\nsocial media\r\n\r\nYouths may be more willing to\r\nexperiment with cannabis, which is\r\nmisperceived as a \"soft and cool\" drug\r\n\r\nThere is a widespread misinformation\r\non drugs on the internet, which\r\ndownplays or dismiss the harms of\r\ncannabis\r\n\r\nStress, curiosity and external\r\ninfluence are common reasons\r\ncited by youths for taking drugs \r\n\r\ndid you know?\r\n\r\nSingapore aims to create a drug-free society where our people can work, live\r\nand play safely. \r\n\r\nOur strict laws against drug traffickers serve as an effective deterrent in\r\nkeeping foreign syndicates out of Singapore and in deterring Singaporeans\r\nfrom engaging in drug activities. Our laws are designed to ensure harmful\r\ndrugs are kept out of the easy reach of most people especially youths, while\r\nenforcement efforts are focused on tackling drug supply and dismantling\r\nsyndicates. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 0,
+        "end_char_idx": 2642,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "f7c0b0a1-0ccb-4947-8b31-4c1dd7064b54",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "59635479-a4b7-4c93-a988-10361fda1dd2",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "79296315733b11804be0ae5139002060ea4e3aa922ec502e6b256288229bc244",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "f20b0a5e-d657-45d6-874f-63e9494ab2cc",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "a76bafafcf51b394bf8764a91e14c049d1c61a1e23cf94be07bfbcc5f9f5e118",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Our approach may be seen to be tough, but it places the welfare\r\nof the abuser and the society at the centre of our policies. \r\n\r\nSingapore, being an open and well-\r\nconnected country, is not immune to\r\nexternal influence and the worldwide\r\nmovement for the legalisation and\r\ndecriminalisation \r\nof \r\ncannabis.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 2642,
+        "end_char_idx": 2956,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "f20b0a5e-d657-45d6-874f-63e9494ab2cc",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "f7c0b0a1-0ccb-4947-8b31-4c1dd7064b54",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "6d366bdfb4a48b62bf135f5b69f1541ae137d32439d6e90bd57d3666a3244d5a",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "28a1dea0-a763-4396-8e80-045a83f02b5b",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "c36594611da6d5114163a3ceb27d23b6ce7fc427f2ab0c1da213205420b4722e",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Singaporeans may be more accepting\r\nof drugs as a lifestyle choice. \r\n\r\n03\r\n\r\nWHY SINGAPORE IS TOUGH ON DRUGS\r\n\r\nSINGAPORE'S\r\nDRUG POLICY\r\n\r\nLegalisation and normalisation of\r\ndrug use in Singapore will result in\r\nchildren becoming exposed to drugs\r\nand the negative consequences of\r\ngrowing \r\nup \r\nin \r\na \r\nneglected\r\n\r\nenvironment. Drug abuse harms the\r\nabuser, those around him and has\r\nlarger implications on society.\r\n\r\nIt is not as simple as a personal choice as it bears repercussions both at an\r\nindividual and societal standpoint. \r\n\r\ndid you know?\r\n\r\nDrug addiction impairs parenting, causing child neglect\r\n\r\nChildren face increased risk of inter-generational drug\r\ncontamination\r\n\r\nDrug addiction causes social exclusion\r\n\r\nRisk of drug-influenced driving - due to impaired perception,\r\nattention, cognition, co-ordination and reaction time\r\n\r\nDrug-related crime - committed under influence of drugs or\r\nresorting to criminal activities to financially sustain drug habit \r\n\r\nVisits to hospitals - due to overdoses, adverse reactions,\r\npsychotic episodes and spread of diseases such as HIV/AIDS\r\nand hepatitis B and C\r\n\r\nDamage to environment - illicit disposal of precursor\r\nchemicals and cultivation of coca bush and opium resulting in\r\nforest clearance\r\n\r\n04\r\n\r\nAs human resource is Singapore's most precious asset, we cannot allow drugs\r\nto take hold of our society. It is thus important to reinforce the national\r\nconsensus of zero tolerance towards drug abuse.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 2956,
+        "end_char_idx": 4437,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "28a1dea0-a763-4396-8e80-045a83f02b5b",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "f20b0a5e-d657-45d6-874f-63e9494ab2cc",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "ac850e788a99f3a8ccff3d1a769a66663db4e363ebbae5e6ea14358027be7a65",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "ab73a4d4-b98c-4c2d-8cf7-41804f7f8c4a",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "54b7948ff4364e073f6a7bad45e8fc7e969096cf171239ee13e75a966aeaa6a5",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "That is why we need your help to spread the anti-drug message in your\r\ncircles of influence and get our community to stay resilient against drug\r\nabuse!\r\n\r\nDrug addiction weakens family structures - addiction issues\r\ndisrupt normal family life and may lead to family disintegration \r\n\r\nDrug abuse also inflicts immeasurable harm on public health and\r\nsafety. There are costs which are borne by the rest of society\r\nsuch as: \r\n\r\nSource: International Narcotics Control Board, 2013)\r\n\r\nMany people have the misperception that if they tell CNB of their suspicion\r\nthat their family or friends are taking drugs, they will be sending their loved\r\nones to jail.\r\n\r\n05\r\n\r\nIN PLACE TO HELP US\r\nLAWS\r\n\r\nRehabilitation and aftercare form one\r\nof \r\nSingapore's \r\nmulti-pronged \r\ndrug\r\n\r\ncontrol strategies to help drug abusers\r\nreturn \r\nto \r\na \r\ndrug-free \r\nlife \r\nand\r\n\r\nreintegrate into our society.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 4437,
+        "end_char_idx": 5331,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "ab73a4d4-b98c-4c2d-8cf7-41804f7f8c4a",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "28a1dea0-a763-4396-8e80-045a83f02b5b",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "a5744f98fad8c23f8b2bb45225a56d010712acdc1db4909a09d3753305ac389a",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "1dd35680-ef37-4bef-9abe-0a1042faa81d",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "6899975805b863c64c28fcd2b0522a92dc7d66474c61c588c0ae4e4db3c80421",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "The various intervention pathways and\r\nour \r\nlaws \r\nagainst \r\ndrug \r\nabuse \r\nare\r\n\r\nevidence-based and aimed at helping\r\ndrug abusers better deal with their drug\r\n\r\naddiction problem. Our criminal justice system focuses a lot on youth\r\nrehabilitation because as far as possible, we want to give youth abusers a\r\nchance to turn over a new leaf, so that they do not ruin the rest of their lives.\r\nWe want to intervene early and effectively, to allow them to continue to\r\nstudy and be with their families where possible.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 5331,
+        "end_char_idx": 5852,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "1dd35680-ef37-4bef-9abe-0a1042faa81d",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "ab73a4d4-b98c-4c2d-8cf7-41804f7f8c4a",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "be3d137437cbfd01e82eb5b1a61528af1084266e86c6b53e4771955d4bf4c6f0",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "0153e63d-4aa2-4e8d-bc44-2033d1e294a9",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "94aa9c886ac81d6db3e6349c2160d2697d490b6eb2b8c42e96c16ef5e0077e1d",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "It is thus important that these individuals seek help so that we can engage\r\nthem in the appropriate intervention programmes early. \r\n\r\nWhere do adult drug abusers go when caught?\r\n\r\nDrug abusers may be placed directly on the Drug Supervision Scheme or\r\nadmitted to the Drug Rehabilitation Centre (DRC) for treatment and\r\nrehabilitation. However, if the drug abusers are under investigation for other\r\ndrug or criminal offences, they will be charged in court under the Misuse of\r\nDrugs Act 1973.\r\n\r\nThe pathways of recovery depend on the abusers' assessed risk of\r\nreoffending. \r\n\r\n06\r\n\r\nRehabilitation and supervision for adults caught for the first time, purely for drug consumption offences\r\n\r\nRehabilitation and supervision for adults caught multiple times for drug consumption offences\r\n\r\nDrug abusers who are caught for the first time and are assessed to have low\r\nrisk of reoffending are served with an EDSO. The EDSO was introduced in\r\n2019 as part of Misuse of Drugs Act amendments, to help strenghten the\r\nreintegration of abusers into society.\r\n\r\nSupervisees under the EDSO do not go to DRC. They will be assigned to a\r\ncommunity case manager by Singapore Anti-Narcotics Association (SANA) to\r\nsupport them and their family in the rehabilitation. They are allowed to stay\r\nat their place of residence during the period of supervision but will be\r\nrequired to attend compulsory counselling sessions and undergo urine tests.\r\nThe counselling sessions involve psychology-based methods such as goal-\r\nsetting and family engagement. Supervisees are assessed regularly during\r\ntheir rehabilitation journey and the interventions are adjusted accordingly\r\nbased on their progress.\r\n\r\n07\r\n\r\nEnhanced Direct Supervision Order (EDSO) for first-time, low-risk\r\nadult abusers\r\n\r\nDrug Rehabilitation Centre for repeat and/or high-risk abusers\r\n\r\nDrug abusers with moderate or higher risk of relapse, or who are repeat\r\nabusers will undergo rehabilitation at a DRC. To help abusers rehabilitate and\r\nreintegrate into society, abusers who successfully complete their DRC regime\r\nwill not have a criminal record. This applies only if they are not under\r\ninvestigation for any other drug or criminal offence for which they may be\r\ncharged in court. In such an instance, the abuser may also be charged in court\r\nfor drug consumption and if found guilty, will have a criminal record.\r\n\r\nIn the DRC, they receive intensive rehabilitation carried out by Singapore\r\nPrisons Service (SPS) where the type of programme, intensity and duration of\r\nrehabilitation varies according to individuals' rehabilitation needs. This\r\nincludes psychological-based intervention programmes that target drug use\r\nhabits, family programmes that equip inmates with relationship skills, as well\r\nas vocational and employability skills training to support ex-abusers in their\r\nreintegration into society. \r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 5852,
+        "end_char_idx": 8727,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "0153e63d-4aa2-4e8d-bc44-2033d1e294a9",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "1dd35680-ef37-4bef-9abe-0a1042faa81d",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "8eb0b63267b98c947f2772a851351c5da165913150acabd65383ead2c744a1e4",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "72f17a1d-3ff6-4373-9abd-6db0688b6d1c",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "fe0aa402ccc08388d14de49df2ee9368c90428a2c8785beb6c929a8eea0e7bdb",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "The DRC separates abusers by risk of reoffending and age and treatment and\r\nrehabilitation would be for 12 months or more. In 2019, in order to help pure\r\ndrug abusers reintegrate back into society, the rehabilitation regime was\r\nenhanced and extended to repeat pure drug abusers who were third timers\r\nand above. \r\n\r\nPost-release, abusers undergo hair and/or urine supervision to detect and\r\ndeter relapse.\r\n\r\n08\r\n\r\nStaying drug-free can be tough and supervision can help keep drug\r\nabusers from a relapse\r\n\r\nAll drug abusers caught after 1 August 2019 for drug consumption are issued\r\nSupervision Orders and placed on the Drug Supervision Scheme for five\r\nyears.\r\n\r\nAs a supervisee, they undergo regular mandatory urine tests. Such regular\r\nchecks help deter relapse and allow for early intervention if they do relapse.\r\nSupervisees who do well on supervision may be allowed to do hair analysis\r\ntests which offer longer periods in between checks, however, this privilege\r\nmay be withdrawn should supervisees fail to observe the terms of the\r\nsupervision order.\r\n\r\nThis 5-year supervision order is to help abusers kick the drug habit and\r\ndevelop a drug-free lifestyle. \r\n\r\n09\r\n\r\nSINGAPORE'S DRUG LAWS\r\n\r\nTHE MISUSE OF DRUGS ACT 1973\r\n\r\nThe Misuse of Drugs Act 1973 (MDA 1973) is an Act for the control of\r\ndangerous or otherwise harmful drugs and substances and for the purposes\r\nconnected therewith. \r\n\r\nUNDER MDA 1973, IT IS AN OFFENCE\r\nOFFENCE\r\nOFFENCE TO -  \r\n\r\nTraffic controlled drugs; \r\n\r\nPossess and consume controlled drugs; \r\n\r\nConsume controlled drugs outside of Singapore \r\n(as a result of positive urine test);\r\n\r\nPossess drug paraphernalia; and\r\n\r\nAllow and facilitate drug activities\r\n\r\n10\r\n\r\nPossession and consumption of controlled drugs\r\n\r\nTrafficking in controlled drugs\r\n\r\nSec 8a of the MDA 1973 - it shall be an offence to be in possession of a\r\ncontrolled drug. If found to be in possession of a controlled drug, a person\r\nshall be liable for imprisonment of up to 10 years, or a fine not exceeding\r\nS$20,000, or both.\r\n\r\nSec 8b of the MDA 1973 - it shall be an offence to consume, smoke or\r\nadminister a controlled or specified drug in Singapore. If found to have\r\nconsumed a controlled or specified drug, a person shall be liable for\r\nimprisonment of up to 10 years, or a fine not exceeding S$20,000, or both.\r\n\r\nSection 5 of the MDA 1973 - it shall be an offence to be involved in trafficking\r\nin a controlled drug (i.e. selling, giving, administering, sending, transporting,\r\ndelivering, distributing), or even offering to do any of these acts on behalf of\r\nanother person, regardless of whether that person is in Singapore. Depending\r\non the class and quantity of the drug trafficked, the penalty ranges from\r\nimprisonment and caning to the mandatory death penalty.\r\n\r\nResponsibilities of owners, tenants, etc.\r\n\r\nConsumption of drugs outside Singapore\r\n\r\nContaminative behaviours that facilitate or\r\npromote drug use\r\n\r\n11\r\n\r\nIntroduce a person to a drug trafficker\r\n\r\nTeach or provide information on drug-relatated activities to others\r\n\r\nDisseminate information on drug-related activities (e.g. sharing of\r\ninformation on group chat, making a Facebook post, etc.)\r\n\r\nArrange \r\nor \r\nplan \r\ngatherings \r\nwhere \r\ncontrolled \r\ndrugs \r\nare \r\nto \r\nbe\r\n\r\nconsumed/trafficked\r\nExpose a child (any person below 16 y/o) to drugs\r\n\r\nPossession of pipes, utensils, etc.\r\n\r\nSec 11 of the MDA 1973 - it shall be an offence for a person being the owner,\r\ntenant, occupier or person-in charge of any place or premises to allow drug\r\nactivities (i.e. consumption, trafficking, manufacturing, etc.) to be conducted\r\nin the place or premises. \r\n\r\nSec 8A of the MDA 1973 - it shall be an offence for a Singapore Citizen and\r\nPermanent Resident, if found as a result of a positive urine test, to consume a\r\ncontrolled drug or specified drug outside of Singapore. If found, as a result of\r\na positive urine test, to have consumed a controlled drug or specified drug\r\noutside of Singapore, a person may be dealt with as if the offence had been\r\ncommitted within Singapore. \r\n\r\nSec 9 of the MDA 1973 - it shall be an offence to be in possession of any pipe,\r\nsyringe, utensil or apparatus or any articles intended for the smoking,\r\nadministration or consumption of a controlled drug. If found to be in\r\npossession of articles for the purpose of drug-taking, a person shall be liable\r\nfor imprisonment of up to 3 years, or a fine not exceeding S$10,000 or both. \r\n\r\nSec 11A, 11B, 11C and 11D of the MDA 1973 - it shall be an offence to:\r\n\r\nWITHDRAWAL\r\n\r\nSYMPTOMS\r\n\r\nEFFECTS &\r\n\r\nDANGERS\r\n\r\n12\r\n\r\nCOMMONLY ABUSED DRUGS\r\n\r\nAND THEIR EFFECTS\r\n\r\nThe most commonly abused drugs in Singapore are Methamphetamine,\r\nCannabis, Heroin, Ecstasy, New Psychoactive Substances (NPS) and\r\nLysergide (LSD). These drugs are highly addictive and harmful to the human\r\nbody and mind. \r\n\r\nMETHAMPHETAMINE\r\nMETHAMPHETAMINE\r\n\r\na.k.a. 'Ice', Glass, Crystal, Speed, 'Ya Ba', 'Quartz', 'Hirropon', Shabu, Syabu\r\n\r\nMethamphetamine usually comes in the form\r\nof a colourless and odourless crystal that\r\nresembles glass fragments or shiny bluewhite\r\n\"rocks\" of various sizes. It also comes in tablet\r\nform and is known as 'Crazy Horse Pill' or 'Ya\r\nBa'. Most of the 'Ya Ba' tablets found in\r\nSingapore are embossed with the 'WY' logo and\r\nare green or orange in colour.  \r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 8727,
+        "end_char_idx": 14082,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "72f17a1d-3ff6-4373-9abd-6db0688b6d1c",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "0153e63d-4aa2-4e8d-bc44-2033d1e294a9",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "a9ef9326852b8ba19f9092c9353982b82c9077646675e9f5eb21029d1883336a",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "42138e23-e1ee-41c1-a056-1da294a427b1",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "60290531d553483f9f16ec046caddaa2615a3b675a284d8584c6764901c36a35",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Methamphetamine is highly addictive and is a strong stimulant. It has a very\r\nstrong effect on the central nervous system. \r\n\r\nIncreased heart rate and body\r\ntemperature\r\nFits, stroke and death\r\nDamage to heart and nerves\r\nLiver and kidney diseases\r\nAbnormal behavior with mood\r\nswings, confusion, delusion and\r\nhallucination\r\nAnxiety and irritability \r\n\r\nExtreme tiredness and hunger\r\nAnxiety, \r\ndepression \r\nand\r\n\r\nirritability\r\nInsomnia \r\n\r\nWITHDRAWAL\r\n\r\nSYMPTOMS\r\n\r\nMoodiness \r\nIrritability\r\nAnxiety\r\nTension\r\n\r\nInability to concentrate \r\nDistorted thinking and perception\r\nSlow reaction, poor balance and co-ordination\r\nExtreme anxiety, depression, confusion and paranoia \r\nEspecially harmful to youths - linked to impairment in teenage brain \r\n\r\nEFFECTS & DANGERS\r\n\r\n13\r\n\r\nCANNABIS\r\nCANNABIS\r\na.k.a. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 14082,
+        "end_char_idx": 14888,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "42138e23-e1ee-41c1-a056-1da294a427b1",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "72f17a1d-3ff6-4373-9abd-6db0688b6d1c",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "2f5f302fcdaf30270ea15425d26fb95073cd0066f60358b6a331eac6e364653a",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "3d6dfdd7-19e1-4c70-827e-33b33231e620",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "2febb9173fa993f56dce880447eca31daf29db64c5eb7c176f879eddf3cfec31",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Marijuana, Pot, Grass, Joints, Ganja, Hashish, Weed\r\n\r\nCannabis looks like dried herbs or tea leaves. It\r\ncan come in the form of candies too. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 14888,
+        "end_char_idx": 15031,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "3d6dfdd7-19e1-4c70-827e-33b33231e620",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "42138e23-e1ee-41c1-a056-1da294a427b1",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "249976b53e6a0fb84b6d4ea09cf6d4c9cf1654a0dd8e39833cfeae4bbf4c58f8",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "7a92a098-f01b-4ff5-8cf5-0e549cbf24dd",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "ca0f5480054e0eedfbf56b8f3f43bdd51fe533c22941b7945e3a800b167df0b6",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "It contains\r\na chemical, tetrahydrocannabinol, that affects\r\none's mood and the way one sees and hears\r\nthings. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 15031,
+        "end_char_idx": 15143,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "7a92a098-f01b-4ff5-8cf5-0e549cbf24dd",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "3d6dfdd7-19e1-4c70-827e-33b33231e620",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "3675103885b1519612abe7d94080a09e882dce78a3a49d1ad4761898a41f1634",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "19ab17a4-d975-43e8-9e6f-b0f94c34ba02",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "a18c6efb2c657b9b830ec2ed94d49e3671791e64afaef1feca585fb9ac13618b",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Cannabis affects concentration and\r\nmemory, weakening one's ability to learn.\r\n\r\nIn Colarado, traffic deaths where the\r\ndriver was found to have abused cannabis\r\nspiked by 109% since recreational\r\nmarijuana was legalised\r\n\r\nThere is consistent evidence linking cannabis\r\nuse to the development of major\r\npsychiatric conditions - schizophrenia,\r\nbipolar disorder and depression\r\n\r\nCannabis is addictive. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 15143,
+        "end_char_idx": 15546,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "19ab17a4-d975-43e8-9e6f-b0f94c34ba02",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "7a92a098-f01b-4ff5-8cf5-0e549cbf24dd",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "7a0dadbeed793fbbf5dda11575f8df3d0cb02134e182ba809ed7a9cdc406955b",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "20371f13-7acf-4f5c-8dd9-696e4dad81bb",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "3f2f2713e245bb05239f142601cfc1986161c7fa2f402b4b51bce55ae52cd84e",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Among those who\r\nuse cannabis, about 1 in 10 will develop\r\ndependence. This increases to 1 in 2 among\r\nthose who use cannabis daily\r\n\r\nCannabis abuse increases the risk of a\r\nfatal accident by two- to seven-fold due\r\nto impaired attention and reaction time\r\n\r\ndid you know?\r\ndevelopment, \r\nlower\r\n\r\npsychomotor skills, and\r\ndevelopment \r\nof\r\n\r\npsychiatric \r\nconditions\r\n\r\nsuch as schizophrenia\r\nand cognitive decline in\r\nIQ\r\n\r\nAlthough there is some published research on the potential\r\ntherapeutic uses of cannabinoids to manage seizures and\r\nepilepsy, there is still a lack of sufficient evidence to prove\r\nthe effectiveness of cannabis use for medical conditions. There\r\nare also no studies which have validated claims of\r\nunprocessed or raw cannabis being able to treat medical\r\nconditions.\r\n\r\nThere are strict frameworks in place for the supply,\r\nprescription and dispensation of controlled drugs used for\r\nmedical purposes in Singapore. All such drugs must be\r\nprescribed by a Singapore doctor and must be prescribed for\r\nthe medical condition registered with the HSA. Cannabinoid\r\npharmaceuticals need to undergo rigorous scientific review by\r\nthe Health Sciences Authority (HSA) before they can be\r\nregistered for supply in Singapore.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 15546,
+        "end_char_idx": 16792,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "20371f13-7acf-4f5c-8dd9-696e4dad81bb",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "19ab17a4-d975-43e8-9e6f-b0f94c34ba02",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "0e6c475dfc56f0558eecd0eb0d392f1a210bb93c24a2b954e9e790bcc541c5a1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "a1b5c468-dff6-4592-b2f7-48a87854dff1",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "bff4b51a1eebc25de7a4f50d1f61b7025795ecf8cb834e80c78eeb41adce7252",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "The use of cannabinoids has to be weighed against its\r\npotential side effects, due to the scarce lack of information\r\non their long-term safety and efficacy. There are other\r\ncurrently available treatment options for these conditions,\r\nwith comparable efficacy.\r\n\r\nIn Singapore, drug control policies are underpinned by evidence\r\nand research. Although regulators allow safe and controlled\r\naccess to evidence-based medical treatment options, cannabis\r\nremains an illicit drug. \r\n\r\nCannabis for Medical Use\r\n\r\n14\r\n\r\nHEROIN\r\nHEROIN\r\na.k.a. White, Smack, Junk, Powder, Putih, \r\n\r\nMedicine, Ubat\r\n\r\nHeroin is a powerful and very addictive drug\r\nthat comes in granular, powder or solution form.\r\nIt can be whitish or brownish in colour. \r\n\r\nWITHDRAWAL\r\n\r\nSYMPTOMS\r\n\r\nInsomnia \r\nWatery eyes and runny nose\r\nIrritable and jittery feelings\r\nTremors and bodily cramps\r\nChills and sweating\r\nDiarrhea and vomiting \r\n\r\nLowered \r\nheart \r\nrate \r\nand\r\n\r\nrespiration \r\nDamage to lungs, kidneys and\r\nliver\r\nDull feeling and tiredness \r\nDifficulty in concentrating\r\nConstipation \r\n\r\nEcstasy \r\nare \r\ntablets \r\ncontaining\r\n\r\nMethylenedioxymethamphetamine (MDMA),\r\nMethylenedioxyethylamphetamine \r\n(MDEA)\r\n\r\nand Methylenedioxyamphetamine (MDA).\r\nThese tablets come in different colours with\r\ndifferent logos stamped on them. People\r\ntake them to enable them to dance all night;\r\nsometimes they even die from exhaustion\r\nand dehydration. \r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 16792,
+        "end_char_idx": 18213,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "a1b5c468-dff6-4592-b2f7-48a87854dff1",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "20371f13-7acf-4f5c-8dd9-696e4dad81bb",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "b2eeb2791c57e0262f55fe4c477480adbd573871d4730f2d2d96b851b00cff33",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "9743f2ff-04f1-46fd-870f-cbd6161d2a5a",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "48f1bbcb1b5086e739dbbdcd8695dd852afbc3641ae01ccfbe2e5e9875629a72",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "WITHDRAWAL\r\n\r\nSYMPTOMS\r\n\r\nAnxiety, \r\ndepression \r\nand\r\n\r\nuncontrollable fear\r\nInsomnia\r\n\r\nIncreased heart rate and blood\r\npressure \r\nHallucination\r\nKidney, liver and brain damage\r\nLong term memory loss\r\nChills, sweating and vomiting\r\nInability to think, see and co-\r\nordinate properly\r\nJaw clenching, teeth grinding\r\nand uncontrollable shaking\r\n\r\nEFFECTS &\r\n\r\nDANGERS\r\n\r\nEFFECTS &\r\n\r\nDANGERS\r\n\r\n15\r\n\r\nECSTASY\r\nECSTASY a.k.a. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 18213,
+        "end_char_idx": 18638,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "9743f2ff-04f1-46fd-870f-cbd6161d2a5a",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "a1b5c468-dff6-4592-b2f7-48a87854dff1",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4d553d8972d9a4e3e8d14affda23325f9fc29f95f5b44dbb32c64db2cb483cf7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "be029d40-db19-4323-8bb8-2319a0602419",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "cc43d5c12d89cc776105b386030d91226f1149c2a61c5ad5ca3cad6c69cb27ef",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "'E', Adam, XTC, Pink Lady, Snow White\r\n\r\n16\r\n\r\nSevere intoxications\r\nSevere toxic reaction leading to death\r\nParanoia (irrational fear or suspicion)\r\nHallucination\r\nAdverse cardiovasculaar problems\r\nRenal failure\r\nSeizures\r\n\r\nNumbness \r\nLoss of control of thoughts \r\nDistorted sight, hearing, smell, touch and taste \r\nIncreased heart rate, breathing and body temperature \r\nSevere panic, confusion, hallucination and paranoia \r\n\r\n       (irrational fear or suspicion)\r\n\r\nEFFECTS & DANGERS\r\n\r\nNEW PSYCHOACTIVE\r\nNEW PSYCHOACTIVE\r\n\r\nSUBSTANCE (NPS)\r\nSUBSTANCE (NPS)\r\na.k.a. Spice, K2, Bath Salts, Kronic, Bromo-Dragonfly\r\n\r\nNew Psychoactive Substances (NPS) refer to substances that mimic the\r\neffects \r\nof \r\ncontrolled \r\ndrugs \r\nsuch \r\nas \r\ncannabis, \r\ncocaine, \r\n\"Ecstasy\",\r\n\r\nmethamphetamine or heroin. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 18638,
+        "end_char_idx": 19440,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "be029d40-db19-4323-8bb8-2319a0602419",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "9743f2ff-04f1-46fd-870f-cbd6161d2a5a",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "52556cc8bbb07c9e497035c8cf40ffb63d16230d381b531164055b4dcbff24f3",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "ba03ccdf-76a0-4fff-b359-c201a7a610d6",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "beb2701ea7ece6875d60c84b4def6d90eea185869beb1cb7b607b899ad33ef67",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "NPS have unknown, dangerous toxicology\r\neffects and are as addictive and harmful as controlled drugs. \r\n\r\n  LYSERGIDE (LSD)\r\nLYSERGIDE (LSD)\r\n\r\na.k.a.\r\nAcid, Trips, Blotters, Tabs, Stamp, Black Sesame, Seed, Micro, Micro Dot\r\n\r\nLysergide (LSD) is a hallucinogen. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 19440,
+        "end_char_idx": 19703,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "ba03ccdf-76a0-4fff-b359-c201a7a610d6",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "be029d40-db19-4323-8bb8-2319a0602419",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "8d807669508d1e5bbea192906e4cee3ec2069e2c9162386426f0784f4c20cd90",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "04befe8d-f02c-407e-882b-ddf56afa1122",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "04a2fb1a3f7744fc97bf90e94172fc13fb7c1820ff53d4d38ea752c1f39dbaec",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "It is often sold on blotting paper, which is\r\nusually imprinted with a colourful cartoon or design. \r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 19703,
+        "end_char_idx": 19807,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "04befe8d-f02c-407e-882b-ddf56afa1122",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "ba03ccdf-76a0-4fff-b359-c201a7a610d6",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "0248b0540eeaa235d35b41e50dbbef09f1bb357cccbbe2b83989214b0acbdd18",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "c5cb4279-b423-4d0e-a696-be130c08623a",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "e3a551c3fc49310abf0aa47e412366cdf53f1584c03dfdad16eb7068bf54888b",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "EFFECTS & DANGERS\r\n\r\nSudden and extreme mood swings ranging from euphoria to depression. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 19807,
+        "end_char_idx": 19896,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "c5cb4279-b423-4d0e-a696-be130c08623a",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "04befe8d-f02c-407e-882b-ddf56afa1122",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "bc610567576d4f8074474b9b38421321f67a8fe2df027eea34f61b9eed6e0a28",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "776e192b-8e45-4e19-a618-f209614e75c1",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "17ad939b6890b8f71576b54fa940798802c4cd5aed2a0916646f65c0e09c2fae",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "He/she may switch\r\nfrom being withdrawn and passive one minute to being angry the next.\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 19896,
+        "end_char_idx": 19985,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "776e192b-8e45-4e19-a618-f209614e75c1",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "c5cb4279-b423-4d0e-a696-be130c08623a",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "48432ba9c6d44402bc40b8c581e70113615a6eab552c135850966f08a4bbcfe5",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "10ee0a03-766a-4bcf-92d8-e524bcf2259c",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "24b0c8484b5bb1af8aaf4c63ab338c5d8b09c0750a266e9eeae1d2c59183e4a4",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Overreacting to mild criticism or simple requests\r\nSeeks to manipulate instead of taking responsibility for his/her actions and behaviours\r\nMakes excuses for personal failures - 'It's always someone else's fault!'\r\nNoticeable lack of self-discipline\r\nAnxiety - chronic jerky or jittery movements, extreme fear and obsessive-compulsive\r\nbehaviour \r\nMonetary extremes - possess excessive cash and constant complaints of insufficient\r\nmoney \r\nChanges in sleeping patterns\r\nHostile or argumentative attitude \r\nSudden loss of interest in family activities\r\nIrregular sleeping hours or wanting to pursue activities at unusual times\r\nDisappearances for long periods of time\r\n\r\nPoor physical appearance\r\nAbnormally pale complexion\r\nGetting sick frequently \r\nSudden or dramatic weight loss or gain\r\nChronic fatigue, lack of energy and vitality\r\nShort-term memory loss and runny nose when allergies are not a problem\r\nProblem with eyes - bloodshot, dilated pupils, droopy eyelids, imprecise eye movements,\r\nwearing dark glasses at inappropriate times\r\nProblems with coordination - dizzy spells, stumbling, shaky\r\nDramatic appetite changes - sudden lack of appetite to sudden craving and excessive\r\nthirst\r\nChanges in speech and vocabulary patterns - rapid speech, slowed speech, slurred words\r\n\r\nIncense or air fresheners used to mask drug smells\r\nUnusual smells on clothing or breath\r\nUnusual containers or wrappers sighted\r\nPrescription medicine missing\r\nMoney and valuables missing\r\nSecretive phone calls/phone messages \r\n\r\nPhysical signs\r\n\r\nEnvironmental indicators \r\n\r\nPay attention to your friends and loved ones. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 19985,
+        "end_char_idx": 21595,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "10ee0a03-766a-4bcf-92d8-e524bcf2259c",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "776e192b-8e45-4e19-a618-f209614e75c1",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4a2cb835eb521e1a790c220873298ef5d2dd1235e581d8f24058366f363879a2",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "f84f7808-5c62-48cd-a0d3-791c1422ac50",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "f59bfda91495f6789890f04f48edeb91bbf3c7eb4fef2f2b3ec19b27af85ee0e",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Here are some\r\nindications that they may require help.\r\n\r\n17\r\n\r\nHOW CAN I HELP\r\n\r\nMY FRIENDS AND LOVED ONES?\r\n\r\nL        k out for indicators\r\n\r\nSudden change in circle of friends\r\nSudden change in school grades or work performance\r\nEvasive behaviour and/or lying\r\n\r\nBehavioural signs\r\n\r\nKeep communication open and always listen in a non-judgemental way\r\n\r\nDiscover his/her talents and encourage him/her to develop them\r\n\r\nFind common interests and spend time together \r\n\r\nSuggest healthy group activities and sports he/she can join to widen\r\ntheir circle of friends and boost self-esteem\r\n\r\nDiscuss and remind him/her to stay away from drugs\r\n\r\nTeach him/her coping skills and refusal tips.\r\n\r\n7 tips to stay drug-free:\r\n\r\na) Avoid situations where you might be influenced or pressured to try drugs\r\n\r\nb) Be bold - say \"no\" when you are offered drugs\r\n\r\nc) Make a joke and excuse yourself from the situation\r\n\r\nd) If all else fails, walking away is the best way to protect yourself\r\n\r\ne) Adopt healthy ways to cope with stress - exercising, listening to music, \r\n   mediation, etc.\r\n\r\nf) Pick up a new skill! ",
+        "mimetype": "text/plain",
+        "start_char_idx": 21595,
+        "end_char_idx": 22706,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "f84f7808-5c62-48cd-a0d3-791c1422ac50",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "10ee0a03-766a-4bcf-92d8-e524bcf2259c",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "04268a1fcbee5f7cb4c78b2b1649d1513cafbb17be136ab9d4fa933264c6fd7c",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "f3f0f028-37c7-4414-a4c8-f4f2e5e7d042",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "d1ff0e42ff100b66e750e3245aa023dc7eb41402f25c7c57285ff5a8b4f6490a",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "This is the time for you to learn a new language or sign up \r\n   for that diving course!\r\n\r\ng) Spend your time meaningfully - involve yourself with community work, \r\n   volunteer and create positive networks\r\n\r\nStart your conversations using teachable moments (e.g. news on a well-\r\nknown person arrested for drug abuse)\r\n\r\nTeach him/her to be discerning readers and take a step back to think\r\ncritically when reading information from dubious online sources that\r\nadvocate drug use\r\n\r\nCommunicate\r\n\r\n18\r\n\r\n19\r\n\r\nI suspect someone is involved in drug activities?\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 22706,
+        "end_char_idx": 23269,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "f3f0f028-37c7-4414-a4c8-f4f2e5e7d042",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "f84f7808-5c62-48cd-a0d3-791c1422ac50",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "a3da59162ad226180c5a0993c244bdc9528099cec8e6093dc534dc08690abdf0",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "e9b00cf8-732b-4669-a445-2ad0464804bc",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "1ca6274f4f7a1c1c01ab6857e6438861bb4f017eb857114f50eb50f3e5cc473b",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "You should call CNB at 1800-325-6666\r\n\r\nI come across drugs, or what I suspect to be drugs?\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 23269,
+        "end_char_idx": 23362,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "e9b00cf8-732b-4669-a445-2ad0464804bc",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_name": "pde-handbook-(final).txt",
+            "file_type": "text/plain",
+            "file_size": 26644,
+            "creation_date": "2024-09-19",
+            "last_modified_date": "2024-09-19"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "f3f0f028-37c7-4414-a4c8-f4f2e5e7d042",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_name": "pde-handbook-(final).txt",
+                    "file_type": "text/plain",
+                    "file_size": 26644,
+                    "creation_date": "2024-09-19",
+                    "last_modified_date": "2024-09-19"
+                },
+                "hash": "150b649ffd60a1539218904ae5150b4451d2a24c2d743b62370ab390da2193df",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "You should not touch the items further. Call the Police or\r\n\r\nCNB at 1800-325-6666.\r\n\r\nI see someone abusing drugs at my workplace?\r\nCall the Police or CNB at 1800-325-6666.\r\n\r\nWHAT SHOULD I DO\r\nIF...\r\n\r\n20\r\n\r\nMAKING A REPORT\r\nTO CNB\r\n\r\nWhat happens if I report a family/friend?\r\n\r\nUpon reporting any drug-related information, you will be asked to provide\r\nsome details so that our officers can assess the case. All details provided will\r\nbe treated with strict confidentiality. CNB will then make an informed\r\nassessment and take early intervention and appropriate measures to assist\r\nyou. Your identity will be treated with strict confidentiality.\r\n\r\nWhat happens after my family/friend is arrested?\r\n\r\nThe person will be brought back to CNB or the police station for investigation\r\nand the person will be dealt with accordance with the law. If suspected to be\r\na drug abuser, he/she will be subjected to an Instant Urine Test (IUT) or hair\r\ntest and interview by a CNB officer.  \r\n\r\nThe best way to help your friend is to notify CNB so that they can get\r\nprofessional help soonest to address the drug problem accordingly. Upon\r\nnotification, CNB will investigate and recommend the appropriate treatment\r\nand rehabilitation options based on his/her urine test results and risk profile.\r\n\r\nYou may feel uncertain about notifying the authorities. But remember, you\r\nplay an important role in saving your loved ones from falling deeper and\r\ndeeper into the dangers of drugs. \r\n\r\nConvincing someone to stop abusing drugs is not easy, and not\r\neveryone takes well to being told about what they should or\r\nshould not do, especially if it is coming from a peer.\r\n\r\nThose who wish to enquire about\r\npreventive drug education-related\r\nmatters \r\nor \r\nwish \r\nto \r\nexplore\r\n\r\ncollaboration opportunities\r\n\r\nCNB_Community_Partnership@cnb.gov.sg\r\n\r\nCentral Narcotics Bureau\r\n1800-325-6666\r\n\r\nThose who wish to report cases\r\nof suspected drug abuse\r\n\r\nSingapore Anti-Narcotics Association \r\nhttps://talk2sana.com/tools-for-change/live-chat/\r\n6pm to 9.30pm (Mon to Fri)\r\n\r\nThose who wish to talk to para-\r\ncounsellors about any drug-related\r\nissues that you or someone close to\r\nyou might be facing\r\n\r\nwww.cnb.gov.sg\r\n\r\n@CNB.DrugFreeSG\r\n\r\nThose who wish to know about\r\npreventive drug education news,\r\nanti-drug articles, activities and\r\nevents\r\n\r\nTo help students know more about the harms and dangers of drugs and how\r\nto stay drug-free, CNB works closely with schools and community\r\norganisations to offer preventive drug education.\r\n\r\n21\r\n\r\nCONTACTS AND\r\nHELPLINES\r\n\r\nCNB.DrugFreeSG\r\n\r\nThose who wish to watch anti-\r\ndrug videos\r\n\r\nFOR WHO?\r\nCONTACT\r\n\r\nwww.volunteer.gov.sg\r\n\r\nThose who wish to join as an\r\nadvocate and spread the anti-drug\r\nmessage.\r\n\r\nThose who wish to request for anti-\r\ndrug talks, skits and exhibitions at\r\nyour school or organisation.\r\n\r\nwww.eservices.cnb.gov.sg/pde/\r\n\r\nCNB's website\r\nDrugs and Inhalants \r\nMisuse of Drugs Act 1973\r\n\r\nCNB's YouTube\r\n\r\nto watch\r\n\r\nPDE Video: Down the\r\n\r\nRabbit Hole\r\n\r\nPDE Video: Last Days\r\n\r\n22\r\n\r\nRESOURCES\r\n\r\nfor information\r\n\r\nfor parents, educators, counsellors\r\n\r\nSmart Parenting articles\r\nPDE toolkits\r\nPDE message cards\r\n\r\nInformation booklet on\r\n\r\nCannabis\r\n\r\nInformation booklet on\r\n\r\nNew Psychoactive\r\n\r\nSubstances (NPS)\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 23362,
+        "end_char_idx": 26644,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    }
+]
