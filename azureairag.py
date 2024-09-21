@@ -7,8 +7,10 @@ from typing import List
 endpoint = os.getenv("ENDPOINT_URL", "https://homelandersopenai.openai.azure.com/")
 deployment = os.getenv("DEPLOYMENT_NAME", "gpt-4-turbo")
 search_endpoint = os.getenv("SEARCH_ENDPOINT", "https://ai-azure-search-homelanders.search.windows.net")
-search_key = os.getenv("SEARCH_KEY", "jswi8CqboGrTE3WKp6IiFVUVEoKoOfAc9jZzooIb4SAzSeCd5qyP")
-subscription_key = os.getenv("AZURE_OPENAI_API_KEY", "f0c8adc25d7f4b1788e2b46a1f13d769")
+search_key = os.getenv("SEARCH_KEY")
+
+subscription_key = os.getenv("AZURE_OPENAI_API_KEY")
+print("KEY", subscription_key)
 # Initialize Azure OpenAI client with key-based authentication
 
 
@@ -90,7 +92,7 @@ async def refine_text_description_with_rag(element: GraphicElement, target_audie
                 "endpoint": "https://homelandersopenai.openai.azure.com/openai/deployments/text-embedding-ada-002/embeddings?api-version=2023-07-01-preview",
                 "authentication": {
                     "type": "api_key",
-                    "key": "f0c8adc25d7f4b1788e2b46a1f13d769"
+                    "key": f"{subscription_key}"
                 }
                 },
                 "query_type": "vector_simple_hybrid",
