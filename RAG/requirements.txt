@@ -1,0 +1,4 @@
+llama_index==0.11.11
+pymupdf==1.24.10
+python-dotenv==1.0.1
+utils==1.0.2

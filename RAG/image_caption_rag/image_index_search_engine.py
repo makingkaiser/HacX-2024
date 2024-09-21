@@ -32,7 +32,9 @@ from azure.search.documents.indexes.models import (
 )
 
 # Local imports
-from utils.initialize_client import initialize_azure_openai_client
+sys.path.append(os.path.join(os.path.dirname(__file__), '../../utils'))
+
+from initialize_client import initialize_azure_openai_client, create_openai_completion
 
 dotenv_path = os.path.join(os.path.dirname(__file__), '..', '..', '.env')
 load_dotenv(dotenv_path)
@@ -195,12 +197,11 @@ async def fetch_search_results(user_stylistic_description):
                                  credential=credential)
 
     try:
-        search_results = await asyncio.to_thread(
-            search_client.search(search_text=user_stylistic_description, 
+        search_results = search_client.search(search_text=user_stylistic_description, 
                                  top=3, 
                                  select="image_caption, image_title"
                                  )
-        )
+
         return [{'caption': result['image_caption'], 'title': result['image_title']} for result in search_results]
     
     except Exception as e:
@@ -226,18 +227,15 @@ Output :
 """
 async def image_caption_rag_refinement(user_input, placeholder_image_desc, format):
     """
-    Exapands the placeholder image description based on user input
+    Expands the placeholder image description based on user input
     and pulled images from image-caption-rag. Refer to bottom 
     for sample output.
     """
-    search_results = await asyncio.to_thread(
-        fetch_search_results, user_input['user_stylistic_description']
-    )
-    reference_captions = [result['caption'] for result in search_results]
+    # Correctly awaiting the async function directly
+    search_results = await fetch_search_results(user_input['user_stylistic_description'])
+    reference_captions = [result['caption'] for result in search_results] if search_results else []
 
-    # Init AzureOpenAI client
-    completions_client = initialize_azure_openai_client()
-
+    
     # Construct the grounded prompt for the OpenAI model
     grounded_prompt = f"""
     You are a creative assistant tasked with generating ideas or finding inspirations based on
@@ -254,11 +252,8 @@ async def image_caption_rag_refinement(user_input, placeholder_image_desc, forma
     Guiderails: ONLY DESCRIBE THE IMAGE CONCISELY WITHIN 85 WORDS
     """
 
-    response = await asyncio.to_thread(
-        completions_client.chat.completions.create,
-        model="gpt-4o",
-        messages=[{"role": "user", "content": grounded_prompt}]
-    )
+    # Correctly using an async call to completions_client if it's properly configured as async
+    response = await create_openai_completion(grounded_prompt)
 
     expanded_description = response.choices[0].message.content if response.choices else "No description generated."
 
@@ -306,5 +301,9 @@ Example Execution Response
 # print(result)
 
 ## Test Execution for image_caption_rag_refinement
-# result = image_caption_rag_refinement(example_user_input, "picture of the negative effects of cocaine")
-# print(result)
+
+async def main():
+    result = await image_caption_rag_refinement(example_user_input, "picture of the negative effects of cocaine", format="pamphlet")
+    print(result)
+
+asyncio.run(main())

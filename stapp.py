@@ -1,8 +1,11 @@
 import streamlit as st
+st.set_page_config(layout="wide")
+
 import asyncio
 from htmlgeneratorfunc import generate_html_content
 from main import flesh_out_html
 async def main():
+    
     st.title("Preventive Drug Education Material Generator")
     st.image("https://img.freepik.com/premium-vector/cute-octopus-artist-painting-cartoon-vector-icon-illustration-animal-education-icon-isolated-flat_138676-6683.jpg?w=360")
     st.write("Hello! I'm Inky, your friendly preventive drug education material generator. I can help you generate content for your educational materials, based on the materials you uploaded. Just fill out the form below and I'll do the rest!")    
