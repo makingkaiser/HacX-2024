@@ -6,7 +6,7 @@ from typing import List
 from uuid import uuid4  
 
 from RAG.image_caption_rag.image_index_search_engine import image_caption_rag_refinement
-
+from utils.initialize_client import create_openai_completion
 os.environ["REPLICATE_API_TOKEN"] = os.getenv("REPLICATE_API_TOKEN")
 
 class GraphicElement:  
@@ -56,28 +56,36 @@ async def run_multiple_image_predictions(elements: List[GraphicElement]):
     await asyncio.gather(*tasks)  
     return elements  
 
-async def refine_image_description(element: GraphicElement, target_audience: str, stylistic_description: str, content_description: str, format: str) -> None:
-    """
-    The function below takes in a list of GraphicElement instances, and expands upon the text description of the element.description for type = text by quering our gpt endopoint
-    TARGET AUDIENCE: {TARGET_AUDIENCE}
-    STYLISTIC DESCRIPTION: {STYLISTIC_DESCRIPTION}
-    CONTENT DESCRIPTION: {CONTENT_DESCRIPTION}
-    FORMAT: {FORMAT}
-    """ 
-    user_input = {
-        'user_stylistic_description': stylistic_description,
-        'target_audience': target_audience,
-        'content_description': content_description,
-    }
-    result = await image_caption_rag_refinement(user_input, element.description, format)
-    element.refined = result['expanded_description']
+async def refine_image_description(element: GraphicElement, target_audience: str, stylistic_description: str, content_description: str, format: str, rag: bool) -> None:
+    if rag:
+        user_input = {
+            'user_stylistic_description': stylistic_description,
+            'target_audience': target_audience,
+            'content_description': content_description,
+        }
+        result = await image_caption_rag_refinement(user_input, element.description, format)
+        element.refined = result['expanded_description']
+    else:
+        prompt = f"""Expand upon the following description of an image to about a paragraph length:
+        Description: {element.description}
 
-async def run_multiple_image_refinements(elements: List[GraphicElement], target_audience: str, stylistic_description: str, content_description: str, format: str) -> List[GraphicElement]:  
-    #Run multiple refinements for image descriptions asynchronously.
+        based on the context that this image is designed to be part of a {format} has the following properties:
+        - Target Audience: {target_audience}
+        - Stylistic Description: {stylistic_description}
+        - Content Description: {content_description}
+        
+        Return ONLY the expanded description and nothing else. DO NOT include any description of text or textual elements in your expanded description, unless explicity specified. If it is specified, restrict to only one textual element. 
+        
+    """
+        response = await create_openai_completion(prompt)
+        element.refined = response.choices[0].message.content
+
+async def run_multiple_image_refinements(elements: List[GraphicElement], target_audience: str, stylistic_description: str, content_description: str, format: str, rag: bool) -> List[GraphicElement]:  
+    """Run multiple refinements for image descriptions asynchronously."""
     print("generating image descriptions...")
-    tasks = [refine_image_description(element, target_audience, stylistic_description, content_description, format) for element in elements if element.type == "image"]  
+    tasks = [refine_image_description(element, target_audience, stylistic_description, content_description, format, rag) for element in elements if element.type == "image"]  
     await asyncio.gather(*tasks)  
-    return elements  
+    return elements
 
 # Example usage
 async def main():
@@ -103,7 +111,8 @@ async def main():
         target_audience="general audience",
         stylistic_description="realistic and detailed",
         content_description="various scenes and landscapes",
-        format="digital art"
+        format="digital art",
+        rag=False
     )
 
     # Print refined GraphicElements

@@ -4,7 +4,7 @@ load_dotenv()
 import asyncio
 # Standard library imports
 import re
-from utils import create_openai_completion
+from utils.initialize_client import create_openai_completion
 def extract_html_content(text):
     # Compile the regular expression pattern
     pattern = re.compile(r'<!DOCTYPE html>(.*?)</html>', re.DOTALL | re.IGNORECASE)

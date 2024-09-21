@@ -81,7 +81,7 @@ def replace_text_descriptions(html_content: str, text_elements: List[GraphicElem
         original_description = match.group(1)  
         for element in text_elements:  
             if element.description == original_description:  
-                return element.content
+                return element.refined
         return match.group(0)  # Return the original if no match is found  
   
     # Replace all occurrences in the HTML content  

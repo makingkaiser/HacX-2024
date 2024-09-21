@@ -7,7 +7,7 @@ import replicate
 import logging  
 from extractors import extract_image_descriptions, extract_text_descriptions, replace_image_descriptions, replace_text_descriptions
 from imgen import run_multiple_image_predictions, run_multiple_image_refinements
-from textgen import run_multiple_text_refinements
+from azureairag import run_multiple_text_refinements_rag
 # Configure logging  
 logging.basicConfig(level=logging.INFO)  
   
@@ -32,16 +32,23 @@ async def flesh_out_html(input_html: str, target_audience: str, stylistic_descri
         target_audience=target_audience,
         stylistic_description=stylistic_description,
         content_description=content_description,
-        format=format
+        format=format,
+        rag=False #hardcoded for now
     )
 
     generated_image_elements = await run_multiple_image_predictions(refined_image_elements)
-    refined_text_elements =  await run_multiple_text_refinements(text_elements)
+    refined_text_elements =  await run_multiple_text_refinements_rag(
+        text_elements,
+        target_audience=target_audience,
+        content_description=content_description,
+        format=format
+    )
 
     # Replace image descriptions with generated image elements
     output = replace_image_descriptions(input_html, generated_image_elements)
     output = replace_text_descriptions(output,refined_text_elements)
-
+    with open("output1.html", "w") as f:
+        f.write(output)
     return output
 
 

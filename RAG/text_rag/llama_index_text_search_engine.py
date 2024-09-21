@@ -4,7 +4,6 @@ Note that this use llama_index API instead of OpenAI's for Azure Client instanti
 """
 import asyncio
 import os
-
 from azure.core.credentials import AzureKeyCredential
 from azure.search.documents.indexes import SearchIndexClient
 from dotenv import load_dotenv
@@ -12,11 +11,16 @@ from llama_index.core import Settings, StorageContext, VectorStoreIndex
 from llama_index.embeddings.azure_openai import AzureOpenAIEmbedding
 from llama_index.llms.azure_openai import AzureOpenAI
 from llama_index.vector_stores.azureaisearch import AzureAISearchVectorStore, IndexManagement, MetadataIndexFieldType
+import sys
 
-from utils.initialize_client import initialize_azure_openai_client, create_openai_completion
+# Add the src directory to the Python path
+sys.path.append(os.path.join(os.path.dirname(__file__), '../../utils'))
+
+from initialize_client import initialize_azure_openai_client, create_openai_completion
+
 
 #Configuration
-dotenv_path = os.path.join(os.path.dirname(__file__), '..', '..', '.env')
+dotenv_path = os.path.join(os.path.dirname(__file__), '..', '.env')
 load_dotenv(dotenv_path)
 azure_search_service_admin_key = os.getenv('azure_search_service_admin_key')
 azure_search_service_endpoint = os.getenv('azure_search_service_endpoint')
@@ -85,22 +89,17 @@ async def generate_questions(content_description):
     description of content.
     """
 
-    prompt = f"Generate an adequate list of questions that can be used find relevant \
+    prompt = f"""Generate an adequate list of questions that can be used find relevant \
             details from knowledge base with drug preventative education material from \
             the Central Narcotics Bureau of Singapore that can be used to expand on this \
             placeholder description of a paragraph: \
             {content_description}. \
-            Only return the questions, each on a new line please."
+            Only return the questions, each on a new line please.
+            return a maximum of 4 questions.
+            """
     
     #regular openai api
-    client = await create_openai_completion()
-
-    response = await client.chat.completions.create(
-        model="gpt-4o",  
-        messages=[
-            {"role": "user", "content": prompt}
-        ],
-    )
+    response = await create_openai_completion(prompt)
     
     content = response.choices[0].message.content
     questions = content.split('\n')
@@ -112,7 +111,7 @@ async def question_load_and_query_search_index(questions):
     Loads the search index and queries it using a list of questions.
     returns a dictionary where each question is mapped to the retrieved content.
     """
-    completion_model_client = await AzureOpenAI.async_create(
+    completion_model_client = AzureOpenAI(
         model="gpt-4o",
         deployment_name=os.getenv("completions_model_name"),
         api_key=os.getenv("api_key_completions"),
@@ -120,7 +119,7 @@ async def question_load_and_query_search_index(questions):
         api_version="2024-06-01" ,
     )
 
-    embed_model_client = await AzureOpenAIEmbedding.async_create(
+    embed_model_client =  AzureOpenAIEmbedding(
         model="text-embedding-ada-002",
         deployment_name=os.getenv("embeddings_model_name"),
         api_key=os.getenv("api_key_embeddings"),
@@ -184,11 +183,6 @@ async def question_load_and_query_search_index(questions):
 
     return output
 
-##Example Execution
-# questions = generate_questions("this paragraph is about the social effects of drug usage for cannabis and cocaine")
-# print(questions)
-# output = question_load_and_query_search_index(questions)
-# print(output)
 
 ##Example Output 
 """
@@ -204,3 +198,114 @@ data = {
     'What are the community-level effects of widespread cannabis consumption?': 'The community-level effects of widespread cannabis consumption include an increase in traffic accidents, as evidenced by the rise in traffic deaths involving drivers who tested positive for cannabis in Colorado. Additionally, there are negative impacts on the workforce, with large businesses in Colorado reporting difficulties in hiring local candidates due to failed pre-employment drug tests. Cannabis users were also more likely to miss work compared to alcohol users and the overall population. Furthermore, contrary to the argument that legalization could reduce crime, there is evidence that crime rates, particularly those linked to drugs, actually increased after cannabis was legalized in Colorado.'
 }
 """ 
+
+
+
+import asyncio
+import re
+from uuid import uuid4
+from typing import List
+
+class GraphicElement:
+    def __init__(self, element_type, description, refined=None, content=None):
+        self.id = str(uuid4())
+        self.type = element_type
+        self.description = description
+        self.content = content
+        self.refined = refined
+
+def extract_text_descriptions(html_content: str) -> List[GraphicElement]:
+    """
+    Extracts text descriptions from HTML using a specified pattern and
+    returns a list of GraphicElement instances.
+    """
+    pattern = re.compile(r'\[DESCRIPTION:\s*"(.*?)"\]')
+    matches = pattern.findall(html_content)
+    text_elements = [GraphicElement(element_type="text", description=desc) for desc in matches]
+    return text_elements
+
+async def refine_text_description(element: GraphicElement, target_audience: str, content_description: str, format: str) -> None:
+    """
+    Asynchronously refines the description of a text element by first querying a search index
+    to gather context or related information, and then using this information to query an AI model,
+    which updates the element's refined attribute with a more informed description.
+    """
+    # Query the search index based on the original description to get related information
+    placeholder_description = element.description
+    questions = await generate_questions(placeholder_description)
+    related_info = await question_load_and_query_search_index(questions)
+    
+
+    # Use the results from the search index to enhance the prompt for the AI completion
+    additional_context = related_info.get(element.description, "No relevant information found.")
+    prompt = f"""
+    Refine this description to be more engaging and suitable for {target_audience} in a {format} format:
+    Original Description: {element.description}
+    Related Information: {additional_context}
+    Content Description: {content_description}
+    use bullet points and return in html format.
+
+    EXAMPLE FORMAT
+
+    <h2>The Social Impact of Cannabis Use</h2>
+<ul>
+    <li><strong>Isolation:</strong> Regular cannabis use can sometimes lead to social withdrawal. Users might find themselves spending more time alone, distancing from friends and family.</li>
+    <li><strong>Depression:</strong> There is a potential link between frequent cannabis use and increased feelings of depression. This can be due to various factors including changes in brain chemistry and the impact of isolation.</li>
+    <li><strong>Social Stigma:</strong> Cannabis users may face judgment or stigma from their peers or society, which can further contribute to feelings of isolation and depression.</li>
+    <li><strong>Impact on Relationships:</strong> Cannabis use can strain personal relationships, as changes in behavior and priorities may lead to conflicts or misunderstandings with loved ones.</li>
+    <li><strong>Community Engagement:</strong> Conversely, some users might find a sense of community among fellow cannabis enthusiasts, which can mitigate some of the negative social effects.</li>
+</ul>
+
+    ONLY return the refined description. 
+    """
+
+    # Initialize the AI client and refine the description
+    initialize_azure_openai_client()
+    response = await create_openai_completion(prompt)
+    element.refined = response.choices[0].message.content if response.choices else "No refinement available"
+
+async def run_multiple_text_refinements(elements: List[GraphicElement], target_audience: str, content_description: str, format: str) -> List[GraphicElement]: 
+    """
+    Runs text refinements asynchronously for a list of GraphicElement instances.
+    """
+    tasks = [refine_text_description(element, target_audience, content_description, format) for element in elements if element.type == "text"]  
+    await asyncio.gather(*tasks)
+    return elements
+
+
+async def main():
+    # Sample HTML content with text descriptions
+    html_content = """
+    <div>
+        <p[DESCRIPTION: "Signs and symptoms of drug use that parents should be aware of, including behavioral, physical, and social indicators."]</p>
+        <p>[DESCRIPTION: "Strategies for creating a supportive home environment that discourages drug use, including establishing clear rules, promoting healthy activities, and strengthening family bonds."]</p>
+    </div>
+    """
+
+    # Extract text descriptions from the HTML content
+    text_elements = extract_text_descriptions(html_content)
+    print("Extracted Text Descriptions:")
+    for element in text_elements:
+        print(f"ID: {element.id}, Description: {element.description}")
+
+    # Define parameters for refining text descriptions
+    target_audience = "general audience"
+    content_description = "social effects of drug usage"
+    format = "article"
+
+    # Refine text descriptions
+    refined_elements = await run_multiple_text_refinements(
+        text_elements,
+        target_audience,
+        content_description,
+        format,
+    )
+
+    # Print refined text descriptions
+    print("\nRefined Text Descriptions:")
+    for element in refined_elements:
+        print(f"ID: {element.id}, Refined Description: {element.refined}")
+
+if __name__ == "__main__":
+    asyncio.run(main())
+

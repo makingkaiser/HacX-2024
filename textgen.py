@@ -3,8 +3,6 @@ import re
 from uuid import uuid4
 from typing import List
 
-from RAG.text_rag.llama_index_text_search_engine import question_load_and_query_search_index, generate_questions
-
 from utils.initialize_client import initialize_azure_openai_client, create_openai_completion
 
 class GraphicElement:
@@ -25,7 +23,7 @@ def extract_text_descriptions(html_content: str) -> List[GraphicElement]:
     text_elements = [GraphicElement(element_type="text", description=desc) for desc in matches]
     return text_elements
 
-async def refine_text_description(element: GraphicElement, target_audience: str, stylistic_description: str, content_description: str, format: str) -> None:
+async def refine_text_description(element: GraphicElement, target_audience: str, content_description: str, format: str) -> None:
     """
     Asynchronously refines the description of a text element by first querying a search index
     to gather context or related information, and then using this information to query an AI model,
@@ -46,17 +44,52 @@ async def refine_text_description(element: GraphicElement, target_audience: str,
     """
 
     # Initialize the AI client and refine the description
-    client = await create_openai_completion()
-    response = await client.chat.completions.create(
-        model="gpt-4o",
-        messages=[{"role": "user", "content": prompt}]
-    )
+    initialize_azure_openai_client()
+    response = await create_openai_completion(prompt)
     element.refined = response.choices[0].message.content if response.choices else "No refinement available"
 
-async def run_multiple_text_refinements(elements: List[GraphicElement], target_audience: str, stylistic_description: str, content_description: str, format: str) -> List[GraphicElement]: 
+async def run_multiple_text_refinements(elements: List[GraphicElement], target_audience: str, content_description: str, format: str) -> List[GraphicElement]: 
     """
     Runs text refinements asynchronously for a list of GraphicElement instances.
     """
-    tasks = [refine_text_description(element, target_audience, stylistic_description, content_description, format) for element in elements if element.type == "text"]  
+    tasks = [refine_text_description(element, target_audience, content_description, format) for element in elements if element.type == "text"]  
     await asyncio.gather(*tasks)
     return elements
+
+
+async def main():
+    # Sample HTML content with text descriptions
+    html_content = """
+    <div>
+        <p>[DESCRIPTION: "The social effects of drug usage for cannabis include isolation and depression."]</p>
+        <p>[DESCRIPTION: "The social effects of drug usage for cocaine include aggression and paranoia."]</p>
+    </div>
+    """
+
+    # Extract text descriptions from the HTML content
+    text_elements = extract_text_descriptions(html_content)
+    print("Extracted Text Descriptions:")
+    for element in text_elements:
+        print(f"ID: {element.id}, Description: {element.description}")
+
+    # Define parameters for refining text descriptions
+    target_audience = "general audience"
+    content_description = "social effects of drug usage"
+    format = "article"
+
+    # Refine text descriptions
+    refined_elements = await run_multiple_text_refinements(
+        text_elements,
+        target_audience,
+        content_description,
+        format,
+    )
+
+    # Print refined text descriptions
+    print("\nRefined Text Descriptions:")
+    for element in refined_elements:
+        print(f"ID: {element.id}, Refined Description: {element.refined}")
+
+if __name__ == "__main__":
+    asyncio.run(main())
+
