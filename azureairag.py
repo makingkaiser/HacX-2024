@@ -4,10 +4,15 @@ from uuid import uuid4
 import asyncio
 import re
 from typing import List
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 endpoint = os.getenv("ENDPOINT_URL", "https://homelandersopenai.openai.azure.com/")
 deployment = os.getenv("DEPLOYMENT_NAME", "gpt-4-turbo")
 search_endpoint = os.getenv("SEARCH_ENDPOINT", "https://ai-azure-search-homelanders.search.windows.net")
-search_key = os.getenv("SEARCH_KEY")
+search_key = os.getenv("AZURE_SEARCH_KEY")
+
 subscription_key = os.getenv("AZURE_OPENAI_API_KEY")
 # Initialize Azure OpenAI client with key-based authentication
 
