@@ -306,4 +306,4 @@ async def main():
     result = await image_caption_rag_refinement(example_user_input, "picture of the negative effects of cocaine", format="pamphlet")
     print(result)
 
-asyncio.run(main())
+# asyncio.run(main())

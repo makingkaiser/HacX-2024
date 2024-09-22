@@ -4,10 +4,14 @@ from uuid import uuid4
 import asyncio
 import re
 from typing import List
-endpoint = os.getenv("ENDPOINT_URL", "https://homelandersopenai.openai.azure.com/")
-deployment = os.getenv("DEPLOYMENT_NAME", "gpt-4-turbo")
-search_endpoint = os.getenv("SEARCH_ENDPOINT", "https://ai-azure-search-homelanders.search.windows.net")
-search_key = os.getenv("SEARCH_KEY")
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
+deployment = "gpt-4-turbo"
+search_endpoint = os.getenv("AZURE_SEARCH_SERVICE_ENDPOINT_AZUREAIRAG")
+search_key = os.getenv("AZURE_SEARCH_SERVICE_ADMIN_KEY_AZUREAIRAG")
 subscription_key = os.getenv("AZURE_OPENAI_API_KEY")
 # Initialize Azure OpenAI client with key-based authentication
 
@@ -87,7 +91,7 @@ async def refine_text_description_with_rag(element: GraphicElement, target_audie
                 },
                 "embedding_dependency": {
                 "type": "endpoint",
-                "endpoint": "https://homelandersopenai.openai.azure.com/openai/deployments/text-embedding-ada-002/embeddings?api-version=2023-07-01-preview",
+                "endpoint": f"{embeddings_endpoint}/openai/deployments/{embeddings_model_name}/embeddings?api-version=2023-07-01-preview",
                 "authentication": {
                     "type": "api_key",
                     "key": f"{subscription_key}"

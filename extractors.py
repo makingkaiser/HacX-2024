@@ -109,7 +109,7 @@ def replace_image_descriptions(html_content: str, image_elements: List[GraphicEl
         for element in image_elements:  
             if element.description == original_description:   
                 
-                return f'<img src="{element.content[0].strip("'")}" alt="{original_description}">'   
+                return f'<img src="{element.content[0].strip()}" alt="{original_description}">'   
         return match.group(0)  # Return the original if no match is found  
   
     # Replace all occurrences in the HTML content  

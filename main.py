@@ -21,35 +21,73 @@ class GraphicElement:
   
 
 
-async def flesh_out_html(input_html: str, target_audience: str, stylistic_description: str, content_description: str, format: str) -> str:
-    # Process the input HTML content
-    text_elements = extract_text_descriptions(input_html)
+# async def flesh_out_html(input_html: str, target_audience: str, stylistic_description: str, content_description: str, format: str) -> str:
+#     # Process the input HTML content
+#     text_elements = extract_text_descriptions(input_html)
+#     image_elements = extract_image_descriptions(input_html)
+    
+#     # Refine and generate image elements
+#     refined_image_elements, all_titles = await run_multiple_image_refinements(
+#         image_elements,
+#         target_audience=target_audience,
+#         stylistic_description=stylistic_description,
+#         content_description=content_description,
+#         format=format,
+#         rag=True #hardcoded for now
+#     )
+
+#     generated_image_elements = await run_multiple_image_predictions(refined_image_elements)
+#     refined_text_elements =  await run_multiple_text_refinements_rag(
+#         text_elements,
+#         target_audience=target_audience,
+#         content_description=content_description,
+#         format=format
+#     )
+
+#     # Replace image descriptions with generated image elements
+#     output = replace_image_descriptions(input_html, generated_image_elements)
+#     output = replace_text_descriptions(output,refined_text_elements)
+#     with open("output1.html", "w") as f:
+#         f.write(output)
+#     return output
+
+async def flesh_out_html_images(input_html: str, target_audience: str, stylistic_description: str, content_description: str, format: str) -> (str, list):
+    # Extract image descriptions from the input HTML
     image_elements = extract_image_descriptions(input_html)
     
     # Refine and generate image elements
-    refined_image_elements = await run_multiple_image_refinements(
+    refined_image_elements, all_titles = await run_multiple_image_refinements(
         image_elements,
         target_audience=target_audience,
         stylistic_description=stylistic_description,
         content_description=content_description,
         format=format,
-        rag=False #hardcoded for now
+        rag=True  # Hardcoded for now
     )
 
     generated_image_elements = await run_multiple_image_predictions(refined_image_elements)
-    refined_text_elements =  await run_multiple_text_refinements_rag(
+    
+    # Replace image descriptions with generated image elements in the HTML
+    output_html = replace_image_descriptions(input_html, generated_image_elements)
+    
+    return output_html, all_titles
+
+
+async def flesh_out_html_text(input_html: str, target_audience: str, content_description: str, format: str) -> str:
+    # Extract text elements from the input HTML
+    text_elements = extract_text_descriptions(input_html)
+    
+    # Refine text elements using RAG
+    refined_text_elements = await run_multiple_text_refinements_rag(
         text_elements,
         target_audience=target_audience,
         content_description=content_description,
         format=format
     )
-
-    # Replace image descriptions with generated image elements
-    output = replace_image_descriptions(input_html, generated_image_elements)
-    output = replace_text_descriptions(output,refined_text_elements)
-    with open("output1.html", "w") as f:
-        f.write(output)
-    return output
+    
+    # Replace the original text descriptions with refined text elements in the HTML
+    output_html = replace_text_descriptions(input_html, refined_text_elements)
+    return output_html
 
 
 

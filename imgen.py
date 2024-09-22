@@ -56,7 +56,7 @@ async def run_multiple_image_predictions(elements: List[GraphicElement]):
     await asyncio.gather(*tasks)  
     return elements  
 
-async def refine_image_description(element: GraphicElement, target_audience: str, stylistic_description: str, content_description: str, format: str, rag: bool) -> None:
+async def refine_image_description(element: GraphicElement, target_audience: str, stylistic_description: str, content_description: str, format: str, rag: bool) -> list:
     if rag:
         user_input = {
             'user_stylistic_description': stylistic_description,
@@ -65,27 +65,33 @@ async def refine_image_description(element: GraphicElement, target_audience: str
         }
         result = await image_caption_rag_refinement(user_input, element.description, format)
         element.refined = result['expanded_description']
+        return [res['title'] for res in result['reference_images']]
     else:
         prompt = f"""Expand upon the following description of an image to about a paragraph length:
         Description: {element.description}
-
         based on the context that this image is designed to be part of a {format} has the following properties:
         - Target Audience: {target_audience}
         - Stylistic Description: {stylistic_description}
         - Content Description: {content_description}
         
-        Return ONLY the expanded description and nothing else. DO NOT include any description of text or textual elements in your expanded description, unless explicity specified. If it is specified, restrict to only one textual element. 
-        
-    """
+        Return ONLY the expanded description and nothing else. DO NOT include any description of text or textual elements in your expanded description, unless explicity specified. If it is specified, restrict to only one textual element.
+        """
         response = await create_openai_completion(prompt)
         element.refined = response.choices[0].message.content
+        return []
 
-async def run_multiple_image_refinements(elements: List[GraphicElement], target_audience: str, stylistic_description: str, content_description: str, format: str, rag: bool) -> List[GraphicElement]:  
-    """Run multiple refinements for image descriptions asynchronously."""
-    print("generating image descriptions...")
-    tasks = [refine_image_description(element, target_audience, stylistic_description, content_description, format, rag) for element in elements if element.type == "image"]  
-    await asyncio.gather(*tasks)  
-    return elements
+async def run_multiple_image_refinements(elements: List[GraphicElement], target_audience: str, stylistic_description: str, content_description: str, format: str, rag: bool) -> (List[GraphicElement], set):  
+    print("Generating image descriptions...")
+    all_titles = set()
+    tasks = [refine_image_description(element, target_audience, stylistic_description, content_description, format, rag) for element in elements if element.type == "image"]
+    titles_lists = await asyncio.gather(*tasks)
+    
+    # Flatten list of lists of titles into a single set to remove duplicates
+    for titles in titles_lists:
+        all_titles.update(titles)
+    
+    return elements, all_titles
+
 
 # Example usage
 async def main():
