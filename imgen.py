@@ -1,9 +1,15 @@
 import asyncio  
 import os
+import os
 import replicate  
 
 from typing import List 
+
+from typing import List 
 from uuid import uuid4  
+
+from RAG.image_caption_rag.image_index_search_engine import image_caption_rag_refinement
+from utils.initialize_client import create_openai_completion
 
 from RAG.image_caption_rag.image_index_search_engine import image_caption_rag_refinement
 from utils.initialize_client import create_openai_completion
@@ -50,7 +56,9 @@ async def run_image_prediction(element: GraphicElement) -> None:
         element.content = "Error generating image"  
   
 
+
 async def run_multiple_image_predictions(elements: List[GraphicElement]):  
+    #Function to run multiple predictions asynchronously  
     #Function to run multiple predictions asynchronously  
     tasks = [run_image_prediction(element) for element in elements if element.type == "image"]  
     await asyncio.gather(*tasks)  
@@ -117,6 +125,8 @@ async def main():
         target_audience="general audience",
         stylistic_description="realistic and detailed",
         content_description="various scenes and landscapes",
+        format="digital art",
+        rag=False
         format="digital art",
         rag=False
     )
