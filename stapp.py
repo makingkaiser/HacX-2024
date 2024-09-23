@@ -1,5 +1,6 @@
 import streamlit as st
 import os 
+import requests
 st.set_page_config(layout="wide")
 
 import asyncio
@@ -15,14 +16,13 @@ async def main():
     st.title("Preventive Drug Education Material Generator")
     st.image("https://img.freepik.com/premium-vector/cute-octopus-artist-painting-cartoon-vector-icon-illustration-animal-education-icon-isolated-flat_138676-6683.jpg?w=360")
     st.write("Hello! I'm Inky, your friendly preventive drug education material generator. I can help you make content for your educational materials, based on the materials you uploaded. Just fill out the form below and I'll do the rest!")    
-    st.write("Hello! I'm Inky, your friendly preventive drug education material generator. I can help you make content for your educational materials, based on the materials you uploaded. Just fill out the form below and I'll do the rest!")    
+
 
     target_audience = st.text_input("Target Audience", "type your desired audience here! e.g: general audience")
     stylistic_description = st.text_input("Stylistic Description", "type your desired style here! e.g: 90's cartoon style")
     content_description = st.text_input("Content Description", "type your desired content here! e.g: various scenes and landscapes")
     format = st.text_input("Format", "type your desired format here! e.g: pamphlet")
 
-    if st.button("Write Content!"):
     if st.button("Write Content!"):
         if not target_audience or not stylistic_description or not content_description or not format:
             st.error("All fields must be filled out before submitting.")
@@ -47,20 +47,20 @@ async def main():
                     content_description=content_description,
                     format=format
                 )
-                
-                container_client = blob_service_client.get_container_client(container_name)
+            
                 
                 image_titles = [title.replace('_caption', '') for title in image_titles]
                 st.success("Here are some images referenced!")
 
                 for title in image_titles:
                     github_img_base = "https://raw.githubusercontent.com/makingkaiser/HacX-2024/merge-nic-changes/data-ingress/images/source_images/"
-                    possible_extensions = ['.png', '.jpg', '.jpeg', '.gif']
+                    possible_extensions = ['.PNG', '.jpg', '.jpeg']
                     found = False
+                    st.success(title)
                 
                     for ext in possible_extensions:
                         # Construct the raw URL for each possible extension
-                        image_url = f"{github_img_base}{ext}"
+                        image_url = f"{github_img_base}{title}{ext}"
                         response = requests.head(image_url)
                         
                         if response.status_code == 200:
@@ -69,7 +69,7 @@ async def main():
                             break
 
                     if not found:
-                        st.error(f"Image file for '{title}' not found.")
+                        st.error(f"Image file from '{image_url}' not found.")
 
                 st.success("Inky is done generating images!")
 

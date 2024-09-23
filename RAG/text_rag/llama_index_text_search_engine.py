@@ -4,20 +4,26 @@ Note that this use llama_index API instead of OpenAI's for Azure Client instanti
 """
 import asyncio
 import os
+import sys
+
+import backoff
+import requests
 from azure.core.credentials import AzureKeyCredential
 from azure.search.documents.indexes import SearchIndexClient
 from dotenv import load_dotenv
 from llama_index.core import Settings, StorageContext, VectorStoreIndex
 from llama_index.embeddings.azure_openai import AzureOpenAIEmbedding
 from llama_index.llms.azure_openai import AzureOpenAI
-from llama_index.vector_stores.azureaisearch import AzureAISearchVectorStore, IndexManagement, MetadataIndexFieldType
-import sys
+from llama_index.vector_stores.azureaisearch import (
+    AzureAISearchVectorStore,
+    IndexManagement,
+    MetadataIndexFieldType,
+)
 
 # Add the src directory to the Python path
 sys.path.append(os.path.join(os.path.dirname(__file__), '../../utils'))
 
-from initialize_client import initialize_azure_openai_client, create_openai_completion
-
+from initialize_client import create_openai_completion, initialize_azure_openai_client
 
 #Configuration
 dotenv_path = os.path.join(os.path.dirname(__file__), '..', '.env')
@@ -106,6 +112,9 @@ async def generate_questions(content_description):
     # questions = response.choices[0].text.strip().split('\n')
     return questions
 
+@backoff.on_exception(backoff.expo,
+                      requests.exceptions.RequestException,
+                      max_tries=8)
 async def question_load_and_query_search_index(questions):
     """
     Loads the search index and queries it using a list of questions.
@@ -203,8 +212,9 @@ data = {
 
 import asyncio
 import re
-from uuid import uuid4
 from typing import List
+from uuid import uuid4
+
 
 class GraphicElement:
     def __init__(self, element_type, description, refined=None, content=None):

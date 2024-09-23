@@ -13,6 +13,9 @@ deployment = "gpt-4-turbo"
 search_endpoint = os.getenv("AZURE_SEARCH_SERVICE_ENDPOINT_AZUREAIRAG")
 search_key = os.getenv("AZURE_SEARCH_SERVICE_ADMIN_KEY_AZUREAIRAG")
 subscription_key = os.getenv("AZURE_OPENAI_API_KEY")
+embeddings_endpoint = os.getenv("embeddings_endpoint")
+embeddings_model_name = "text-embedding-ada-002"
+
 # Initialize Azure OpenAI client with key-based authentication
 
 

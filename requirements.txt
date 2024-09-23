@@ -8,4 +8,6 @@ python-dotenv==1.0.1
 replicate==0.32.1
 streamlit==1.38.0
 azure-search-documents
+requests
+backoff
 

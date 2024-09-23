@@ -5,14 +5,11 @@ import replicate
 
 from typing import List 
 
-from typing import List 
 from uuid import uuid4  
 
 from RAG.image_caption_rag.image_index_search_engine import image_caption_rag_refinement
 from utils.initialize_client import create_openai_completion
 
-from RAG.image_caption_rag.image_index_search_engine import image_caption_rag_refinement
-from utils.initialize_client import create_openai_completion
 os.environ["REPLICATE_API_TOKEN"] = os.getenv("REPLICATE_API_TOKEN")
 
 class GraphicElement:  
@@ -125,8 +122,6 @@ async def main():
         target_audience="general audience",
         stylistic_description="realistic and detailed",
         content_description="various scenes and landscapes",
-        format="digital art",
-        rag=False
         format="digital art",
         rag=False
     )

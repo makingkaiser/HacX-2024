@@ -8,8 +8,7 @@ import logging
 from extractors import extract_image_descriptions, extract_text_descriptions, replace_image_descriptions, replace_text_descriptions
 from imgen import run_multiple_image_predictions, run_multiple_image_refinements
 from azureairag import run_multiple_text_refinements_rag
-from imgen import run_multiple_image_predictions, run_multiple_image_refinements
-from azureairag import run_multiple_text_refinements_rag
+
 # Configure logging  
 logging.basicConfig(level=logging.INFO)  
   
