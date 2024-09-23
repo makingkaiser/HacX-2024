@@ -5,7 +5,6 @@ Note that this use llama_index API instead of OpenAI's for Azure Client instanti
 import asyncio
 import os
 import sys
-
 import backoff
 import requests
 from azure.core.credentials import AzureKeyCredential
@@ -101,7 +100,7 @@ async def generate_questions(content_description):
             placeholder description of a paragraph: \
             {content_description}. \
             Only return the questions, each on a new line please.
-            return a maximum of 4 questions.
+            return a maximum of 8 questions.
             """
     
     #regular openai api
@@ -192,6 +191,29 @@ async def question_load_and_query_search_index(questions):
 
     return output
 
+# async def main():
+#     # Sample content description for generating questions
+#     content_description = "This text discusses the effects of drug abuse on youth and the importance of early education to prevent drug addiction."
+    
+#     # Generate questions based on the content description
+#     questions = await generate_questions(content_description)
+    
+#     # Print the generated questions
+#     print("Generated Questions:")
+#     for question in questions:
+#         print(question)
+    
+#     # Load the search index and query it using the generated questions
+#     question_answers = await question_load_and_query_search_index(questions)
+    
+#     # Print the responses for each question
+#     print("\nQuestion and Answers from Search Index:")
+#     for question, answer in question_answers.items():
+#         print(f"Question: {question}\nAnswer: {answer}\n")
+
+# # Run the main function using asyncio
+# if __name__ == "__main__":
+#     asyncio.run(main())
 
 ##Example Output 
 """
@@ -283,39 +305,39 @@ async def run_multiple_text_refinements(elements: List[GraphicElement], target_a
     return elements
 
 
-async def main():
-    # Sample HTML content with text descriptions
-    html_content = """
-    <div>
-        <p[DESCRIPTION: "Signs and symptoms of drug use that parents should be aware of, including behavioral, physical, and social indicators."]</p>
-        <p>[DESCRIPTION: "Strategies for creating a supportive home environment that discourages drug use, including establishing clear rules, promoting healthy activities, and strengthening family bonds."]</p>
-    </div>
-    """
+# async def main():
+#     # Sample HTML content with text descriptions
+#     html_content = """
+#     <div>
+#         <p[DESCRIPTION: "Signs and symptoms of drug use that parents should be aware of, including behavioral, physical, and social indicators."]</p>
+#         <p>[DESCRIPTION: "Strategies for creating a supportive home environment that discourages drug use, including establishing clear rules, promoting healthy activities, and strengthening family bonds."]</p>
+#     </div>
+#     """
 
-    # Extract text descriptions from the HTML content
-    text_elements = extract_text_descriptions(html_content)
-    print("Extracted Text Descriptions:")
-    for element in text_elements:
-        print(f"ID: {element.id}, Description: {element.description}")
+#     # Extract text descriptions from the HTML content
+#     text_elements = extract_text_descriptions(html_content)
+#     print("Extracted Text Descriptions:")
+#     for element in text_elements:
+#         print(f"ID: {element.id}, Description: {element.description}")
 
-    # Define parameters for refining text descriptions
-    target_audience = "general audience"
-    content_description = "social effects of drug usage"
-    format = "article"
+#     # Define parameters for refining text descriptions
+#     target_audience = "general audience"
+#     content_description = "social effects of drug usage"
+#     format = "article"
 
-    # Refine text descriptions
-    refined_elements = await run_multiple_text_refinements(
-        text_elements,
-        target_audience,
-        content_description,
-        format,
-    )
+#     # Refine text descriptions
+#     refined_elements = await run_multiple_text_refinements(
+#         text_elements,
+#         target_audience,
+#         content_description,
+#         format,
+#     )
 
-    # Print refined text descriptions
-    print("\nRefined Text Descriptions:")
-    for element in refined_elements:
-        print(f"ID: {element.id}, Refined Description: {element.refined}")
+#     # Print refined text descriptions
+#     print("\nRefined Text Descriptions:")
+#     for element in refined_elements:
+#         print(f"ID: {element.id}, Refined Description: {element.refined}")
 
-if __name__ == "__main__":
-    asyncio.run(main())
+# if __name__ == "__main__":
+#     asyncio.run(main())
 

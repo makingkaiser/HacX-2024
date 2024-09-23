@@ -7,7 +7,8 @@ import replicate
 import logging  
 from extractors import extract_image_descriptions, extract_text_descriptions, replace_image_descriptions, replace_text_descriptions
 from imgen import run_multiple_image_predictions, run_multiple_image_refinements
-from azureairag import run_multiple_text_refinements_rag
+# from azureairag import run_multiple_text_refinements_rag
+from RAG.text_rag.llama_index_text_search_engine import run_multiple_text_refinements
 
 # Configure logging  
 logging.basicConfig(level=logging.INFO)  
@@ -80,7 +81,8 @@ async def flesh_out_html_text(input_html: str, target_audience: str, content_des
     text_elements = extract_text_descriptions(input_html)
     
     # Refine text elements using RAG
-    refined_text_elements = await run_multiple_text_refinements_rag(
+    #run_multiple_text_refinements_rag for azureairag
+    refined_text_elements = await run_multiple_text_refinements(
         text_elements,
         target_audience=target_audience,
         content_description=content_description,
