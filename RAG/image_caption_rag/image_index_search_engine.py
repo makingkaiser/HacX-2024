@@ -243,7 +243,7 @@ async def image_caption_rag_refinement(user_input, placeholder_image_desc, forma
     description and stylistic preferences, create an image generation prompt that aligns 
     with the theme and tone suitable for {user_input['target_audience']}. You are given reference
     captions from previous material which you may use for inspiration but do not copy it.
-
+    Image descriptions should avoid describing textual things like infographics, or maybe educational materials.
     Baseline: {placeholder_image_desc}
     User Stylistic Description: {user_input['user_stylistic_description']}
     Reference Captions: {reference_captions}

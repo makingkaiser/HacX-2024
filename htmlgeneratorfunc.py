@@ -46,7 +46,7 @@ async def generate_html_content(target_audience: str, stylistic_description: str
 
     3. For html layouts other than posters, you MUST ensure that the width of the images is set to to 100 percent nd the height to auto so that they can adapt to the size of their containers. Do not just arrange elements in a boring, linear manner. 
 
-    EXAMPLE OUTPUT :
+    EXAMPLE OUTPUT - for image and text descriptions, you do not have to follow it exactly, but the adjacent text and images should be coherent. :
 
     <!DOCTYPE html>
     <html lang="en">
@@ -73,7 +73,7 @@ async def generate_html_content(target_audience: str, stylistic_description: str
             .header {{ 
                 grid-column: 1 / -1;  
                 background-color: #2c3e50;  
-                color: white;  
+                color: white !important;  
                 padding: 40px;  
                 text-align: center;  
                 border-radius: 10px;  
@@ -113,7 +113,7 @@ async def generate_html_content(target_audience: str, stylistic_description: str
             .footer {{  
                 grid-column: 1 / -1;  
                 background-color: #2c3e50;  
-                color: white;  
+                color: white !important;  
                 padding: 20px;  
                 text-align: center;  
                 border-radius: 10px;  
@@ -171,7 +171,7 @@ async def generate_html_content(target_audience: str, stylistic_description: str
 
             <div class="content-box">
                 <div class="image-placeholder">
-                    [Image: 300x300 - An infographic-style illustration showing the brain and how different drugs affect its various regions. Use simplified, icon-based visuals to represent different areas of the brain and drug impacts.]
+                    [Image: 300x300 - A serene nature scene representing mental clarity and well-being. The image depicts a beautiful landscape with clear water, lush greenery, and a bright sky, symbolizing the benefits of a drug-free lifestyle.]
                 </div>
             </div>
 
@@ -191,7 +191,7 @@ async def generate_html_content(target_audience: str, stylistic_description: str
 
             <div class="content-box span-2">
                 <div class="image-placeholder">
-                    [Image: 600x400 - A warm, inviting home environment with subtle visual cues representing a drug-free lifestyle. Include elements like family photos, healthy snacks, sports equipment, and educational materials to suggest a supportive family atmosphere.]
+                    [Image: 600x400 - A warm, inviting home environment with subtle visual cues representing a drug-free lifestyle. The image includes family members engaged in various positive activities like playing sports, or cooking together.]
                 </div>
             </div>
 
