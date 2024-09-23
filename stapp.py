@@ -35,6 +35,13 @@ async def main():
                 )
                 st.success("Inky is done!")
                 st.html(fleshed_out_html)
+                
+                # Regeneration logic (after the HTML is generated)
+                if st.button("Regenerate"):
+                    with st.spinner("Inky is regenerating..."):
+                        regenerated_html = await regenerate_content(html_content)
+                        st.success("Components regenerated!")
+                        st.html(regenerated_html)
 
 if __name__ == "__main__":
     asyncio.run(main())

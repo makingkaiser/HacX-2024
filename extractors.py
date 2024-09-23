@@ -105,11 +105,11 @@ def replace_image_descriptions(html_content: str, image_elements: List[GraphicEl
   
     # Function to replace each match with the corresponding content link  
     def replacer(match):  
-        _, original_description = match.groups()  
+        dimensions, original_description = match.groups()  
         for element in image_elements:  
             if element.description == original_description:   
                 
-                return f'<img src="{element.content[0].strip("'")}" alt="{original_description}">'   
+                return f'<img src="{element.content[0].strip("'")}" alt="[Image: {dimensions} - {element.refined}]">'   
         return match.group(0)  # Return the original if no match is found  
   
     # Replace all occurrences in the HTML content  
