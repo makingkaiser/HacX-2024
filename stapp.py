@@ -8,7 +8,6 @@ from main import flesh_out_html_images, flesh_out_html_text
 from azure.storage.blob import BlobServiceClient
 
 blob_conn_str = os.getenv("CONNECTION_STRING")
-
     
 async def main():
     
@@ -55,13 +54,16 @@ async def main():
                 st.success("Here are some images referenced!")
 
                 for title in image_titles:
+                    github_img_base = "https://raw.githubusercontent.com/makingkaiser/HacX-2024/merge-nic-changes/data-ingress/images/source_images/"
                     possible_extensions = ['.png', '.jpg', '.jpeg', '.gif']
                     found = False
-                    for blob in container_client.list_blobs():
-                        print(f"Checking blob: {blob.name}")  # Debug statement
-                        name, ext = os.path.splitext(blob.name)
-                        if name == title and ext in possible_extensions:
-                            image_url = f"https://{blob_service_client.account_name}.blob.core.windows.net/{container_name}/{blob.name}"
+                
+                    for ext in possible_extensions:
+                        # Construct the raw URL for each possible extension
+                        image_url = f"{github_img_base}{ext}"
+                        response = requests.head(image_url)
+                        
+                        if response.status_code == 200:
                             st.image(image_url, caption=title)
                             found = True
                             break
