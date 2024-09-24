@@ -53,7 +53,7 @@ class GraphicElement:
 #         f.write(output)
 #     return output
 
-async def flesh_out_html_images(input_html: str, target_audience: str, stylistic_description: str, content_description: str, format: str) -> (str, list):
+async def flesh_out_html_images(input_html: str, target_audience: str, stylistic_description: str, content_description: str, format: str) -> (str, list, list):
     # Extract image descriptions from the input HTML
     image_elements = extract_image_descriptions(input_html)
     
@@ -73,10 +73,10 @@ async def flesh_out_html_images(input_html: str, target_audience: str, stylistic
     # Replace image descriptions with generated image elements in the HTML
     output_html = replace_image_descriptions(input_html, generated_image_elements)
     
-    return output_html, all_titles
+    return output_html, all_titles, generated_image_elements
 
 
-async def flesh_out_html_text(input_html: str, target_audience: str, content_description: str, format: str) -> str:
+async def flesh_out_html_text(input_html: str, target_audience: str, content_description: str, format: str) -> (str, list):
     # Extract text elements from the input HTML
     text_elements = extract_text_descriptions(input_html)
     
@@ -91,7 +91,7 @@ async def flesh_out_html_text(input_html: str, target_audience: str, content_des
     
     # Replace the original text descriptions with refined text elements in the HTML
     output_html = replace_text_descriptions(input_html, refined_text_elements)
-    return output_html
+    return output_html, refined_text_elements
 
 
 
