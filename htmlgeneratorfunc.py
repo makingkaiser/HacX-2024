@@ -46,6 +46,18 @@ async def generate_html_content(target_audience: str, stylistic_description: str
 
     3. For html layouts other than posters, you MUST ensure that the width of the images is set to to 100 percent nd the height to auto so that they can adapt to the size of their containers. Do not just arrange elements in a boring, linear manner. 
 
+    4. Overwrite the decscriptions for the elements in the example output with placeholder descriptions of paragraph content for subsequent
+    downstream generation by another LLM model. Make sure that they form a cohesive and fluid narrative with consideration for their
+    element type.
+    
+    5. For image description, MAKE SURE YOU ADD IN A SHORT PHRASE AFTER SO THAT IT PREVENTS TEXT GENERATION IN THE IMAGE WHEN PASS TO IMAGE GENERATION.
+    
+    6. For text descriptions, add in stipulations of whether this should be a paragraph or bullet point before the description.
+    
+    7. Overwrite the title between h1 tags with a suitable title for the entire article.
+    
+    8. Makes sure the background colour of the header and footer banner is a colour that allows the black header text to be visible.
+    
     EXAMPLE OUTPUT - for image and text descriptions, you do not have to follow it exactly, but the adjacent text and images should be coherent. :
 
     <!DOCTYPE html>
@@ -72,7 +84,7 @@ async def generate_html_content(target_audience: str, stylistic_description: str
             }}
             .header {{ 
                 grid-column: 1 / -1;  
-                background-color: #2c3e50;  
+                background-color: #7D0DC3;  
                 color: white !important;  
                 padding: 40px;  
                 text-align: center;  
@@ -112,7 +124,7 @@ async def generate_html_content(target_audience: str, stylistic_description: str
             }}
             .footer {{  
                 grid-column: 1 / -1;  
-                background-color: #2c3e50;  
+                background-color: #7D0DC3;  
                 color: white !important;  
                 padding: 20px;  
                 text-align: center;  

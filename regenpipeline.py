@@ -17,60 +17,60 @@ class GraphicElement:
         self.refined = refined
 
 # takes in html file generated during first iteration
-async def regenerate_content(html_content: str) -> str:
-    st.subheader("Regenerate Components")
-    image_elements = extract_image_links(html_content)
-    text_elements = extract_text_descriptions(html_content)
+# async def regenerate_content(html_content: str) -> str:
+#     st.subheader("Regenerate Components")
+#     image_elements = extract_image_links(html_content)
+#     text_elements = extract_text_descriptions(html_content)
 
-    if not image_elements and not text_elements:
-        st.warning("No images or text components found in the HTML content.")
-        return html_content
+#     if not image_elements and not text_elements:
+#         st.warning("No images or text components found in the HTML content.")
+#         return html_content
 
-    # Initialize selected component state if it doesn't exist
-    if "selected_component" not in st.session_state:
-        st.session_state.selected_component = None
-    if "image_input" not in st.session_state:
-        st.session_state.image_input = ""
-    if "text_input" not in st.session_state:
-        st.session_state.text_input = ""
+#     # Initialize selected component state if it doesn't exist
+#     if "selected_component" not in st.session_state:
+#         st.session_state.selected_component = None
+#     if "image_input" not in st.session_state:
+#         st.session_state.image_input = ""
+#     if "text_input" not in st.session_state:
+#         st.session_state.text_input = ""
 
-    # Displaying image components with buttons
-    for idx, image_element in enumerate(image_elements):
-        st.image(image_element.content, caption=image_element.description, use_column_width=True)
-        if st.button(f"Select Image {idx + 1} for Regeneration"):
-            st.session_state.selected_component = ("image", idx)
+#     # Displaying image components with buttons
+#     for idx, image_element in enumerate(image_elements):
+#         st.image(image_element.content, caption=image_element.description, use_column_width=True)
+#         if st.button(f"Select Image {idx + 1} for Regeneration"):
+#             st.session_state.selected_component = ("image", idx)
 
-    # Displaying text components with buttons
-    for idx, text_element in enumerate(text_elements):
-        st.write(text_element.description)
-        if st.button(f"Select Text {idx + 1} for Regeneration"):
-            st.session_state.selected_component = ("text", idx)
+#     # Displaying text components with buttons
+#     for idx, text_element in enumerate(text_elements):
+#         st.write(text_element.description)
+#         if st.button(f"Select Text {idx + 1} for Regeneration"):
+#             st.session_state.selected_component = ("text", idx)
 
-    # Handle regeneration for selected component
-    if st.session_state.selected_component:
-        component_type, index = st.session_state.selected_component
+#     # Handle regeneration for selected component
+#     if st.session_state.selected_component:
+#         component_type, index = st.session_state.selected_component
 
-        if component_type == "image" and index < len(image_elements):
-            image_element = image_elements[index]
-            st.text_input("How would you like to refine the image?", value=st.session_state.image_input, key="image_input")
-            if st.button("Submit"):
-                regenerated_image_element = await regenerate_image(st.session_state.image_input, image_element)
-                st.image(regenerated_image_element.content, caption=regenerated_image_element.refined, use_column_width=True)
-                st.markdown("---")  # Separator for clarity
-                updated_html = replace_image_descriptions(html_content, [regenerated_image_element])
-                st.write(updated_html, unsafe_allow_html=True)  # Display the HTML content
+#         if component_type == "image" and index < len(image_elements):
+#             image_element = image_elements[index]
+#             st.text_input("How would you like to refine the image?", value=st.session_state.image_input, key="image_input")
+#             if st.button("Submit"):
+#                 regenerated_image_element = await regenerate_image(st.session_state.image_input, image_element)
+#                 st.image(regenerated_image_element.content, caption=regenerated_image_element.refined, use_column_width=True)
+#                 st.markdown("---")  # Separator for clarity
+#                 updated_html = replace_image_descriptions(html_content, [regenerated_image_element])
+#                 st.write(updated_html, unsafe_allow_html=True)  # Display the HTML content
 
-        elif component_type == "text" and index < len(text_elements):
-            text_element = text_elements[index]
-            st.text_input("How would you like to refine the text?", value=st.session_state.text_input, key="text_input")
-            if st.button("Submit"):
-                regenerated_text_element = await regenerate_text(st.session_state.text_input, text_element)
-                st.write("Regenerated text: " + regenerated_text_element.content)
-                st.markdown("---")  # Separator for clarity
-                updated_html = replace_text_descriptions(html_content, [regenerated_text_element])
-                st.write("Regenerated HTML: " + updated_html, unsafe_allow_html=True)  # Display the HTML content
+#         elif component_type == "text" and index < len(text_elements):
+#             text_element = text_elements[index]
+#             st.text_input("How would you like to refine the text?", value=st.session_state.text_input, key="text_input")
+#             if st.button("Submit"):
+#                 regenerated_text_element = await regenerate_text(st.session_state.text_input, text_element)
+#                 st.write("Regenerated text: " + regenerated_text_element.content)
+#                 st.markdown("---")  # Separator for clarity
+#                 updated_html = replace_text_descriptions(html_content, [regenerated_text_element])
+#                 st.write("Regenerated HTML: " + updated_html, unsafe_allow_html=True)  # Display the HTML content
 
-    return html_content
+#     return html_content
 
 
 

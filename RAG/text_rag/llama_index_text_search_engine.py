@@ -271,24 +271,24 @@ async def refine_text_description(element: GraphicElement, target_audience: str,
     # Use the results from the search index to enhance the prompt for the AI completion
     additional_context = related_info.get(element.description, "No relevant information found.")
     prompt = f"""
-    Refine this description to be more engaging and suitable for {target_audience} in a {format} format:
+    Based on the original description of what the paragraph is meant to be,
+    write out the paragraph to be engaging and suitable for {target_audience} in a {format} format:
     Original Description: {element.description}
     Related Information: {additional_context}
     Content Description: {content_description}
-    use bullet points and return in html format.
 
-    EXAMPLE FORMAT
-
+    Depending on the prompt original description, decide between paragraph or bullet points to
+    convey this information. ONLY return the paragraph itself.  
+    
+    If you choose bullet points, return in html format as shown:
     <h2>The Social Impact of Cannabis Use</h2>
-<ul>
-    <li><strong>Isolation:</strong> Regular cannabis use can sometimes lead to social withdrawal. Users might find themselves spending more time alone, distancing from friends and family.</li>
-    <li><strong>Depression:</strong> There is a potential link between frequent cannabis use and increased feelings of depression. This can be due to various factors including changes in brain chemistry and the impact of isolation.</li>
-    <li><strong>Social Stigma:</strong> Cannabis users may face judgment or stigma from their peers or society, which can further contribute to feelings of isolation and depression.</li>
-    <li><strong>Impact on Relationships:</strong> Cannabis use can strain personal relationships, as changes in behavior and priorities may lead to conflicts or misunderstandings with loved ones.</li>
-    <li><strong>Community Engagement:</strong> Conversely, some users might find a sense of community among fellow cannabis enthusiasts, which can mitigate some of the negative social effects.</li>
-</ul>
-
-    ONLY return the refined description. 
+    <ul>
+        <li><strong>Isolation:</strong> Regular cannabis use can sometimes lead to social withdrawal. Users might find themselves spending more time alone, distancing from friends and family.</li>
+        <li><strong>Depression:</strong> There is a potential link between frequent cannabis use and increased feelings of depression. This can be due to various factors including changes in brain chemistry and the impact of isolation.</li>
+        <li><strong>Social Stigma:</strong> Cannabis users may face judgment or stigma from their peers or society, which can further contribute to feelings of isolation and depression.</li>
+        <li><strong>Impact on Relationships:</strong> Cannabis use can strain personal relationships, as changes in behavior and priorities may lead to conflicts or misunderstandings with loved ones.</li>
+        <li><strong>Community Engagement:</strong> Conversely, some users might find a sense of community among fellow cannabis enthusiasts, which can mitigate some of the negative social effects.</li>
+    </ul>
     """
 
     # Initialize the AI client and refine the description
