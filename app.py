@@ -8,8 +8,9 @@ from extractors import extract_text_descriptions
 from regenpipeline import regenerate_image, regenerate_text, replace_image_descriptions, replace_text_descriptions, extract_image_links
 from azure.storage.blob import BlobServiceClient
 
-st.set_page_config(layout="wide", page_title="Preventive Drug Education Generator", page_icon=":octopus:")
+st.set_page_config(layout="wide", page_title="Preventative Drug Education Generator", page_icon=":octopus:")
 
+@st.fragment
 def load_css():
     return """
     <style>
@@ -22,9 +23,10 @@ def load_css():
             background-color: #0C9;
             color: white;
         }
-        .stTextInput>div>div>input {
-            border-radius: 10px;
-            padding: 10px;
+        .stTextInput>div>div>input, .stTextArea>div>div>textarea {
+            border-radius: 15px;
+            padding: 15px;
+            width: calc(100% + 30px);  // Making input area wider
         }
         .stMarkdown {
             margin-top: -20px;
@@ -35,6 +37,7 @@ def load_css():
     </style>
     """
 
+@st.fragment
 def image_carousel(image_urls):
     if not image_urls:
         return
@@ -143,17 +146,17 @@ async def main():
             if not target_audience or not stylistic_description or not content_description or not format:
                 st.error("All fields must be filled out before submitting.")
             else:
-                with st.spinner("Inky is thinking..."):
+                with st.spinner("Alright! Let Inky give this a shot!"):
                     html_content = await generate_html_content(
                         target_audience=target_audience,
                         stylistic_description=stylistic_description,
                         content_description=content_description,
                         format=format
                     )
-                    st.success("Inky has thought of an idea!")
+                    st.success("Inky came up with an idea!")
                     st.session_state.placeholder_html_content = html_content
 
-
+                
                 with st.spinner("Inky is finding images.. please wait"):
                     fleshed_out_html, image_titles, refined_image_elements = await flesh_out_html_images(
                         html_content,
@@ -164,8 +167,8 @@ async def main():
                     )
                     image_titles = [title.replace('_caption', '') for title in image_titles]
                     st.session_state.image_elements_before_regeneration = refined_image_elements
-
                     
+                st.success("Inky found some inspiration from these images! Let's use these to guide our generation!")
 
                 github_img_base = "https://raw.githubusercontent.com/makingkaiser/HacX-2024/merge-nic-changes/data-ingress/images/source_images/"
                 possible_extensions = ['.PNG', '.jpg', '.jpeg']
@@ -181,7 +184,7 @@ async def main():
 
                 image_carousel(image_urls)
 
-                st.success("Inky is done generating images!")
+                st.success("Okay! Inky is done generating images!")
 
                 with st.spinner("Inky is writing text... just a little more..."):
                     fleshed_out_html, refined_text_elements = await flesh_out_html_text(
@@ -190,7 +193,7 @@ async def main():
                         content_description=content_description,
                         format=format
                     )
-                    st.success("Inky is done! Here is what Inky made:")
+                    st.success("Inky is done! Have a look at what Inky made and let Inky know if any parts need to be regenerated!")
                     st.session_state.fleshed_out_html_content = fleshed_out_html
                     st.session_state.text_elements_before_regeneration = refined_text_elements
 
