@@ -62,6 +62,40 @@ def extract_text_descriptions(html_content) -> List[GraphicElement]:
       
     return text_elements
 
+def extract_image_links(html_content: str) -> List[GraphicElement]:
+    """
+    Extracts image links and descriptions from the HTML content and returns a list of GraphicElement instances.
+    
+    Args:
+        html_content (str): The HTML content as a string.
+    
+    Returns:
+        List[GraphicElement]: A list of GraphicElement instances with image links (content) and descriptions.
+    """
+    # Define a pattern to match the <img> tag, extract its src (image link) and alt (dimensions and description)
+    pattern = re.compile(r'<img\s+[^>]*src=["\']([^"\']+)["\'][^>]*alt="\[Image: (\d+x\d+) - (.*?)\]"[^>]*>')
+    
+    # Find all matches in the HTML content
+    matches = pattern.findall(html_content)
+    
+    # Create a list to store the results
+    image_elements = []
+    
+    # Iterate over the matches to create GraphicElement instances
+    for image_link, dimensions, description in matches:
+        # Reconstruct the description in the required format
+        formatted_description = f"[Image: {dimensions} - {description}]"
+        
+        # Create a GraphicElement instance
+        image_element = GraphicElement(
+            element_type="image",
+            description=formatted_description,  # Store the description in the specified format
+            content=image_link  # Store the image link as content
+        )
+        image_elements.append(image_element)
+    
+    return image_elements
+
 def replace_text_descriptions(html_content: str, text_elements: List[GraphicElement]) -> str:  
     """  
     Replaces original text descriptions in HTML with the expanded text descriptions.  

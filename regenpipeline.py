@@ -4,7 +4,7 @@ from uuid import uuid4
 import streamlit as st
 import asyncio
 from imgen import run_image_prediction
-from extractors import replace_image_descriptions, replace_text_descriptions, extract_text_descriptions
+from extractors import replace_image_descriptions, replace_text_descriptions, extract_text_descriptions, extract_image_links
 from utils.initialize_client import initialize_azure_openai_client
 
 
@@ -16,66 +16,9 @@ class GraphicElement:
         self.content = content
         self.refined = refined
 
-# takes in html file generated during first iteration
-# async def regenerate_content(html_content: str) -> str:
-#     st.subheader("Regenerate Components")
-#     image_elements = extract_image_links(html_content)
-#     text_elements = extract_text_descriptions(html_content)
-
-#     if not image_elements and not text_elements:
-#         st.warning("No images or text components found in the HTML content.")
-#         return html_content
-
-#     # Initialize selected component state if it doesn't exist
-#     if "selected_component" not in st.session_state:
-#         st.session_state.selected_component = None
-#     if "image_input" not in st.session_state:
-#         st.session_state.image_input = ""
-#     if "text_input" not in st.session_state:
-#         st.session_state.text_input = ""
-
-#     # Displaying image components with buttons
-#     for idx, image_element in enumerate(image_elements):
-#         st.image(image_element.content, caption=image_element.description, use_column_width=True)
-#         if st.button(f"Select Image {idx + 1} for Regeneration"):
-#             st.session_state.selected_component = ("image", idx)
-
-#     # Displaying text components with buttons
-#     for idx, text_element in enumerate(text_elements):
-#         st.write(text_element.description)
-#         if st.button(f"Select Text {idx + 1} for Regeneration"):
-#             st.session_state.selected_component = ("text", idx)
-
-#     # Handle regeneration for selected component
-#     if st.session_state.selected_component:
-#         component_type, index = st.session_state.selected_component
-
-#         if component_type == "image" and index < len(image_elements):
-#             image_element = image_elements[index]
-#             st.text_input("How would you like to refine the image?", value=st.session_state.image_input, key="image_input")
-#             if st.button("Submit"):
-#                 regenerated_image_element = await regenerate_image(st.session_state.image_input, image_element)
-#                 st.image(regenerated_image_element.content, caption=regenerated_image_element.refined, use_column_width=True)
-#                 st.markdown("---")  # Separator for clarity
-#                 updated_html = replace_image_descriptions(html_content, [regenerated_image_element])
-#                 st.write(updated_html, unsafe_allow_html=True)  # Display the HTML content
-
-#         elif component_type == "text" and index < len(text_elements):
-#             text_element = text_elements[index]
-#             st.text_input("How would you like to refine the text?", value=st.session_state.text_input, key="text_input")
-#             if st.button("Submit"):
-#                 regenerated_text_element = await regenerate_text(st.session_state.text_input, text_element)
-#                 st.write("Regenerated text: " + regenerated_text_element.content)
-#                 st.markdown("---")  # Separator for clarity
-#                 updated_html = replace_text_descriptions(html_content, [regenerated_text_element])
-#                 st.write("Regenerated HTML: " + updated_html, unsafe_allow_html=True)  # Display the HTML content
-
-#     return html_content
-
-
-
 # NEED TO TWEAK TO FOLLOW IMAGE DESCRIPTION FORMAT
-async def gpt_regen_image_desc(combined_input: str) -> str:  
+async def gpt_regen_image_desc(previous_description: str, user_refinement: str, target_audience: str, 
+                               stylistic_description: str,  content_description: str, format: str) -> str:  
     """  
     Uses GPT to generate a refined description based on the combined input.  
   
@@ -90,17 +33,27 @@ async def gpt_regen_image_desc(combined_input: str) -> str:
   
     # Construct the grounded prompt for the OpenAI model  
     grounded_prompt = f"""  
-    You are an AI assistant tasked with refining image descriptions based on user input.  
-    Given the original description and the user's request for refinement, update the image  
-    description to best suit the user's input while retaining aspects of the original description  
-    that are not relevant to the user's input.  
-  
-    Original Description: {combined_input.split('. User wants to refine it: ')[0]}  
-    User's Refinement Request: {combined_input.split('. User wants to refine it: ')[1]}  
-      
-    Provide a refined image description that incorporates the user's input but does not alter  
-    aspects of the original description that are not relevant to the user's input. The description  
-    should be concise and specific, within 85 words.  
+    You are an AI assistant tasked with refining image descriptions while ensuring consistency with the 
+    first iteration of an image generated based on the original description.
+
+    Given the original description used to generate the image, the user's request for refinement, 
+    and the context for the target audience, stylistic preferences, content description, and format, 
+    update the image description. Ensure the regenerated description aligns closely with the first image iteration, 
+    only modifying aspects directly related to the user's refinement request.
+
+    Constraints:
+    - Retain the core aspects of the image described in the original prompt.
+    - Ensure the description remains suitable for the specified target audience: {target_audience}.
+    - Maintain the stylistic tone and aesthetic preferences: {stylistic_description}.
+    - Adhere to the content description: {content_description}.
+    - Ensure the final description follows the desired format: {format}.
+
+    Original Description (used to generate the initial image): {previous_description}
+    User's Refinement Request: {user_refinement}
+
+    Generate a refined description that incorporates the user's refinement request without altering aspects 
+    not directly related to the input. The description should closely follow the initial image's content and style 
+    while respecting the user input.
     """  
   
     # Generate the refined description using GPT  
@@ -120,36 +73,9 @@ async def gpt_regen_image_desc(combined_input: str) -> str:
     # result = "A beautiful sunrise over the mountains, featuring vibrant hues of orange, pink, and gold spreading across the sky. The clear sky accentuates the stunning color palette, making the scene even more breathtaking."
 
 
-async def regenerate_questions(combined_input):
-    """
-    Generates a list of questions specifically tailored to drug 
-    preventative education material based on a placeholder 
-    description of content.
-    """
-
-    # if necessary generate qns based on previous desc and user input
-    # if not necessary (user input is abt writing style or smth)
-    # only alters part of content that users specify 
-    prompt = f"""Generate an adequate list of questions that can be used find relevant \
-            details from knowledge base with drug preventative education material from \
-            the Central Narcotics Bureau of Singapore that can be used to expand on this \
-            placeholder description of a paragraph: \
-            {content_description}. \
-            Only return the questions, each on a new line please.
-            return a maximum of 4 questions.
-            """
-    
-    #regular openai api
-    response = await create_openai_completion(prompt)
-    
-    content = response.choices[0].message.content
-    questions = content.split('\n')
-    # questions = response.choices[0].text.strip().split('\n')
-    return questions
-
 
 # NEED TO TWEAK TO INCORPORATE TEXT-RAG
-async def gpt_regen_text_desc(combined_input: str) -> str:  
+async def gpt_regen_text_desc(previous_text: str, user_refinement: str) -> str:  
     """  
     Uses GPT to generate a refined description based on the combined input.  
   
@@ -170,8 +96,8 @@ async def gpt_regen_text_desc(combined_input: str) -> str:
     description to best suit the user's input while retaining aspects of the original description  
     that are not relevant to the user's input.  
   
-    Original Description: {combined_input.split('. User wants: ')[0]}  
-    User's Refinement Request: {combined_input.split('. User wants: ')[1]}  
+    Original Description: {previous_text}
+    User's Refinement Request: {user_refinement}  
   
     Provide a refined text description that incorporates the user's input but does not alter  
     aspects of the original description that are not relevant to the user's input. The description  
@@ -203,7 +129,8 @@ async def gpt_regen_text_desc(combined_input: str) -> str:
     return result  
 
 
-async def regenerate_image(user_input: str, element: GraphicElement) -> GraphicElement:
+async def regenerate_image(user_input: str, target_audience: str, stylistic_description: str, content_description: str,
+                            format: str, element: GraphicElement) -> GraphicElement:
     """
     Regenerates an image based on the previous description and user input.
     
@@ -216,10 +143,16 @@ async def regenerate_image(user_input: str, element: GraphicElement) -> GraphicE
     """
     previous_description = element.description
     # Combine user input with the previous description
-    combined_input = f"{previous_description}. User wants to refine it: {user_input}"
     
   
-    regenerated_image_desc = await gpt_regen_image_desc(combined_input)
+    regenerated_image_desc = await gpt_regen_image_desc(
+        previous_description,
+        user_input,
+        target_audience=target_audience,
+        stylistic_description=stylistic_description,
+        content_description=content_description,
+        format=format,
+    )
 
     # Create a new element with the updated content
     # description needs to be prev description to be able to replace regenerated image url to html file
@@ -255,10 +188,12 @@ async def regenerate_text(user_input: str, element: GraphicElement) -> GraphicEl
         GraphicElement: A new GraphicElement with refined text.  
     """  
     previous_text = element.description  
-    combined_input = f"Refine the following text: {previous_text}. User wants: {user_input}"  
   
     # Call GPT to generate refined text  
-    refined_text = await gpt_regen_text_desc(combined_input)  
+    refined_text = await gpt_regen_text_desc(
+        previous_text,
+        user_input
+    )  
   
     # Create a new element with the updated content  
     refined_element = GraphicElement(  
@@ -269,40 +204,6 @@ async def regenerate_text(user_input: str, element: GraphicElement) -> GraphicEl
     )  
   
     return refined_element  
-
-def extract_image_links(html_content: str) -> List[GraphicElement]:
-    """
-    Extracts image links and descriptions from the HTML content and returns a list of GraphicElement instances.
-    
-    Args:
-        html_content (str): The HTML content as a string.
-    
-    Returns:
-        List[GraphicElement]: A list of GraphicElement instances with image links (content) and descriptions.
-    """
-    # Define a pattern to match the <img> tag, extract its src (image link) and alt (dimensions and description)
-    pattern = re.compile(r'<img\s+[^>]*src=["\']([^"\']+)["\'][^>]*alt="\[Image: (\d+x\d+) - (.*?)\]"[^>]*>')
-    
-    # Find all matches in the HTML content
-    matches = pattern.findall(html_content)
-    
-    # Create a list to store the results
-    image_elements = []
-    
-    # Iterate over the matches to create GraphicElement instances
-    for image_link, dimensions, description in matches:
-        # Reconstruct the description in the required format
-        formatted_description = f"[Image: {dimensions} - {description}]"
-        
-        # Create a GraphicElement instance
-        image_element = GraphicElement(
-            element_type="image",
-            description=formatted_description,  # Store the description in the specified format
-            content=image_link  # Store the image link as content
-        )
-        image_elements.append(image_element)
-    
-    return image_elements
 
     ## EXAMPLE USAGE
 
@@ -321,3 +222,31 @@ def extract_image_links(html_content: str) -> List[GraphicElement]:
     #     GraphicElement('image', '[Image: 400x300 - A serene mountain]', content="http://example.com/image2.png"),  
     #     GraphicElement('image', '[Image: 500x400 - A bustling city]', content="http://example.com/image3.gif")  
     # ]  
+    
+    
+    # async def regenerate_questions(combined_input):
+#     """
+#     Generates a list of questions specifically tailored to drug 
+#     preventative education material based on a placeholder 
+#     description of content.
+#     """
+
+#     # if necessary generate qns based on previous desc and user input
+#     # if not necessary (user input is abt writing style or smth)
+#     # only alters part of content that users specify 
+#     prompt = f"""Generate an adequate list of questions that can be used find relevant \
+#             details from knowledge base with drug preventative education material from \
+#             the Central Narcotics Bureau of Singapore that can be used to expand on this \
+#             placeholder description of a paragraph: \
+#             {content_description}. \
+#             Only return the questions, each on a new line please.
+#             return a maximum of 4 questions.
+#             """
+    
+#     #regular openai api
+#     response = await create_openai_completion(prompt)
+    
+#     content = response.choices[0].message.content
+#     questions = content.split('\n')
+#     # questions = response.choices[0].text.strip().split('\n')
+#     return questions

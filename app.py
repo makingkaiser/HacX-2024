@@ -269,9 +269,14 @@ async def main():
                     # Regenerate the image
                     if component_type == "image":
                         regenerated_image_element = await regenerate_image(
-                            st.session_state.image_input, 
-                            image_elements[index]
+                            user_input=st.session_state.image_input, 
+                            target_audience=target_audience,
+                            stylistic_description=stylistic_description,
+                            content_description=content_description,
+                            format=format,
+                            element=image_elements[index]
                         )
+                        
                         st.image(regenerated_image_element.content, caption=regenerated_image_element.refined, use_column_width=True)
                         image_elements[index] = regenerated_image_element
                         updated_html = replace_image_descriptions(st.session_state.placeholder_html_content, image_elements)
