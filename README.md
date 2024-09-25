@@ -31,3 +31,11 @@ You'll also need Azure and OpenAI API keys for this project to work, which can b
    ```bash
    git clone https://github.com/makingkaiser/HacX-2024.git
    cd HacX-2024
+
+2. **Set up environment variables:**
+    Use the .env file provided to store your API keys and other configuration variables.
+   
+3. **Install the dependencies:** Install the required Python packages using pip:
+   ```bash
+   pip install -r requirements.txt
+   
