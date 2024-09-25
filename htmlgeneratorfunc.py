@@ -37,7 +37,6 @@ async def generate_html_content(target_audience: str, stylistic_description: str
         <li><a href="#">Contact</a></li>  
     as it is supposed to look like a static page. 
 
-
     1. for the text content, it is sufficient to write [DESCRIPTION: ""],  with a short description text describing what is the content supposed to be. e.g: [DESCRIPTION: A brief introduction to the dangers of drug abuse]
 
     2. For any images, specify the dimension, then replace the image link with a detailed description of a single image suitable for prompting an image model, like this: <div class="IMAGE_PLACEHOLDER"> [Image: 600x400] - A supportive scene showing a counselor or support group helping young adults. The image should convey a sense of hope and community, with warm, welcoming colors and expressions.] </div> 
@@ -58,8 +57,9 @@ async def generate_html_content(target_audience: str, stylistic_description: str
     
     8. Makes sure the background colour of the header and footer banner is a colour that allows the black header text to be visible.
     
-    EXAMPLE OUTPUT - for image and text descriptions, you do not have to follow it exactly, but the adjacent text and images should be coherent. :
-
+    For image and text descriptions, you do not have to follow it exactly, but the adjacent text and images should be coherent. 
+    
+    Follow this EXAMPLE OUTPUT:
     <!DOCTYPE html>
     <html lang="en">
     <head>
