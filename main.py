@@ -9,7 +9,7 @@ from extractors import extract_image_descriptions, extract_text_descriptions, re
 from imgen import run_multiple_image_predictions, run_multiple_image_refinements
 # from azureairag import run_multiple_text_refinements_rag
 from RAG.text_rag.llama_index_text_search_engine import run_multiple_text_refinements
-
+from azureairag import run_multiple_text_refinements_rag
 # Configure logging  
 logging.basicConfig(level=logging.INFO)  
   
@@ -77,12 +77,13 @@ async def flesh_out_html_images(input_html: str, target_audience: str, stylistic
 
 
 async def flesh_out_html_text(input_html: str, target_audience: str, content_description: str, format: str) -> (str, list):
-    # Extract text elements from the input HTML
+    # Extract text elements from the input 
+    print("INPUT HTML RECIEVED: ", input_html)
     text_elements = extract_text_descriptions(input_html)
     
     # Refine text elements using RAG
     #run_multiple_text_refinements_rag for azureairag
-    refined_text_elements = await run_multiple_text_refinements(
+    refined_text_elements = await run_multiple_text_refinements_rag(
         text_elements,
         target_audience=target_audience,
         content_description=content_description,

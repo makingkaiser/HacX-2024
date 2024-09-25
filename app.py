@@ -134,13 +134,14 @@ async def main():
         st.write("## Generator Settings")
         st.markdown("### Fill out the details below:")
         target_audience = st.text_input("Target Audience", "Type here, e.g.: general audience")
-        stylistic_description = st.text_input("Stylistic Description", "Type here, e.g.: 90's cartoon style")
+        stylistic_description = st.text_input("Stylistic Description","Type here, e.g.: 90's cartoon style")
         content_description = st.text_input("Content Description", "Type here, e.g.: various scenes")
         format = st.text_input("Format", "Type here, e.g.: pamphlet")
 
     with st.container():
-        st.markdown("### Your Generated Content")
-        st.write("Use the form on the left to generate content. Once you're ready, click the button below.")
+        st.markdown("### Hi, I'm Inky!")
+        st.markdown("#### I'm here to help you create content and ideas for your preventive drug education material.")
+        st.write("Let's work together to make cool content! just use the form on the left to tell me your ideas. Once you're ready, click the button below.")
         
         if st.button("Generate!"):
             if not target_audience or not stylistic_description or not content_description or not format:
@@ -203,6 +204,13 @@ async def main():
             st.fragment("Generated content")
             image_carousel(st.session_state.image_urls)
             st.html(st.session_state.fleshed_out_html_content)
+
+            st.download_button(
+            label="Download HTML",
+            data=st.session_state.fleshed_out_html_content,
+            file_name="generated_content.html",
+            mime="text/html"
+            )
 
             # Regeneration section
             if st.button("Regenerate"):
@@ -289,6 +297,13 @@ async def main():
                     st.session_state.fleshed_out_html_content = updated_html
                     st.markdown("---")
                     st.html(st.session_state.fleshed_out_html_content)
+
+                    st.download_button(
+                    label="Download Updated HTML",
+                    data=st.session_state.fleshed_out_html_content,
+                    file_name="updated_content.html",
+                    mime="text/html"
+                    )
                     st.session_state.component_ready_to_submit = False  # Reset after regeneration
                     
                 

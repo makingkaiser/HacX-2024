@@ -8,17 +8,14 @@ from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv()
-endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
-deployment = "gpt-4-turbo"
-search_endpoint = os.getenv("AZURE_SEARCH_SERVICE_ENDPOINT_AZUREAIRAG")
-search_key = os.getenv("AZURE_SEARCH_SERVICE_ADMIN_KEY_AZUREAIRAG")
+endpoint = "https://homelandersopenai.openai.azure.com/"
+deployment = "gpt-4o"
+search_endpoint = "https://ai-azure-search-homelanders.search.windows.net"
+search_key = os.getenv("AZURE_SEARCH_KEY")
 subscription_key = os.getenv("AZURE_OPENAI_API_KEY")
 embeddings_endpoint = os.getenv("embeddings_endpoint")
 embeddings_model_name = "text-embedding-ada-002"
-
 # Initialize Azure OpenAI client with key-based authentication
-
-
 class GraphicElement:
     def __init__(self, element_type, description, refined=None, content=None):
         self.id = str(uuid4())
@@ -64,50 +61,101 @@ async def refine_text_description_with_rag(element: GraphicElement, target_audie
     """
 
     completion = client.chat.completions.create(
-        model=deployment,
-        messages= [
-        {
-            "role": "user",
-            "content": prompt
-        }
-    ],
-        
-        max_tokens=4096,
-        temperature=0.7,
-        top_p=0.95,
-        frequency_penalty=0,
-        presence_penalty=0,
-        stop=None,
-        stream=False
-    ,
-        extra_body={
-        "data_sources": [{
-            "type": "azure_search",
-            "parameters": {
-                "filter": None,
-                "endpoint": f"{search_endpoint}",
-                "index_name": "dynamic-carrot-b392d48b6d",
-                "semantic_configuration": "azureml-default",
-                "authentication": {
+
+    model=deployment,
+
+    messages= [
+
+    {
+
+        "role": "system",
+
+        "content": "You are an AI assistant that helps people find information."
+
+    },
+
+    {
+
+        "role": "user",
+
+        "content": prompt
+
+    },
+],
+
+    
+
+    max_tokens=4096,
+
+    temperature=0.7,
+
+    top_p=0.95,
+
+    frequency_penalty=0,
+
+    presence_penalty=0,
+
+    stop=None,
+
+    stream=False
+
+,
+
+    extra_body={
+
+      "data_sources": [{
+
+          "type": "azure_search",
+
+          "parameters": {
+
+            "filter": None,
+
+            "endpoint": f"{search_endpoint}",
+
+            "index_name": "dynamic-carrot-b392d48b6d",
+
+            "semantic_configuration": "azureml-default",
+
+            "authentication": {
+
+              "type": "api_key",
+
+              "key": f"{search_key}"
+
+            },
+
+            "embedding_dependency": {
+
+              "type": "endpoint",
+
+              "endpoint": "https://homelandersopenai.openai.azure.com/openai/deployments/text-embedding-ada-002/embeddings?api-version=2023-07-01-preview",
+
+              "authentication": {
+
                 "type": "api_key",
-                "key": f"{search_key}"
-                },
-                "embedding_dependency": {
-                "type": "endpoint",
-                "endpoint": f"{embeddings_endpoint}/openai/deployments/{embeddings_model_name}/embeddings?api-version=2023-07-01-preview",
-                "authentication": {
-                    "type": "api_key",
-                    "key": f"{subscription_key}"
-                }
-                },
-                "query_type": "vector_simple_hybrid",
-                "in_scope": True,
-                "role_information": "",
-                "strictness": 3,
-                "top_n_documents": 5
-            }
-            }]
-        })
+
+                "key": f"{subscription_key}"
+
+              }
+
+            },
+
+            "query_type": "vector_simple_hybrid",
+
+            "in_scope": True,
+
+            "role_information": "You are an AI assistant that helps people find information.",
+
+            "strictness": 3,
+
+            "top_n_documents": 5
+
+          }
+
+        }]
+
+    })
     element.refined = completion.choices[0].message.content
 
 
@@ -117,6 +165,7 @@ async def run_multiple_text_refinements_rag(elements: List[GraphicElement], targ
     """
     tasks = [refine_text_description_with_rag(element, target_audience, content_description, format) for element in elements if element.type == "text"]  
     await asyncio.gather(*tasks)
+    print(f"elements recieved: {elements}")
     print("Refined Text Descriptions:")
     for num, element in enumerate(elements):
         print(num, element.refined)
