@@ -38,4 +38,31 @@ You'll also need Azure and OpenAI API keys for this project to work, which can b
 3. **Install the dependencies:** Install the required Python packages using pip:
    ```bash
    pip install -r requirements.txt
+
+4. **Usage**
+   Once you have installed the dependencies, you can run the application using Streamlit:
+   ```bash
+   streamlit run app.py
+
+## Dependencies:
+The project relies on several Python libraries. Below is a list of the core dependencies used in this application:
+
+Streamlit: A popular Python framework for building data science and machine learning web apps. (version 1.38.0)
+FastAPI: A modern, fast (high-performance) web framework for building APIs. (version 0.115.0)
+Llama Index: A tool for creating large language models, used for vector stores and embeddings. (version 0.11.11)
+OpenAI API: An API for accessing OpenAI models, including GPT. (version 1.47.0)
+Pydantic: Data validation and settings management using Python type annotations. (version 2.9.2)
+Azure Storage Blob: Azure SDK for interacting with blob storage.
+Replicate: A service for running machine learning models via API. (version 0.32.1)
+PymuPDF: A Python binding for the MuPDF PDF and document handling library. (version 1.24.10)
+Python-dotenv: For reading environment variables from .env files. (version 1.0.1)
+Azure Search Documents: SDK for Azure Cognitive Search.
+Additional Llama Index Integrations:
+   llama-index-embeddings-azure-openai
+   llama-index-embeddings-openai
+   llama-index-vector-stores-postgres
+   llama-index-vector-stores-azureaisearch
+Other Libraries:
+   requests: For making HTTP requests.
+   backoff: For retrying failed operations with exponential backoff.
    
