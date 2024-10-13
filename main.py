@@ -83,7 +83,7 @@ async def flesh_out_html_text(input_html: str, target_audience: str, content_des
     
     # Refine text elements using RAG
     #run_multiple_text_refinements_rag for azureairag
-    refined_text_elements = await run_multiple_text_refinements_rag(
+    refined_text_elements = await run_multiple_text_refinements(
         text_elements,
         target_audience=target_audience,
         content_description=content_description,
