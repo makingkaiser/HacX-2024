@@ -187,7 +187,7 @@ EXAMPLE OUTPUT :
             grid-column: 1 / -1;  
         }  
         .content-box img {  
-            width: 100%;  
+            width: 50%;  
             height: auto;  
             border-radius: 5px;  
         }  

@@ -111,16 +111,16 @@ async def generate_html_content(target_audience: str, stylistic_description: str
                 border-radius: 5px;  
             }}
             .image-placeholder {{  
-                background-color: #e0e0e0;  
-                height: 200px;  
-                display: flex;  
-                justify-content: center;  
-                align-items: center;  
-                margin-bottom: 15px;  
-                border-radius: 5px;  
-                font-style: italic;  
-                text-align: center;  
-                padding: 10px;  
+            background-color: #e0e0e0;  
+            height: 150px;  
+            display: flex;  
+            justify-content: center;  
+            align-items: center;  
+            margin-bottom: 10px;  
+            border-radius: 5px;  
+            font-style: italic;  
+            text-align: center;  
+            padding: 5px;  
             }}
             .footer {{  
                 grid-column: 1 / -1;  
@@ -167,13 +167,13 @@ async def generate_html_content(target_audience: str, stylistic_description: str
                 <h1>Protecting Our Families: Understanding and Preventing Drug Abuse</h1>
             </header>
 
-            <div class="content-box span-2">
+            <div class="content-box">
                 <div class="image-placeholder">
-                    [Image: 600x400 - A diverse group of Singaporean families enjoying quality time together in a park setting. The image should depict parents and children of various ages engaged in activities like picnicking, playing games, and talking, conveying a sense of unity and positive family dynamics.]
+                    [Image: 300x300 - A diverse group of Singaporean families enjoying quality time together in a park setting. The image should depict parents and children of various ages engaged in activities like picnicking, playing games, and talking, conveying a sense of unity and positive family dynamics.]
                 </div>
             </div>
 
-            <div class="content-box span-2">
+            <div class="content-box span-3">
                 [DESCRIPTION: "An introduction to the importance of family involvement in drug prevention, emphasizing the role of parents in guiding and supporting their children."]
             </div>
 
@@ -187,13 +187,13 @@ async def generate_html_content(target_audience: str, stylistic_description: str
                 </div>
             </div>
 
-            <div class="content-box span-2">
+            <div class="content-box span-3">
                 [DESCRIPTION: "Guidance on how to talk to children about drugs, including age-appropriate conversation starters and tips for maintaining open communication."]
             </div>
 
-            <div class="content-box span-2">
+            <div class="content-box">
                 <div class="image-placeholder">
-                    [Image: 600x300 - An image showing positive parent-child interaction. The scene should depict active listening and engaged conversation between parents and children of various ages.]
+                    [Image: 300x300 - An image showing positive parent-child interaction. The scene should depict active listening and engaged conversation between parents and children of various ages.]
                 </div>
             </div>
 
@@ -201,13 +201,13 @@ async def generate_html_content(target_audience: str, stylistic_description: str
                 [DESCRIPTION: "Signs and symptoms of drug use that parents should be aware of, including behavioral, physical, and social indicators."]
             </div>
 
-            <div class="content-box span-2">
+            <div class="content-box">
                 <div class="image-placeholder">
-                    [Image: 600x400 - A warm, inviting home environment with subtle visual cues representing a drug-free lifestyle. The image includes family members engaged in various positive activities like playing sports, or cooking together.]
+                    [Image: 300x300 - A warm, inviting home environment with subtle visual cues representing a drug-free lifestyle. The image includes family members engaged in various positive activities like playing sports, or cooking together.]
                 </div>
             </div>
 
-            <div class="content-box span-2">
+            <div class="content-box span-3">
                 [DESCRIPTION: "Strategies for creating a supportive home environment that discourages drug use, including establishing clear rules, promoting healthy activities, and strengthening family bonds."]
             </div>
 
