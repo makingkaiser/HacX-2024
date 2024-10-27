@@ -369,95 +369,79 @@ async def main():
             
             image_elements = st.session_state.image_elements_before_regeneration
             text_elements = st.session_state.text_elements_before_regeneration
+            updated_html = st.session_state.fleshed_out_html_content
 
-            # Display image components
+            # Display image components with inline regeneration
             for i, image_element in enumerate(image_elements):
-                st.image(image_element.content, caption=f"{image_element.description[:60]}...", use_column_width=True)
-                if st.button(f"Select Image {i+1} for regeneration", key=f"select_img_{i}"):
-                    st.session_state.selected_component = ('image', i)
+                st.image(image_element.content, caption=f"{image_element.description[:60]}...", width = 500)
 
-            # Display text components
+                if st.button(f"Select Image {i+1}", key=f"select_img_{i}"):
+                        st.session_state.selected_component = ('image', i)
+
+                # Show regeneration input right below the selected component
+                if st.session_state.selected_component and st.session_state.selected_component == ('image', i):
+                    image_input = st.text_input(
+                        "How would you like to refine this image?",
+                        key=f"image_input_{i}"
+                    )
+                    if st.button("Submit", key=f"submit_img_{i}"):
+                        with st.spinner("Regenerating image..."):
+                            regenerated_image_element = await regenerate_image(
+                                user_input=image_input,
+                                target_audience=target_audience,
+                                stylistic_description=stylistic_description,
+                                content_description=content_description,
+                                format=format,
+                                element=image_elements[i]
+                            )
+                            st.subheader("Regenerated Image")
+                            st.markdown("---")
+                            st.image(regenerated_image_element.content, caption=f"{regenerated_image_element.refined[:60]}...", width=500)
+                            st.markdown("---")
+                            image_elements[i] = regenerated_image_element
+                            updated_html = replace_image_descriptions(st.session_state.placeholder_html_content, image_elements)
+                            updated_html = replace_text_descriptions(updated_html, text_elements)
+                            st.session_state.fleshed_out_html_content = updated_html
+
+            # Display text components with inline regeneration
             for i, text_element in enumerate(text_elements):
                 st.html(text_element.refined)
-                if st.button(f"Select Text {i+1} for regeneration", key=f"select_text_{i}"):
+                
+                if st.button(f"Select Text {i+1}", key=f"select_text_{i}", use_container_width = True):
                     st.session_state.selected_component = ('text', i)
 
-            # Refinement input logic once a component is selected
-            if st.session_state.selected_component:
-                component_type, index = st.session_state.selected_component
-
-                # Handle image refinement
-                if component_type == "image" and index < len(image_elements):
-                    image_element = image_elements[index]
-                    st.session_state.image_input = st.text_input(
-                        "How would you like to refine the image?", 
-                        value=st.session_state.image_input
+                # Show regeneration input right below the selected component
+                if st.session_state.selected_component and st.session_state.selected_component == ('text', i):
+                    text_input = st.text_input(
+                        "How would you like to refine this text?",
+                        key=f"text_input_{i}"
                     )
-                    if st.button("Submit"):
-                        st.session_state.component_ready_to_submit = True
+                    if st.button("Submit", key=f"submit_text_{i}"):
+                        with st.spinner("Regenerating text..."):
+                            regenerated_text_element = await regenerate_text(
+                                text_input,
+                                text_elements[i]
+                            )
+                            st.subheader("Regenerated text")
+                            st.markdown("---")
+                            st.html(regenerated_text_element.refined)
+                            st.markdown("---")
+                            text_elements[i] = regenerated_text_element
+                            updated_html = replace_text_descriptions(st.session_state.placeholder_html_content, text_elements)
+                            updated_html = replace_image_descriptions(updated_html, image_elements)
+                            st.session_state.fleshed_out_html_content = updated_html
 
-                    
-                # Handle text refinement
-                elif component_type == "text" and index < len(text_elements):
-                    text_element = text_elements[index]
-                    st.session_state.text_input = st.text_input(
-                        "How would you like to refine the text?", 
-                        value=st.session_state.text_input
-                    )
-                    if st.button("Submit"):
-                        st.session_state.component_ready_to_submit = True
-                    
-            # After submission, regenerate the selected component
-            if st.session_state.component_ready_to_submit:
-                st.subheader("Regenerating component...")
-                with st.spinner("Inky is regenerating..."):
-                    component_type, index = st.session_state.selected_component
+            # Display final updated HTML at the bottom
+            st.markdown("---")
+            st.subheader("Regenerated HTML")
+            st.html(st.session_state.fleshed_out_html_content)
 
-                    # Regenerate the image
-                    if component_type == "image":
-                        regenerated_image_element = await regenerate_image(
-                            user_input=st.session_state.image_input, 
-                            target_audience=target_audience,
-                            stylistic_description=stylistic_description,
-                            content_description=content_description,
-                            format=format,
-                            element=image_elements[index]
-                        )
-                        
-                        st.image(regenerated_image_element.content, caption=regenerated_image_element.refined, use_column_width=True)
-                        image_elements[index] = regenerated_image_element
-                        updated_html = replace_image_descriptions(st.session_state.placeholder_html_content, image_elements)
-                        updated_html = replace_text_descriptions(updated_html, text_elements)
-
-                    
-                    # Regenerate the text
-                    elif component_type == "text":
-                        regenerated_text_element = await regenerate_text(
-                            st.session_state.text_input, 
-                            text_elements[index]
-                        )
-                        st.html(regenerated_text_element.refined)
-                        # text_elements is the list of text elements that is shown to user during first iteration
-                        # replace (in the list) the element that user wants to refine with the regenerated text element
-                        # replace the final list of elements back to the placeholder html
-                        text_elements[index] = regenerated_text_element
-                        updated_html = replace_text_descriptions(st.session_state.placeholder_html_content, text_elements)
-                        updated_html = replace_image_descriptions(updated_html, image_elements)
-
-                    # Update the session state with regenerated content
-                    st.success("Components regenerated!")
-                    st.session_state.fleshed_out_html_content = updated_html
-                    st.markdown("---")
-                    st.html(st.session_state.fleshed_out_html_content)
-
-                    st.download_button(
-                    label="Download Updated HTML",
-                    data=st.session_state.fleshed_out_html_content,
-                    file_name="updated_content.html",
-                    mime="text/html"
-                    )
-                    st.session_state.component_ready_to_submit = False  # Reset after regeneration
-                    
+            st.download_button(
+                label="Download Updated HTML",
+                data=st.session_state.fleshed_out_html_content,
+                file_name="updated_content.html",
+                mime="text/html"
+            )
                 
 if __name__ == "__main__":
     asyncio.run(main())
