@@ -179,7 +179,7 @@ def image_create_search_index(caption_directory):
                 except Exception as e:
                     print(f"Failed to process and upload {filename}: {e}")
 
-async def fetch_search_results(user_stylistic_description):
+async def fetch_search_results(user_stylistic_description, user_content_description):
     """
     Fetches relevant captions and their title from image-caption-rag
     and returns list of dictionaries:
@@ -197,7 +197,7 @@ async def fetch_search_results(user_stylistic_description):
                                  credential=credential)
 
     try:
-        search_results = search_client.search(search_text=user_stylistic_description, 
+        search_results = search_client.search(search_text=user_stylistic_description+user_content_description, 
                                  top=3, 
                                  select="image_caption, image_title"
                                  )
@@ -232,7 +232,7 @@ async def image_caption_rag_refinement(user_input, placeholder_image_desc, forma
     for sample output.
     """
     # Correctly awaiting the async function directly
-    search_results = await fetch_search_results(user_input['user_stylistic_description'])
+    search_results = await fetch_search_results(user_input['user_stylistic_description'],user_input['content_description'])
     reference_captions = [result['caption'] for result in search_results] if search_results else []
 
     

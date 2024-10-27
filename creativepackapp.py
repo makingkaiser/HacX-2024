@@ -98,6 +98,19 @@ import requests
 from io import BytesIO
 from creativepackuserinputparse import refine_and_generate_main, refine_and_generate_points
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # Ensures absolute path resolution
+GENERATED_IMAGES_DIR = os.path.join(BASE_DIR, 'generated_images')  # Path to the generated images directory
+
+def ensure_directories_exist():
+    """Ensure that all necessary directories exist."""
+    os.makedirs(GENERATED_IMAGES_DIR, exist_ok=True)
+    os.makedirs(os.path.join(GENERATED_IMAGES_DIR, 'bgs'), exist_ok=True)
+    os.makedirs(os.path.join(GENERATED_IMAGES_DIR, 'slogans'), exist_ok=True)
+    os.makedirs(os.path.join(GENERATED_IMAGES_DIR, 'cards'), exist_ok=True)
+    os.makedirs(os.path.join(GENERATED_IMAGES_DIR, 'vectors'), exist_ok=True)
+    os.makedirs(os.path.join(GENERATED_IMAGES_DIR, 'visualaids'), exist_ok=True)
+    os.makedirs(os.path.join(GENERATED_IMAGES_DIR, 'graphs'), exist_ok=True)
+
 def download_image(url):
     """Helper function to download and display an image from a URL."""
     response = requests.get(url)
@@ -114,8 +127,9 @@ def list_sorted_images(directory):
         return files
     return []
 
-def display_images_from_directory(directory, caption, num_columns=3):
+def display_images_from_directory(directory_name, caption, num_columns=3):
     """Display images from a specified directory."""
+    directory = os.path.join(GENERATED_IMAGES_DIR, directory_name)
     files = list_sorted_images(directory)
     if files:
         st.write(caption)
@@ -129,6 +143,7 @@ async def generate_and_display_images(target_audience, stylistic_description, co
     return True
 
 def main():
+    ensure_directories_exist()
     st.title("Drug Prevention Educational Material Generator")
 
     # Display the cute octopus image
@@ -150,9 +165,9 @@ def main():
 
     if 'images_generated' in st.session_state and st.session_state['images_generated']:
         # Displaying generated images in a structured format
-        display_images_from_directory("C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\generated_images\\bgs", "Generated Background Images")
-        display_images_from_directory("C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\generated_images\\slogans", "Generated Slogan Images")
-        display_images_from_directory("C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\generated_images\\cards", "Generated Card Images")
+        display_images_from_directory("bgs", "Generated Background Images")
+        display_images_from_directory("slogans", "Generated Slogan Images")
+        display_images_from_directory("cards", "Generated Card Images")
 
         # User input for statistics
         further_input = st.text_input("Support your creation with statistics! What kind of statistics should we find?", placeholder="Enter statistics separated by commas")
@@ -171,14 +186,14 @@ def main():
                     with st.container():
                         st.markdown(f"<div style='background-color:#f0f2f6;padding:10px;border-radius:10px;'>\
                             <h4 style='color:#333;'>{stat}</h4></div>", unsafe_allow_html=True)
-                        vector_images = list_sorted_images("C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\generated_images\\vectors")
-                        visualaid_images = list_sorted_images("C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\generated_images\\visualaids")
+                        vector_images = list_sorted_images(os.path.join(GENERATED_IMAGES_DIR, "vectors"))
+                        visualaid_images = list_sorted_images(os.path.join(GENERATED_IMAGES_DIR, "visualaids"))
                         if vector_images and visualaid_images:
                             cols = st.columns(3)
                             index = statistics.index(stat)
                             cols[0].image(vector_images[index % len(vector_images)], caption="Vector Image", use_column_width=True)
                             cols[1].image(visualaid_images[index % len(visualaid_images)], caption="Visual Aid", use_column_width=True)
-                            graph_images = list_sorted_images("C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\generated_images\\graphs")
+                            graph_images = list_sorted_images(os.path.join(GENERATED_IMAGES_DIR, "graphs"))
                             if index < len(graph_images):  # Check to avoid index out of range error
                                 cols[2].image(graph_images[index], caption="Retrieved Graph", use_column_width=True)
                             else:
@@ -186,5 +201,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
