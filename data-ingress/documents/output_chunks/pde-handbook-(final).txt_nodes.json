@@ -1,14 +1,14 @@
 [
     {
-        "id_": "59635479-a4b7-4c93-a988-10361fda1dd2",
+        "id_": "d6e84dd8-ed20-46f3-9bef-eac117d227be",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -28,21 +28,21 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "f7c0b0a1-0ccb-4947-8b31-4c1dd7064b54",
+                "node_id": "679e6d0a-ca77-4b60-ad6c-0e0cbd4ad270",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "7e6b45a95f84aa0b6fefbd61d547060f2fc0339f80debacd208b59d4cc542a67",
@@ -59,15 +59,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "f7c0b0a1-0ccb-4947-8b31-4c1dd7064b54",
+        "id_": "679e6d0a-ca77-4b60-ad6c-0e0cbd4ad270",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -87,35 +87,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "59635479-a4b7-4c93-a988-10361fda1dd2",
+                "node_id": "d6e84dd8-ed20-46f3-9bef-eac117d227be",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "79296315733b11804be0ae5139002060ea4e3aa922ec502e6b256288229bc244",
+                "hash": "03e418ab3546b38a81531d4403685303f9d043c72ed01e77e83afaa6c6dffedd",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "f20b0a5e-d657-45d6-874f-63e9494ab2cc",
+                "node_id": "4b2619d9-8341-49aa-ab0f-dcf6d65a0b36",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "a76bafafcf51b394bf8764a91e14c049d1c61a1e23cf94be07bfbcc5f9f5e118",
@@ -132,15 +132,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "f20b0a5e-d657-45d6-874f-63e9494ab2cc",
+        "id_": "4b2619d9-8341-49aa-ab0f-dcf6d65a0b36",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -160,35 +160,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "f7c0b0a1-0ccb-4947-8b31-4c1dd7064b54",
+                "node_id": "679e6d0a-ca77-4b60-ad6c-0e0cbd4ad270",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "6d366bdfb4a48b62bf135f5b69f1541ae137d32439d6e90bd57d3666a3244d5a",
+                "hash": "8249cca4c9c51de63e6de319bcb152e2c588c1994b04bc3fb2a894dce9c36626",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "28a1dea0-a763-4396-8e80-045a83f02b5b",
+                "node_id": "5a0cc3da-4979-4781-be8a-c3f445235864",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "c36594611da6d5114163a3ceb27d23b6ce7fc427f2ab0c1da213205420b4722e",
@@ -205,15 +205,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "28a1dea0-a763-4396-8e80-045a83f02b5b",
+        "id_": "5a0cc3da-4979-4781-be8a-c3f445235864",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -233,35 +233,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "f20b0a5e-d657-45d6-874f-63e9494ab2cc",
+                "node_id": "4b2619d9-8341-49aa-ab0f-dcf6d65a0b36",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "ac850e788a99f3a8ccff3d1a769a66663db4e363ebbae5e6ea14358027be7a65",
+                "hash": "9b68d811845f4a83dc214191d41b8a2af6dd685d535e7cf9da9a7a2522d4f578",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "ab73a4d4-b98c-4c2d-8cf7-41804f7f8c4a",
+                "node_id": "22fab874-e16d-4f8b-a010-75a81197d990",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "54b7948ff4364e073f6a7bad45e8fc7e969096cf171239ee13e75a966aeaa6a5",
@@ -278,15 +278,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "ab73a4d4-b98c-4c2d-8cf7-41804f7f8c4a",
+        "id_": "22fab874-e16d-4f8b-a010-75a81197d990",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -306,35 +306,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "28a1dea0-a763-4396-8e80-045a83f02b5b",
+                "node_id": "5a0cc3da-4979-4781-be8a-c3f445235864",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "a5744f98fad8c23f8b2bb45225a56d010712acdc1db4909a09d3753305ac389a",
+                "hash": "02b522133e53c743376f892585d4eddb565b84b0b34bc2aedee5df4a1736247d",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "1dd35680-ef37-4bef-9abe-0a1042faa81d",
+                "node_id": "31c11593-b01a-480f-b007-3627055bfb53",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "6899975805b863c64c28fcd2b0522a92dc7d66474c61c588c0ae4e4db3c80421",
@@ -351,15 +351,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "1dd35680-ef37-4bef-9abe-0a1042faa81d",
+        "id_": "31c11593-b01a-480f-b007-3627055bfb53",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -379,35 +379,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "ab73a4d4-b98c-4c2d-8cf7-41804f7f8c4a",
+                "node_id": "22fab874-e16d-4f8b-a010-75a81197d990",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "be3d137437cbfd01e82eb5b1a61528af1084266e86c6b53e4771955d4bf4c6f0",
+                "hash": "eb7a2c6cdaa71434ad6b7a455f626fc94e136e5fcba2077e19cb17fc15f5bd32",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "0153e63d-4aa2-4e8d-bc44-2033d1e294a9",
+                "node_id": "68328b20-d81a-4bf5-9232-d27f8a5d3ead",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "94aa9c886ac81d6db3e6349c2160d2697d490b6eb2b8c42e96c16ef5e0077e1d",
@@ -424,15 +424,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "0153e63d-4aa2-4e8d-bc44-2033d1e294a9",
+        "id_": "68328b20-d81a-4bf5-9232-d27f8a5d3ead",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -452,35 +452,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "1dd35680-ef37-4bef-9abe-0a1042faa81d",
+                "node_id": "31c11593-b01a-480f-b007-3627055bfb53",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "8eb0b63267b98c947f2772a851351c5da165913150acabd65383ead2c744a1e4",
+                "hash": "6754059fb7384c588339b8091ea9bc4359723d6b3ac8cd226dea63718a7c60d2",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "72f17a1d-3ff6-4373-9abd-6db0688b6d1c",
+                "node_id": "0273d776-825d-43cf-9187-4f5611f4d88c",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "fe0aa402ccc08388d14de49df2ee9368c90428a2c8785beb6c929a8eea0e7bdb",
@@ -497,15 +497,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "72f17a1d-3ff6-4373-9abd-6db0688b6d1c",
+        "id_": "0273d776-825d-43cf-9187-4f5611f4d88c",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -525,35 +525,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "0153e63d-4aa2-4e8d-bc44-2033d1e294a9",
+                "node_id": "68328b20-d81a-4bf5-9232-d27f8a5d3ead",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "a9ef9326852b8ba19f9092c9353982b82c9077646675e9f5eb21029d1883336a",
+                "hash": "efb91da0da84f9f90dce4cde996fe1f5560d52f1e10acb24b21de5850d14aec2",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "42138e23-e1ee-41c1-a056-1da294a427b1",
+                "node_id": "1845ad57-5759-481b-a709-2f988c7f3ee0",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "60290531d553483f9f16ec046caddaa2615a3b675a284d8584c6764901c36a35",
@@ -570,15 +570,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "42138e23-e1ee-41c1-a056-1da294a427b1",
+        "id_": "1845ad57-5759-481b-a709-2f988c7f3ee0",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -598,35 +598,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "72f17a1d-3ff6-4373-9abd-6db0688b6d1c",
+                "node_id": "0273d776-825d-43cf-9187-4f5611f4d88c",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "2f5f302fcdaf30270ea15425d26fb95073cd0066f60358b6a331eac6e364653a",
+                "hash": "b1a3a9845aa524582f70a6338c9911fef9e1d52896e9b81f4587cf61bd8bd84b",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "3d6dfdd7-19e1-4c70-827e-33b33231e620",
+                "node_id": "14b86479-aebb-4c94-bff1-942f47776091",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "2febb9173fa993f56dce880447eca31daf29db64c5eb7c176f879eddf3cfec31",
@@ -643,15 +643,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "3d6dfdd7-19e1-4c70-827e-33b33231e620",
+        "id_": "14b86479-aebb-4c94-bff1-942f47776091",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -671,35 +671,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "42138e23-e1ee-41c1-a056-1da294a427b1",
+                "node_id": "1845ad57-5759-481b-a709-2f988c7f3ee0",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "249976b53e6a0fb84b6d4ea09cf6d4c9cf1654a0dd8e39833cfeae4bbf4c58f8",
+                "hash": "563cb330de8c86fd7798cbb0adc4107e6ef131ca8a904d5189adb646246d5cdd",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "7a92a098-f01b-4ff5-8cf5-0e549cbf24dd",
+                "node_id": "eea67621-46c3-415e-b81f-a85e97a51061",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "ca0f5480054e0eedfbf56b8f3f43bdd51fe533c22941b7945e3a800b167df0b6",
@@ -716,15 +716,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "7a92a098-f01b-4ff5-8cf5-0e549cbf24dd",
+        "id_": "eea67621-46c3-415e-b81f-a85e97a51061",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -744,35 +744,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "3d6dfdd7-19e1-4c70-827e-33b33231e620",
+                "node_id": "14b86479-aebb-4c94-bff1-942f47776091",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "3675103885b1519612abe7d94080a09e882dce78a3a49d1ad4761898a41f1634",
+                "hash": "7ac533fd970ca1873beb75b2d78fea6ffa9d78c6e7a4fa85aa81c2b863f58724",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "19ab17a4-d975-43e8-9e6f-b0f94c34ba02",
+                "node_id": "9305ec22-67a4-4bc9-b724-d52a428c1679",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "a18c6efb2c657b9b830ec2ed94d49e3671791e64afaef1feca585fb9ac13618b",
@@ -789,15 +789,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "19ab17a4-d975-43e8-9e6f-b0f94c34ba02",
+        "id_": "9305ec22-67a4-4bc9-b724-d52a428c1679",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -817,35 +817,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "7a92a098-f01b-4ff5-8cf5-0e549cbf24dd",
+                "node_id": "eea67621-46c3-415e-b81f-a85e97a51061",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "7a0dadbeed793fbbf5dda11575f8df3d0cb02134e182ba809ed7a9cdc406955b",
+                "hash": "fb6bbdc779291a01e0802c45774c4efcde6f838c7df058428eaa93c8d2dc472b",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "20371f13-7acf-4f5c-8dd9-696e4dad81bb",
+                "node_id": "7f949438-1c12-4ac8-9744-999fd0f70822",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "3f2f2713e245bb05239f142601cfc1986161c7fa2f402b4b51bce55ae52cd84e",
@@ -862,15 +862,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "20371f13-7acf-4f5c-8dd9-696e4dad81bb",
+        "id_": "7f949438-1c12-4ac8-9744-999fd0f70822",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -890,35 +890,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "19ab17a4-d975-43e8-9e6f-b0f94c34ba02",
+                "node_id": "9305ec22-67a4-4bc9-b724-d52a428c1679",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "0e6c475dfc56f0558eecd0eb0d392f1a210bb93c24a2b954e9e790bcc541c5a1",
+                "hash": "9295b1941e7243bcb9b8388fdd952c489c183ac1f4a260a87d62099a180a791d",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "a1b5c468-dff6-4592-b2f7-48a87854dff1",
+                "node_id": "3f639b76-738e-42ff-ba3d-f95e1b157f33",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "bff4b51a1eebc25de7a4f50d1f61b7025795ecf8cb834e80c78eeb41adce7252",
@@ -935,15 +935,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "a1b5c468-dff6-4592-b2f7-48a87854dff1",
+        "id_": "3f639b76-738e-42ff-ba3d-f95e1b157f33",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -963,35 +963,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "20371f13-7acf-4f5c-8dd9-696e4dad81bb",
+                "node_id": "7f949438-1c12-4ac8-9744-999fd0f70822",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "b2eeb2791c57e0262f55fe4c477480adbd573871d4730f2d2d96b851b00cff33",
+                "hash": "35775a3fdd1aa9f1f192220de828a2196a4dd5dacddb0ff4bd0f5ce21fef7368",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "9743f2ff-04f1-46fd-870f-cbd6161d2a5a",
+                "node_id": "2a85d60f-a6cc-4608-9fec-a377a857f735",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "48f1bbcb1b5086e739dbbdcd8695dd852afbc3641ae01ccfbe2e5e9875629a72",
@@ -1008,15 +1008,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "9743f2ff-04f1-46fd-870f-cbd6161d2a5a",
+        "id_": "2a85d60f-a6cc-4608-9fec-a377a857f735",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -1036,35 +1036,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "a1b5c468-dff6-4592-b2f7-48a87854dff1",
+                "node_id": "3f639b76-738e-42ff-ba3d-f95e1b157f33",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4d553d8972d9a4e3e8d14affda23325f9fc29f95f5b44dbb32c64db2cb483cf7",
+                "hash": "0ef35f45bf272f3dd3a4a1ccd25c9f51b3a7bee6577dda2e0ef78041793ba565",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "be029d40-db19-4323-8bb8-2319a0602419",
+                "node_id": "1b140692-346a-4a20-8135-ea85295cafda",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "cc43d5c12d89cc776105b386030d91226f1149c2a61c5ad5ca3cad6c69cb27ef",
@@ -1081,15 +1081,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "be029d40-db19-4323-8bb8-2319a0602419",
+        "id_": "1b140692-346a-4a20-8135-ea85295cafda",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -1109,35 +1109,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "9743f2ff-04f1-46fd-870f-cbd6161d2a5a",
+                "node_id": "2a85d60f-a6cc-4608-9fec-a377a857f735",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "52556cc8bbb07c9e497035c8cf40ffb63d16230d381b531164055b4dcbff24f3",
+                "hash": "e0a30cc982e7fc4af4635289cfbe043094991d7d64e5686966f2b795b45df32b",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "ba03ccdf-76a0-4fff-b359-c201a7a610d6",
+                "node_id": "5b7c8ab6-e5f7-4149-8567-584777a714ab",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "beb2701ea7ece6875d60c84b4def6d90eea185869beb1cb7b607b899ad33ef67",
@@ -1154,15 +1154,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "ba03ccdf-76a0-4fff-b359-c201a7a610d6",
+        "id_": "5b7c8ab6-e5f7-4149-8567-584777a714ab",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -1182,35 +1182,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "be029d40-db19-4323-8bb8-2319a0602419",
+                "node_id": "1b140692-346a-4a20-8135-ea85295cafda",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "8d807669508d1e5bbea192906e4cee3ec2069e2c9162386426f0784f4c20cd90",
+                "hash": "0a3e4aa3d7fc67cd66e6dcbd2f40ef01f1b45c265ba6c31d30d9b431465f2475",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "04befe8d-f02c-407e-882b-ddf56afa1122",
+                "node_id": "25ad49f1-7141-492c-995f-89b58f145b1b",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "04a2fb1a3f7744fc97bf90e94172fc13fb7c1820ff53d4d38ea752c1f39dbaec",
@@ -1227,15 +1227,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "04befe8d-f02c-407e-882b-ddf56afa1122",
+        "id_": "25ad49f1-7141-492c-995f-89b58f145b1b",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -1255,35 +1255,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "ba03ccdf-76a0-4fff-b359-c201a7a610d6",
+                "node_id": "5b7c8ab6-e5f7-4149-8567-584777a714ab",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "0248b0540eeaa235d35b41e50dbbef09f1bb357cccbbe2b83989214b0acbdd18",
+                "hash": "b7e4f405e888e443d350a17f0a23529dc7bf0499a717ae63e0dfebfffe738d37",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "c5cb4279-b423-4d0e-a696-be130c08623a",
+                "node_id": "798edcfe-e8e1-4d55-9559-0c67a549f771",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "e3a551c3fc49310abf0aa47e412366cdf53f1584c03dfdad16eb7068bf54888b",
@@ -1300,15 +1300,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "c5cb4279-b423-4d0e-a696-be130c08623a",
+        "id_": "798edcfe-e8e1-4d55-9559-0c67a549f771",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -1328,35 +1328,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "04befe8d-f02c-407e-882b-ddf56afa1122",
+                "node_id": "25ad49f1-7141-492c-995f-89b58f145b1b",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "bc610567576d4f8074474b9b38421321f67a8fe2df027eea34f61b9eed6e0a28",
+                "hash": "b856d799a420fee2fa1778adc567e7a77fc9ba1c5cf20b7ca3a15c4a3f2f1b98",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "776e192b-8e45-4e19-a618-f209614e75c1",
+                "node_id": "49b21e10-506a-401a-be69-c53ff5d164bc",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "17ad939b6890b8f71576b54fa940798802c4cd5aed2a0916646f65c0e09c2fae",
@@ -1373,15 +1373,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "776e192b-8e45-4e19-a618-f209614e75c1",
+        "id_": "49b21e10-506a-401a-be69-c53ff5d164bc",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -1401,35 +1401,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "c5cb4279-b423-4d0e-a696-be130c08623a",
+                "node_id": "798edcfe-e8e1-4d55-9559-0c67a549f771",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "48432ba9c6d44402bc40b8c581e70113615a6eab552c135850966f08a4bbcfe5",
+                "hash": "614c0ab7fa3df7f65d160f07baf5aabf32e009da9db11db6a9121e89ee208568",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "10ee0a03-766a-4bcf-92d8-e524bcf2259c",
+                "node_id": "c1c355df-c77c-46dd-9939-7f5c4568aca3",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "24b0c8484b5bb1af8aaf4c63ab338c5d8b09c0750a266e9eeae1d2c59183e4a4",
@@ -1446,15 +1446,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "10ee0a03-766a-4bcf-92d8-e524bcf2259c",
+        "id_": "c1c355df-c77c-46dd-9939-7f5c4568aca3",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -1474,35 +1474,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "776e192b-8e45-4e19-a618-f209614e75c1",
+                "node_id": "49b21e10-506a-401a-be69-c53ff5d164bc",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4a2cb835eb521e1a790c220873298ef5d2dd1235e581d8f24058366f363879a2",
+                "hash": "bc4573362f742c814fb9a4f28518ad141089163cbe361090317f608e7bd8a999",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "f84f7808-5c62-48cd-a0d3-791c1422ac50",
+                "node_id": "e0970825-ead2-496a-b5f6-6560cb4dc9f7",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "f59bfda91495f6789890f04f48edeb91bbf3c7eb4fef2f2b3ec19b27af85ee0e",
@@ -1519,15 +1519,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "f84f7808-5c62-48cd-a0d3-791c1422ac50",
+        "id_": "e0970825-ead2-496a-b5f6-6560cb4dc9f7",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -1547,35 +1547,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "10ee0a03-766a-4bcf-92d8-e524bcf2259c",
+                "node_id": "c1c355df-c77c-46dd-9939-7f5c4568aca3",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "04268a1fcbee5f7cb4c78b2b1649d1513cafbb17be136ab9d4fa933264c6fd7c",
+                "hash": "f0be5dce4ac3b182c83ad7449e5b31cddf68943c06422042fff612aeec097377",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "f3f0f028-37c7-4414-a4c8-f4f2e5e7d042",
+                "node_id": "a4dee838-b863-4282-b1d2-f261fcdddfc9",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "d1ff0e42ff100b66e750e3245aa023dc7eb41402f25c7c57285ff5a8b4f6490a",
@@ -1592,15 +1592,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "f3f0f028-37c7-4414-a4c8-f4f2e5e7d042",
+        "id_": "a4dee838-b863-4282-b1d2-f261fcdddfc9",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -1620,35 +1620,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "f84f7808-5c62-48cd-a0d3-791c1422ac50",
+                "node_id": "e0970825-ead2-496a-b5f6-6560cb4dc9f7",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "a3da59162ad226180c5a0993c244bdc9528099cec8e6093dc534dc08690abdf0",
+                "hash": "80797240915d868a6e04cc6f8087980176c161407c10cf6698efcd575a7cf6d3",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "e9b00cf8-732b-4669-a445-2ad0464804bc",
+                "node_id": "14d0d8cf-744b-46a6-9e21-c949a25c0c56",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "1ca6274f4f7a1c1c01ab6857e6438861bb4f017eb857114f50eb50f3e5cc473b",
@@ -1665,15 +1665,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "e9b00cf8-732b-4669-a445-2ad0464804bc",
+        "id_": "14d0d8cf-744b-46a6-9e21-c949a25c0c56",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
             "file_name": "pde-handbook-(final).txt",
             "file_type": "text/plain",
             "file_size": 26644,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -1693,31 +1693,31 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "e3f3d658-3e90-4b5b-8402-d858f5d7ff80",
+                "node_id": "8dc694c8-57ee-4a8d-8615-d6068efe49a4",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "4acd0937ce669ade217ebca106ff80e2bff017d8f236ffa7337e3f010ed6c1c7",
+                "hash": "21fd8caeb726bd6f52668a029b8d1dcc59162bd141f80bf7baecc535e257fafa",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "f3f0f028-37c7-4414-a4c8-f4f2e5e7d042",
+                "node_id": "a4dee838-b863-4282-b1d2-f261fcdddfc9",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\pde-handbook-(final).txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\pde-handbook-(final).txt",
                     "file_name": "pde-handbook-(final).txt",
                     "file_type": "text/plain",
                     "file_size": 26644,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "150b649ffd60a1539218904ae5150b4451d2a24c2d743b62370ab390da2193df",
+                "hash": "52b44498fd235c9c1c264127329722ef2cdbf4683c5938e5013b849a8e06550a",
                 "class_name": "RelatedNodeInfo"
             }
         },

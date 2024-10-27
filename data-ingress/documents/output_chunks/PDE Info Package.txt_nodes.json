@@ -1,0 +1,1587 @@
+[
+    {
+        "id_": "978b48a1-d51c-4ffc-bf54-2b34b9dc2e78",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+            "file_name": "PDE Info Package.txt",
+            "file_type": "text/plain",
+            "file_size": 20809,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "a52b8926-0253-4172-b23a-33a7b8765ef6",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a7dcc597ccb512e3e722e36b8e9ac4ad084416b3abfa76a1e815c1e172f7d257",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "6bd9fc73-4b6a-4d4f-a5f0-7f29d42c8dbf",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "0c041cfec806a5628f6e5077e630ad1ab480d3b8b217e8865135fa1dd6f64bd0",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "The Essentials to Help You \r\nChampion A Drug-Free Singapore\r\n\r\nPREVENTIVE DRUG\r\n\r\nEDUCATION TOOLKIT\r\n\r\nSingapore’s proximity to the world’s largest drug-producing region continues to pose a \r\nsignificant threat to our society. The harms of drugs are extensive and real – they don’t \r\njust affect your mind and body, but also the people around you. Livelihoods are lost, \r\nrelationships are destroyed, and those who grow up in a home environment of a drug \r\nabuser suffer. \r\n\r\nPartners like yourselves are essential in engaging and safeguarding our community \r\nagainst the harms of drugs.\r\n\r\nThis toolkit, comprising a handbook, a set of frequently asked questions and a deck of \r\npresentation slides, is designed to help you share within your organisation and spheres \r\nof influence what we as a community can do to help Singapore remain drug-free.\r\n\r\nThe essentials:\r\n\r\nTopic 1: Why Singapore is Tough on Drugs \r\n\r\nTopic 2: The Drug Situation in Singapore \r\n\r\nTopic 3: The Misuse of Drugs Act (MDA) 1973 \r\n\r\nTopic 4: What if Singapore Legalises Drugs?\r\n\r\nTopic 5: Tell-tale Signs of Drug Abuse and How to Help\r\n\r\nTopic 6: Pathways of Recovery for Drug Abusers \r\n\r\nAnnex A: Commonly Abused Drugs and Their Effects \r\n\r\nAnnex B: Useful Resources \r\n\r\nAnnex C: Helplines\r\n\r\nHOW TO USE\r\nTHIS TOOLKIT\r\n\r\n1\r\n\r\nBrought to you by\r\n\r\nInter-Ministry Committee\r\non Drug Prevention for Youths\r\n\r\nIn May 2023, the Inter-Ministry Committee (IMC) on Drug Prevention for Youths was set up, as a \r\nWhole-of-Government response to the drug problem among youths. Through strengthening drug \r\nprevention efforts on youths, parents and members of public, the IMC aims to engage and empower key \r\nstakeholders as amplifiers of the #DrugFreeSG message.\r\n\r\nSingapore aims to create a drug-free society where our people can work, live and play safely.\r\n\r\nOur strict laws ensure harmful drugs are kept out of the easy reach of most people, especially \r\nyouths, while enforcement efforts are focused on tackling drug supply and dismantling syndicates. \r\nOur approach may be seen as tough, but it places the welfare of the abuser and society at the \r\ncentre of our policies.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 0,
+        "end_char_idx": 2149,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "6bd9fc73-4b6a-4d4f-a5f0-7f29d42c8dbf",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+            "file_name": "PDE Info Package.txt",
+            "file_type": "text/plain",
+            "file_size": 20809,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "a52b8926-0253-4172-b23a-33a7b8765ef6",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a7dcc597ccb512e3e722e36b8e9ac4ad084416b3abfa76a1e815c1e172f7d257",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "978b48a1-d51c-4ffc-bf54-2b34b9dc2e78",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "e4aa0721ac452c8c7dccba62b2d21bdfc3dd0025c18490073cd04370fd37e576",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "ba5b41a6-9f66-476f-bebb-63bee2dc23af",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "32d137074ebbee908c2b7d15228d2736da6458cefed0e92ad7442c20cee9e5ec",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "As an open and well-connected country, Singapore is not immune to external influence and the \r\nworldwide movement for the legalisation and decriminalisation of cannabis. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 2149,
+        "end_char_idx": 2319,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "ba5b41a6-9f66-476f-bebb-63bee2dc23af",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+            "file_name": "PDE Info Package.txt",
+            "file_type": "text/plain",
+            "file_size": 20809,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "a52b8926-0253-4172-b23a-33a7b8765ef6",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a7dcc597ccb512e3e722e36b8e9ac4ad084416b3abfa76a1e815c1e172f7d257",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "6bd9fc73-4b6a-4d4f-a5f0-7f29d42c8dbf",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "97e9b3e88ac0dd8c73405f396bc23993ef3c15c8aad21ef7d9ce22ab3645b0fc",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "82691a47-34df-4ada-9aaa-264530655431",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "550aea2efd502055db960186e9ece8a0b4b2d473b2f38f6305a8165bab140596",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Singaporeans may \r\ngrow to be more accepting of drugs as a lifestyle choice.\r\n\r\nBut it is not just a personal choice – drug abuse bears repercussions at both an individual and \r\nsocietal standpoint. \r\n\r\nIt is thus important to reinforce the national consensus of zero tolerance towards drugs. This is \r\nwhy we need your help to spread the anti-drug message in your circles of influence and get our \r\ncommunity to stay resilient against drug abuse!\r\n\r\nWHY SINGAPORE IS\r\nTOUGH ON DRUGS\r\n\r\n2\r\n\r\n“Everything we do, even the slightest thing we do, can have a ripple effect \r\nand repercussions that emanate. If you throw a pebble into the water on \r\none side of the ocean, it can create a tidal wave on the other side.”\r\n\r\n– Victor Webster\r\n\r\n3\r\n\r\nMan who killed his mother,\r\ngrandmother after taking LSD\r\nto be confined indefinitely1\r\n\r\nWoman who stabbed\r\nherself in Tampines\r\npolice stand-off\r\nwas on drugs,\r\nget 6 months’ jail4\r\n\r\nBuangkok swordsman took \r\nsome unknown pills before\r\nleaving home with sword2\r\n\r\nMan who held woman at\r\nknifepoint in Yishun\r\ntests positive for drugs,\r\ncharged & remanded at IMH3\r\n\r\nDrugs don't just harm us,\r\nbut the people around us as well\r\n\r\nTHE\r\nDRUG SITUATION\r\nIN SINGAPORE\r\n\r\nWhile the local drug situation remains under control, we must not take this for granted. \r\nThe increasing cannabis consumption is one worrying trend, particularly among abusers \r\nbelow the age of 30. Many, particularly youths, still misperceive cannabis as less harmful \r\nand addictive than other substances, despite its proven harms.\r\n\r\nBack in the 19th century, Singapore \r\nhad faced a severe opium problem. \r\nWhat do you think Singapore would \r\nbe like now if we had failed to tackle \r\nthe opium problem?\r\n\r\nArchive\r\n\r\nScan to visualise \r\nwhat our future could \r\npossibly be, if we don't\r\nstand firm on  our\r\nzero-tolerance  stance.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 2319,
+        "end_char_idx": 4169,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "82691a47-34df-4ada-9aaa-264530655431",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+            "file_name": "PDE Info Package.txt",
+            "file_type": "text/plain",
+            "file_size": 20809,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "a52b8926-0253-4172-b23a-33a7b8765ef6",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a7dcc597ccb512e3e722e36b8e9ac4ad084416b3abfa76a1e815c1e172f7d257",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "ba5b41a6-9f66-476f-bebb-63bee2dc23af",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "9b202398ee3e18363e23f0e2a59afd2fb0373294378c8f95c48a4a6e68dcc4dd",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "1af1e238-501f-4973-8e47-f31ea3931079",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "95497f29b2b64dc18d53068f71f0ea7bc9106e0d992affc0adca6d5efb7c2bd7",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Do you think drug abuse affects just the \r\nindividual?\r\n\r\nWhat about their family and the wider \r\ncommunity? \r\n\r\nHow would this affect our social, economical \r\nand political landscape?\r\n4\r\n\r\nDID YOU KNOW?\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 4169,
+        "end_char_idx": 4377,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "1af1e238-501f-4973-8e47-f31ea3931079",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+            "file_name": "PDE Info Package.txt",
+            "file_type": "text/plain",
+            "file_size": 20809,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "a52b8926-0253-4172-b23a-33a7b8765ef6",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a7dcc597ccb512e3e722e36b8e9ac4ad084416b3abfa76a1e815c1e172f7d257",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "82691a47-34df-4ada-9aaa-264530655431",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "63e821724d3777f3f91aae918b13df874bcc599059bfd4eed586f4bb5b866171",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "4ff1596b-2189-4c31-887a-300421b95a07",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "032a29f33966101dc96e4b1a279bbd8f81f92dcd68e0c1ac19ac9d3f78c4f153",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Stress, curiosity and \r\nexternal influence are \r\nthe reasons commonly \r\ncited by youths for \r\ntaking drugs. \r\n\r\n1\r\n\r\nYouths today tend to \r\nhave a more permissive \r\nattitude towards drugs, \r\nlargely influenced by the \r\ninternet and social media. \r\n\r\n2\r\n\r\nThere is widespread \r\nmisinformation on drugs \r\non the internet, which \r\ndownplays or dismisses \r\nthe harms of drugs, \r\nespecially cannabis.\r\n\r\n3\r\n\r\nYouths may be more \r\nwilling to experiment \r\nwith cannabis, which is \r\noften misperceived as \r\na “soft and cool” drug.\r\n\r\n4\r\n\r\n5\r\n\r\n“We cannot always build the future \r\nfor our youth, but we can build our \r\nyouth for the future.”\r\n\r\n- Franklin D. Roosevelt\r\n\r\nHow can you help our youths work \r\ntogether towards a drug-free Singapore? \r\n\r\nMISUSE OF\r\n\r\nDRUGS ACT (MDA) 1973\r\n\r\nTraffick controlled drugs\r\nDepending on the drug class\r\nand quantity, the penalty ranges\r\nfrom imprisonment and caning to\r\nthe mandatory death penalty\r\n\r\n1\r\n\r\nPossess and consume\r\ncontrolled drugs\r\nOffenders may be liable\r\nfor imprisonment of up to\r\n10 years, or a fine not\r\nexceeding $20,000, or both\r\n\r\n2\r\n\r\nConsume controlled\r\ndrugs outside\r\nof Singapore\r\n\r\n3\r\n\r\nPossess drug\r\nparaphernalia\r\n\r\n4\r\n\r\nAllow and facilitate\r\ndrug activities\r\n\r\n5\r\n\r\nUnder the MDA 1973, it is an OFFENCE to:\r\n\r\n6\r\n\r\nWe need you to help keep\r\nSingapore drug-free, so we\r\ncan protect ourselves and\r\nour loved ones from the\r\nharms of drug abuse. \r\n\r\nScan to find out more on\r\nSingapore's drug laws.\r\n\r\nWHAT IF SINGAPORE\r\nLEGALISES DRUGS?\r\n\r\nThe global shift in attitudes toward drugs has led to the liberalisation of drug policies in some \r\ncountries. Supporters of drug legalisation claim that it would eradicate the illegal drug market, free \r\nup the criminal justice system and generate more revenue. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 4377,
+        "end_char_idx": 6139,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "4ff1596b-2189-4c31-887a-300421b95a07",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+            "file_name": "PDE Info Package.txt",
+            "file_type": "text/plain",
+            "file_size": 20809,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "a52b8926-0253-4172-b23a-33a7b8765ef6",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a7dcc597ccb512e3e722e36b8e9ac4ad084416b3abfa76a1e815c1e172f7d257",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "1af1e238-501f-4973-8e47-f31ea3931079",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "9d13dc5482585d98e6368dc67d67f2b0c125ab342f287286757207be5b161547",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "1518ce42-3032-43ac-9d97-b98c4ff97e6e",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "51b27432c3f853b9de0fcb2c5d5f2cf173673765c3967097e7f895bd16664402",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "However, this has proven unsuccessful. \r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 6139,
+        "end_char_idx": 6182,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "1518ce42-3032-43ac-9d97-b98c4ff97e6e",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+            "file_name": "PDE Info Package.txt",
+            "file_type": "text/plain",
+            "file_size": 20809,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "a52b8926-0253-4172-b23a-33a7b8765ef6",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a7dcc597ccb512e3e722e36b8e9ac4ad084416b3abfa76a1e815c1e172f7d257",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "4ff1596b-2189-4c31-887a-300421b95a07",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "ddc32e923e887749b5e47ecc8cede603a9c61497da855e0c819d1156f776dfbf",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "da64022a-80e9-4396-9f8f-5f45bd14470a",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "a431064d0b98b8e1fefbe8bddbfeb771d64adabc9dfa45d2749167067558ebf7",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "On the contrary, drug legalisation has resulted in increased drug abuse with higher frequency and \r\nsubstance potency. It also has widespread impacts on public health, the rule of law and general \r\nsocial harm.\r\n\r\nPotential Risks of Legalised Drug Abuse\r\n\r\nThe ASEAN Journal of Psychiatry shared that \r\nacute cannabis use could increase the risk of \r\nfatal accidents by two to seven-fold.7 In \r\nColorado, it was noted that after cannabis was \r\nlegalised for recreational use in 2013, traffic \r\ndeaths where drivers were tested positive for \r\ncannabis increased by 138%.8\r\n\r\nThere were reports of teenagers in Thailand \r\nhallucinating and harming themselves after \r\nsmoking cannabis, and a 3-year-old girl who \r\nate part of a cookie containing cannabis had \r\nto be rushed to hospital.10\r\n\r\nWhen the measure to eliminate all criminal charges \r\nfor possession of small amounts of drugs was \r\npassed in Oregon in 2020, findings showed a \r\ndramatic increase in drug addiction and overdose \r\nrates, increased homelessness and other crimes.9\r\n\r\nArchive\r\n\r\n138%\r\n\r\nINCREASED BY\r\n\r\n    \r\n\r\n7\r\n\r\nHere are some indicators \r\nthat someone you know \r\nmay need help.\r\n\r\nLook Out for\r\n\r\nIndicators\r\nHangs around with a\r\ndifferent group of friends\r\n\r\nDisplays poor\r\nbody coordination\r\nHas bloodshot/\r\nsunken eyes\r\n\r\nSudden drop in\r\nperformance grades\r\nExhibits extreme\r\nmood swings\r\n\r\nSkips school/\r\nwork regularly\r\n\r\nWhat are the possible \r\noutcomes if you choose to \r\nturn a blind eye to your \r\nloved ones abusing drugs?\r\n\r\nYou may feel uncertain about \r\nnotifying the authorities. But \r\nremember, you play an important \r\nrole in saving the people around \r\nyou from falling deeper into the \r\ndangers of drugs. \r\n\r\nTELL-TALE SIGNS  OF DRUG ABUSE\r\n\r\nAND HOW TO HELP\r\n\r\nThere are ways to look out for the people around you and \r\nguide them onto leading a healthy, drug-free lifestyle. \r\nR.I.S.E up and make a difference by playing a positive role \r\nin someone else’s life! \r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 6182,
+        "end_char_idx": 8141,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "da64022a-80e9-4396-9f8f-5f45bd14470a",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+            "file_name": "PDE Info Package.txt",
+            "file_type": "text/plain",
+            "file_size": 20809,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "a52b8926-0253-4172-b23a-33a7b8765ef6",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a7dcc597ccb512e3e722e36b8e9ac4ad084416b3abfa76a1e815c1e172f7d257",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "1518ce42-3032-43ac-9d97-b98c4ff97e6e",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "774bc883b467c255f89ccd740452af6c3e5342214228f3245bb545ec4bbab593",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "423a5faf-88c1-456b-80d4-8a8ec8a59ee3",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "ffaf3dadf72797d22b777856f8979374c850bca0c91925f1e483c8e4eb57be13",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Empowerment begins with making the right choice and\r\nsaying “no” to drugs.\r\nբ Avoid situations where you might be influenced or\r\npressured to try drugs\r\nբ Be bold and firm – say “no” when you are offered drugs\r\nբ Use humour to lighten the tension or change the subject\r\nբ If all else fails, walking away is the best way to protect yourself\r\n\r\nTeach\r\nRefusal Skills\r\n\r\n8\r\n\r\nBuild positive habits, spend \r\nquality time together and \r\nalways communicate in an \r\nopen, non-judgemental \r\nmanner. Here are some \r\nsteps you can take.\r\n\r\nEngage\r\n\r\nConversation\r\n\r\nStarters\r\n\r\n• “Do you have any favourite actors or singers?”\r\n• “Some celebrities have talked about their struggles \r\nwith drug abuse. Why do you think they were \r\naddicted to taking drugs?”\r\n\r\nUse teachable moments like news stories to highlight the harms of drugs. \r\nStress is a potential reason for drug abuse, so it is important to start a \r\nconversation about managing our habits and coping styles healthily.\r\n\r\n1\r\nUse well-known celebrities/news cases\r\n\r\n• “Do you have any friends who think \r\nlightly of drugs? If so, how do they \r\nshow it?”\r\n\r\n2\r\nShare personal encounters\r\n\r\n• “What do you do when you feel stressed?” \r\n“Which copying style do you resonate with?”\r\n\r\n           a. Problem-focused: addressing issues \r\n          head-on, seeking practical advice and \r\n          solutions\r\n\r\n           b. Emotion-focused: seeking emotional \r\n          support from others\r\n\r\n           c. Disengagement: give up, actively\r\n          avoid the problem\r\n\r\n• “What are some steps you can take when \r\ndealing with stress, to avoid extreme \r\ndisengagement styles, which can lead to \r\nunhealthy habits like substance abuse?”\r\n\r\n3\r\nAsk about healthy coping styles\r\n\r\nMeaningfully\r\nListen to them when they feel stressed\r\nand teach them coping skills. Suggest\r\nhealthy group activities to widen their\r\nsocial circle.\r\n\r\nEquip them with the skills to refuse\r\ndrug offers. This may include decision-making\r\nskills to assess the consequences of the\r\ndifferent opinions they will face, as well as\r\ncreative thinking and problem-solving skills.\r\n\r\nFind teachable moments\r\nto emphasise that substance\r\nabuse is not the right way\r\nto fit in.\r\n\r\nInvolve them in work that\r\nrequires higher responsibility\r\nso that they are gainfully\r\noccupied and feel valued.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 8141,
+        "end_char_idx": 10452,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "423a5faf-88c1-456b-80d4-8a8ec8a59ee3",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+            "file_name": "PDE Info Package.txt",
+            "file_type": "text/plain",
+            "file_size": 20809,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "a52b8926-0253-4172-b23a-33a7b8765ef6",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a7dcc597ccb512e3e722e36b8e9ac4ad084416b3abfa76a1e815c1e172f7d257",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "da64022a-80e9-4396-9f8f-5f45bd14470a",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "5c85d44dbf663b1d294ce08142baab3bfe710fa50768196b5ce74a03e714f7da",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "be2f8c8f-ef0e-4895-afb6-7dc78f09a0e9",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "2da12315b7579c0f5bb816d9a769169eb4f7b86138a6c29c4d439b1a328c30e4",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Develop their self-\r\nawareness so that\r\nthey can recognise\r\ntheir own strengths\r\nand weaknesses.\r\nGive praise where it\r\nis due.\r\n\r\n9\r\n\r\nAre you ready to R.I.S.E up to help someone \r\nin need to lead a positive, drug-free life? \r\n\r\nHow to Help?\r\n\r\nTeach one to be discerning and critical thinkers when encountering \r\ndubious sources or information using the “S.U.R.E” model\r\n\r\n-\r\nSource: Look at its origins. Is the information credible?\r\n\r\n-\r\nUnderstand: Look for facts, not opinions.\r\n\r\n-\r\nResearch: Dig deeper and compare with other sources.\r\n\r\n-\r\nEvaluate: Look at different angles before making a fair judgement.\r\n\r\nIf you…\r\nբ Suspect someone is involved in drug activities.\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 10452,
+        "end_char_idx": 11131,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "be2f8c8f-ef0e-4895-afb6-7dc78f09a0e9",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+            "file_name": "PDE Info Package.txt",
+            "file_type": "text/plain",
+            "file_size": 20809,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "a52b8926-0253-4172-b23a-33a7b8765ef6",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a7dcc597ccb512e3e722e36b8e9ac4ad084416b3abfa76a1e815c1e172f7d257",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "423a5faf-88c1-456b-80d4-8a8ec8a59ee3",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "8da10346127451215f2728b0537f748c789dfa979ce9c44457fe39fda4f8643c",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "1addea6b-fe95-40d0-b4bd-b745faf6aabb",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "887b55827b99d99d209c1afa65a3eabb8360402c1d79092ee803c835cd4a2450",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "բ See someone abusing drugs.\r\nբ Come across suspected drug items or drug \r\nutensils.\r\n\r\nWhat happens if you report a \r\nfamily/friend?\r\nUpon reporting any drug-related \r\ninformation, you will be asked to \r\nprovide some details so that CNB \r\nofficers can assess the case. CNB will \r\nthen make an informed assessment \r\nand take early intervention and \r\nappropriate measures to assist you. \r\n\r\nWhat happens after your family/friend is \r\narrested?\r\nThe person will be brought back to CNB or the police \r\nstation for investigation and will be dealt with in \r\naccordance with the law. If suspected to be a drug \r\nabuser, he/she will be subjected to an Instant Urine \r\nTest (IUT) or hair test and interview by a CNB officer. \r\nBased on their investigation results and risk profile, \r\nCNB will recommend the appropriate treatment and \r\nrehabilitation option to help the abuser accordingly.\r\n\r\nYou should…\r\nբ Avoid interacting with that individual. \r\nբ Refrain from handling the items any further.\r\nբ Contact CNB at 1800-325-6666. In case of \r\nany immediate danger, call the Police.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 11131,
+        "end_char_idx": 12207,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "1addea6b-fe95-40d0-b4bd-b745faf6aabb",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+            "file_name": "PDE Info Package.txt",
+            "file_type": "text/plain",
+            "file_size": 20809,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "a52b8926-0253-4172-b23a-33a7b8765ef6",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a7dcc597ccb512e3e722e36b8e9ac4ad084416b3abfa76a1e815c1e172f7d257",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "be2f8c8f-ef0e-4895-afb6-7dc78f09a0e9",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "072b4fbd97dcb54789c1fe6e712e9c91f2cc1c499f8468b752ad2e07dd67447f",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "dbe32caf-f196-4c03-99f9-6e1332591e9e",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "5d05ddd582b61ab17be3358716e8de1757dd5585bea013d4211dda6c9d402164",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "10\r\n\r\n11\r\n\r\nPATHWAYS OF \r\nRECOVERY \r\n\r\nFOR DRUG\r\nABUSERS\r\n\r\nRehabilitation and aftercare form one of Singapore’s \r\nmulti-pronged drug control strategies to help drug abusers \r\nreturn to a drug-free life and reintegrate into our soceity.\r\n\r\nOur criminal justice system focuses on youth\r\nrehabilitation. We want to intervene early and\r\neffectively, so that youth abusers do not\r\nruin the rest of their lives.\r\n\r\nFor first-time drug abusers who are assessed to have low- \r\nrisk of reoffending, and given a non-custodial supervision \r\norder with compulsory counselling.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 12207,
+        "end_char_idx": 12776,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "dbe32caf-f196-4c03-99f9-6e1332591e9e",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+            "file_name": "PDE Info Package.txt",
+            "file_type": "text/plain",
+            "file_size": 20809,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "a52b8926-0253-4172-b23a-33a7b8765ef6",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a7dcc597ccb512e3e722e36b8e9ac4ad084416b3abfa76a1e815c1e172f7d257",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "1addea6b-fe95-40d0-b4bd-b745faf6aabb",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "2ead9860e94a4cc6c07f26a0b948df8e71df660fa20cf77a4ddba9e8c8a75d40",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "77ad704c-8658-4812-9971-b81172e5f268",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "9bdff268ff1f150a388113e96ae222ca9ce9388859ae0425e4c82509200452ee",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Enhanced Direct\r\nSupervision Order (EDSO)\r\n\r\nFor drug abusers who are assessed to be at moderate or \r\nhigh-risk.\r\n\r\nDrug Rehabilitation Centre\r\n(DRC), followed by a 5-year\r\nSupervision Order\r\n\r\nFor low-risk youth offenders below the age of 21.\r\n\r\nYouth Enhanced\r\nSupervision (YES)\r\nScheme\r\n\r\nDiagram 1\r\n\r\nRehabilitation and supervision for adults caught for the first time, purely for drug\r\nconsumption offences11\r\n\r\nAdults\r\ncaught\r\nthe first\r\ntime*\r\n\r\nLow risk\r\n\r\nHigh risk\r\n\r\nModerate\r\nrisk\r\n\r\nEnhanced Direct Supervision\r\nOrder (ESDO) (Community-based\r\nrehabilitation by Singapore \r\nAnti-Narcotics Association)\r\n\r\nUrine\r\nand/or Hair\r\nSupervision\r\nmanaged by\r\nCNB\r\nDrug Rehabilitation Centre\r\n(Rehabilitation under \r\nSingapore Prison Service)\r\n\r\n*with no other\r\ndrug or criminal\r\noffence\r\n\r\nRisk\r\nassessment\r\n\r\n12\r\n\r\nDiagram 2\r\n\r\nRehabilitation and supervision for adults caught multiple times for drug consumption offences\r\n\r\nAdult drug abusers\r\nwho are caught a\r\nsecond or subsequent time*\r\n\r\nUrine and/or Hair\r\nSupervision managed\r\nby CNB\r\n\r\nDrug Rehabilitation Centre\r\n(Rehabilitation under \r\nSingapore Prison Service)\r\n\r\n*with no other drug or criminal offence\r\n\r\nDiagram 3\r\n\r\nProgramme for first time young abusers\r\n\r\nFirst time young abusers\r\n(aged below 21 years old)\r\n\r\nYouth Enhanced Supervision (YES) Scheme\r\n\r\nբ Counselling and case work by Social Service Agencies\r\n\r\nբ Urine testing at separate venue (Young Person Reporting Centre)\r\n\r\nCommunity Rehabilitation Centre (CRC)\r\n\r\nբ Residential component after 1 week in DRC\r\n\r\nբ Allowed education or employment\r\n\r\nբ Compulsory counselling after work/school\r\n\r\nDrug Rehabilitation Centre (DRC)\r\n\r\nբ Initial Detoxification Phase\r\n\r\nբ Compulsory rehab & counselling\r\n\r\nSupervision Order\r\n\r\nբ Urine testing at \r\nyoung person \r\nreporting centre\r\n\r\nAnnex A -\r\nCommonly Abused Drugs and Their Effects \r\n\r\nMethamphetamine (a.k.a ‘Ice’, Glass, Crystal, Speed, ‘Ya Ba’, ‘Quartz’, \r\n‘Hiropon’, Shabu and Syabu) \r\nբ Usually a colourless and odourless crystal that resembles glass fragments \r\nor shiny white \"rocks\".\r\n\r\nբ Also comes in tablet form.\r\n\r\nHarmful Effects\r\nբ Increased heart rate and body temperature.\r\nբ Fits, stroke and death.\r\nբ Damage to heart and nerves.\r\nբ Liver and kidney diseases.\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 12776,
+        "end_char_idx": 15028,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "77ad704c-8658-4812-9971-b81172e5f268",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+            "file_name": "PDE Info Package.txt",
+            "file_type": "text/plain",
+            "file_size": 20809,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "a52b8926-0253-4172-b23a-33a7b8765ef6",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a7dcc597ccb512e3e722e36b8e9ac4ad084416b3abfa76a1e815c1e172f7d257",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "dbe32caf-f196-4c03-99f9-6e1332591e9e",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "053cbc0741e9a6f75c5a6c1d36212e8f0e54adeb89d10716bb8864074765c93f",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "1c483a43-21a3-419a-9840-2bac17bc4755",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "3637b6bdc66665e49e3ccaf4416a55b7b4cb1759dd7d733c74e2bda96324ad2f",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "բ Abnormal behaviour with mood swings, confusion, delusion and hallucination.\r\nբ Anxiety and irritability.\r\n\r\nNew Psychoactive Substances (NPS) (a.k.a Spice, K2, Bath Salts, Kronic, \r\nand Bromo-Dragonfly)\r\nբ Substances that mimic the effects of controlled drugs.\r\nբ Have unknown, dangerous toxicology effects and are as addictive and \r\nharmful as controlled drugs.\r\n\r\nHallucinations\r\n\r\nRenal failure\r\n\r\nSevere toxic reaction\r\nleading to death\r\n\r\nParanoia\r\n\r\nAdverse\r\ncardiovascular\r\nproblems\r\n\r\nSevere\r\nintoxication\r\n\r\n13\r\n\r\n14\r\n\r\nCannabis (a.k.a Marijuana, Pok, Grass, Joints, Ganja, Hashish \r\nand Weed) \r\nբ Resembles dried herbs or tea leaves. Can also be hidden in \r\nfood products, like brownies or candies.\r\n\r\nբ Contains a chemical, tetrahydrocannabinol, that affects one's \r\nmood and the way one sees and hears things. \r\n\r\nSource: A Literature Review on Medical Cannabis: Conducted by a team of psychiatrists and researchers from the Institute of Mental Health, Singapore, 2016\r\n\r\nAmong daily abusers,\r\n50%\r\nare going to get addicted\r\n\r\nCANNABIS IS\r\nADDICTIVE\r\n\r\nDEVELOPMENT OF MAJOR MENTAL CONDITIONS\r\n\r\nBRAIN CHANGES\r\nIN CHILDREN\r\nEXPOSED TO\r\nCANNABIS\r\n\r\nDEPRESSION\r\nBIPOLAR DISORDER\r\nSCHIZOPHRENIA\r\n\r\nբ Lower IQ\r\n\r\nբ Cognitive performance\r\n   decline in adulthood\r\n\r\n15\r\n\r\nHeroin (a.k.a White, Smack, Junk, Powder, Putih, Medicine, Ubat) \r\nբ Comes in granular, powder or solution form.\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 15028,
+        "end_char_idx": 16423,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "1c483a43-21a3-419a-9840-2bac17bc4755",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+            "file_name": "PDE Info Package.txt",
+            "file_type": "text/plain",
+            "file_size": 20809,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "a52b8926-0253-4172-b23a-33a7b8765ef6",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a7dcc597ccb512e3e722e36b8e9ac4ad084416b3abfa76a1e815c1e172f7d257",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "77ad704c-8658-4812-9971-b81172e5f268",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "b60aa26401f80ece18694f5d924dc6954a7e61f60ef57ad94a8b7ea8cec9ac40",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "7413001e-1aef-4898-8f22-09d63968378b",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "24f7427d8778256d7f69abbd3944bb52fa4291f2b7528995c0dda485642b529e",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "բ Whitish or brownish in colour.\r\n\r\nHarmful Effects\r\nբ Lowered heart rate and respiration.\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 16423,
+        "end_char_idx": 16515,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "7413001e-1aef-4898-8f22-09d63968378b",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+            "file_name": "PDE Info Package.txt",
+            "file_type": "text/plain",
+            "file_size": 20809,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "a52b8926-0253-4172-b23a-33a7b8765ef6",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a7dcc597ccb512e3e722e36b8e9ac4ad084416b3abfa76a1e815c1e172f7d257",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "1c483a43-21a3-419a-9840-2bac17bc4755",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "e43c0c8e022c10c904872b7decb04ba007cbcefd307ecc4811db1316535900a2",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "69938fcd-dbfc-4827-bccf-ce8b1425f679",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "4b53f9506749da58c0f0ed000632274fec50d210712f07bdd7580064fdd2c4b2",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "բ Damage to lungs, kidneys and liver.\r\nբ Dull feeling and tiredness.\r\nբ Difficulty in concentrating.\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 16515,
+        "end_char_idx": 16617,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "69938fcd-dbfc-4827-bccf-ce8b1425f679",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+            "file_name": "PDE Info Package.txt",
+            "file_type": "text/plain",
+            "file_size": 20809,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "a52b8926-0253-4172-b23a-33a7b8765ef6",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a7dcc597ccb512e3e722e36b8e9ac4ad084416b3abfa76a1e815c1e172f7d257",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "7413001e-1aef-4898-8f22-09d63968378b",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "3a9f40f5fc2a4422ba3803d91bdba75a175e4b28668bed123aec9b10d304ad1a",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "ae18bd1d-00ad-450e-8c2a-0f130413d013",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "98f258b7bd50bdb527091f01b70c9b1a0a5098fefc3ea89b241cc66a4cadb06d",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "բ Constipation.\r\n\r\n‘Ecstasy’ (a.k.a XTC) \r\n\r\nHarmful Effects\r\nբ Increased heart rate and blood pressure.\r\nբ Jaw clenching, teeth grinding and uncontrollable shaking.\r\nբ Kidney, liver and brain damage.\r\nբ Long term memory loss.\r\nբ Chills, sweating and vomiting.\r\nբ Inability to think, see and co-ordinate properly.\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 16617,
+        "end_char_idx": 16932,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "ae18bd1d-00ad-450e-8c2a-0f130413d013",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+            "file_name": "PDE Info Package.txt",
+            "file_type": "text/plain",
+            "file_size": 20809,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "a52b8926-0253-4172-b23a-33a7b8765ef6",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a7dcc597ccb512e3e722e36b8e9ac4ad084416b3abfa76a1e815c1e172f7d257",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "69938fcd-dbfc-4827-bccf-ce8b1425f679",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "ab4db8982e8ef19d8bb36f23f5100944017977e06d6fc2db97a3c4dbbab81ff9",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "1cbad3ff-8316-466c-b6ce-a28fc1f91f8c",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "3c3c215a2a02eb56d0a9ea8b7fb393edce3aa36020a39d1ebb9c3a10e82b0caf",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "բ Hallucination.\r\n\r\nLysergide (LSD) (a.k.a Acid, Trips, Blotters, Tabs, Stamp, Black Sesame, Seed, \r\nMicro, Micro Dot) \r\nբ A hallucinogen, often sold on blotting paper with a colourful design.\r\n\r\nHarmful Effects\r\nբ Increased heart rate, breathing and body temperature.\r\nբ Numbness.\r\nբ Distorted sight, hearing, smell, touch and taste.\r\nբ Loss of control of thoughts.\r\nբ Severe panic, confusion, hallucination and paranoia (irrational fear or suspicion).\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 16932,
+        "end_char_idx": 17389,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "1cbad3ff-8316-466c-b6ce-a28fc1f91f8c",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+            "file_name": "PDE Info Package.txt",
+            "file_type": "text/plain",
+            "file_size": 20809,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "a52b8926-0253-4172-b23a-33a7b8765ef6",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a7dcc597ccb512e3e722e36b8e9ac4ad084416b3abfa76a1e815c1e172f7d257",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "ae18bd1d-00ad-450e-8c2a-0f130413d013",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "c574272456799ec00039c35f2714d44444529d4709d19a1df280d619bf74de54",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "d882ad39-697e-4e58-9f98-9884be432569",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "c064d02ec210178e0a44b0aedbcd6a1bd74f78a47e42022fb188256675edcb72",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Source: Annual Report 2018, International Narcotics Control Board\r\n\r\nCannabis use has adverse impact on public health. Effects of short-term use \r\ninclude intoxication and panic attacks, while long-term use is associated with \r\ndependence, stroke and increased risk of cancer.\r\n\r\nCannabinoids should only be approved for medical use on the basis of scientific \r\nevidence.\r\n\r\nClinical trials suggest that while some cannabinoids may relieve the symptoms of \r\ncertain illnesses, they do not address the underlying diseases.\r\n\r\nAttempts to market and promote the medical use of cannabis products as “herbal \r\nmedicines” are inconsistent with the classification of cannabis and its deriatives \r\nunder the 1961 and 1971 United Nation International Drug Control Conventions.\r\n\r\n16\r\n\r\nAnnex B -\r\nUseful Resources\r\n\r\nCNB website\r\n\r\nGet drug-related information here\r\n\r\nCNB.DrugFreeSG\r\nYouTube Channel\r\n\r\nSmart Parenting\r\nArticles\r\nPDE Toolkits\r\nPDE Message\r\nCards\r\n\r\nWatch educational videos here\r\n\r\n#TheStruggle playlist,\r\nCNB.DrugFreeSG\r\nYouTube Channel\r\n\r\nLearn tips here (for parents, counsellors, educators and NS commanders)\r\n\r\nInformation Booklet\r\nOn Cannabis\r\nInformation Booklet\r\nOn New Psychoactive\r\nSubstances (NPS)\r\n\r\n17\r\n\r\nAnnex C -\r\nHelplines\r\n\r\nAgency\r\nFor who?\r\n\r\nThose who wish to report cases \r\nof suspected drug abuse.\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 17389,
+        "end_char_idx": 18720,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "d882ad39-697e-4e58-9f98-9884be432569",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+            "file_name": "PDE Info Package.txt",
+            "file_type": "text/plain",
+            "file_size": 20809,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "a52b8926-0253-4172-b23a-33a7b8765ef6",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a7dcc597ccb512e3e722e36b8e9ac4ad084416b3abfa76a1e815c1e172f7d257",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "1cbad3ff-8316-466c-b6ce-a28fc1f91f8c",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "2502f681d9080d42ddee86b33e7e690d066d17642bf8650af593df8dd347c131",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "77d387ef-c709-42ef-aac6-e2f0abb67bcf",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "ae10aadadf25c38c3374d5b454637ddbbcceafdf6173052a096263af7040e8ee",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Central Narcotics Bureau (CNB)\r\n\r\n            1800-325-6666\r\n\r\nThose who wish to speak to \r\npara-counsellors about any \r\ndrug-related issue that you or \r\nsomeone close to you might be \r\nfacing.\r\n\r\nSingapore Anti-Narcotics Association (SANA)\r\n\r\nhttps://talk2sana.com/tools-for-change/live-chat/\r\n\r\n6pm to 9:30pm (Mon to Fri)\r\n\r\n18\r\n\r\nReferences\r\n\r\n1.\r\nhttps://tnp.straitstimes.com/news/singapore/man-who-killed-his-mother-grandmother-after-taking-lsd-be-confined-\r\nIndefinitely\r\n\r\n2.\r\nhttps://www.straitstimes.com/singapore/courts-crime/man-37-charged-over-buangkok-sword-attack-remanded-for-\r\npsychiatric-observation\r\n\r\n3.\r\nhttps://www.channelnewsasia.com/singapore/yishun-knife-woman-held-knifepoint-man-be-charged-3192626\r\n\r\n4.\r\nhttps://www.channelnewsasia.com/singapore/woman-stab-herself-standoff-police-st-hildas-tampines-jailed-drugs-\r\njuliana-abdul-kadir-3214131\r\n\r\n5.\r\nhttps://www.straitstimes.com/singapore/courts-crime/baby-found-during-recent-drug-bust-mother-was-abusing-ice\r\n-near-him\r\n\r\n6.\r\nhttps://www.asiaone.com/singapore/heart-wrenching-scene-heavily-pregnant-woman-climbs-out-window-11th-floor\r\n-flat-escape-cnb\r\n\r\n7.\r\nDoes Cannabis Consumption Negatively Affect Cognition? ",
+        "mimetype": "text/plain",
+        "start_char_idx": 18720,
+        "end_char_idx": 19913,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "77d387ef-c709-42ef-aac6-e2f0abb67bcf",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+            "file_name": "PDE Info Package.txt",
+            "file_type": "text/plain",
+            "file_size": 20809,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "a52b8926-0253-4172-b23a-33a7b8765ef6",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a7dcc597ccb512e3e722e36b8e9ac4ad084416b3abfa76a1e815c1e172f7d257",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "d882ad39-697e-4e58-9f98-9884be432569",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "c5d648632224e504345c8c28ccd8e915398d8f5403fff6c3ccda0c3ffb68f1d1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "1f9e2ea6-154c-477d-a2c4-a8257e57d7ba",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "00913a912c7685358cb82767e421e6699714c0c92f24dd316523d5548d41c15a",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "A Review Of The Scientific Evidence ASEAN Journal of \r\nPsychiatry, Vol. 18 (2), July - December 2017\r\n\r\n8.\r\nThe Legalization Of Marijuana In Colorado: The Impact, Volume 8, Sep 2021. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 19913,
+        "end_char_idx": 20096,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "1f9e2ea6-154c-477d-a2c4-a8257e57d7ba",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+            "file_name": "PDE Info Package.txt",
+            "file_type": "text/plain",
+            "file_size": 20809,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "a52b8926-0253-4172-b23a-33a7b8765ef6",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a7dcc597ccb512e3e722e36b8e9ac4ad084416b3abfa76a1e815c1e172f7d257",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "77d387ef-c709-42ef-aac6-e2f0abb67bcf",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "ef33422a260e07af5a5099364cb56eb3fe03353615db1c9a65d167ca1da10521",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "2b17da7d-c5a3-4ded-ab0a-5b28fe758410",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "ae3ce9b8e5ffef0821cb929611509c327ca6970f483e03946da77d6165170a5f",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Rocky Mountain High Intensity Drug \r\nTrafficking Area - https://www.rmhidta.org/_files/ugd/4a67c3_b391ac360f974a8bbf868d2e3e25df3d.pdf\r\n\r\n9.\r\nhttps://www.washingtonexaminer.com/news/crime/oregon-lawmakers-kotek-state-emergency-measure-110?fbclid=I\r\nwAR3S9rpfZbguS-zHVhA6UGVeAhObBEgxCRyttA-r474vZBM8fhNU4io3TxI \r\n\r\n10. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 20096,
+        "end_char_idx": 20414,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "2b17da7d-c5a3-4ded-ab0a-5b28fe758410",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+            "file_name": "PDE Info Package.txt",
+            "file_type": "text/plain",
+            "file_size": 20809,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "a52b8926-0253-4172-b23a-33a7b8765ef6",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a7dcc597ccb512e3e722e36b8e9ac4ad084416b3abfa76a1e815c1e172f7d257",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "1f9e2ea6-154c-477d-a2c4-a8257e57d7ba",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\PDE Info Package.txt",
+                    "file_name": "PDE Info Package.txt",
+                    "file_type": "text/plain",
+                    "file_size": 20809,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "d019490fdcafe18c8565bd5e04c36bf425fd9d9fc95f338750c9fba72016e853",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Five teens, 3-yr-old girl suffer from cannabis side effects: doctor - https://www.nationthailand.com/lifestyle/40017182\r\n\r\n11. https://www.cnb.gov.sg/CNBExplains/where-do-adult-drug-abusers-go-when-caught\r\n\r\nFor a Drug-Free Singapore\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 20414,
+        "end_char_idx": 20651,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    }
+]

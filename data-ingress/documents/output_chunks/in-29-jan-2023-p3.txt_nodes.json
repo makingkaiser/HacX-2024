@@ -1,0 +1,273 @@
+[
+    {
+        "id_": "cb49467e-0954-41bd-bbee-9552aafd8367",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\in-29-jan-2023-p3.txt",
+            "file_name": "in-29-jan-2023-p3.txt",
+            "file_type": "text/plain",
+            "file_size": 1571,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "404fe0cf-8dd3-41f0-a753-262aba6ae215",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\in-29-jan-2023-p3.txt",
+                    "file_name": "in-29-jan-2023-p3.txt",
+                    "file_type": "text/plain",
+                    "file_size": 1571,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "30dfeb310159fff28264b3b4c31b3ade3ac8f3276b55216fe19e2e0f7714c6ec",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "6d1ca41a-b18c-49e6-a3d8-4f9d3f5db30f",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "1e04696f11087f696d5f17780fa6d4ab7674d4324684f0aa62df886c190ef43a",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Monday, January 29, 2024 THE STRAITS TIMES\r\n3\r\n\r\nADVERTORIAL\r\n\r\nAnne Megan Kong, an Anti-Drug\r\nAdvocate, shares how she discovered\r\nher passion for volunteering\r\n\r\nAre you passionate about the anti-drug cause like Megan?\r\nKeen to meet other like-minded individuals? Scan to find\r\nout how you can be an ADA too.\r\n\r\nBROUGHT TO YOU BY\r\n\r\nC\r\n\r\nuriosity led this 20-year-old bookworm\r\nwith a love for crime thrillers on a path of\r\nvolunteering. After reading about the ills\r\nof drug abuse, she signed up as an Anti-Drug\r\nAdvocate (ADA) to share the anti-drug message\r\nwith her peers. Read on to learn what Megan\r\ndoes as an ADA!\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 0,
+        "end_char_idx": 627,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "6d1ca41a-b18c-49e6-a3d8-4f9d3f5db30f",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\in-29-jan-2023-p3.txt",
+            "file_name": "in-29-jan-2023-p3.txt",
+            "file_type": "text/plain",
+            "file_size": 1571,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "404fe0cf-8dd3-41f0-a753-262aba6ae215",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\in-29-jan-2023-p3.txt",
+                    "file_name": "in-29-jan-2023-p3.txt",
+                    "file_type": "text/plain",
+                    "file_size": 1571,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "30dfeb310159fff28264b3b4c31b3ade3ac8f3276b55216fe19e2e0f7714c6ec",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "cb49467e-0954-41bd-bbee-9552aafd8367",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\in-29-jan-2023-p3.txt",
+                    "file_name": "in-29-jan-2023-p3.txt",
+                    "file_type": "text/plain",
+                    "file_size": 1571,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "5ad47f551e32e3070864f6689cfab0d0c79bae34d00e06408c5684b9da487e95",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "a45d6ae5-a227-494b-9ec9-03c04d385587",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "f5fa6aef45657ed93185288c31b3448c87be19dc722b0e9e01e39bde26faf887",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "future\r\n\r\nI’ve always loved reading.\r\nSome stories I’ve read showed\r\nthe harms that drug abuse\r\ncan cause on a person and\r\ntheir loved ones. This inspired\r\nme to sign up as an ADA.\r\n\r\nInternational Day\r\nAgainst Drug Abuse\r\nand Illicit Trafficking\r\nfalls on every June 26.\r\nOn this day, the city\r\nlights up in the colours\r\nof the anti-drug ribbon,\r\nwhich makes me feel\r\nproud to support the\r\n#DrugFreeSG cause.\r\n\r\nMeeting new people is my favourite part! It’s\r\na fulfilling experience to share with others\r\nthe importance of leading a drug-free life.\r\n\r\nin the\r\ncharacter\r\ndrug-free\r\n\r\nFind your\r\n\r\nWhen a friend is stressed, I always\r\nlend a listening ear. I help them\r\ncome up with other ways to feel\r\nbetter and make the right choices.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 627,
+        "end_char_idx": 1368,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "a45d6ae5-a227-494b-9ec9-03c04d385587",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\in-29-jan-2023-p3.txt",
+            "file_name": "in-29-jan-2023-p3.txt",
+            "file_type": "text/plain",
+            "file_size": 1571,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "404fe0cf-8dd3-41f0-a753-262aba6ae215",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\in-29-jan-2023-p3.txt",
+                    "file_name": "in-29-jan-2023-p3.txt",
+                    "file_type": "text/plain",
+                    "file_size": 1571,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "30dfeb310159fff28264b3b4c31b3ade3ac8f3276b55216fe19e2e0f7714c6ec",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "6d1ca41a-b18c-49e6-a3d8-4f9d3f5db30f",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\in-29-jan-2023-p3.txt",
+                    "file_name": "in-29-jan-2023-p3.txt",
+                    "file_type": "text/plain",
+                    "file_size": 1571,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "83c34528b7ec37e6da388f8a736659f405a9ddd2ba4a45a8716e4f4f8bb0ca09",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "6be93311-8f2b-405f-8010-48cd98717dfa",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "9182c0e9024fc2f1d00e0d6a28eb6a44d31c14432018d30af02a0db3735b08c7",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "It’s important to\r\nraise awareness,\r\nso I’m working on a\r\nwebsite to educate\r\nchildren on the\r\nharms of drugs.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 1368,
+        "end_char_idx": 1482,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "6be93311-8f2b-405f-8010-48cd98717dfa",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\in-29-jan-2023-p3.txt",
+            "file_name": "in-29-jan-2023-p3.txt",
+            "file_type": "text/plain",
+            "file_size": 1571,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "404fe0cf-8dd3-41f0-a753-262aba6ae215",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\in-29-jan-2023-p3.txt",
+                    "file_name": "in-29-jan-2023-p3.txt",
+                    "file_type": "text/plain",
+                    "file_size": 1571,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "30dfeb310159fff28264b3b4c31b3ade3ac8f3276b55216fe19e2e0f7714c6ec",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "a45d6ae5-a227-494b-9ec9-03c04d385587",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\in-29-jan-2023-p3.txt",
+                    "file_name": "in-29-jan-2023-p3.txt",
+                    "file_type": "text/plain",
+                    "file_size": 1571,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "96f3c3542753d99ca61e1c05312e2422c7818baa8f21601abc4c1916a0a2b4ce",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Anti-Drug Advocate\r\nAnne Megan Kong\r\n\r\nPHOTOS: CNB, GETTY IMAGES, SPH MEDIA\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 1482,
+        "end_char_idx": 1561,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    }
+]

@@ -1,0 +1,784 @@
+[
+    {
+        "id_": "9970b350-84fa-4a8c-88a3-59336a0a2bcd",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+            "file_name": "malay-final.txt",
+            "file_type": "text/plain",
+            "file_size": 5106,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "92e55e07-b1eb-43d8-8cd6-f418c8d65d96",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+                    "file_name": "malay-final.txt",
+                    "file_type": "text/plain",
+                    "file_size": 5106,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "e413f7fb4d7c401b6ce27cf04043f1bbc7be41acc432157cf3b009e58227df5e",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "85530df1-3756-40d0-844d-c22d4c3c5c35",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "c1a5fb1aa4eee69e469a51a71c6abd7c9166fdd16731bd67dc00166edd4e3716",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "This book belongs to:\r\n\r\nPublished by\r\n\r\nCentral Narcotics Bureau\r\n\r\n393 New Bridge Road, Singapore 088763\r\n\r\nAll rights reserved.\r\n\r\nPrinted in Singapore, 2019.\r\n\r\nISBN 978-981-14-4715-0\r\n\r\nCAPTAIN DRUG BUSTER\r\n\r\nCAPTAIN DRUG BUSTER\r\n\r\nCAPTAIN DRUG BUSTER\r\n\r\nOrigin\r\nP\r\n\r\nDear Parents\r\n\r\nYou are your child's frst teacher and role model. This activity \r\nbook serves as a resource for you to guide your child towards \r\nembracing a drug-free lifestyle from young. Education can \r\nprevent drug abuse. Let's raise our next generation to be \r\ndrug-free, and keep Singapore drug-free together!\r\n\r\nIllustrated by Woo Seik Yee\r\n\r\n\u001f\u001e\u001d\u001c\u001b\u001a\u0019\u0018\u0017\u0016\u0019\u0015\u0015\u0014\u0017\r\n\r\nFollow us on our social media handles to be updated on our events/activities.\r\n\r\n*Side Activity:\r\nGuide your child to fnd all the hidden \r\nanti-drug ribbons in this book.\r\n\r\nThe anti-drug ribbon, which is a green ribbon over a white one, \r\nrepresents support for the anti-drug cause. \r\n\r\nCAPTAIN DRUG BUSTER\r\n\r\nAsal\r\n\r\nThis is Dan. He is a kind and friendly boy.\r\n\r\nIni ialah Dan. Dia seorang budak yang baik dan mesra.\r\n\r\nAlthough Dan is a bright child, he may also fail at times. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 0,
+        "end_char_idx": 1124,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "85530df1-3756-40d0-844d-c22d4c3c5c35",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+            "file_name": "malay-final.txt",
+            "file_type": "text/plain",
+            "file_size": 5106,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "92e55e07-b1eb-43d8-8cd6-f418c8d65d96",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+                    "file_name": "malay-final.txt",
+                    "file_type": "text/plain",
+                    "file_size": 5106,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "e413f7fb4d7c401b6ce27cf04043f1bbc7be41acc432157cf3b009e58227df5e",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "9970b350-84fa-4a8c-88a3-59336a0a2bcd",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+                    "file_name": "malay-final.txt",
+                    "file_type": "text/plain",
+                    "file_size": 5106,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "bde844500db75a17a09cae55112f76b589f8b576ccbc5f2462dc86f84320f99b",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "c68e3b09-4c7e-474d-a597-a5868297dedc",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "74b6caa45ed568d79d803a3ae43d43404117b416d1db131e52d616063b96aac5",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "But he \r\nnever gives up.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 1124,
+        "end_char_idx": 1152,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "c68e3b09-4c7e-474d-a597-a5868297dedc",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+            "file_name": "malay-final.txt",
+            "file_type": "text/plain",
+            "file_size": 5106,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "92e55e07-b1eb-43d8-8cd6-f418c8d65d96",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+                    "file_name": "malay-final.txt",
+                    "file_type": "text/plain",
+                    "file_size": 5106,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "e413f7fb4d7c401b6ce27cf04043f1bbc7be41acc432157cf3b009e58227df5e",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "85530df1-3756-40d0-844d-c22d4c3c5c35",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+                    "file_name": "malay-final.txt",
+                    "file_type": "text/plain",
+                    "file_size": 5106,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "73aad62afe2288f0b396fe8b118840edf3ac18791821c0f8b80bbce01f23654b",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "c780531b-f274-4fa2-9a25-7ac11d289071",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "b6213a6734fd4adea5c60e2548897fe294b5b8f25c20cc5333ad7b08783d5b33",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Walaupun Dan seorang budak yang pandai, ada\r\nkalanya dia akan alami kegagalan. Tetapi dia tidak\r\npernah berputus asa.\r\n\r\nHe seeks help from his parents and \r\nteachers when he needs to.\r\n\r\nDia akan meminta pertolongan\r\ndari ibu bapanya dan guru-guru\r\nbila dia memerlukannya.\r\n\r\nDan may not be the fttest child, but he \r\nstrives to improve himself.\r\n\r\nDan mungkin bukan budak yang paling\r\ncergas, tetapi dia selalu berusaha untuk\r\nmemperbaiki dirinya.\r\n\r\nOn weekends, he jogs with his family at the park.\r\n\r\nDan akan berlari-lari anak bersama keluarganya pada\r\nhujung minggu di taman.\r\n\r\nZ Z\r\n\r\nInstruction:\r\n\r\nGuide Dan to a healthy lifestyle!\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 1152,
+        "end_char_idx": 1798,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "c780531b-f274-4fa2-9a25-7ac11d289071",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+            "file_name": "malay-final.txt",
+            "file_type": "text/plain",
+            "file_size": 5106,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "92e55e07-b1eb-43d8-8cd6-f418c8d65d96",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+                    "file_name": "malay-final.txt",
+                    "file_type": "text/plain",
+                    "file_size": 5106,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "e413f7fb4d7c401b6ce27cf04043f1bbc7be41acc432157cf3b009e58227df5e",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "c68e3b09-4c7e-474d-a597-a5868297dedc",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+                    "file_name": "malay-final.txt",
+                    "file_type": "text/plain",
+                    "file_size": 5106,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "03c032a2fd8d81cf3bd36cf7040e358e617119fde5b2074ba579e3a3a6bd0ea0",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "4ec22301-272f-4fd7-861d-49510474242b",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "316d0516f445eba7dd3c9fc9b101090b3c50d4831459938f98288b401db2b661",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Dan stays healthy and strong\r\n\r\nDan sentiasa dalam keadaan sihat dan kuat\r\n\r\nby exercising and eating healthily.\r\n\r\ndengan bersenam dan makan makanan yang sihat.\r\n\r\nSlowly and surely, Dan becomes healthier and happier.\r\n\r\nDengan perlahan tetapi pasti, Dan akan menjadi lebih\r\nsihat dan gembira.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 1798,
+        "end_char_idx": 2096,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "4ec22301-272f-4fd7-861d-49510474242b",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+            "file_name": "malay-final.txt",
+            "file_type": "text/plain",
+            "file_size": 5106,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "92e55e07-b1eb-43d8-8cd6-f418c8d65d96",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+                    "file_name": "malay-final.txt",
+                    "file_type": "text/plain",
+                    "file_size": 5106,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "e413f7fb4d7c401b6ce27cf04043f1bbc7be41acc432157cf3b009e58227df5e",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "c780531b-f274-4fa2-9a25-7ac11d289071",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+                    "file_name": "malay-final.txt",
+                    "file_type": "text/plain",
+                    "file_size": 5106,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a252cd55553810382a7168234a8c9da171db3a8f6dca583d12340915aa6ab619",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "5aeab8b9-e29f-4455-84f4-258792d07b40",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "1f68331de8a777bb388904f01aaade6f626ef0dffaceff77aa665f787e4ec56f",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Dan has a secret. When he puts on the anti-drug ribbon, he transforms \r\ninto Captain Drug Buster to keep the world safe from drugs!\r\n\r\nDan mempunyai satu rahsia. Apabila dia memakai riben anti-dadah,\r\ndia akan bertukar menjadi Captain Drug Buster untuk melindungi\r\ndunia dari dadah!\r\n\r\nz\r\n\r\n?\r\n\r\nSlowly but surely, Wayne starts to sufer from the harmful \r\nefects of the pills.\r\nWayne has a secret. When he puts on his cloak, he transforms \r\ninto the evil Dr. Wacko!\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 2096,
+        "end_char_idx": 2565,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "5aeab8b9-e29f-4455-84f4-258792d07b40",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+            "file_name": "malay-final.txt",
+            "file_type": "text/plain",
+            "file_size": 5106,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "92e55e07-b1eb-43d8-8cd6-f418c8d65d96",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+                    "file_name": "malay-final.txt",
+                    "file_type": "text/plain",
+                    "file_size": 5106,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "e413f7fb4d7c401b6ce27cf04043f1bbc7be41acc432157cf3b009e58227df5e",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "4ec22301-272f-4fd7-861d-49510474242b",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+                    "file_name": "malay-final.txt",
+                    "file_type": "text/plain",
+                    "file_size": 5106,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "e5272ca2369ab6058eaf3454aae53cae833b76eb73e0cf3caeb7383aa2077b32",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "4b315b6c-d659-45b1-ad74-8d35629e7a8a",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "86f18e622bb68f97eba6d2e24ade0ce7a72b2b3690672d3359ea55d8db87cb21",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Dengan perlahan tetapi pasti, Wayne bermula terasa kesan bahaya\r\npil tersebut.\r\nWayne mempunyai satu rahsia. Apabila dia memakai jubah,\r\ndia akan bertukar menjadi Dr Wacko yang jahat!\r\n\r\nVomit \r\nMuntah\r\n\r\n Sleepiness\r\nNgantuk\r\n\r\nGiddy\r\nMabuk\r\n\r\nForgetful\r\nPelupa\r\n\r\nInstruction:\r\n\r\nMatch the symptoms to \r\nthe pictures\r\n\r\nz\r\n\r\nIn order to become the smartest and strongest boy,\r\n\r\nUntuk menjadi seorang budak yang paling pintar dan kuat,\r\n\r\nhe continues to take more pills.\r\n\r\ndia terus mengambil lebih banyak pil.\r\n\r\n D  I  N  N  E  R  M  P  V  F  T  S   \r\n\r\n?\r\n\r\nE E R F L O N S L E A T\r\nK\r\nS K B H O M E T R E Y D\r\nS I N G D O B K S W H Y\r\n\r\nN V C X Z O L S A L U\r\n\r\nInstruction:\r\n\r\nFind 5 important things that Wayne \r\nhas forgotten!\r\n\r\nWhile Wayne is not the fttest child, he does not put \r\nin the efort to improve himself.\r\n\r\nWalaupun Wayne bukan budak yang paling cergas,\r\ndia tidak berusaha untuk memperbaiki dirinya.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 2565,
+        "end_char_idx": 3494,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "4b315b6c-d659-45b1-ad74-8d35629e7a8a",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+            "file_name": "malay-final.txt",
+            "file_type": "text/plain",
+            "file_size": 5106,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "92e55e07-b1eb-43d8-8cd6-f418c8d65d96",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+                    "file_name": "malay-final.txt",
+                    "file_type": "text/plain",
+                    "file_size": 5106,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "e413f7fb4d7c401b6ce27cf04043f1bbc7be41acc432157cf3b009e58227df5e",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "5aeab8b9-e29f-4455-84f4-258792d07b40",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+                    "file_name": "malay-final.txt",
+                    "file_type": "text/plain",
+                    "file_size": 5106,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "20c4e7cdef9b32c14a4819d8a70aa5f5e46f7ff116a5141a21b71a2f17b6da7e",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "b39eeff3-459f-4adc-add7-2bc068f893d7",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "a123c592eb5cb1823cc73f99dcc06a2e48099602e75094c72d1a4e3cec6233fa",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Instead, he uses the pill to make himself stronger, \r\nbut also more forgetful.\r\n\r\nSebaliknya, dia menggunakan pil untuk membuatkan\r\ndirinya lebih kuat, tetapi juga lebih menjadi pelupa.\r\n\r\nDINNER\r\nSTUDY\r\nPLAY\r\nSING\r\nHOME\r\n\r\nWayne is a bright child who does not like to fail.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 3494,
+        "end_char_idx": 3772,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "b39eeff3-459f-4adc-add7-2bc068f893d7",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+            "file_name": "malay-final.txt",
+            "file_type": "text/plain",
+            "file_size": 5106,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "92e55e07-b1eb-43d8-8cd6-f418c8d65d96",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+                    "file_name": "malay-final.txt",
+                    "file_type": "text/plain",
+                    "file_size": 5106,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "e413f7fb4d7c401b6ce27cf04043f1bbc7be41acc432157cf3b009e58227df5e",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "4b315b6c-d659-45b1-ad74-8d35629e7a8a",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+                    "file_name": "malay-final.txt",
+                    "file_type": "text/plain",
+                    "file_size": 5106,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "8118507e51bcc80bbbf98fe2c50818bd5a4862f549251612b0f90bbf37ccf87f",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "c0ba1651-72fe-42b6-88a2-75c0fd83aeba",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "c409f07abb361aca5845776a8cc251d2a82661003be41a1927c57f18ced353b7",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Wayne ialah seorang budak yang pandai yang\r\ntidak suka mengalami kegagalan.\r\n\r\nSo he buys an unknown pill that makes him smarter, \r\nbut also weaker.\r\n\r\nDia membeli pil ajaib untuk menjadikan dirinya lebih\r\npintar tetapi membuatkannya lemah.\r\n\r\nThis is Wayne. He is a shy and quiet boy.\r\n\r\nIni ialah Wayne. Dia seorang budak yang pemalu dan pendiam. \r\n\r\nDR.Wacko\r\nDR.Wacko\r\n\r\nDR.Wacko\r\n\r\nOrigin\r\n\r\nIllustrated by Woo Seik Yee\r\n\r\n*Side Activity:\r\nGuide your child to fnd all the hidden drugs \r\nin this book. \r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 3772,
+        "end_char_idx": 4282,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "c0ba1651-72fe-42b6-88a2-75c0fd83aeba",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+            "file_name": "malay-final.txt",
+            "file_type": "text/plain",
+            "file_size": 5106,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "92e55e07-b1eb-43d8-8cd6-f418c8d65d96",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+                    "file_name": "malay-final.txt",
+                    "file_type": "text/plain",
+                    "file_size": 5106,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "e413f7fb4d7c401b6ce27cf04043f1bbc7be41acc432157cf3b009e58227df5e",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "b39eeff3-459f-4adc-add7-2bc068f893d7",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+                    "file_name": "malay-final.txt",
+                    "file_type": "text/plain",
+                    "file_size": 5106,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "de1078cb82a2c60c8b8febaa992dfdfef8ffea0ddf154fa198086bd17a0d6196",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "8dc401f4-c69f-4f69-b6e5-eff1d9c7dfdc",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "87c15f8e7ac769e0745162cfeab462dbe88ea4d4331343fb50beed726068c3ad",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Drugs are harmful and damaging to the mind and body. They also \r\ncause pain and sufering to the drug abuser as well as his loved \r\nones. Stay away from drugs, and lead a healthy lifestyle today!\r\n\r\n\u001f\u001e\u001d\u001c\u001b\u001a\u0019\u0018\u0017\u0016\u0019\u0015\u0015\u0014\u0017\r\n\r\nFollow us on our social media handles to be updated on our events/activities.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 4282,
+        "end_char_idx": 4580,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "8dc401f4-c69f-4f69-b6e5-eff1d9c7dfdc",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+            "file_name": "malay-final.txt",
+            "file_type": "text/plain",
+            "file_size": 5106,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "92e55e07-b1eb-43d8-8cd6-f418c8d65d96",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+                    "file_name": "malay-final.txt",
+                    "file_type": "text/plain",
+                    "file_size": 5106,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "e413f7fb4d7c401b6ce27cf04043f1bbc7be41acc432157cf3b009e58227df5e",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "c0ba1651-72fe-42b6-88a2-75c0fd83aeba",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+                    "file_name": "malay-final.txt",
+                    "file_type": "text/plain",
+                    "file_size": 5106,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "b83a4af6c788f7337831e6cd3842e4e5fdb27ab5b53ec64d200e19b668a8c756",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "853123ec-21f4-4e38-8ae4-c11cec55901a",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "4678a2e7858c43e7253b1bf463208df7941a7d636da144b27ea2d3e2e859f95f",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Dear Parents\r\n\r\nYou are your child's frst teacher and role model. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 273,
+        "end_char_idx": 339,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "853123ec-21f4-4e38-8ae4-c11cec55901a",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+            "file_name": "malay-final.txt",
+            "file_type": "text/plain",
+            "file_size": 5106,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "92e55e07-b1eb-43d8-8cd6-f418c8d65d96",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+                    "file_name": "malay-final.txt",
+                    "file_type": "text/plain",
+                    "file_size": 5106,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "e413f7fb4d7c401b6ce27cf04043f1bbc7be41acc432157cf3b009e58227df5e",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "8dc401f4-c69f-4f69-b6e5-eff1d9c7dfdc",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\malay-final.txt",
+                    "file_name": "malay-final.txt",
+                    "file_type": "text/plain",
+                    "file_size": 5106,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "7f4a99311a493f4048e114dde60cfe99ee75a7502210b34b384df130705fe518",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "This activity \r\nbook serves as a resource for you to guide your child towards \r\nembracing a drug-free lifestyle from young. Education can \r\nprevent drug abuse. Let's raise our next generation to be \r\ndrug-free, and keep Singapore drug-free together!\r\n\r\nDR.Wackoasal\r\n\r\nThis book belongs to:\r\n\r\nPublished by\r\n\r\nCentral Narcotics Bureau\r\n\r\n393 New Bridge Road, Singapore 088763\r\n\r\nAll rights reserved.\r\n\r\nPrinted in Singapore, 2019.\r\n\r\nISBN 978-981-14-4715-0\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 4646,
+        "end_char_idx": 5106,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    }
+]

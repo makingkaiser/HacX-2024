@@ -1,14 +1,14 @@
 [
     {
-        "id_": "dc9f9b37-9278-4646-88ea-69a6dea8fd64",
+        "id_": "38052a1f-a2eb-4100-a94c-0575d3e14925",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
             "file_name": "slides-for-p4-aaa_2024.txt",
             "file_type": "text/plain",
             "file_size": 3579,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -28,21 +28,21 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "c42d1ffc-cef7-4fd0-b9ae-76b9167fc607",
+                "node_id": "4cf8ecf6-fffd-4361-92fd-012e89cab1a7",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
                     "file_name": "slides-for-p4-aaa_2024.txt",
                     "file_type": "text/plain",
                     "file_size": 3579,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "128a6451b430e30fee9ee3631dfa6247ffe2bc8c13a2bdf9a5f44eb2f0730427",
+                "hash": "60c8625162396a7d456e6325b4c419a3fa8d9980a51d8f87bdfc462498b9a605",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "9d2ad9b3-50f0-421d-b464-79d872ec5924",
+                "node_id": "5ad1ed70-af4a-4616-b59b-12c28846d8ac",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "a5d97f0fed7b19cb2986d0f7a590373427e5283f50de6f10412171e19e7d6cfe",
@@ -59,15 +59,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "9d2ad9b3-50f0-421d-b464-79d872ec5924",
+        "id_": "5ad1ed70-af4a-4616-b59b-12c28846d8ac",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
             "file_name": "slides-for-p4-aaa_2024.txt",
             "file_type": "text/plain",
             "file_size": 3579,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -87,35 +87,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "c42d1ffc-cef7-4fd0-b9ae-76b9167fc607",
+                "node_id": "4cf8ecf6-fffd-4361-92fd-012e89cab1a7",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
                     "file_name": "slides-for-p4-aaa_2024.txt",
                     "file_type": "text/plain",
                     "file_size": 3579,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "128a6451b430e30fee9ee3631dfa6247ffe2bc8c13a2bdf9a5f44eb2f0730427",
+                "hash": "60c8625162396a7d456e6325b4c419a3fa8d9980a51d8f87bdfc462498b9a605",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "dc9f9b37-9278-4646-88ea-69a6dea8fd64",
+                "node_id": "38052a1f-a2eb-4100-a94c-0575d3e14925",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
                     "file_name": "slides-for-p4-aaa_2024.txt",
                     "file_type": "text/plain",
                     "file_size": 3579,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "f1854cc475faacc48686df5100b744cdb7664486ff1ee22447b9c817bff22c70",
+                "hash": "c15f79ab1549a708a928acdfcc555b87c928aa40aae774434f74bf2d1cb15838",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "ed3bd2a2-5cf9-4337-8dd9-ea86442fae49",
+                "node_id": "b41dda23-cd3f-485e-88db-40af39bf80df",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "aa004a92408b4b1c05758e3d28b8925be420b3cd0113087cc34f15e6b455d2eb",
@@ -132,15 +132,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "ed3bd2a2-5cf9-4337-8dd9-ea86442fae49",
+        "id_": "b41dda23-cd3f-485e-88db-40af39bf80df",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
             "file_name": "slides-for-p4-aaa_2024.txt",
             "file_type": "text/plain",
             "file_size": 3579,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -160,35 +160,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "c42d1ffc-cef7-4fd0-b9ae-76b9167fc607",
+                "node_id": "4cf8ecf6-fffd-4361-92fd-012e89cab1a7",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
                     "file_name": "slides-for-p4-aaa_2024.txt",
                     "file_type": "text/plain",
                     "file_size": 3579,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "128a6451b430e30fee9ee3631dfa6247ffe2bc8c13a2bdf9a5f44eb2f0730427",
+                "hash": "60c8625162396a7d456e6325b4c419a3fa8d9980a51d8f87bdfc462498b9a605",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "9d2ad9b3-50f0-421d-b464-79d872ec5924",
+                "node_id": "5ad1ed70-af4a-4616-b59b-12c28846d8ac",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
                     "file_name": "slides-for-p4-aaa_2024.txt",
                     "file_type": "text/plain",
                     "file_size": 3579,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "8b88c378e5d8c2b9edceabd755c2c31f5a7e4492c60ac1eb42d7842755a37f3f",
+                "hash": "d74ccd9f652e97205625fc7b756bee3920625c657b269725c38f9abef6738687",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "5db05a80-e164-4ce6-8c27-608ff5c5d08a",
+                "node_id": "9d40ea11-f3e5-409e-bfd9-b965bab5fcab",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "98b8e008aba2a94f869dac3dfd1e6fc927479f60d65c5e09a95e86db680faba4",
@@ -205,15 +205,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "5db05a80-e164-4ce6-8c27-608ff5c5d08a",
+        "id_": "9d40ea11-f3e5-409e-bfd9-b965bab5fcab",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
             "file_name": "slides-for-p4-aaa_2024.txt",
             "file_type": "text/plain",
             "file_size": 3579,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -233,35 +233,35 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "c42d1ffc-cef7-4fd0-b9ae-76b9167fc607",
+                "node_id": "4cf8ecf6-fffd-4361-92fd-012e89cab1a7",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
                     "file_name": "slides-for-p4-aaa_2024.txt",
                     "file_type": "text/plain",
                     "file_size": 3579,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "128a6451b430e30fee9ee3631dfa6247ffe2bc8c13a2bdf9a5f44eb2f0730427",
+                "hash": "60c8625162396a7d456e6325b4c419a3fa8d9980a51d8f87bdfc462498b9a605",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "ed3bd2a2-5cf9-4337-8dd9-ea86442fae49",
+                "node_id": "b41dda23-cd3f-485e-88db-40af39bf80df",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
                     "file_name": "slides-for-p4-aaa_2024.txt",
                     "file_type": "text/plain",
                     "file_size": 3579,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "80175977212069b7afa7cdf63d2863104bbdae9dfe35746c9bbbd6c1ac55d58e",
+                "hash": "90706bc42c6826c64163db2ad2ccaed3ef350995504780eed0ba39e977b2db88",
                 "class_name": "RelatedNodeInfo"
             },
             "3": {
-                "node_id": "2d2ff0fc-4931-46e5-a73a-8f6404964f61",
+                "node_id": "fc0cf4df-6b40-440c-9d1b-09406f0a0291",
                 "node_type": "1",
                 "metadata": {},
                 "hash": "c9a01ccc0088d3aea54f814e055623f769066bd3cfdb38a9877e7e8ff2f82af1",
@@ -278,15 +278,15 @@
         "class_name": "TextNode"
     },
     {
-        "id_": "2d2ff0fc-4931-46e5-a73a-8f6404964f61",
+        "id_": "fc0cf4df-6b40-440c-9d1b-09406f0a0291",
         "embedding": null,
         "metadata": {
-            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
             "file_name": "slides-for-p4-aaa_2024.txt",
             "file_type": "text/plain",
             "file_size": 3579,
-            "creation_date": "2024-09-19",
-            "last_modified_date": "2024-09-19"
+            "creation_date": "2024-10-25",
+            "last_modified_date": "2024-10-27"
         },
         "excluded_embed_metadata_keys": [
             "file_name",
@@ -306,31 +306,31 @@
         ],
         "relationships": {
             "1": {
-                "node_id": "c42d1ffc-cef7-4fd0-b9ae-76b9167fc607",
+                "node_id": "4cf8ecf6-fffd-4361-92fd-012e89cab1a7",
                 "node_type": "4",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
                     "file_name": "slides-for-p4-aaa_2024.txt",
                     "file_type": "text/plain",
                     "file_size": 3579,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "128a6451b430e30fee9ee3631dfa6247ffe2bc8c13a2bdf9a5f44eb2f0730427",
+                "hash": "60c8625162396a7d456e6325b4c419a3fa8d9980a51d8f87bdfc462498b9a605",
                 "class_name": "RelatedNodeInfo"
             },
             "2": {
-                "node_id": "5db05a80-e164-4ce6-8c27-608ff5c5d08a",
+                "node_id": "9d40ea11-f3e5-409e-bfd9-b965bab5fcab",
                 "node_type": "1",
                 "metadata": {
-                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX\\Sandbox\\data\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\slides-for-p4-aaa_2024.txt",
                     "file_name": "slides-for-p4-aaa_2024.txt",
                     "file_type": "text/plain",
                     "file_size": 3579,
-                    "creation_date": "2024-09-19",
-                    "last_modified_date": "2024-09-19"
+                    "creation_date": "2024-10-25",
+                    "last_modified_date": "2024-10-27"
                 },
-                "hash": "72d15bc34511b821b835b0910e4b644f4462693232d6c52df9529683cfa3152e",
+                "hash": "f73cd13f09d1244f594c90ccfd346ea2ef56769dcc3639ab2754b370b93ea080",
                 "class_name": "RelatedNodeInfo"
             }
         },

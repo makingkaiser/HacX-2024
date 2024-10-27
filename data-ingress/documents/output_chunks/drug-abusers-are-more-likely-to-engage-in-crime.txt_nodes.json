@@ -1,0 +1,200 @@
+[
+    {
+        "id_": "b262400a-1025-4239-98f6-48ae56a32c32",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\drug-abusers-are-more-likely-to-engage-in-crime.txt",
+            "file_name": "drug-abusers-are-more-likely-to-engage-in-crime.txt",
+            "file_type": "text/plain",
+            "file_size": 1043,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "5735f13b-71e2-4640-a832-17240d20b40c",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\drug-abusers-are-more-likely-to-engage-in-crime.txt",
+                    "file_name": "drug-abusers-are-more-likely-to-engage-in-crime.txt",
+                    "file_type": "text/plain",
+                    "file_size": 1043,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "857875c4bcc4b947a7bea709a9421332cf6aa74c483f86cedc15e68b9302de9b",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "f559fc81-0769-4067-8903-4564fe5add1c",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "98a6d188930a27f9862a4ea6ac395461197f722b4e8ff26f6bce86423e3f6f9e",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Drug abusers \r\nMore Likely to\r\ncommit Crime\r\n\r\n• Higher criminal activity during active drug  \r\n use, with a six-fold increase in the  \r\n \r\n number of crime days in Baltimore, US.\r\n\r\n 3 to 4 times greater for drug users.\r\n\r\n• Likelihood of committing homicide was   \r\n nearly 9 times greater for an individual  \r\n who had used methamphetamine within the  \r\n month prior to being arrested, in US.     \r\n\r\n• 40% increase in number of drug-related  \r\n homicides after decriminalisation of drug  \r\n use in Portugal.\r\n\r\n drug-motivated theft is much higher   \r\n for a heavy drug user.\r\n\r\n•  Illegal drug use increased the odds of  \r\n \r\n committing any crime by 6 times.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 0,
+        "end_char_idx": 668,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "f559fc81-0769-4067-8903-4564fe5add1c",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\drug-abusers-are-more-likely-to-engage-in-crime.txt",
+            "file_name": "drug-abusers-are-more-likely-to-engage-in-crime.txt",
+            "file_type": "text/plain",
+            "file_size": 1043,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "5735f13b-71e2-4640-a832-17240d20b40c",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\drug-abusers-are-more-likely-to-engage-in-crime.txt",
+                    "file_name": "drug-abusers-are-more-likely-to-engage-in-crime.txt",
+                    "file_type": "text/plain",
+                    "file_size": 1043,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "857875c4bcc4b947a7bea709a9421332cf6aa74c483f86cedc15e68b9302de9b",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "b262400a-1025-4239-98f6-48ae56a32c32",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\drug-abusers-are-more-likely-to-engage-in-crime.txt",
+                    "file_name": "drug-abusers-are-more-likely-to-engage-in-crime.txt",
+                    "file_type": "text/plain",
+                    "file_size": 1043,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "467bb4d36cf9e791304773244a736f7d4490a044096800184eddec66d760b57c",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "f87c4110-642d-4e3c-b55c-ce15bff01cbd",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "bce9a4c2228c9c9bf0156c839f120ce4bb41ff88d8a94e790e92142f7399722a",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Source: ‘Review of Empirical Evidence on the Link between Drugs and Crime’, MHA, 2020.\r\n\r\nDrug abuse is associated with a higher tendency to engage in \r\ncriminal behaviour and crime.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 668,
+        "end_char_idx": 854,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "f87c4110-642d-4e3c-b55c-ce15bff01cbd",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\drug-abusers-are-more-likely-to-engage-in-crime.txt",
+            "file_name": "drug-abusers-are-more-likely-to-engage-in-crime.txt",
+            "file_type": "text/plain",
+            "file_size": 1043,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "5735f13b-71e2-4640-a832-17240d20b40c",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\drug-abusers-are-more-likely-to-engage-in-crime.txt",
+                    "file_name": "drug-abusers-are-more-likely-to-engage-in-crime.txt",
+                    "file_type": "text/plain",
+                    "file_size": 1043,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "857875c4bcc4b947a7bea709a9421332cf6aa74c483f86cedc15e68b9302de9b",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "f559fc81-0769-4067-8903-4564fe5add1c",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\drug-abusers-are-more-likely-to-engage-in-crime.txt",
+                    "file_name": "drug-abusers-are-more-likely-to-engage-in-crime.txt",
+                    "file_type": "text/plain",
+                    "file_size": 1043,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "36a1fc7095536c2791c1d197fb374b595c782e0e7159fb15f7b4fd30172245a8",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Various overseas studies drew\r\na link between \r\ndrug abuse and violent crimes\r\n\r\nResearch showed that drug \r\nabuse is associated with crimes \r\nlike theft, robbery & burglary\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 854,
+        "end_char_idx": 1031,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    }
+]

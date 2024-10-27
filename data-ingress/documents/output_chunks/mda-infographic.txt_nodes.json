@@ -1,0 +1,200 @@
+[
+    {
+        "id_": "15d81b9c-b75e-4129-a53e-3951b8eae9cb",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\mda-infographic.txt",
+            "file_name": "mda-infographic.txt",
+            "file_type": "text/plain",
+            "file_size": 1971,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "25a4b4ae-f5ca-4c07-8169-841d61626cc1",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\mda-infographic.txt",
+                    "file_name": "mda-infographic.txt",
+                    "file_type": "text/plain",
+                    "file_size": 1971,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "ce2737fa6d2183cd83711a4b1aa709515de45dbd693cfc661f7f83eee3e307db",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "1e089ce4-0859-4551-951d-f28fa6dca7d5",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "4d261038c8eea59cd09ddb60a622c2a1009713ecb1ed9549508b651dca2069c3",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Amendments to \r\nMisuse of Drugs Act\r\n\r\nThe Misuse of Drugs (Amendment) Bill will\r\n\r\nA. Introduce a new legislative framework for \r\npsychoactive substances.\r\n\r\nB. Increase the punishment for possession of larger \r\nquantities of more dangerous and harmful controlled \r\ndrugs.\r\n\r\nA. New Legislative Framework for \r\nPsychoactive Substances\r\n\r\nNew Psychoactive Substances (NPS) mimic the effects of \r\ncontrolled drugs such as cannabis and heroin.\r\n\r\nSource: United Nations Office on Drugs and Crime\r\n\r\nSignificant increase in \r\nnumber of NPS abusers \r\narrested in Singapore\r\n\r\nAverage of \r\n3\r\nper year\r\n\r\n2014-2017\r\n\r\nAverage of \r\n235\r\nper year\r\n\r\n2018-2022\r\n\r\nSignificant increase in \r\nnumber of NPS \r\nreported globally\r\n\r\n166\r\n\r\nEnd 2009\r\n\r\n1,150\r\n\r\nApril 2022\r\n\r\nExamples of NPS include synthetic cannabinoids and synthetic cathinones.\r\n\r\nA. New Legislative Framework for \r\nPsychoactive Substances\r\n\r\nTo strengthen deterrence against psychoactive substances, \r\nthe amendments will:\r\n\r\nIntroduce a new framework to control \r\nsubstances based on their capacity to produce \r\na psychoactive effect, instead of their \r\nchemical structure, unless excluded in a \r\nspecified Schedule.\r\n\r\nCriminalise the trafficking, manufacturing, \r\nimporting, exporting, possession and \r\nconsumption of psychoactive substances, and \r\nallow for the arrest and detention of abusers \r\nfor treatment and rehabilitation.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 0,
+        "end_char_idx": 1394,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "1e089ce4-0859-4551-951d-f28fa6dca7d5",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\mda-infographic.txt",
+            "file_name": "mda-infographic.txt",
+            "file_type": "text/plain",
+            "file_size": 1971,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "25a4b4ae-f5ca-4c07-8169-841d61626cc1",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\mda-infographic.txt",
+                    "file_name": "mda-infographic.txt",
+                    "file_type": "text/plain",
+                    "file_size": 1971,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "ce2737fa6d2183cd83711a4b1aa709515de45dbd693cfc661f7f83eee3e307db",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "15d81b9c-b75e-4129-a53e-3951b8eae9cb",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\mda-infographic.txt",
+                    "file_name": "mda-infographic.txt",
+                    "file_type": "text/plain",
+                    "file_size": 1971,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "3683d65fb32fdcb155ed3482884f9eccaed0e084bb5bc5fb712a9340f3801ac9",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "3aa6fcc7-18f3-475a-96a6-95cb207dacc7",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "f887e8747fc9502cf2e04833bbcdcf0d8d7eb4d9ba9bac529af3304c0e79c628",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "B.  Increased punishment for \r\npossession of larger quantities of \r\ncontrolled drugs deemed to be more \r\ndangerous and harmful\r\n\r\nThe current sentencing framework for drug possession \r\ndoes not sufficiently account for the potential harm that \r\ncould be caused by persons with large amounts of \r\ncontrolled drugs in their possession.\r\n\r\nA more deterrent punishment is necessary to deter \r\nthe proliferation of drugs locally. \r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 1394,
+        "end_char_idx": 1823,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "3aa6fcc7-18f3-475a-96a6-95cb207dacc7",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\mda-infographic.txt",
+            "file_name": "mda-infographic.txt",
+            "file_type": "text/plain",
+            "file_size": 1971,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "25a4b4ae-f5ca-4c07-8169-841d61626cc1",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\mda-infographic.txt",
+                    "file_name": "mda-infographic.txt",
+                    "file_type": "text/plain",
+                    "file_size": 1971,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "ce2737fa6d2183cd83711a4b1aa709515de45dbd693cfc661f7f83eee3e307db",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "1e089ce4-0859-4551-951d-f28fa6dca7d5",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\mda-infographic.txt",
+                    "file_name": "mda-infographic.txt",
+                    "file_type": "text/plain",
+                    "file_size": 1971,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "6683fc65121dd63fac8041a873d2f85e4f38ee4a1377f66ca7247c1b1a9b28dc",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Increased punishments, including caning, will be \r\nintroduced for the possession of selected controlled \r\ndrugs above certain weight thresholds.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 1823,
+        "end_char_idx": 1971,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    }
+]

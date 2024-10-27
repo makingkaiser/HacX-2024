@@ -1,58 +1,101 @@
-import asyncio  
+import asyncio
 import os
-import os
-import replicate  
+import shutil
+from tempfile import NamedTemporaryFile
+from typing import List
+from uuid import uuid4
 
-from typing import List 
-
-from uuid import uuid4  
+import aiohttp
+import replicate
+import requests
+import logging
 
 from RAG.image_caption_rag.image_index_search_engine import image_caption_rag_refinement
 from utils.initialize_client import create_openai_completion
+from visualfidelity import checkvisualfidelity
+from textfidelity import check_text_fidelity
 
 os.environ["REPLICATE_API_TOKEN"] = os.getenv("REPLICATE_API_TOKEN")
 
-class GraphicElement:  
-    def __init__(self, element_type, description, refined = None, content = None):  
-        self.id = str(uuid4())  
+# async def get_base64_image_url(image_url):
+#         try:
+#             response = requests.get(image_url)
+#             response.raise_for_status()  # Ensure the request was successful
+#             return "data:image/webp;base64," + base64.b64encode(response.content).decode('utf-8')
+#         except requests.RequestException as e:
+#             print(f"Error downloading or encoding image: {e}")
+#             return None
+class GraphicElement:
+    def __init__(self, element_type, description, refined=None, content=None):
+        self.id = str(uuid4())
         self.type = element_type
-        self.description = description  
+        self.description = description
         self.content = content
         self.refined = refined
 
-# Asynchronous function to run a prediction from one single prompt and track progress  
+    async def assess_visual_fidelity(self, image_url, intended_text=None):
+        """Asynchronously downloads image, checks visual and text fidelity."""
+        visual_result, text_result = False, False
+        async with aiohttp.ClientSession() as session:
+            async with session.get(image_url) as response:
+                if response.status != 200:
+                    logging.error(f"Failed to download image: {response.status}")
+                    response.raise_for_status()
+
+                with NamedTemporaryFile(delete=False, suffix=".png") as tmp_file:
+                    while True:
+                        chunk = await response.content.read(1024)
+                        if not chunk:
+                            break
+                        tmp_file.write(chunk)
+                    tmp_file_path = tmp_file.name
+
+                logging.info(f"Image downloaded and saved to {tmp_file_path}")
+
+        try:
+            visual_result = checkvisualfidelity(tmp_file_path, 'B')
+            logging.info(f"Visual fidelity check completed with result: {visual_result}")
+            text_result = check_text_fidelity(tmp_file_path, intended_text)
+            logging.info(f"Text fidelity check completed with result: {text_result}")
+        except Exception as e:
+            logging.error(f"Error during fidelity checks: {e}")
+        finally:
+            os.remove(tmp_file_path)
+            logging.info(f"Temporary file {tmp_file_path} removed")
+
+        return visual_result, text_result
+
+
+# Asynchronous function to run a prediction and potentially regenerate based on visual fidelity
 async def run_image_prediction(element: GraphicElement) -> None:
     description = element.refined if element.refined else element.description
-    input_data = {  
-        "prompt": description  
-    }  
-    prediction = replicate.predictions.create(  
-        model="black-forest-labs/flux-schnell",  
-        input=input_data  
-    )  
-      
-    # Check progress asynchronously  
-    while prediction.status not in ["succeeded", "failed", "canceled"]:  
-        await asyncio.sleep(2)  # Pause for 2 seconds before checking again  
-        prediction = replicate.predictions.get(prediction.id)  
-        log_output = prediction.logs  
-        if log_output:  
-            current_iteration = log_output.count("it [")  
-            total_iterations = 28  # Fixed number of iterations  
-            progress_percentage = (current_iteration / total_iterations) * 100  
-            print(f"Prompt: {description[:60]}... Progress: {progress_percentage:.2f}%")  
-        else:  
-            print(f"Prompt: {description[:60]}... Progress: Not available yet.")  
-      
-    # Handle result  
-    if prediction.status == "succeeded":  
-        print(f"Prompt: {description[:60]}... Prediction completed successfully!")  
-        element.content = prediction.output  
-    else:  
-        print(f"Prompt: {description[:60]}... Prediction failed with status: {prediction.status}")  
-        element.content = "Error generating image"  
-  
+    input_data = {"prompt": description}
+    prediction = replicate.predictions.create(
+        model="black-forest-labs/flux-schnell",
+        input=input_data
+    )
 
+    while prediction.status not in ["succeeded", "failed", "canceled"]:
+        await asyncio.sleep(2)
+        prediction = replicate.predictions.get(prediction.id)
+
+    if prediction.status == "succeeded":
+        element.content = prediction.output
+        if isinstance(element.content, list):  # Handle lists
+            for image_url in element.content:
+                is_well_formed_visual, is_well_formed_text = await element.assess_visual_fidelity(image_url)
+                if not (is_well_formed_visual and is_well_formed_text):
+                    print(f"Fidelity failure for {image_url}, regenerating...")
+                    await run_image_prediction(element)
+                    break
+        else:
+            is_well_formed_visual, is_well_formed_text = await element.assess_visual_fidelity(element.content)
+            if not (is_well_formed_visual and is_well_formed_text):
+                print("Fidelity failure, regenerating...")
+                await run_image_prediction(element)
+    else:
+        print(f"Prediction failed with status: {prediction.status}")
+        element.content = "Error generating image"
 
 async def run_multiple_image_predictions(elements: List[GraphicElement]):  
     #Function to run multiple predictions asynchronously  
@@ -79,7 +122,9 @@ async def refine_image_description(element: GraphicElement, target_audience: str
         - Stylistic Description: {stylistic_description}
         - Content Description: {content_description}
         
-        Return ONLY the expanded description and nothing else. DO NOT include any description of text or textual elements in your expanded description, unless explicity specified. If it is specified, restrict to only one textual element.
+        Return ONLY the expanded description and nothing else. 
+        Make sure the generated image does not have any text or textual elements unless explicity specified. 
+        If it is specified, restrict to only one textual element.
         """
         response = await create_openai_completion(prompt)
         element.refined = response.choices[0].message.content

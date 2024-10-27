@@ -1,16 +1,58 @@
-import re  
-import json  
-from typing import * 
-from uuid import uuid4  
+import json
+import os
+import re
+from tempfile import NamedTemporaryFile
+from typing import *
+from uuid import uuid4
+import logging 
 
-class GraphicElement:  
-    def __init__(self, element_type, description, refined = None, content = None):  
-        self.id = str(uuid4())  
+import aiohttp
+import requests
+
+from visualfidelity import checkvisualfidelity
+from textfidelity import check_text_fidelity
+
+
+class GraphicElement:
+    def __init__(self, element_type, description, refined=None, content=None):
+        self.id = str(uuid4())
         self.type = element_type
-        self.description = description  
+        self.description = description
         self.content = content
         self.refined = refined
-  
+
+    async def assess_visual_fidelity(self, image_url, intended_text=None):
+        """Asynchronously downloads image, checks visual and text fidelity."""
+        visual_result, text_result = False, False
+        async with aiohttp.ClientSession() as session:
+            async with session.get(image_url) as response:
+                if response.status != 200:
+                    logging.error(f"Failed to download image: {response.status}")
+                    response.raise_for_status()
+
+                with NamedTemporaryFile(delete=False, suffix=".png") as tmp_file:
+                    while True:
+                        chunk = await response.content.read(1024)
+                        if not chunk:
+                            break
+                        tmp_file.write(chunk)
+                    tmp_file_path = tmp_file.name
+
+                logging.info(f"Image downloaded and saved to {tmp_file_path}")
+
+        try:
+            visual_result = checkvisualfidelity(tmp_file_path, 'B')
+            logging.info(f"Visual fidelity check completed with result: {visual_result}")
+            text_result = check_text_fidelity(tmp_file_path, intended_text)
+            logging.info(f"Text fidelity check completed with result: {text_result}")
+        except Exception as e:
+            logging.error(f"Error during fidelity checks: {e}")
+        finally:
+            os.remove(tmp_file_path)
+            logging.info(f"Temporary file {tmp_file_path} removed")
+
+        return visual_result, text_result
+
 
 def extract_image_descriptions(html_content) -> List[GraphicElement]:
     """Extracts image descriptions. The expected format is [Image: dimensions - description]."""

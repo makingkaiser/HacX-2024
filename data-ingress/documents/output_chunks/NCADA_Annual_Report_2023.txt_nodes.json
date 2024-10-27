@@ -1,0 +1,1441 @@
+[
+    {
+        "id_": "15e7a2ad-87ca-43b5-ab93-e5e49e3e5ed1",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+            "file_name": "NCADA_Annual_Report_2023.txt",
+            "file_type": "text/plain",
+            "file_size": 28183,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "70f836cb-fc6f-4a6a-8a2e-b5bd65d03908",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "88caa42858eff4a88cd942408591f31ef714af8a7c2646878b112bcd5d85fdc1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "52ba6b45-aec1-489e-bfb7-4310e8003412",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "16790a79541ceef245289671f4424fdbb39b044d9989740b0eddffb8249033e9",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "ANNUAL REPORT 2023\r\n\r\nKeeping a Drug-free \r\nSociety for Our Children\r\n\r\nAbout the National Council Against Drug Abuse \r\n\r\nChairman's Message\r\n\r\n02\r\n\r\nCouncil Members\r\n\r\n04\r\n\r\nTribute to Mr Hawazi\r\n\r\n06\r\n\r\nIgnite Conversations, Foster Understanding\r\n\r\n08\r\n\r\nSupporting Partners, Building Advocacy\r\n\r\n12\r\n\r\nAcknowledgements\r\n\r\n19\r\n\r\nNational Council Against Drug Abuse \r\n\r\nThe National Council Against Drug Abuse (NCADA) was formed in January 1995. As the advisory \r\ncouncil to the Minister and the Ministry of Home Affairs, NCADA’s mission is to serve as an effective \r\nconduit between the Government and the public by championing:\r\n\r\n• Advocacy on policies and measures against drug abuse\r\n\r\n• Community engagements and outreach to public to promote Singapore’s zero drug tolerance \r\n\r\nstance with the support of community partners\r\n\r\nAbout\r\n\r\nNCADA’s refreshed logo symbolises the Council’s vision of uniting Singapore Against Drug Abuse \r\n(represented by the letters ‘ADA’). The green & white anti-drug ribbon firmly wrapped around \r\nthe letter ‘D’  represents NCADA’s central mission to champion advocacy, support community \r\nengagements and build affinity for the drug-free cause.\r\n\r\n NCADA’S ROLES ARE TO:\r\n\r\n•\tPromote national drug-free measures\r\n\r\n•\tSupport community engagements for the drug-free cause\r\n\r\n•\tServe as a conduit between the Government and the community for drug prevention efforts\r\n\r\n1\r\nAnnual Report 2023\r\n\r\n2\r\n\r\nDear Friends,\r\n\r\nDrug abuse and the harms of drugs continue to \r\npose a significant threat to millions of individuals \r\nworldwide. The World Health Organization \r\nreports a staggering 600,000 lives lost to drug \r\nabuse in 2019 alone. If one were to consider the \r\nwider ripple of harm caused to those they left \r\nbehind – their loved ones and dependents, the \r\nscale of the human tragedy is manifold.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 0,
+        "end_char_idx": 1841,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "52ba6b45-aec1-489e-bfb7-4310e8003412",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+            "file_name": "NCADA_Annual_Report_2023.txt",
+            "file_type": "text/plain",
+            "file_size": 28183,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "70f836cb-fc6f-4a6a-8a2e-b5bd65d03908",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "88caa42858eff4a88cd942408591f31ef714af8a7c2646878b112bcd5d85fdc1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "15e7a2ad-87ca-43b5-ab93-e5e49e3e5ed1",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "6ce90654e639b334fb34d62daea3e9e7435fe5fdef9a050f6353ab345db14ea7",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "979d8670-296d-450b-8dab-0c5cb2c5064c",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "47c80e66fbc17624a9c068d360c012d0e91eed7dca22d35d9beaecad6955d639",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Singapore's \r\nsteadfast \r\nstance \r\nof \r\nharm \r\n\r\nprevention, in contrast to the harm reduction \r\npolicies pursued by some Western countries, \r\nremains a basis of our nation's approach to \r\ndrug control. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 1841,
+        "end_char_idx": 2044,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "979d8670-296d-450b-8dab-0c5cb2c5064c",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+            "file_name": "NCADA_Annual_Report_2023.txt",
+            "file_type": "text/plain",
+            "file_size": 28183,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "70f836cb-fc6f-4a6a-8a2e-b5bd65d03908",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "88caa42858eff4a88cd942408591f31ef714af8a7c2646878b112bcd5d85fdc1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "52ba6b45-aec1-489e-bfb7-4310e8003412",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "64e2cebf053aed6113d6127e6180c862b85012dce8ad5c1366c271ce6bd93c43",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "ecf1fb59-6921-41fc-9b2b-0c7788817301",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "5961463399ba23af0356bf71bf0d2faf425c4fcd0031b42b2142cd72ad99738a",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "As a citizen advisory body, NCADA \r\nfully endorses and supports Singapore's zero-\r\ntolerance stance on drug abuse. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 2044,
+        "end_char_idx": 2159,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "ecf1fb59-6921-41fc-9b2b-0c7788817301",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+            "file_name": "NCADA_Annual_Report_2023.txt",
+            "file_type": "text/plain",
+            "file_size": 28183,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "70f836cb-fc6f-4a6a-8a2e-b5bd65d03908",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "88caa42858eff4a88cd942408591f31ef714af8a7c2646878b112bcd5d85fdc1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "979d8670-296d-450b-8dab-0c5cb2c5064c",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "fcba35c14d4c8527eefb2202903088a81df7ed8addfc1c38fc2187f42971737b",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "2206b750-5ddd-4aec-a34d-bbb553439dec",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "ee448a794afe5ba0c7c630df5269e05859d47e50c15c8746bfea6abc4e37ad8e",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Through our \r\nlong history of engendering conversations \r\nwith policymakers and with those personally \r\naffected by drugs, we recognise the detrimental \r\nimpact of drug abuse, which not only harms \r\nindividuals but also destabilises families and \r\ndisrupts the workforce. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 2159,
+        "end_char_idx": 2431,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "2206b750-5ddd-4aec-a34d-bbb553439dec",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+            "file_name": "NCADA_Annual_Report_2023.txt",
+            "file_type": "text/plain",
+            "file_size": 28183,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "70f836cb-fc6f-4a6a-8a2e-b5bd65d03908",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "88caa42858eff4a88cd942408591f31ef714af8a7c2646878b112bcd5d85fdc1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "ecf1fb59-6921-41fc-9b2b-0c7788817301",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "f2c4cfaed30f52004bdc27fc733e305df4ce8050eda32a849144a6b913ed5281",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "9d677b60-5e95-451a-b4d3-456de1700109",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "3bd5dc39aa6dc9c00b9b4605f9953e220a09c42af0e32c2f37a70c8d2765a4d1",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "As a conduit between \r\nthe government and the wider community \r\non the drug issue, NCADA conducts regular \r\nstudies to find out what the public thinks of \r\nthese issues, and from NCADA National Drug \r\nPerception Survey 2023, we see that more than \r\n9 in 10 Singapore residents, both adults and \r\nyouths, agree, too, that maintaining a drug-free \r\nenvironment is in the best interest of Singapore.\r\n\r\nOf particular concern to NCADA has been \r\nthe trend towards permissiveness adopted \r\nby a growing number of our youths some \r\nof whom may have been influenced by the \r\n\r\nMessage\r\n\r\nmisinformation put out by cannabis producers \r\nthrough the soft power of pop culture. NCADA’s \r\nDrug Perception Survey shows that despite the \r\nharms of cannabis being well-evidenced by \r\nthe medical community, including its potential \r\nfor addiction, about a third of the respondents \r\nin 2020 felt cannabis was not addictive. This \r\nhighlights the urgent need for proactive \r\nmeasures to address the proliferation of drug-\r\nrelated misinformation and its impact on our \r\nyouth.\r\n\r\nNCADA has made significant progress with \r\nseveral \r\nimpactful \r\ninitiatives \r\nto \r\nengender \r\n\r\nconversations \r\nwith \r\nour \r\nyouths. \r\nNCADA’s \r\n\r\nmulti-year ‘What’s Your Fix?’ (WYF) campaign, \r\ndeveloped in collaboration with our strategic \r\npartner Architects of Life (AOL), came to a \r\nclose in 2023 with a film screening and youth \r\ndialogue with NCADA members. Through \r\nmeaningful conversations and the sharing of \r\nlived experiences, the WYF campaign had \r\ninspired impactful initiatives, including an \r\ninfluential documentary series, engaging TikTok \r\nlivestreams, and thought-provoking youth films \r\nand youth film dialogue event. The campaign \r\nclinched several media awards including \r\nthe \r\nInnovation \r\nAward \r\nfor \r\nMulti-Platform \r\n\r\nCampaign at the Asia Pacific Broadcasting+ \r\nAwards and the National Winner (Singapore) \r\nat Asian Academy of Creative Awards. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 2431,
+        "end_char_idx": 4373,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "9d677b60-5e95-451a-b4d3-456de1700109",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+            "file_name": "NCADA_Annual_Report_2023.txt",
+            "file_type": "text/plain",
+            "file_size": 28183,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "70f836cb-fc6f-4a6a-8a2e-b5bd65d03908",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "88caa42858eff4a88cd942408591f31ef714af8a7c2646878b112bcd5d85fdc1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "2206b750-5ddd-4aec-a34d-bbb553439dec",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "d729aec18386d818a758a807abcd3068999ffdf81e8379918057ca09a7d6e50c",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "e31c2171-f355-4da1-b7ec-a15708fd3e47",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "aa46dbf7e1197c66f3de81790e5768f259ed1a4131b7fd70d607f9b1ffe5c88c",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "More \r\nimportantly, the campaign achieved the aim of \r\nchanging mindsets; there was a 30% increase in \r\npositive attitudes towards the drug-free cause \r\namong youth post-campaign, emphasising its \r\neffectiveness in reaching and resonating with \r\nour youth audience.\r\n\r\nChairman’s\r\n\r\nNCADA\r\n\r\nA finding in NCADA’s Youth Perception Survey \r\n2019 indicates that 90.8% of youths whose \r\nparents had spoken to them about drugs and \r\ndrug abuse reported that those conversations \r\nhave deterred them from taking drugs. This \r\nresearch shows that parental influence is found \r\nto be effective in deterring drug abuse, and \r\nhas positioned us to extend our efforts to work \r\nwith parents in addressing the challenges of \r\ndrug abuse. NCADA is committed to providing \r\nthe necessary resources to support initiatives \r\nthat resonate with and positively impact our \r\nyouth community. Our focus on youths in past \r\nyears has provided us with a firm foundation \r\nto widen our scope and encompass parents in \r\nour advocacy efforts in the coming years. The \r\nDrugFreeSG Fund provides grants to projects \r\nthat focus on raising awareness of preventive \r\ndrug education and fostering a drug-free \r\nenvironment. The increase in fund amount in \r\nthe coming year allows NCADA to provide more \r\nsupport for worthy community-led ground-up \r\ninitiatives. \r\n\r\nMoving forward, we are committed to building \r\nnetworks of influence with parent groups and \r\nlike-minded organisations, leveraging strategic \r\npartnerships to amplify our impact. Our strategy \r\nof engendering conversations and building \r\nadvocacy will continue to guide our efforts as we \r\nstrive to create a more informed and supportive \r\ncommunity. As always, we remain dedicated \r\nto building capacity and capability within the \r\ncommunity for the anti-drug cause.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 4373,
+        "end_char_idx": 6181,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "e31c2171-f355-4da1-b7ec-a15708fd3e47",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+            "file_name": "NCADA_Annual_Report_2023.txt",
+            "file_type": "text/plain",
+            "file_size": 28183,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "70f836cb-fc6f-4a6a-8a2e-b5bd65d03908",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "88caa42858eff4a88cd942408591f31ef714af8a7c2646878b112bcd5d85fdc1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "9d677b60-5e95-451a-b4d3-456de1700109",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "44c172fe832d4fc55539792218e191a817a89c1a9303391239ca8593389b7cb3",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "8df439a2-4694-454e-a6b8-5362f210bc9d",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "86a174f447fd25f514ad6437427e70f24e04869217c029ff903ab594029bc04a",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "I extend my heartfelt gratitude to our esteemed \r\npartners, Council Members, and all those \r\n\r\nwho have supported us in our mission. I am \r\nconfident that with our collective efforts, we \r\nwill continue to advance our cause and work \r\ntowards a drug-free society. Together, we can \r\nmake a meaningful impact in our community \r\nand beyond.\r\n\r\nAs we embark on a new year, we are determined \r\nto renew our dedication to our anti-drug \r\nadvocacy efforts. As we look ahead, we are \r\ndetermined to build upon our achievements \r\nand expand our efforts to address the evolving \r\nchallenges in the global and local drug \r\nlandscape.\r\n\r\nTan Chong Huat\r\nVice-Chairman,\r\nNational Council Against Drug Abuse\r\n\r\n3\r\nAnnual Report 2023\r\n\r\n4\r\n\r\nMr Hawazi Daipi\r\n\r\nChairman\r\n\r\nSingapore’s Non-Resident\r\n\r\nRepresentative to the Palestinian \r\n\r\nAuthority & High Commissioner to Ghana\r\n\r\nMr Tan Chong Huat\r\n\r\nVice-Chairman with effect \r\n\r\nfrom 1 Oct 2023\r\n\r\nSenior Partner,\r\n\r\nRHTLaw Asia LLP\r\n\r\nA/P Narayanan \r\n\r\nGanapathy\r\n\r\nResearch Sub-\r\n\r\nCommittee Lead\r\n\r\nAssociate Professor of \r\n\r\nSociology, and Vice-\r\n\r\nDean of Faculty of Arts \r\n\r\nand Social Sciences, \r\n\r\nNational University of \r\n\r\nSingapore\r\n\r\nDr Jimmy Lee\r\n\r\nExecutive \r\n\r\nCommittee \r\n\r\nMember, and \r\n\r\nPublicity & \r\n\r\nCommunications \r\n\r\nSub-Committee \r\n\r\nLead\r\n\r\nSenior Consultant,\r\n\r\nInstitute of Mental \r\n\r\nHealth\r\n\r\nMembers\r\nCouncil\r\n1 JAN – 31 DEC 2023\r\n\r\nMr Ahmad \r\n\r\nFirdaus Bin Daud\r\n\r\nExecutive \r\n\r\nCommittee Member, \r\n\r\nand Advocacy \r\n\r\n& Community \r\n\r\nEngagement Sub-\r\n\r\nCommittee Lead\r\n\r\nAPAC General \r\n\r\nCounsel, Avaya LLC\r\n\r\nMs Elaine Loo\r\n\r\nExecutive \r\n\r\nCommittee Member, \r\n\r\nand Advocacy \r\n\r\n& Community \r\n\r\nEngagement Sub-\r\n\r\nCommittee Lead\r\n\r\nDirector, Service \r\n\r\nStrategy & Innovation \r\n\r\nand Service Planning \r\n\r\n& Funding Group, \r\n\r\nNational Council of \r\n\r\nSocial Service\r\n\r\nMr Ravindran \r\n\r\nNagalingam\r\n\r\nPublicity & \r\n\r\nCommunications \r\n\r\nSub-Committee \r\n\r\nLead\r\n\r\nChief Operating \r\n\r\nOfficer, Bone Marrow \r\n\r\nDonor Programme \r\n\r\nSingapore\r\n\r\nDr Chew Tuan Chiong\r\n\r\nVice-Chairman\r\n\r\nChairman, \r\n\r\nVictoria AM Pte Limited\r\n\r\nMr SB Viknesan\r\n\r\nMember (also Member of \r\n\r\nAdvocacy & Community \r\n\r\nEngagement Sub-Committee)\r\n\r\nSenior Counsellor,\r\n\r\nNational Addictions \r\n\r\nManagement Service (NAMS), \r\n\r\nInstitute of Mental Health\r\n\r\nA/P Elmie Nekmat\r\n\r\nMember\r\n\r\nAssociate Professor,\r\n\r\nCommunications and New \r\n\r\nMedia; Resident Fellow Ridge \r\n\r\nView Residential College,\r\n\r\nNational University of \r\n\r\nSingapore\r\n\r\nMs Teo Ser Lee\r\n\r\nMember\r\n\r\nFounder/Director,\r\n\r\nProtocol Academy Pte Ltd\r\n\r\nExecutive Committee and Sub-Committee Leads\r\n\r\nPublicity & Communications Sub-Committee\r\n\r\nA/P Thomas Chong\r\n\r\nMember\r\n\r\nDirector Engagement, \r\n\r\nAssociate Professor and \r\n\r\nProgram Coordinator (Special \r\n\r\nand Inclusive Education), \r\n\r\nNewcastle Australia Institute of \r\n\r\nHigher Education, Singapore\r\n\r\nNCADA\r\n\r\nMr Zhulkarnain\r\n\r\nAbdul Rahim\r\n\r\nMember\r\n\r\nSenior Partner,\r\n\r\nDentons Rodyk;\r\n\r\nMember of Parliament\r\n\r\nof Chua Chu Kang GRC\r\n\r\nMr William Pushpam\r\n\r\nMember\r\n\r\nCluster Superintendent \r\n\r\n(Schools Division),\r\n\r\nMinistry of Education\r\n\r\nMr Peter Ong\r\n\r\nMember\r\n\r\nAssociate Editor,\r\n\r\nLianhe Zaobao\r\n\r\nDr Tracy Loh\r\n\r\nMember\r\n\r\nSenior Lecturer,\r\n\r\nLee Kong Chian School of Business, \r\n\r\nSingapore Management University\r\n\r\nDr Alvin Tan\r\n\r\nMember\r\n\r\nDirector, Family \r\n\r\nIntervention / Licensing & \r\n\r\nSector Regulation, MSF\r\n\r\nMr Patrick Kho\r\n\r\nMember\r\n\r\nGroup Managing \r\n\r\nDirector,\r\n\r\nLian Huat Group\r\n\r\nMs V Vyjayanthimala\r\n\r\nMember\r\n\r\nDeputy Director, Family \r\n\r\nDevelopment Division, \r\n\r\nSingapore Indian \r\n\r\nDevelopment Association \r\n\r\n(SINDA)\r\n\r\nMs Ong Yen Peng\r\n\r\nMember\r\n\r\nDeputy Director\r\n\r\n(Youth & Sports),\r\n\r\nPeople's Association\r\n\r\nMr Hudzaifah\r\n\r\nAlyaman Bin Adam\r\n\r\nMember\r\n\r\nAssistant Vice President,\r\n\r\nCommercial Assets & Fund,\r\nWarees Investments Pte Ltd\r\n\r\nMs Tan Chiah Hwee\r\n\r\nMember\r\n\r\nDirector, Community \r\n\r\nEngagement and \r\n\r\nDevelopment, Chinese \r\n\r\nDevelopment Assistance \r\n\r\nCouncil\r\n\r\nAdvocacy & Community Engagement Sub-Committee\r\n\r\nMs Azlinah Arif\r\n\r\nMember\r\n\r\nDeputy Director\r\n\r\nSchool Ready,\r\n\r\nYayasan MENDAKI\r\n\r\nMr Lin Qinghui\r\n\r\nMember\r\n\r\nSenior Director, Policy\r\n\r\nDevelopment Division,\r\n\r\nMinistry of Home Affairs\r\n\r\nMr Kesson Lee \r\n\r\nMember\r\n\r\nCommissioner for\r\n\r\nNarcotics Hong Kong\r\n\r\n5\r\nAnnual Report 2023\r\n\r\n6\r\n\r\nMr Hawazi\r\nTribute to \r\n\r\nMr Tan Chong Huat (left), Mr Hawazi Daipi (Center), A/P Muhammad Faishal Ibrahim (right)\r\n\r\nNCADA\r\n\r\nMr Hawazi Daipi had served as Vice-Chairman NCADA from 1 Feb 2016 to 31 Dec 2016 and \r\nas Chairman NCADA from 1 Jan 2017 to 31 Dec 2023. His experience as MP for Marsiling, and \r\nas member of the National Committee on Prevention, Rehabilitation, and Recidivism meant he \r\nwas very familiar with the drug problem and how the government and the community had to \r\nwork together to address it effectively. He has always been serving the people; as a 4-term MP \r\nin Sembawang GRC from Dec 1996 to Aug 2015, as the Senior Parliamentary Secretary of MOE \r\nfrom May 2011 to Sep 2015 and as the Senior Parliamentary Secretary of MOM from Aug 2004 to \r\nSep 2015. As a former MP, he had seen firsthand how drugs destroy lives and families, the reason \r\nhe accepted the invitation to serve in NCADA after retirement. \r\n\r\nDuring his Chairmanship, several significant initiatives were implemented to advance the mission \r\nof NCADA. These included the increase of the DrugFreeSG Fund, allowing for increased support \r\nfor community-led ground-up initiatives. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 6181,
+        "end_char_idx": 11677,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "8df439a2-4694-454e-a6b8-5362f210bc9d",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+            "file_name": "NCADA_Annual_Report_2023.txt",
+            "file_type": "text/plain",
+            "file_size": 28183,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "70f836cb-fc6f-4a6a-8a2e-b5bd65d03908",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "88caa42858eff4a88cd942408591f31ef714af8a7c2646878b112bcd5d85fdc1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "e31c2171-f355-4da1-b7ec-a15708fd3e47",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "b54931dd19ad236909d22f116a8c83a3bc60f5e2a92053fc356847d7620b675c",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "63d8c37c-09a6-4ccc-a753-5dcfb6c34fa5",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "7f70aec229f7316c62db012daa8c1dab61f1a81952ab7d8251986ba85c06a7fd",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Additionally, seminars and engagement opportunities \r\nwere introduced in 2022 to enhance the competencies and communication skills of advocates \r\nand partners in spreading anti-drug messages. Notable media campaigns such as 'High' and \r\n'What’s Your Fix?' were also launched, earning recognition and awards, including the prestigious \r\nAsian Academy Creative Awards and the Asia Pacific Broadcasting+ Awards. Under Mr Hawazi’s \r\nterm, NCADA successfully organised the Asia Pacific Forum Against Drug 2023 event, which will \r\nhenceforth be organised by SANA who will front international relations and engage with overseas \r\nNGOs to advocate for Singapore. Another significant contribution was NCADA's corporate retreat \r\nheld on 19 Nov 2022, providing a platform to discuss work priorities and foster better mutual \r\nunderstanding among NCADA members. \r\n\r\nOn behalf of NCADA, thank you for your exemplary leadership & numerous contributions, and \r\nmay you always enjoy good health, Mr Hawazi!\r\n\r\n7\r\nAnnual Report 2023\r\n\r\n8\r\n\r\nIgnite Conversations,\r\nFoster Understanding\r\n\r\nNCADA\r\n\r\nNCADA officially launched What’s Your \r\nFix? - our 2022-2023 media campaign in \r\nSeptember 2022. The campaign sought to \r\nlead young people into conversation, to \r\nfind out if there is truth behind the stories \r\nof drug abuse. In 2023, the campaign rolled \r\nout in three phases.\r\n\r\nTo set the first phase in motion, a 3-part \r\ndocuseries titled What’s Your Fix?",
+        "mimetype": "text/plain",
+        "start_char_idx": 11677,
+        "end_char_idx": 13119,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "63d8c37c-09a6-4ccc-a753-5dcfb6c34fa5",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+            "file_name": "NCADA_Annual_Report_2023.txt",
+            "file_type": "text/plain",
+            "file_size": 28183,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "70f836cb-fc6f-4a6a-8a2e-b5bd65d03908",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "88caa42858eff4a88cd942408591f31ef714af8a7c2646878b112bcd5d85fdc1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "8df439a2-4694-454e-a6b8-5362f210bc9d",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a79b8fc02a9cf80e4a87af4ae193cd2a19907b81e88b61001e338c01c6fd8b4f",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "2311ff5d-1673-4813-b881-036a8ca8924d",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "5cc28eff88afbb8a809c7c509c28899f9e1d858aef836d0d21a78168a2e5984f",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": ": On the \r\nMend was launched across different social \r\nmedia platforms on 26 July. The series \r\nshed light on real-life accounts of young \r\nindividuals whose lives had been affected \r\nwith addiction. Several issues were explored, \r\nsuch as the cost of being indifferent towards \r\ndrug abuse and the consideration for the \r\n\r\nCampaign\r\nWhat’s Your Fix?\r\n\r\nWhat’s Your Fix? Youth Film Programme\r\n\r\ncosts shouldered by unseen victims of drug abuse. On the Mend was also amplified through \r\ncontests on social media to unpack and expand conversations on issues reflected in each episode. \r\n\r\nFollowing the release of the docuseries, the campaign cast an open callout to empower young \r\npeople to advocate for the drug-free cause through film and content co-creation. In phase two, \r\nyoung content creators and filmmakers aged 35 and below were invited to submit their creative \r\nideas for a short film related to different drug abuse related themes.  Three winners were offered \r\nproduction grants of up to $15,000 each, and a Youth Film Programme was developed to bring \r\ntheir concepts to life. They received mentorship from experienced professional filmmakers and \r\nViddsee Studios.  NCADA worked with our campaign community partner, the Architects of Life \r\n(AOL), to enrich the programme with a drug-free advocacy component as well. This allowed the \r\ncontent creators to directly interact with former youth drug abusers to build their appreciation \r\nfor the challenges of drug addiction. This helped to bring firsthand experiences to screen. Three \r\nfilms were produced through the Youth Film Programme, and they covered a myriad of topics \r\npertaining to drug abuse such as the role a family plays in the prevention of drug abuse, the \r\nimpact of normalising drug abuse, and what youths can do when their friends are considering \r\nexperimenting with drugs.\r\n\r\n9\r\nAnnual Report 2023\r\n\r\n10\r\n\r\nThe final phase was titled What’s Your Fix? \r\nPresents: Youth Film Dialogue. NCADA \r\norganised a dialogue to engage about 100 \r\nparticipants on the urgency of issues pertaining \r\nto drug abuse, and their relevance to the \r\nyouths in Singapore. This event was held on 22 \r\nSeptember 2023, and it offered a platform for \r\nyouths to express their views and sentiments \r\non the subject, and to lend their voice to the \r\nnation’s drug conversation. \r\n\r\nNCADA’s intent for the What’s Your Fix? \r\ncampaign, \r\nthrough \r\nco-creation \r\nand \r\n\r\nconversation, was to inspire youths to become \r\nadvocates against drug abuse. \r\n\r\nFor more information on the What’s Your Fix? \r\ncampaign, visit\r\nhttps://whatsyourfix.sg\r\n\r\nWhat’s Your Fix? Presents: Youth Film Dialogue\r\non 22 September 2023 \r\nOn The Mend Docuseries\r\n\r\nNCADA\r\n\r\nWorking together to achieve a Drug-Free Vision\r\nAsia Pacific Forum Against Drugs 2023:\r\n\r\nThe \r\nNational \r\nCouncil \r\n\r\nAgainst \r\nDrug \r\nAbuse \r\n\r\n(NCADA) \r\nand \r\nthe \r\n\r\nSingapore Anti-Narcotics \r\nAssociation (SANA) co-\r\norganised the Asia Pacific \r\nForum \r\nAgainst \r\nDrugs \r\n\r\n(APFAD) 2023 on 26 May \r\n2023, to encourage local \r\nand foreign delegates to \r\nnetwork and engage in \r\ncomprehensive discussions \r\non drug-related issues and \r\nhow anti-drug efforts are \r\nsustained \r\nthrough \r\nlocal \r\n\r\ncommunity action. \r\n\r\nThe forum was established \r\nin 2015.  APFAD 2023 \r\nis part of NCADA and \r\n\r\nAPFAD GOH and Forum Speakers (From left to right):\r\nDAC Karen Lee (SPS), Mr Rogers Kasirye (WFAD), Ms Nur Azlinda Binte Zulkifli, \r\nMinister of State for Home Affairs and for National Development A/P Muhammad \r\nFaishal Ibrahim, Dr Chew Tuan Chiong (VCM NCADA), Minister for Communications \r\nand Information & Second Minister for Home Affairs Mrs Josephine Teo, Mr Kaka \r\nSingh (VP SANA), Mr Simon Khung, Dr Sandor Heng, Mr Augusto Nogueira (IFNGO).\r\n\r\nSANA’s efforts to spur collective ownership of the drug-free vision, and to mobilise the region for \r\nthe drug-free cause. It was also the first since Singapore’s successful election to the United Nations \r\nCommission on Narcotics Drugs announced in April 2023. The regional forum, hosted in Singapore, \r\nis a testament to Singapore’s vision to build a drug-free community and reaffirms our commitment to \r\nwork with regional non-governmental organisations (NGOs) to play our part to address the world’s \r\ndrug problem. \r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 13119,
+        "end_char_idx": 17398,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "2311ff5d-1673-4813-b881-036a8ca8924d",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+            "file_name": "NCADA_Annual_Report_2023.txt",
+            "file_type": "text/plain",
+            "file_size": 28183,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "70f836cb-fc6f-4a6a-8a2e-b5bd65d03908",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "88caa42858eff4a88cd942408591f31ef714af8a7c2646878b112bcd5d85fdc1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "63d8c37c-09a6-4ccc-a753-5dcfb6c34fa5",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "f23adf3cd7d75364a3b99c902957c45b878f90cc18301c95aee5931fe8a5e55c",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "9edac96f-afd6-45d4-a59b-941f86795b78",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "1a7a5909dd33c91a5eeffbb4a68d9428f1e43aee4eb97fe1b0bcfb8586bd48b1",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Themed “From Prevention to Aftercare – Integrated Community Action for a Drug-Free Society”, \r\nAPFAD 2023 served to rally local and regional anti-drug advocates and NGOs to discuss holistic harm \r\nprevention and aftercare approaches to better address the complex and increasingly challenging \r\ndrug problem. The forum emphasised the importance of adopting a whole-of-society approach to \r\ndrug prevention, featuring speakers who were practitioners, medical professionals, as well as peer \r\nleaders from the ex-abuser community. \r\n\r\n11\r\nAnnual Report 2023\r\n\r\n12\r\n\r\nMrs Josephine Teo, Minister for Communications \r\nand Information & Second Minister for Home \r\nAffairs, was the Guest-of Honour at this Forum. \r\nIn her opening remarks, she underscored \r\nthe importance of collaboration amongst \r\nNGOs and governments to combat the tide of \r\nmisinformation about drug use in the face of a \r\nworsening global drug situation. \r\n\r\nGlobal leaders, including Mr Rogers Kasirye, \r\nVice President of the World Federation Against \r\nDrugs (WFAD), and Mr Augusto Nogueira, \r\nPresident of the International Federation of Non-\r\nGovernmental Organisations for the Prevention \r\nof Drug and Substance Abuse, shared their \r\ninsights on the opportunities to engage \r\ncommunities towards the development of best \r\npractices for drug prevention and intervention \r\napproaches. \r\n\r\nThe forum concluded with delegates signing \r\nthe APFAD Declaration, which represents the \r\nvoices of NGOs that firmly advocate a drug-\r\nfree agenda. Delegates signed the declaration \r\nto renew their commitment to take a proactive \r\nstand against the normalisation of drug abuse in \r\ntheor respective cultures.\r\n\r\nSigning of APFAD Declaration\r\n\r\nNCADA\r\n\r\nSupporting Partners, \r\nBuilding Advocacy\r\nSupporting Partners,\r\nBuilding Advocacy\r\n\r\n13\r\nAnnual Report 2023\r\n\r\n14\r\n\r\nNCADA believes that cultivating partnerships and implementing advocacy initiatives are \r\ninstrumental in advancing our mission for a drug-free society. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 17398,
+        "end_char_idx": 19377,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "9edac96f-afd6-45d4-a59b-941f86795b78",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+            "file_name": "NCADA_Annual_Report_2023.txt",
+            "file_type": "text/plain",
+            "file_size": 28183,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "70f836cb-fc6f-4a6a-8a2e-b5bd65d03908",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "88caa42858eff4a88cd942408591f31ef714af8a7c2646878b112bcd5d85fdc1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "2311ff5d-1673-4813-b881-036a8ca8924d",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "b7ba4c08056dfdd983b5e0e5556ce4a14ff53411ffa4d35b290c5ad0568f5296",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "5d147d9d-ad68-4555-acec-52446faba180",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "334b8cf452b552a06abaf3fe51086108251f30d2b9085a98989a6136217c3d49",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Additionally, by leveraging \r\nthe DrugFreeSG grant and publicising our monthly DrugFreeSG Advocacy Newsletter, we \r\nhave enabled advocates to amplify anti-drug messages and initiatives, fostering a collective \r\nmovement towards a drug-free Singapore.\r\n\r\nNCADA Members in Action\r\n\r\nOn 21 June 2023, Vice-Chairman of NCADA,\r\nDr Chew Tuan Chiong, led an engaging \r\nquestion & answer (Q&A) session with the \r\nResearch and Data Division of the Ministry of \r\nCommunications and Information (MCI). The \r\ntwo-hour session focused on gaining insights \r\ninto the perspectives of the younger generation \r\nregarding drug-related issues and policies. \r\nThe questions posed during the session aimed \r\nto capture the thoughts and concerns of the \r\nyounger demographic, which may provide \r\nvaluable input for future policy considerations \r\nand initiatives.\r\n\r\nOn 14 Nov 2023, Vice-Chairman of NCADA, \r\nMr Tan, organised the Asia Golf Convention, \r\nwhere one of NCADA council members, Mr \r\nViknesan, participated as a panel speaker on the \r\nsubject of Singapore’s approach to advancing \r\nclean sport. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 19377,
+        "end_char_idx": 20461,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "5d147d9d-ad68-4555-acec-52446faba180",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+            "file_name": "NCADA_Annual_Report_2023.txt",
+            "file_type": "text/plain",
+            "file_size": 28183,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "70f836cb-fc6f-4a6a-8a2e-b5bd65d03908",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "88caa42858eff4a88cd942408591f31ef714af8a7c2646878b112bcd5d85fdc1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "9edac96f-afd6-45d4-a59b-941f86795b78",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "62c7dee0c8d6c3f1258c1f7c0201b9e3dc1333dd068b7706136cfc17a769bdfe",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "6a6b25c7-2be0-4f8f-af7a-cfe0545dd299",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "4c0f8094e3f74f1cdc585d0c666c4c6bf2d1462d938af5f93f4d797d700764a9",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "The engagement not only served \r\nto raise awareness about the significance of \r\naddressing drug addiction and its detrimental \r\neffects but also aimed to mobilise parents and \r\nindustry leaders to understand the importance \r\nof intervention and their role in addressing the \r\nincreasing exposure to drug-related content in \r\ntoday's society. The convention highlighted the \r\ncollective commitment to fostering a culture of \r\nclean and drug-free sports, emphasising the \r\nresponsibility of all stakeholders in upholding \r\nthe integrity of sports.\r\n\r\nDr Chew led a two-hour-long sharing and Q&A \r\nsession with MCI’s Research and Data Division.\r\n\r\nMr Viknesan (second from right) as Panel Speaker on \r\n“Singapore’s Approach to Advancing Clean Sport” on \r\n14 Nov 2023.\r\n\r\nNCADA\r\n\r\nOur Advocates\r\n\r\nTo nurture our advocates, we have \r\nregular training sessions, where we share \r\nan overview of our volunteer scheme, \r\noutlining the ways in which volunteers \r\ncan \r\nmake \r\nmeaningful \r\ncontributions, \r\n\r\nand emphasising the code of conduct \r\nfor \r\nvolunteers. \r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 20461,
+        "end_char_idx": 21518,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "6a6b25c7-2be0-4f8f-af7a-cfe0545dd299",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+            "file_name": "NCADA_Annual_Report_2023.txt",
+            "file_type": "text/plain",
+            "file_size": 28183,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "70f836cb-fc6f-4a6a-8a2e-b5bd65d03908",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "88caa42858eff4a88cd942408591f31ef714af8a7c2646878b112bcd5d85fdc1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "5d147d9d-ad68-4555-acec-52446faba180",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "874a7145d9045c5d85a3bb63128a6dc90250a7a05c0302f2dded86fa5e750390",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "399bfd0e-6a5e-4e99-a48e-4524ff6c821f",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "78edda40a0785222fbca5ea8e90faebc6ffc5ad9ae41f4007da712346a33386a",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Officers \r\nfrom \r\nCNB’s \r\n\r\nEnforcement Division and an ex-abuser \r\nwould also share their insights. The session \r\ncovers various topics, including strategies \r\nfor volunteers to engage with youths to \r\ndeter drug use, as well as the complex issue \r\nof drug legalisation in other countries.\r\n\r\nTraining session for our volunteers held on 21 Aug 2023 \r\nat CNB.\r\n\r\nOur Advocates\r\nNurturing \r\n\r\nDrugFreeSG Advocacy Newsletter\r\n\r\nThe DrugFreeSG Advocacy \r\nNewsletter \r\ncontinues \r\nto \r\n\r\nserve as a vital monthly \r\ne-newsletter circulated to \r\nour advocates, partners, \r\nand supporters dedicated \r\nto the anti-drug cause. \r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 21518,
+        "end_char_idx": 22138,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "399bfd0e-6a5e-4e99-a48e-4524ff6c821f",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+            "file_name": "NCADA_Annual_Report_2023.txt",
+            "file_type": "text/plain",
+            "file_size": 28183,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "70f836cb-fc6f-4a6a-8a2e-b5bd65d03908",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "88caa42858eff4a88cd942408591f31ef714af8a7c2646878b112bcd5d85fdc1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "6a6b25c7-2be0-4f8f-af7a-cfe0545dd299",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "27440ec4562f04cee1e02f119fc782bc0c1ea240a2a9440799687f23f602345b",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "bf50f0a7-e6ea-45ca-9a62-7c8eda9a44eb",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "1fdeeb112c2cf1207ab38e76ba12a9456f5c3213b137c48445c812f45403f6ab",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "This collaborative effort by \r\nNCADA and CNB features \r\nupdates \r\non \r\nanti-drug \r\n\r\nevents, along with insightful \r\narticles and case studies \r\nto keep readers informed \r\nabout the evolving drug \r\n\r\nlandscape in Singapore and abroad. Additionally, the newsletter provides details about upcoming \r\nevents that advocates can actively support and participate in. It also showcases the contributions of \r\nadvocates, offering inspiring stories of how individuals have played their part in promoting a drug-\r\nfree Singapore.\r\n\r\n15\r\nAnnual Report 2023\r\n\r\n16\r\n\r\nNCADA\r\n\r\nThe DrugFreeSG Grant\r\nSupporting Advocacy: \r\n\r\nDFSG Grant\r\n\r\nThe DrugFreeSG Grant supports ground-up initiatives that focus on raising awareness of preventive \r\ndrug education, enhancing individual and community resilience, and fostering a drug-free \r\nenvironment. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 22138,
+        "end_char_idx": 22967,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "bf50f0a7-e6ea-45ca-9a62-7c8eda9a44eb",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+            "file_name": "NCADA_Annual_Report_2023.txt",
+            "file_type": "text/plain",
+            "file_size": 28183,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "70f836cb-fc6f-4a6a-8a2e-b5bd65d03908",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "88caa42858eff4a88cd942408591f31ef714af8a7c2646878b112bcd5d85fdc1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "399bfd0e-6a5e-4e99-a48e-4524ff6c821f",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "c75eaba1f18739cd3b8519d196536b8a6ff7fe9eaf5f9b72fb5a7cf96079f49d",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "e904e138-61d4-4c9e-a97a-641dbb8a2e52",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "05fa58ac6f304cf72d52f92b2bb68bd3004a37766396e6de20e84317a69f4f2f",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Administered by NCADA on behalf of the Ministry of Home Affairs, the Fund accepts \r\ngrant applications throughout the year.\r\n\r\nDFSG Recipient: Nanyang Technological University,\r\nCultural Activities Club, Dragon & Lion Dance \r\n\r\nThe NTU Institutional Lion Dance Competition, organised by the NTU CAC DLD, has been an annual \r\ntradition since 2000. Leveraging the platform provided by NTU CAC DLD, the competition served as \r\na means to engage the Chinese community of youths, parents, supporters, friends, and individuals \r\ninterested in Chinese arts, culture, and heritage. The event, which took place on 26 March 2023 at \r\nWest Coast Community Centre, aimed to raise awareness about the perils of drug abuse, featuring \r\na special Lion Dance performance with a tailored anti-drug message created specifically for the \r\noccasion. Vice-Chairman of NCADA, Dr Chew Tuan Chiong, also extended his support for the event \r\nby attending and highlighting the importance of promoting a drug-free lifestyle within the community. \r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 22967,
+        "end_char_idx": 23988,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "e904e138-61d4-4c9e-a97a-641dbb8a2e52",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+            "file_name": "NCADA_Annual_Report_2023.txt",
+            "file_type": "text/plain",
+            "file_size": 28183,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "70f836cb-fc6f-4a6a-8a2e-b5bd65d03908",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "88caa42858eff4a88cd942408591f31ef714af8a7c2646878b112bcd5d85fdc1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "bf50f0a7-e6ea-45ca-9a62-7c8eda9a44eb",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "bfc35b0152580393af417bcc8a243cbdfa6d56998c377e7187171491ac1269f1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "776f7975-5d47-4919-91f0-74ed55da08bb",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "79f5b32f92bd3a4715e0a94bda089c1401f57c1779f95cb782652b3ad0e31cc7",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "The event encompassed a Preventive Drug Education (PDE) Exhibition Panel, two distinctive PDE \r\nperformances, and the inclusion of PDE messages within the Guest of Honor's speech, delivered \r\nby Second Minister of Education, Dr Maliki Osman. These features collectively contributed to the \r\nevent's success in promoting the message of drug abuse prevention within the community.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 23988,
+        "end_char_idx": 24370,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "776f7975-5d47-4919-91f0-74ed55da08bb",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+            "file_name": "NCADA_Annual_Report_2023.txt",
+            "file_type": "text/plain",
+            "file_size": 28183,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "70f836cb-fc6f-4a6a-8a2e-b5bd65d03908",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "88caa42858eff4a88cd942408591f31ef714af8a7c2646878b112bcd5d85fdc1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "e904e138-61d4-4c9e-a97a-641dbb8a2e52",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "7f717e5d8632035c8c5247a44012d65837360ddd67ae1be997d7ea1903af9a8b",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "9f5ea027-f257-44e2-a013-21170ee70c1d",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "9f2e96730f45ef3111b844a942dcb503745f0255fed9a4a049b14f5c78297658",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "17\r\nAnnual Report 2023\r\n\r\n18\r\n\r\nDFSG Recipient: Pertapis \r\n\r\nPertapis Halfway House organised a futsal \r\ncompetition titled ‘Kick The Habit’ on 18 June \r\n2023, in conjunction with World Drug-Free Day, \r\nwhere they united to break free from the chains \r\nof drug addiction and embrace a life of strength, \r\nresilience, and positivity. The community \r\noutreach event, held at Futsal Arena Yishun, \r\nfeatured futsal as a healthy sporting activity \r\nfor participants to be engaged in. The event, \r\ngraced by Minister of State, Ministry of Home \r\nAffairs and Ministry of National Development \r\nAssociate \r\nProfessor \r\nMuhammad \r\nFaishal \r\n\r\nIbrahim, served as a powerful platform to raise \r\n\r\nawareness about the importance of overcoming \r\naddiction and leading a healthy, drug-free life.\r\n\r\nAt the sidelines of the futsal competition, \r\nthere was a PDE Exhibition by the Community \r\nPartnership Unit, CNB that engaged the youth \r\nparticipants, their friends, family members and \r\nmembers of the public who came to watch, \r\nsupport and cheer for the teams. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 24370,
+        "end_char_idx": 25421,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "9f5ea027-f257-44e2-a013-21170ee70c1d",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+            "file_name": "NCADA_Annual_Report_2023.txt",
+            "file_type": "text/plain",
+            "file_size": 28183,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "70f836cb-fc6f-4a6a-8a2e-b5bd65d03908",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "88caa42858eff4a88cd942408591f31ef714af8a7c2646878b112bcd5d85fdc1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "776f7975-5d47-4919-91f0-74ed55da08bb",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "b542d8ff272dbac319a40a847f4cfdc7584673efbc68a42f9197c2c8ad127289",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "8b049d58-1692-44b0-a42f-4775ac0f21f9",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "980e6f0fcd2a4d2710f3d74f4704fe862d8359ac98ce3f57a7cbfc785218adb8",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "It was a fun \r\nand wholesome activity for all futsal enthusiasts \r\nand a great bonding time with family and friends \r\nwhile learning more about the dangers of drugs.\r\n\r\nNCADA\r\n\r\nReflecting on the events and \r\nprogrammes that NCADA has \r\norganised and supported in 2023, \r\nwe wish to express our sincere \r\nappreciation to all those who have \r\nbeen involved. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 25421,
+        "end_char_idx": 25778,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "8b049d58-1692-44b0-a42f-4775ac0f21f9",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+            "file_name": "NCADA_Annual_Report_2023.txt",
+            "file_type": "text/plain",
+            "file_size": 28183,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "70f836cb-fc6f-4a6a-8a2e-b5bd65d03908",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "88caa42858eff4a88cd942408591f31ef714af8a7c2646878b112bcd5d85fdc1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "9f5ea027-f257-44e2-a013-21170ee70c1d",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "d875eb0d870e000186284211afebb496bdfac440c941576538bb1428f97eb104",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "0b2bcad2-64ef-4d82-ac7d-420a867cb477",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "0f2952a884cfa7b082e5f75766b6744136042897dbd8aa1a06c680523ef4d41d",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "We are deeply \r\nencouraged by the unwavering \r\nsupport and dedication of our \r\npartners \r\nand \r\ncounterparts \r\nin \r\n\r\ncontributing to a #DrugFreeSG. \r\nNCADA \r\nremains \r\ncommitted \r\n\r\nto our role as the lead citizen’s \r\nadvisory council to the Ministry \r\nof Home Affairs on preventive \r\ndrug measures and programs \r\nin Singapore. We will continue \r\nto work tirelessly to rally the \r\ncommunity towards our shared \r\nobjective of creating a drug-free \r\nSingapore!\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 25778,
+        "end_char_idx": 26241,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "0b2bcad2-64ef-4d82-ac7d-420a867cb477",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+            "file_name": "NCADA_Annual_Report_2023.txt",
+            "file_type": "text/plain",
+            "file_size": 28183,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "70f836cb-fc6f-4a6a-8a2e-b5bd65d03908",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "88caa42858eff4a88cd942408591f31ef714af8a7c2646878b112bcd5d85fdc1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "8b049d58-1692-44b0-a42f-4775ac0f21f9",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\NCADA_Annual_Report_2023.txt",
+                    "file_name": "NCADA_Annual_Report_2023.txt",
+                    "file_type": "text/plain",
+                    "file_size": 28183,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "6d8513804c6c564f6813fac9bfda5843c346dec8fe0bc847440bbd3f206b24b4",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Moving Forward\r\n\r\nNCADA expresses our appreciation to\r\n\r\nCouncil Members Mdm Yee Siaw Ling and\r\n\r\nMr Tan Yap Kin who have stepped down in 2023. \r\n\r\nWe also extend a warm welcome to our new \r\n\r\nmembers Dr Alvin Tan and Ms Tan Chiah Hwee \r\n\r\nwhose expertise and dedication will undoubtedly \r\n\r\nenhance our collective efforts in promoting a \r\n\r\ndrug-free Singapore.\r\n\r\nLast but not least, we thank the organisations \r\n\r\nand individuals who have collaborated with and \r\n\r\nsupported NCADA events throughout 2023\r\n\r\nand look forward to another year of\r\n\r\ncollaboration for a drug-free Singapore\r\n\r\nin 2024.\r\n\r\nAcknowledgements\r\n\r\nVolunteers, Supporters and Friends\r\n\r\n•\t\r\nAll Anti-drug Abuse Advocacy Network (A3) Advocates\r\n\r\n•\t\r\nUnited Against Drug Coalition (UADC) – Organisation\r\n\r\nOrganisations and Project Partners\r\n\r\n•\t\r\nSingapore Anti-Narcotics Association\r\n\r\n•\t\r\nNational Addictions Management Service, Institute of \r\nMental Health\r\n\r\n•\t\r\nArchitects of Life \r\n\r\n•\t\r\nNTU Cultural Activities Club, Dragon & Lion Dance \r\nTroupe \r\n\r\n•\t\r\nAn-Nur Mosque\r\n\r\n•\t\r\nPertapis Halfway House\r\n\r\n•\t\r\nAnd all local and international partners and supporters\r\n\r\nSingapore Government Ministries, \r\nDepartments and Statutory Boards\r\n\r\n•\t\r\nAssociate Professor Muhammad Faishal \r\nIbrahim, Minister of State for Home Affairs \r\nand National Development\r\n\r\n•\t\r\nMinistry of Home Affairs\r\n\r\n•\t\r\nMinistry of Education\r\n\r\n•\t\r\nMinistry Social and Family Development\r\n\r\n•\t\r\nCentral Narcotics Bureau\r\n\r\n•\t\r\nSingapore Prison Service\r\n\r\n•\t\r\nPeople’s Association\r\n\r\n•\t\r\nChinese Development Assistance Council\r\n\r\n•\t\r\nYayasan MENDAKI\r\n\r\n•\t\r\nSingapore Indian Development Association\r\n\r\nAcknowledgements\r\n\r\n19\r\nAnnual Report 2023\r\n\r\nNational Council Against Drug Abuse\r\nUEN: S95CC1096G\r\n\r\nwww.ncada.org.sg\r\n\r\nncadasg\r\n\r\nncadasg\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 26241,
+        "end_char_idx": 28035,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    }
+]

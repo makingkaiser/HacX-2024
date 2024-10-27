@@ -1,0 +1,1003 @@
+[
+    {
+        "id_": "8a65f6da-cb7b-466c-9af0-e3c104b36004",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+            "file_name": "cnb_nps_fa_interactive.txt",
+            "file_type": "text/plain",
+            "file_size": 8978,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e91dc618-65e7-4b83-a440-a28cc9ccdf6a",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "c7e9888b18d7ffdd9f620f42f3b1cc1faf5fc8b41086ae2635ff88b7507ada04",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "45590bf6-a27f-4f9f-86cc-b654b67e509e",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "6139f7f33ebefaa511dc0101658dd0b4da5d840f60d306bff6c5748d3d80779c",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Copyright © Oct 2021. All rights reserved.\r\nNo part of this publication (content and images) may be \r\nreproduced, stored in a retrieval system, or transmitted in any \r\nform or by any means, electronic, mechanical, photocopying, \r\nscanning, recording or otherwise, without the prior written \r\npermission of the Central Narcotics Bureau, Singapore.\r\n\r\n#DidYouKnow\r\n\r\nCONTENTS\r\n\r\nFOREWORD\r\n\r\nSTATISTICS & \r\nTRENDS\r\n\r\nTIPS, CONVERSATION \r\nSTARTERS & ACTIVITIES\r\n\r\nPDE OFFERINGS\r\n\r\nRESOURCES\r\n\r\n2\r\n4\r\n\r\n8\r\n\r\n11\r\n\r\n18\r\n\r\n19\r\n\r\n2019\r\n2020\r\n\r\n1,460\r\n1,151\r\n21%\r\n\r\nNEW DRUG ABUSERS ARRESTED\r\n\r\n       Proportion of new drug abusers \r\narrested remained high at 38% of \r\ntotal drug abusers arrested\r\n\r\nAbout 62% of new drug abusers \r\narrested were below 30 years old\r\n\r\ni\r\n\r\nNEW ABUSERS\r\nBY DRUG TYPE\r\n\r\nMethamphetamine, NPS \r\nand cannabis were the \r\nthree most commonly \r\nabused drugs by new drug \r\nabusers arrested in 2020\r\n\r\nO\r\n\r\nV\r\n\r\nE\r\n\r\nR\r\n\r\nV\r\n\r\nIEW O\r\n\r\nF S\r\n\r\nING\r\n\r\nA\r\n\r\nP\r\n\r\nO\r\n\r\nR\r\n\r\nE\r\n\r\n’\r\n\r\nS\r\n\r\nD\r\n\r\nR\r\n\r\nU\r\n\r\nG\r\n\r\n S\r\n\r\nIT\r\n\r\nUA\r\n\r\nTIO\r\n\r\nN\r\n\r\nIN 2020*\r\n\r\n2019\r\n2020\r\n\r\n3,526\r\n3,056\r\n13%\r\n\r\nTOTAL DRUG ABUSERS ARRESTED\r\n\r\n79%\r\n\r\n9%\r\n7%\r\n5%\r\n\r\nOthers\r\n\r\nMethamphetamine\r\n\r\n104 New NPS Abusers\r\n\r\n75 New Cannabis Abusers\r\n\r\n914 New Methamphetamine Abusers\r\n\r\nNPS\r\n\r\nCannabis\r\n\r\n*The latest annual statistics are available at www.cnb.gov.sg.\r\n\r\nTIPS\r\n\r\nDo you know the tell-tale signs that your \r\nstudents/children are abusing drugs, and how \r\nyou can help them avoid these dangers?\r\nHere are some ways you can engage them:\r\n\r\nKNOW THE SIGNS\r\n\r\nHangs around with \r\na different group \r\nof friends\r\n\r\nDisplays poor \r\nbody coordination\r\n\r\nSudden drop in \r\nschool grades\r\n\r\nHas bloodshot/\r\nsunken eyes\r\n\r\nExhibits extreme \r\nmood swings\r\n\r\nSkips school \r\nregularly\r\n\r\n10\r\n11\r\n\r\nListen to them when they feel stressed \r\nand teach them coping skills. Suggest \r\nhealthy group activities to widen their \r\nsocial circle.\r\n\r\nFind teachable moments \r\nto emphasise that \r\nsubstance abuse is not \r\nthe right way to fit in.\r\n\r\nEquip them with the skills to \r\nrefuse drug offers. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 0,
+        "end_char_idx": 2067,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "45590bf6-a27f-4f9f-86cc-b654b67e509e",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+            "file_name": "cnb_nps_fa_interactive.txt",
+            "file_type": "text/plain",
+            "file_size": 8978,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e91dc618-65e7-4b83-a440-a28cc9ccdf6a",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "c7e9888b18d7ffdd9f620f42f3b1cc1faf5fc8b41086ae2635ff88b7507ada04",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "8a65f6da-cb7b-466c-9af0-e3c104b36004",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "c7c7224d64b3f67c6d64849ae2924bc1d7230bd1cc4fd77b44aa8bf7c4edc0a5",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "209823fd-4daf-412e-9335-39efe2527246",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "b6e64af58e437ab933d854260f212e44ab428c37d7f72c590bd0480165d55056",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "This may \r\ninclude decision-making skills \r\nto assess the consequences of \r\nthe different opinions they will \r\nface, as well as creative thinking \r\nand problem-solving skills.\r\n\r\nDevelop their self-awareness \r\nso that they can recognise \r\ntheir own strengths and \r\nweaknesses. Give praise \r\nwhere it is due.\r\n\r\nVOLUNTEER\r\n\r\nWAYS TO HELP YOUTHS STAY DRUG-FREE\r\nCONVERSATION STARTERS & ACTIVITIES\r\n\r\nInvolve them in work that \r\nrequires higher responsibility \r\nso that they are gainfully \r\noccupied and feel valued.\r\n\r\nBelow are some recommended activities to engage youths at \r\ndifferent levels. Where suitable, you can consider engaging \r\nstudents in class discussions or friendly debates to discuss the \r\ntopic of drugs in Singapore and have them conduct research to \r\nsupport their propositions.\r\n\r\nFor Primary Level\r\nPre-activity: \r\nConversation starters\r\n\r\nHAVE YOU HEARD \r\nOF DRUGS? \r\n\r\nWHAT ARE THEIR HARMFUL EFFECTS?\r\n\r\nWHAT CAN YOU DO \r\nWHEN SOMEONE \r\nOFFERS YOU DRUGS OR \r\nUNKNOWN SUBSTANCES? \r\n\r\nHOW ARE THEY DIFFERENT \r\nFROM MEDICINE?\r\n\r\nFor Secondary Level\r\nPre-activity: \r\nConversation starters\r\n\r\nDO YOU HAVE FRIENDS WHO \r\nTHINK LIGHTLY OF DRUG \r\nABUSE? IF SO, HOW DO \r\nTHEY SHOW IT?\r\n\r\nWHY DO SOME PEOPLE ABUSE DRUGS?\r\n\r\nFor Post-\r\nSecondary Level\r\n\r\nOther recommended \r\nactivities\r\n\r\nPre-activity: \r\nConversation starters\r\n\r\n#DIDYOUKNOW? CNB has produced the following PDE resources \r\nto raise awareness about NPS and aid persons of influence such as \r\neducators, counsellors and parents.\r\n\r\nResources\r\nINFOGRAPHICS\r\n\r\nNPS Mythbuster Series\r\nPRI\r\nPOST-SEC\r\nSEC\r\n\r\nPREVENTIVE DRUG \r\nEDUCATION (PDE) \r\nOFFERINGS\r\n\r\n#DIDYOUKNOW?  \r\nCNB has the following \r\nPDE offerings for \r\neducators, counsellors \r\nand parents, as well as \r\nstudents, to take an \r\nactive role in keeping \r\nour young away\r\nfrom drugs.\r\n\r\nScan this QR \r\ncode to find out \r\nmore on the CNB \r\nwebsite.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 2067,
+        "end_char_idx": 3950,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "209823fd-4daf-412e-9335-39efe2527246",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+            "file_name": "cnb_nps_fa_interactive.txt",
+            "file_type": "text/plain",
+            "file_size": 8978,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e91dc618-65e7-4b83-a440-a28cc9ccdf6a",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "c7e9888b18d7ffdd9f620f42f3b1cc1faf5fc8b41086ae2635ff88b7507ada04",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "45590bf6-a27f-4f9f-86cc-b654b67e509e",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "1d07961caa1aee253dba94e3fe1155ee04bd131be458290c2d9b0d79e188203a",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "ee24f54f-d10a-4fc9-b189-9951f325a82e",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "fb4c95c90656fccc282bcf32dfcd726bb2c5c172d02fdcf2a90c8c02df5e36d1",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "General\r\n\r\n\t Monthly e-Newsletter \r\n(for teacher and parent \r\nadvocates)\r\n\r\n\t Toolkit (for educators, \r\ncounsellors and parents)\r\n\r\n\t Information booklet kNOw \r\nCannabis (for educators, \r\ncounsellors and parents)\r\n\r\n\t Message Cards (for \r\neducators, counsellors and \r\nparents)\r\n\r\n\t Learning Journeys (for \r\nstudents, educators and \r\ncounsellors)  \r\n\r\n\t Talks (for students, educators, \r\ncounsellors and parents)\r\n\r\n\t Interactive Skits (for students)\r\n\t Exhibitions (for students)\r\n\t Videos at CNB’s\r\n    social media handle\r\n    @CNB.DrugFreeSG\r\n\r\nPost-Secondary Level\r\n\r\n\t Anti-Drug Advocate (ADA) \r\nProgramme\r\n\r\n\t Collaboration on anti-drug \r\nprojects as part of course \r\ncurriculum (e.g. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 3950,
+        "end_char_idx": 4641,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "ee24f54f-d10a-4fc9-b189-9951f325a82e",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+            "file_name": "cnb_nps_fa_interactive.txt",
+            "file_type": "text/plain",
+            "file_size": 8978,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e91dc618-65e7-4b83-a440-a28cc9ccdf6a",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "c7e9888b18d7ffdd9f620f42f3b1cc1faf5fc8b41086ae2635ff88b7507ada04",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "209823fd-4daf-412e-9335-39efe2527246",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "cc342ec925b4b0c16b8f0eff639b1d459f442bd379093aee3f70aa56397cb7fe",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "6d7acd77-f748-4953-9a8b-45e18b35b897",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "38bd439e1e9a703c88dbbf0057d5c4769e7721f987348004f71d786ab098f411",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "final year \r\nprojects)\r\n\r\n\t Collaboration on anti-drug \r\nactivities\r\n\r\n\t Sponsorship of collaterals \r\nfor activities with anti-drug \r\nelements\r\n\r\nPre-School and Primary Levels\r\n\r\n\t Interactive book Be Careful, Max! (for ages 4 to 6 \r\nyears old)\r\n\r\n\t Activity book Captain Drug Buster & Dr. Wacko: \r\nThe Origin (for ages 5 to 8 years old)*\r\n\r\n\t Illustrated book Captain Drug Buster vs Dr. \r\nWacko: The Final Showdown (for ages 7 to 9 \r\nyears old)*\r\n\r\n\t Anti-Drug Ambassador Activity (for ages 10 to 11 \r\nyears old)\r\n\r\n\t ‘Drug Buster Buddies’ Augmented Reality mobile \r\ngame application (for ages 7 to 12 years old)\r\n\r\nSecondary Level\r\n\r\n\t Comic book Captain Drug Buster vs Dr. Wacko: \r\nThe First Encounter*\r\n\r\n\t Small group sharing sessions by ex-abusers\r\n    (for vulnerable students)\r\n\r\n\t Augmented Reality exhibition  \r\n\t After-School Engagement programme \r\n\t ‘Conquer’ board game\r\n\r\n*Available at all school and public libraries.     \r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 4641,
+        "end_char_idx": 5582,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "6d7acd77-f748-4953-9a8b-45e18b35b897",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+            "file_name": "cnb_nps_fa_interactive.txt",
+            "file_type": "text/plain",
+            "file_size": 8978,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e91dc618-65e7-4b83-a440-a28cc9ccdf6a",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "c7e9888b18d7ffdd9f620f42f3b1cc1faf5fc8b41086ae2635ff88b7507ada04",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "ee24f54f-d10a-4fc9-b189-9951f325a82e",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "ecc2aa94a1b0643953ee395e76186183694ffd42a2b50616f88729666e589743",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "620e5250-aaa2-4143-b941-95606e1391f1",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "b10b6bb3ba8140f2c1c2cba653f995319a8167575c7db8e1445718cc04ee94b3",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "18\r\n19\r\n\r\nPDE MESSAGING IN \r\nTHE MOE SYLLABUS\r\nOTHER RESOURCES\r\n\r\n#DIDYOUKNOW? ",
+        "mimetype": "text/plain",
+        "start_char_idx": 5582,
+        "end_char_idx": 5661,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "620e5250-aaa2-4143-b941-95606e1391f1",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+            "file_name": "cnb_nps_fa_interactive.txt",
+            "file_type": "text/plain",
+            "file_size": 8978,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e91dc618-65e7-4b83-a440-a28cc9ccdf6a",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "c7e9888b18d7ffdd9f620f42f3b1cc1faf5fc8b41086ae2635ff88b7507ada04",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "6d7acd77-f748-4953-9a8b-45e18b35b897",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "4fe5b7f4e1f4b546c3563190cd07fdc65205e30535b3066ad1a9bb106fb97f66",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "c35c9b1d-12d5-4010-8a4a-d278afd4d762",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "84a82156fe81875f47ab5fdeaa9ab6cfd5538fd344c48cce7b449d29c8a9e602",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "CNB has \r\ncollaborated with the MOE \r\nto incorporate the following \r\nPDE messaging into the \r\ncurrent syllabus:\r\n\r\n#DIDYOUKNOW? There are \r\nalso useful resources from the \r\nUNODC, which include:\r\n\r\n“Listen First” campaign: \r\nA science-based approach \r\nto drug prevention that \r\nadvocates listening to \r\nchildren and youths as \r\nthe first step to help them \r\ngrow healthy and safe. \r\nMaterials are available at\r\nhttps://www.unodc.org/\r\nlistenfirst.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 5661,
+        "end_char_idx": 6112,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "c35c9b1d-12d5-4010-8a4a-d278afd4d762",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+            "file_name": "cnb_nps_fa_interactive.txt",
+            "file_type": "text/plain",
+            "file_size": 8978,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e91dc618-65e7-4b83-a440-a28cc9ccdf6a",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "c7e9888b18d7ffdd9f620f42f3b1cc1faf5fc8b41086ae2635ff88b7507ada04",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "620e5250-aaa2-4143-b941-95606e1391f1",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "eb6554304c772fcd2772536b12868eed7e4aa1594635173a7030509cacdf8a6f",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "e3ba0c8f-519c-4bb9-a170-c3a1a364f7d3",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "25c2d301c5b0b712e6e1761f62f3ecbfd32a5b1e105257947b1d636dd7a23c60",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "NOTES\r\n\r\n#DIDYOUKNOW? ",
+        "mimetype": "text/plain",
+        "start_char_idx": 6112,
+        "end_char_idx": 6134,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "e3ba0c8f-519c-4bb9-a170-c3a1a364f7d3",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+            "file_name": "cnb_nps_fa_interactive.txt",
+            "file_type": "text/plain",
+            "file_size": 8978,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e91dc618-65e7-4b83-a440-a28cc9ccdf6a",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "c7e9888b18d7ffdd9f620f42f3b1cc1faf5fc8b41086ae2635ff88b7507ada04",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "c35c9b1d-12d5-4010-8a4a-d278afd4d762",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "0add5fc157194a7a84f1662a8870032cba8bbb1cc5bc70066354f7f5080b02ac",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "e15bbd98-f290-4d9c-93d1-dff35a49a3eb",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "138338bf0e1febbaab634734783c5cb808bdc1c3681a08ba63e9f9765bf86025",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "The colours of the anti-drug ribbon, which \r\nis a green ribbon over a white one, represent ‘Health’, ‘Vitality’ \r\nand ‘Strength’.\r\n\r\nSources\r\n\r\n1\t\r\nUnited Nations Office on Drugs and Crime. \r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 6134,
+        "end_char_idx": 6326,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "e15bbd98-f290-4d9c-93d1-dff35a49a3eb",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+            "file_name": "cnb_nps_fa_interactive.txt",
+            "file_type": "text/plain",
+            "file_size": 8978,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e91dc618-65e7-4b83-a440-a28cc9ccdf6a",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "c7e9888b18d7ffdd9f620f42f3b1cc1faf5fc8b41086ae2635ff88b7507ada04",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "e3ba0c8f-519c-4bb9-a170-c3a1a364f7d3",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "76fee56bdc9c91eb10ff15754ec1d196e9899053b11afb5647dc7a420e164221",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "52ba787c-e18e-4598-a346-337dfeb8bfe8",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "a0281cf0034e7bda0478051862d19ca41d7a2af6116fab8d3e1f210db7b3e14f",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "(2020). ",
+        "mimetype": "text/plain",
+        "start_char_idx": 6326,
+        "end_char_idx": 6334,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "52ba787c-e18e-4598-a346-337dfeb8bfe8",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+            "file_name": "cnb_nps_fa_interactive.txt",
+            "file_type": "text/plain",
+            "file_size": 8978,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e91dc618-65e7-4b83-a440-a28cc9ccdf6a",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "c7e9888b18d7ffdd9f620f42f3b1cc1faf5fc8b41086ae2635ff88b7507ada04",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "e15bbd98-f290-4d9c-93d1-dff35a49a3eb",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a8ef1315c0d61ea9674dd4b03c0082fc1aac6cfc58f624e8312af80b659bf5d1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "d3352a2b-0494-4701-bd5b-d79878892265",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "cb1023079c766f0d93e5302fd088cf52d409c3c2badfe843f5536350e0b68ed7",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "NPS: New psychoactive substances \r\n[Brochure]. https://www.unodc.org/documents/\r\nscientific/NPS-Leaflet_WEB_2020.pdf \r\n\r\n2\t\r\nUnited Nations Office on Drugs and Crime. \r\n(2019). ",
+        "mimetype": "text/plain",
+        "start_char_idx": 6334,
+        "end_char_idx": 6511,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "d3352a2b-0494-4701-bd5b-d79878892265",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+            "file_name": "cnb_nps_fa_interactive.txt",
+            "file_type": "text/plain",
+            "file_size": 8978,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e91dc618-65e7-4b83-a440-a28cc9ccdf6a",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "c7e9888b18d7ffdd9f620f42f3b1cc1faf5fc8b41086ae2635ff88b7507ada04",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "52ba787c-e18e-4598-a346-337dfeb8bfe8",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "6534687bd03ab29f36628e6ca9718c918ad786452ef4185fca3346b715dd2221",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "4e13ca17-27d8-48d1-aee1-6962b910d2c0",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "601c34d326d498d32faa25ce69c3a43f721f277c6eeff87b549c1ca45921bd56",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Current NPS Threats (Vol. I, March 2019). \r\nhttps://www.unodc.org/pdf/opioids-crisis/\r\nCurrent_NPS_Threats_-_Volume_I.pdf\r\n\r\n3\t United Nations Office on Drugs and Crime. \r\n(2020). Current NPS Threats (Vol. II, January \r\n2020). https://www.unodc.org/documents/\r\nscientific/Current_NPS_Threats_Volume_II_\r\nWeb.pdf\r\n\r\n4\t United Nations Office on Drugs and Crime. \r\n(2020). Current NPS Threats (Vol. III, October \r\n2020). https://www.unodc.org/documents/\r\nscientific/Current_NPS_Threats_Vol.3.pdf  \r\n\r\n5\t United Nations Office on Drugs and Crime. \r\n(2020). The growing complexity of the opioid \r\ncrisis (Global SMART Update, Vol. 24, October \r\n2020). https://www.unodc.org/documents/\r\nscientific/Global_SMART-2020-Vol_24_web.pdf\r\n\r\n6\t United Nations Office on Drugs and Crime. \r\n(2021). Regional Diversity and the Impact \r\nof Scheduling on NPS Trends (Global \r\nSMART Update, Vol. 25, April 2021). https://\r\nwww.unodc.org/documents/scientific/\r\nGlobalSMART_25_web.pdf\r\n\r\n7\t\r\nUNODC Early Warning Advisory (EWA). \r\n(2021). Early Warning Advisory on New \r\nPsychoactive Substances. United Nations \r\nOffice on Drugs and Crime. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 6511,
+        "end_char_idx": 7628,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "4e13ca17-27d8-48d1-aee1-6962b910d2c0",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+            "file_name": "cnb_nps_fa_interactive.txt",
+            "file_type": "text/plain",
+            "file_size": 8978,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e91dc618-65e7-4b83-a440-a28cc9ccdf6a",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "c7e9888b18d7ffdd9f620f42f3b1cc1faf5fc8b41086ae2635ff88b7507ada04",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "d3352a2b-0494-4701-bd5b-d79878892265",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "4e0cb6c5e5dcd4630f0f2daebd43a22238642a0e20f3b2c7ec114c8285419961",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "a6cd92d7-0043-47ba-a26a-5c7a559d49de",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "bf25654caacc35a169bfeb85899b95c81901c92095790ef630739259cbfafc2d",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "https://www.\r\nunodc.org/LSS/Page/NPS \r\n\r\n8\t UNODC Research. (2020). World Drug Report \r\n2020. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 7628,
+        "end_char_idx": 7722,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "a6cd92d7-0043-47ba-a26a-5c7a559d49de",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+            "file_name": "cnb_nps_fa_interactive.txt",
+            "file_type": "text/plain",
+            "file_size": 8978,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e91dc618-65e7-4b83-a440-a28cc9ccdf6a",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "c7e9888b18d7ffdd9f620f42f3b1cc1faf5fc8b41086ae2635ff88b7507ada04",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "4e13ca17-27d8-48d1-aee1-6962b910d2c0",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "7b72bfab11843928788b8800dc06a25b4d95fdf2266297535070cbc642b641a4",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "f8e1e0ec-3ec3-408f-89a7-daf11f4bdafe",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "71da06f825d11c1d598beba17b0008740de4ceefff0e7b8e9d8b476139af9560",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "United Nations Office on Drugs and \r\nCrime. https://wdr.unodc.org/wdr2020/\r\nindex2020.html \r\n\r\n9\t UNODC Research. (2021). ",
+        "mimetype": "text/plain",
+        "start_char_idx": 7722,
+        "end_char_idx": 7844,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "f8e1e0ec-3ec3-408f-89a7-daf11f4bdafe",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+            "file_name": "cnb_nps_fa_interactive.txt",
+            "file_type": "text/plain",
+            "file_size": 8978,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "e91dc618-65e7-4b83-a440-a28cc9ccdf6a",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "c7e9888b18d7ffdd9f620f42f3b1cc1faf5fc8b41086ae2635ff88b7507ada04",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "a6cd92d7-0043-47ba-a26a-5c7a559d49de",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\cnb_nps_fa_interactive.txt",
+                    "file_name": "cnb_nps_fa_interactive.txt",
+                    "file_type": "text/plain",
+                    "file_size": 8978,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "3f077d0dc60aa1d2a5c3d9f9c423c492cee1e4186006d7b1fabdacf7c672df3e",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "World Drug Report \r\n2021. United Nations Office on Drugs and \r\nCrime. https://www.unodc.org/unodc/data-\r\nand-analysis/wdr2021.html\r\n\r\n10\t United Nations Office on Drugs and Crime. \r\n(2021). ‘Listen First’ initiative. https://www.\r\nunodc.org/unodc/en/listen-first/index.html\r\n\r\n11\t European Drug Addiction Prevention trial \r\n(EU-Dap). (2016). UNPLUGGED Area: \r\nEducation Material. https://www.eudap.net/\r\nUnplugged_HomePage.aspx\r\n\r\nPrimary 4 and 5 \r\nHealth Education \r\ntextbook,\r\nAn Active and \r\nHealthy Me – \r\nSubstances \r\nharmful to health\r\n\r\nLower Secondary \r\nScience (Normal \r\nTechnical) \r\ntextbook, Science \r\nAround Us –\r\nWhat are drugs \r\nand their effects? \r\n\r\nSecondary 1 \r\nCharacter and \r\nCitizenship \r\nEducation lesson \r\nplan – “In Control”  \r\n\r\nSecondary \r\nScience (Normal \r\nTechnical) Anti-\r\nDrug Module – \r\n“Drugs and their \r\neffects” on the \r\nStudent Learning \r\nSpace (SLS)\r\n\r\n24\r\n\r\nVisit the CNB Website at www.cnb.gov.sg for \r\nmore information on drugs and drug abuse, \r\nand to download a digital copy of this booklet.\r\n\r\nCNB Hotline: 1800-325-6666\r\n\r\n@CNB.DrugFreeSG\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 7844,
+        "end_char_idx": 8929,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    }
+]

@@ -1,0 +1,1222 @@
+[
+    {
+        "id_": "24726d80-1fd4-4679-b88a-22f821e886d7",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+            "file_name": "know-cannabis_booklet.txt",
+            "file_type": "text/plain",
+            "file_size": 16518,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "9deee47b-9932-4a6a-a75a-c00b7b5ffa1b",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "fea25f636da9b252041c28e2d93a2dd5f19e554a4e55a3103bde4308366383f1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "8673cc34-4d0f-49b0-b1b0-75340372b8b8",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "aad63f9525b6c5aeee887e20cdf943e85fd1699ca3bc0d50fc28ebd4b3e8a80b",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "111\r\n\r\nkNOw\r\n\r\nCANNABIS\r\n\r\nAn information booklet on the harmful effects of cannabis\r\n\r\nCONTENTS\r\n\r\nForeword\r\n\r\n#DidYouKnow\r\n\r\nFacts & Myths\r\n\r\nStatistics & Trends\r\n\r\nTips & Conversation Starters\r\n\r\nInfographics\r\n\r\nVideos\r\n\r\nPosters\r\n\r\n3\r\n\r\n4\r\n\r\n6\r\n\r\n18\r\n\r\n22\r\n\r\n24\r\n\r\n29\r\n\r\n32\r\n\r\n#DidYouKnow\r\n\r\nCannabis\r\n\r\nCannabis, derived from the Cannabis Sativa \r\nplant, is one of the oldest psychotropic \r\ndrugs in human history. \r\n\r\nTetrahydrocannabinol (THC) is the main \r\npsychoactive substance in cannabis that \r\ncauses abusers to feel “high”. It also has \r\nadverse health impacts and is listed as a \r\nClass A controlled drug in the First Schedule \r\nof the Misuse of Drugs Act. \r\n\r\nWorldwide, there were an estimated 188 \r\nmillion \r\nusers \r\nof \r\ncannabis \r\nin \r\n2017, \r\n\r\ncorresponding to 3.8% of the global \r\npopulation aged 15-64. In Singapore, \r\ncannabis is amongst the top three drugs \r\nabused by new abusers.\r\n\r\n“Medical Cannabis”\r\n\r\nThe so-called medical benefits and alleged \r\nharmlessness of cannabis have been in the \r\nspotlight, with some countries legalising the \r\nmedical, and even recreational use of \r\ncannabis. It is important to differentiate \r\nbetween products containing unprocessed or \r\nraw cannabis and pharmaceutical products \r\ncontaining cannabinoids.\r\n\r\nSome \r\ncountries \r\nhave \r\nlegalised \r\nraw, \r\n\r\nunprocessed cannabis and extracts passing \r\nthem off as “medical cannabis” and allowed \r\nthem to be supplied as medication. To date, \r\nthere are no studies which have validated \r\nthe claims of raw, unprocessed extracts of \r\ncannabis being able to treat any medical \r\nconditions.\r\n\r\nA \r\nlimited \r\nnumber \r\nof \r\npharmaceutical \r\n\r\nproducts \r\ncontain \r\ncannabinoids, \r\nthe \r\n\r\nchemical compounds found in the cannabis \r\nplant. \r\nOne \r\nsuch \r\npotentially \r\nuseful \r\n\r\ncannabinoid is cannabidiol (CBD) which \r\ndoes not cause intoxication or the “high” \r\nthat comes from THC.\r\n\r\nSingapore’s Position\r\n\r\nOn “Medical Cannabis”\r\n\r\nThere are pharmaceutical products containing \r\ncannaboids such as CBD which are designed \r\nto manage specific medical conditions such \r\nas certain forms of epilepsy and seizures. \r\nThese are usually administered via oral \r\nsolutions and sprays. As these products \r\ncurrently still contain some THC content, they \r\nare deemed as controlled drugs. \r\n\r\nDespite it being a controlled drug, the \r\nprescription \r\nof \r\nsuch \r\npharmaceutical \r\n\r\nproducts are viable, but subjected to strict \r\nhealth guidelines and assessment by the \r\nrelevant authorities.\r\n\r\nIn Feb 2019, the Ministry of Home Affairs \r\n(MHA) and Ministry of Health (MOH) issued \r\na joint statement clarifying the Singapore \r\nGovernment’s position on the use of \r\npharmaceutical \r\nproducts \r\ncontaining \r\n\r\ncannaboids.\r\n\r\nCANNABIS WORLDWIDE\r\n\r\nEst. \r\n\r\n Million Users\r\n188\r\n\r\nKEY POINTS INCLUDE\r\n• Evidence shows that raw cannabis is \r\n\r\nharmful and addictive, and there are no \r\nstudies validating its use to treat medical \r\nconditions.\r\n\r\n• CBD pharmaceuticals that may have \r\n\r\nmedical value need to be reviewed by \r\nthe Health Sciences Authority (HSA).\r\n\r\n• There is avenue for safe and controlled \r\n\r\naccess \r\nto \r\nevidence-based \r\nmedical \r\n\r\ntreatment programmes based on CBD \r\npharmaceuticals.\r\n\r\nSource\r\n\r\n1\t \t World Drug Report 2019, United Nations Office on Drugs and Crime\r\n\r\n1\r\n\r\n4\r\n5\r\n\r\nCANNABIS IS HIGHLY ADDICTIVE\r\n\r\n“(Cannabis abuse) can lead to physical and psychological \r\nwithdrawal (symptoms). Although the physical withdrawal \r\nmay not be as severe as other substances, the psychological \r\nwithdrawal is similar (as bad) as other substances.\r\n\r\n(The) psychological withdrawal is the main part of the \r\naddiction. Once somebody gets addicted, it is very difficult to \r\novercome the psychological withdrawal ­— the craving or the \r\nurge to continue marijuana abuse and the related mood \r\nproblems, and (he) will take a long time to recover from \r\nthe addiction.”\r\n\r\nDr. Guo Song\r\n\r\nSenior Consultant \r\n\r\nNational Addictions Management Service\r\n\r\nSource\r\n\r\n2\t \t A Literature Review on Medical Cannabis: Conducted by a team of psychiatrists and researchers from the \r\n\r\nInstitute of Mental Health, Singapore, 2016\r\n\r\n• True Account of An Ex-Abuser\r\n\r\nNEWS ARTICLES\r\n\r\n• Story of Mr. Bruce Mathieu\r\n\r\nAmong daily abusers, 50% are going to get addicted.2\r\n\r\n6\r\n7\r\n\r\nCANNABIS IS \r\n\r\nHARMFUL TO THE BODY\r\n\r\nSmoking cannabis is associated \r\nwith symptoms of bronchitis \r\nsuch as morning cough, phlegm \r\nand chest wheeze. Reducing or \r\nquitting \r\ncannabis \r\nabuse \r\nis \r\n\r\nassociated with reductions in \r\nthe prevalence of the symptoms.3\r\nSmoking cannabis is associated with symptoms of bronchitis \r\nsuch as morning cough, phlegm and chest wheeze. Reducing or \r\nquitting cannabis abuse is associated with reductions in the \r\nprevalence of the symptoms.\r\n\r\nSources\r\n\r\n3  Effects of quitting cannabis on respiratory symptoms. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 0,
+        "end_char_idx": 4835,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "8673cc34-4d0f-49b0-b1b0-75340372b8b8",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+            "file_name": "know-cannabis_booklet.txt",
+            "file_type": "text/plain",
+            "file_size": 16518,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "9deee47b-9932-4a6a-a75a-c00b7b5ffa1b",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "fea25f636da9b252041c28e2d93a2dd5f19e554a4e55a3103bde4308366383f1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "24726d80-1fd4-4679-b88a-22f821e886d7",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "dee08085dfe9a1d7c9dde4d70e79caa82a23af8e90f77b95ae4e3387eb07a5a8",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "aef27080-364c-4864-bc06-736019aa37c6",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "09c11152d41e8c5fccee98e1b9ed1952a5ecaf1653ba94e04c365c0be0b24049",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "European Respiratory Journal 46:80-81, https://www.ncbi.\r\n\r\nnlm.nih.gov/pubmed/2587035, 2 Apr 2015\r\n\r\n4\t \t Prenatal exposure to cannabis and maternal and child health outcomes: A systematic review \r\n\r\nand meta-analysis. Gunn, J. K. L., C. B. Rosales, K. E. Center, A. Nunez, S. J. Gibson, C. Christ, and \r\n\r\nJ. E.Ehiri., 2016\r\n\r\nCannabis abuse in pregnancy is \r\nlinked to low birth weight in babies.4\r\n\r\n8\r\n9\r\n\r\nCANNABIS SMOKING IMPAIRS \r\n\r\nBRAIN DEVELOPMENT IN TEENS\r\n\r\nTeens who were heavy cannabis \r\nabusers (i.e. smoking daily for \r\nthree years) had abnormal \r\nchanges in their brain structures \r\nrelated to working memory and \r\nperformed poorly on memory \r\ntasks.5\r\n\r\nStudies \r\nhave \r\nshown \r\nthat \r\n\r\nadolescents who report regular \r\ncannabis abuse perform more \r\npoorly in tests on working memory, \r\nvisual scanning, cognitive flexibility, \r\nand learning.6\r\n\r\nRegular abuse of cannabis before the age of 18 leads to an \r\naverage IQ of 6-8 fewer points at age 38 relative to those who \r\ndid not abuse cannabis before 18 years old.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 4835,
+        "end_char_idx": 5875,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "aef27080-364c-4864-bc06-736019aa37c6",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+            "file_name": "know-cannabis_booklet.txt",
+            "file_type": "text/plain",
+            "file_size": 16518,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "9deee47b-9932-4a6a-a75a-c00b7b5ffa1b",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "fea25f636da9b252041c28e2d93a2dd5f19e554a4e55a3103bde4308366383f1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "8673cc34-4d0f-49b0-b1b0-75340372b8b8",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "511e53df85103ec6b0dad37746db397ed03b739e641d1f7a0d9ae3c16139a5b4",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "1c4a6583-07fc-44e1-a458-519fe4c03a6b",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "658b798922bc1a4699d555361514f8c6361d58a2519c8197f34e4d62e11a59c3",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Sources\r\n\r\n5\t \t Cannabis-related working memory deficits and associated subcortical morphological differences in healthy \r\n\r\nindividuals and schizophrenia subjects. Schizophrenia Bulletin, Volume 40, Issue 2, 15 Dec 2013\r\n\r\n6  Does cannabis consumption negatively affect cognition? A review of the scientific evidence. ASEAN Journal of\r\n\r\nPsychiatry Vol. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 5875,
+        "end_char_idx": 6230,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "1c4a6583-07fc-44e1-a458-519fe4c03a6b",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+            "file_name": "know-cannabis_booklet.txt",
+            "file_type": "text/plain",
+            "file_size": 16518,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "9deee47b-9932-4a6a-a75a-c00b7b5ffa1b",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "fea25f636da9b252041c28e2d93a2dd5f19e554a4e55a3103bde4308366383f1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "aef27080-364c-4864-bc06-736019aa37c6",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "ca5e5bea5ed7db3805d391f1c0facea41e3ac16419ed87000d998fd49eabbe7c",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "0149c759-cc57-49de-8a0e-d89c75b37613",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "d7a94dadd3620169e012a0d9af1d34aa27611f4a35578336a0a2e638a5cae5c7",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "18 (2). ",
+        "mimetype": "text/plain",
+        "start_char_idx": 6230,
+        "end_char_idx": 6238,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "0149c759-cc57-49de-8a0e-d89c75b37613",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+            "file_name": "know-cannabis_booklet.txt",
+            "file_type": "text/plain",
+            "file_size": 16518,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "9deee47b-9932-4a6a-a75a-c00b7b5ffa1b",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "fea25f636da9b252041c28e2d93a2dd5f19e554a4e55a3103bde4308366383f1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "1c4a6583-07fc-44e1-a458-519fe4c03a6b",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "bb761e739147cc4679507f61a4cd711d80c4447b3b74a002ac41b4bb834a3187",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "5e53e5e1-c4ca-495f-8370-b743d25952d0",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "ebaa472ba5d03ac93eef40243c43869d33b2f49d7f752916147cbf86db3ba996",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Attilio Rapisarda, Keanne Lim, Jimmy Lee, Jul–Dec 2017\r\n\r\n7  The Dunedin Multidisciplinary Health and Development Study, https://www.ncbi.nlm.nih.gov/pmc/articles/\r\n\r\nPMC3479587/, 27 Aug 2012\r\n\r\nRegular abuse of cannabis \r\nbefore the age of 18 leads to \r\nan average IQ of 6-8 fewer \r\npoints at age 38 relative to \r\nthose who did not abuse \r\ncannabis before 18 years old.7\r\n\r\n10\r\n11\r\n\r\nCANNABIS ABUSE IS LINKED \r\n\r\nTO SCHIZOPHRENIA OR\r\n\r\nOTHER PSYCHOSES\r\n\r\nDaily cannabis abusers and \r\nhigh-potency \r\nabusers \r\nface \r\n\r\nhigher \r\nrisks \r\nof \r\ndeveloping \r\n\r\nmental health issues.\r\n\r\nIn the largest study to date that \r\ninvolved 2,000 participants from \r\n11 sites across Europe and \r\nBrazil, it was found that 50% of \r\nnew cases of psychotic disorder \r\nin Amsterdam and 30% in \r\nLondon were linked to the abuse \r\nof high-potency cannabis.8 \r\n\r\nIt was also found in the same \r\nstudy that daily cannabis abusers \r\nand high-potency abusers were \r\nrespectively 3 times and 5 times \r\nmore likely to develop psychotic \r\ndisorder than those who had \r\nnever abused the drug.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 6238,
+        "end_char_idx": 7305,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "5e53e5e1-c4ca-495f-8370-b743d25952d0",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+            "file_name": "know-cannabis_booklet.txt",
+            "file_type": "text/plain",
+            "file_size": 16518,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "9deee47b-9932-4a6a-a75a-c00b7b5ffa1b",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "fea25f636da9b252041c28e2d93a2dd5f19e554a4e55a3103bde4308366383f1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "0149c759-cc57-49de-8a0e-d89c75b37613",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "9a47bed495529d525523a945c38337a27a25c7b18429cf8bc7f201df0e419ec1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "c4d64ed0-8a7d-43f8-991e-168e347fe6e0",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "41568e24be6db99a504f774eab8f84a719a6b265194ae6e71485b0838aeb13e5",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "“There are some evidence to suggest that cannabis usage – \r\nheavy and long term usage – can precipitate psychiatric \r\nconditions, or disorders like schizophrenia.” \r\n\r\nDr. Lim Boon Leng \r\n\r\nPsychiatrist & Medical Director\r\n\r\nCentre for Psychological Wellness\r\n\r\nSource\r\n\r\n8 The Lancet Psychiatry Journal, https://www.thelancert.com/journals/lanpsy/article/PIIS2215-0366(19)30048-3\r\n\r\n\t\r\nfulltext, 19 Mar 2019\r\n\r\n12\r\n13\r\n\r\nCANNABIS ABUSE INCREASES\r\n\r\nRISK OF MOTOR\r\n\r\nVEHICLE ACCIDENTS\r\n\r\nBased on a review of scientific \r\nevidence, cannabis abuse \r\ncan increase the risk of a fatal \r\naccident by two- to seven-\r\nfold.9\r\n\r\n14\r\n15\r\n\r\nMEDICAL BENEFITS\r\n\r\nARE NOT CONCLUSIVE\r\n\r\nThere is some evidence to support the \r\nuse of CBD for certain limited conditions, \r\nbut insufficient evidence to prove the \r\neffectiveness of cannabis use for most \r\nmedical conditions.\r\n\r\nPharmaceuticals containing cannabinoids \r\nneed to undergo rigorous scientific review \r\nby the HSA before they can be registered \r\nfor supply in Singapore.\r\n\r\nThere is some evidence to support the use of CBD for certain \r\nlimited conditions, but insufficient evidence to prove the \r\neffectiveness of cannabis use for most medical conditions.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 7305,
+        "end_char_idx": 8513,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "c4d64ed0-8a7d-43f8-991e-168e347fe6e0",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+            "file_name": "know-cannabis_booklet.txt",
+            "file_type": "text/plain",
+            "file_size": 16518,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "9deee47b-9932-4a6a-a75a-c00b7b5ffa1b",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "fea25f636da9b252041c28e2d93a2dd5f19e554a4e55a3103bde4308366383f1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "5e53e5e1-c4ca-495f-8370-b743d25952d0",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "00df98de5947b7943d87647f0012c6baa1825f730f03ba96db467cd21a9edfed",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "f0a64184-d373-4f21-8aa5-659b5b3b514d",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "9f987510ccc2ce07a70da87fd11665708d3bb4ae4f7d2aff0b9f208a851a34f3",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Many non-FDA-approved products are \r\nsold as “medical cannabis” and there is a \r\nlack of control over its access and quality, \r\nand no scientific basis for their alleged \r\nefficacy. The FDA has warned consumers \r\nthat these products are not approved for \r\ndiagnosis, cure, mitigation, treatment, or \r\nprevention of any disease. CBD products \r\ncould contain THC despite claims that they \r\nare THC-free. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 8513,
+        "end_char_idx": 8915,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "f0a64184-d373-4f21-8aa5-659b5b3b514d",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+            "file_name": "know-cannabis_booklet.txt",
+            "file_type": "text/plain",
+            "file_size": 16518,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "9deee47b-9932-4a6a-a75a-c00b7b5ffa1b",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "fea25f636da9b252041c28e2d93a2dd5f19e554a4e55a3103bde4308366383f1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "c4d64ed0-8a7d-43f8-991e-168e347fe6e0",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "b91c4aec1c4d66a99f0b335acfae3fcd475a8205371068fc9cb1504a96eb8b34",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "e2eb1fc0-1464-4ba6-ba38-e6ddbfbe83a7",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "091f8c0baedb3600f0f1677074b47acabfed5c90f4f4723018f0624c710af546",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "The FDA has also conducted \r\ntests on several CBD products and many \r\nwere found to not contain the levels of \r\nCBD they claimed to contain.\r\n\r\nIn the United States, the Food and Drug \r\nAdministration (FDA) has only approved \r\none CBD-based pharmaceutical for the \r\ntreatment of specific medical conditions.\r\n\r\n16\r\n17\r\n\r\n18\r\n19\r\n\r\nSTATISTICS & TRENDS\r\nWORRYING GLOBAL TRENDS \r\n(CALLS FOR LEGALISATION OF CANNABIS, \r\nDECRIMINALISATION OF DRUG USE)\r\n\r\n• The World Drug Report 2019 by the United Nations Office on Drugs and \r\n\r\nCrime has highlighted that the most widely used drug worldwide is \r\ncannabis, and in most regions, there is an increasing proportion of \r\npeople entering treatment for cannabis use disorders.\r\n\r\n• There is an increasing number of foreign jurisdictions legalising cannabis \r\n\r\nfor recreational use, especially in the Americas. Cannabis was first \r\nlegalised for recreational use in Colorado and Washington in Nov 2012. \r\nCanada legalised it in Oct 2018.\r\n\r\n• Internationally, some countries are decriminalising drug use and \r\n\r\nadopting harm reduction approaches, such as needle exchange \r\nprogramme. ",
+        "mimetype": "text/plain",
+        "start_char_idx": 8915,
+        "end_char_idx": 10040,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "e2eb1fc0-1464-4ba6-ba38-e6ddbfbe83a7",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+            "file_name": "know-cannabis_booklet.txt",
+            "file_type": "text/plain",
+            "file_size": 16518,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "9deee47b-9932-4a6a-a75a-c00b7b5ffa1b",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "fea25f636da9b252041c28e2d93a2dd5f19e554a4e55a3103bde4308366383f1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "f0a64184-d373-4f21-8aa5-659b5b3b514d",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "a94c9dc21fad94e6c832fd0c6108390396ef40ac06ca0ecbb47ed8561707311d",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "3619e472-020b-44d9-ae83-977f0b3e146f",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "a4aa9ce7ada58c8a89191fe85244aeba9332bae2903c5a85a457a3e673477c03",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "The priorities of these countries are to minimise costs from \r\nHIV and other blood-borne infections, rather than preventing drug \r\nabuse because drug abuse is often already pervasive. However, each \r\ncountry has the right to determine the best approach it needs to deal \r\nwith its drug problems.\r\n\r\nCHANGING PROFILE OF DRUG ABUSERS\r\n\r\n• Cannabis is one of the most commonly abused drugs in Singapore.\r\n\r\n• CNB is also seeing more cases of drug clusters amongst youths. \r\n\r\nMany of these youths had abused cannabis.\r\n\r\n• The profiles of youth abusers have also evolved, with more coming from \r\n\r\nmiddle-class families and who are doing well in school.\r\n\r\nSource\r\n\r\n12\t The latest annual statistics are available at www.cnb.gov.sg.\r\n\r\n18\r\n19\r\n\r\n20\r\n21\r\n\r\nMORE LIBERAL VIEWS AMONGST YOUTHS\r\n\r\n• Older youths seem to have more liberal views towards cannabis: that it \r\n\r\nis a “soft and cool” drug, is less harmful and less addictive than tobacco, \r\nand are hence more willing to experiment with it. These views are wrong \r\nand dangerous.\r\n\r\n• The Ministry of Home Affairs (MHA) conducted a survey between Jul and \r\n\r\nOct 2018 to study Singapore residents’ perception of the drug situation \r\nin Singapore, and their support for Singapore’s anti-drug policies. While \r\nthe public’s support for Singapore’s tough stance against drugs was \r\nstrong at 98%, only about 68% of youths perceived the consumption of \r\ncannabis to be harmful.\r\n\r\n• Such views could have been influenced by what they read on the internet \r\n\r\nand social media that normalise drug-taking behaviour, by celebrities \r\n(e.g. Rihanna, Justin Bieber, Lindsay Lohan) glamourising a drug-taking \r\nlifestyle, and by the growing calls of support from pro-drug lobbyists \r\nseeking to decriminalise drug use and even legalise certain drugs.\r\n\r\n• Many sources advocating cannabis use have hidden agendas. Very \r\n\r\noften, they may be sponsored by entities that would benefit commercially \r\nfrom cannabis legalisation. Teach your students to be discerning readers, \r\nand to take a step back to think critically when reading information from \r\nthese sources.\r\n\r\nMARKETING TACTICS\r\n\r\n• Companies use questionable marketing tactics that downplay or dismiss \r\n\r\nthe harms of cannabis. They portray cannabis and its consumption as \r\npart of an active, natural lifestyle choice so as to shape public perception \r\nof cannabis and cannabis abusers.\r\n\r\n• Cannabis has also been added into consumer edibles such as cookies \r\n\r\nand candies, normalising cannabis as a part of everyday edibles, making \r\nthe young and impressionable think that cannabis is harmless and safe.\r\n\r\n• 138 arrested in drug blitz. \r\n\r\nCannabis chocolate and strawberry taffies seized.\r\nCannabis-infused chocolate and strawberry taffies seized in a CNB raid.\r\n\r\nNEWS ARTICLE\r\n\r\n20\r\n21\r\n\r\n24\r\n25\r\n\r\nINFOGRAPHICS\r\n\r\nCNB has produced many useful PDE materials to aid persons of \r\ninfluence such as educators, counsellors and parents to raise \r\nawareness of drug abuse.\r\n\r\nSource\r\n\r\nPublic Perception Survey on Singapore’s Anti-Drug Policies 2018\r\n\r\n24\r\n25\r\n\r\n26\r\n27\r\n\r\nTWO-TO-SEVEN-FOLD INCREASED RISK OF FATAL ACCIDENTS\r\n\r\n \r\n \r\n\r\nSource\r\n\r\nA Literature Review on Medical Cannabis: Conducted by a team of psychiatrists and researchers from the Institute of\r\n\r\nMental Health, Singapore, 2016\r\n\r\nIMPAIRED PSYCHOMOTOR PERFORMANCE\r\n\r\n28\r\n29\r\n\r\nVIDEOS\r\n\r\n2.\t ",
+        "mimetype": "text/plain",
+        "start_char_idx": 10040,
+        "end_char_idx": 13406,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "3619e472-020b-44d9-ae83-977f0b3e146f",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+            "file_name": "know-cannabis_booklet.txt",
+            "file_type": "text/plain",
+            "file_size": 16518,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "9deee47b-9932-4a6a-a75a-c00b7b5ffa1b",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "fea25f636da9b252041c28e2d93a2dd5f19e554a4e55a3103bde4308366383f1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "e2eb1fc0-1464-4ba6-ba38-e6ddbfbe83a7",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "5422d94cfa726c844bf63c756696e9d2390453b7e480c5ea08c70ed362e06314",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "ab6b9604-bbd5-4f3a-8eb0-da1d089684be",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "a50fb0b83f9d21f647aaf68908873fb4f6768c3aa7509b859ec09b9f33eecb8f",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Impact of Cannabis Legalisation\r\n\t\r\n\t\r\n1:36 min\r\n\r\n\t\r\nLearn what really happens when cannabis \r\nbecomes legal in the neighbourhood.\r\n\r\n1.\t Lancet Study: The Link Between \r\n\r\nCannabis Use and Psychosis\r\n\r\n \r\n\t\r\n0:43 min\r\n\r\n\t\r\nFindings from the largest study of its kind to \r\ndate show that daily cannabis abuse, as well \r\nas the abuse of high-potency cannabis, \r\nincrease the risk of mental health problems. \r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 13406,
+        "end_char_idx": 13817,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "ab6b9604-bbd5-4f3a-8eb0-da1d089684be",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+            "file_name": "know-cannabis_booklet.txt",
+            "file_type": "text/plain",
+            "file_size": 16518,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "9deee47b-9932-4a6a-a75a-c00b7b5ffa1b",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "fea25f636da9b252041c28e2d93a2dd5f19e554a4e55a3103bde4308366383f1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "3619e472-020b-44d9-ae83-977f0b3e146f",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "145a32a1f2cffe980dc56202cc881a3e716075ca1f509afa44bfeab4f0dbb887",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "7330658d-8b68-407a-b1f2-dddde0c2ed84",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "81dffcf6d7c0be13b3fe99ef25aa6762d7beb201538c490ede1b8f2c1bbdfa0e",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "3.\t Slow Motion Disaster\r\n\r\n\t\r\n2:32 min\r\n\r\n\t\r\nKevin Sabet, President of Smart Approaches \r\nto Marijuana, shares about the harms of \r\ncannabis legalisation.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 13817,
+        "end_char_idx": 13976,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "7330658d-8b68-407a-b1f2-dddde0c2ed84",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+            "file_name": "know-cannabis_booklet.txt",
+            "file_type": "text/plain",
+            "file_size": 16518,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "9deee47b-9932-4a6a-a75a-c00b7b5ffa1b",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "fea25f636da9b252041c28e2d93a2dd5f19e554a4e55a3103bde4308366383f1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "ab6b9604-bbd5-4f3a-8eb0-da1d089684be",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "fbe220477fb54cb5d9c5e3ee38c1ff26c3ffe4f627c3546021e176c681295ca6",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "0b202543-840f-4c16-99bd-977f36c3a140",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "6a01edb482507c1463038a5113da4ea84c193455d9abb6d0bbe8b14016f808ec",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "WHAT SHOULD YOU KNOW?\r\n\r\n \r\n \r\n\r\n \r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 13976,
+        "end_char_idx": 14014,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "0b202543-840f-4c16-99bd-977f36c3a140",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+            "file_name": "know-cannabis_booklet.txt",
+            "file_type": "text/plain",
+            "file_size": 16518,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "9deee47b-9932-4a6a-a75a-c00b7b5ffa1b",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "fea25f636da9b252041c28e2d93a2dd5f19e554a4e55a3103bde4308366383f1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "7330658d-8b68-407a-b1f2-dddde0c2ed84",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "01559d13cf124c50f1b552969be4ad3446eb11f8b399b408ec0e49181007b739",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "b7de4777-6811-4abd-856e-c479d86aaba6",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "138e46775602299a38fd80478cc512393550453d81867e6388a3ffaaf889d531",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "1\r\n\r\n2\r\n\r\n3\r\n\r\n5\r\n\r\nSource\r\n\r\nAnnual Report 2018, International Narcotics Control Board\r\n\r\nPHARMACEUTICAL PRODUCTS CONTAINING\r\nCANNABINOIDS\r\n\r\nThe International Narcotics Control Board (INCB) has warned about the risks \r\nof pharmaceutical products containing cannabinoids, and the dangers of \r\nlegalising cannabis for recreational use. \r\n\r\n4\r\n\r\nSingapore adopts a zero-tolerance \r\nstance against illicit drugs, including \r\ncannabis. \r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 14014,
+        "end_char_idx": 14449,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "b7de4777-6811-4abd-856e-c479d86aaba6",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+            "file_name": "know-cannabis_booklet.txt",
+            "file_type": "text/plain",
+            "file_size": 16518,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "9deee47b-9932-4a6a-a75a-c00b7b5ffa1b",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "fea25f636da9b252041c28e2d93a2dd5f19e554a4e55a3103bde4308366383f1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "0b202543-840f-4c16-99bd-977f36c3a140",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "cf020aa1216adbe1dcf45bcff3be709e00c4653e0110f1d2de99c86163d7fa39",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "2a40a183-4a29-4de9-a6f9-87deb788f287",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "6cee0b662c3a4dcccca52072fdb29e7b1fc7085628c28ce94f7e565da3439fb9",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Cannabis \r\nis \r\nharmful, \r\n\r\naddictive and there is no scientific \r\nevidence on the safety and efficacy \r\nof cannabis use.\r\n\r\n30\r\n31\r\n\r\n4.\t ",
+        "mimetype": "text/plain",
+        "start_char_idx": 14449,
+        "end_char_idx": 14589,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "2a40a183-4a29-4de9-a6f9-87deb788f287",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+            "file_name": "know-cannabis_booklet.txt",
+            "file_type": "text/plain",
+            "file_size": 16518,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "9deee47b-9932-4a6a-a75a-c00b7b5ffa1b",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "fea25f636da9b252041c28e2d93a2dd5f19e554a4e55a3103bde4308366383f1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "b7de4777-6811-4abd-856e-c479d86aaba6",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "41733a8a7d5c7fc5b92ca2b9279d5eb658d499ea76f06520b94cd1f23dc35e7b",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "6277d7c3-16e7-4ac5-91bd-9e83f631d7ff",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "cb15c12bf0ddd4a59175c38053f7cf3a2a3553deb9efcec83198749f31c0160e",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Dangers of Marijuana - Mental Health Issues\r\n \r\n\t\r\n1:21 min\r\n\r\n\t\r\nDr. Jimmy Lee from Institute of Mental Health \r\nshares about the effects ​cannabis has on \r\nmental health.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 14589,
+        "end_char_idx": 14765,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "6277d7c3-16e7-4ac5-91bd-9e83f631d7ff",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+            "file_name": "know-cannabis_booklet.txt",
+            "file_type": "text/plain",
+            "file_size": 16518,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "9deee47b-9932-4a6a-a75a-c00b7b5ffa1b",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "fea25f636da9b252041c28e2d93a2dd5f19e554a4e55a3103bde4308366383f1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "2a40a183-4a29-4de9-a6f9-87deb788f287",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "4d9a691ecde8c76b528f59b5c7b3eacdf1a776e4efe45c2bb7e74d2d315c8b04",
+                "class_name": "RelatedNodeInfo"
+            },
+            "3": {
+                "node_id": "ec4f8cf9-e441-482a-bdb0-d8417f141384",
+                "node_type": "1",
+                "metadata": {},
+                "hash": "fa95f7f816e70377ea40e855a2d1ef3eeb662680f2ef8a8a9707d4d7ad0fca65",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "6.\t Dangers of Marijuana - Medical Marijuana \r\n \r\n\t\r\n1:31 min\r\n\r\n\t\r\nDr. Jimmy Lee from Institute of Mental Health \r\nshares about the ​harmful effects of “medical \r\ncannabis”.\r\n\r\n5.\t Dangers of Marijuana Addiction\r\n \r\n\t\r\n1:22 min\r\n\r\n\t\r\nThe video shows that although the risk of \r\ncannabis addiction may not be the ​same as \r\nheroin, there is still a high risk of developing \r\npsychological dependency ​on the drug.\r\n\r\n7.\t Cannabis\r\n\r\n\t\r\n3:20 min\r\n\r\n\t\r\nLearn about the harmful effects and addictive \r\nnature of cannabis, and understand the myths \r\nsurrounding its use.\r\n\r\n8.\t Harms of Cannabis\r\n\t\r\n\t\r\n2:15 min\r\n\r\n\t\r\nThis video provides parents with a general \r\noverview of the harms of cannabis, and the \r\nworrying trend of increasing liberal attitudes \r\namong youths towards drugs.\r\n\r\n32\r\n33\r\n\r\nPOSTERS\r\n\r\nThese posters are also available at www.cnb.gov.sg.\r\n\r\n34\r\n35\r\n\r\n#DidYouKnow that the colours of the anti-drug ribbon, which is a green \r\nribbon over a white one, represent ‘Health’, ‘Vitality’ and ‘Strength’?\r\n\r\nNOTES\r\n\r\nCopyright © Mar 2020. All rights reserved.\r\nNo part of this publication (content and images) may be reproduced, stored in a retrieval system, or transmitted in \r\nany form or by any means, electronic, mechanical, photocopying, scanning, recording or otherwise, without the prior \r\nwritten permission of the Central Narcotics Bureau, Singapore.\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 14765,
+        "end_char_idx": 16138,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    },
+    {
+        "id_": "ec4f8cf9-e441-482a-bdb0-d8417f141384",
+        "embedding": null,
+        "metadata": {
+            "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+            "file_name": "know-cannabis_booklet.txt",
+            "file_type": "text/plain",
+            "file_size": 16518,
+            "creation_date": "2024-10-27",
+            "last_modified_date": "2024-10-27"
+        },
+        "excluded_embed_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "excluded_llm_metadata_keys": [
+            "file_name",
+            "file_type",
+            "file_size",
+            "creation_date",
+            "last_modified_date",
+            "last_accessed_date"
+        ],
+        "relationships": {
+            "1": {
+                "node_id": "9deee47b-9932-4a6a-a75a-c00b7b5ffa1b",
+                "node_type": "4",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "fea25f636da9b252041c28e2d93a2dd5f19e554a4e55a3103bde4308366383f1",
+                "class_name": "RelatedNodeInfo"
+            },
+            "2": {
+                "node_id": "6277d7c3-16e7-4ac5-91bd-9e83f631d7ff",
+                "node_type": "1",
+                "metadata": {
+                    "file_path": "C:\\Users\\nicho\\OneDrive\\Desktop\\HacX-2024\\data-ingress\\documents\\raw_text\\know-cannabis_booklet.txt",
+                    "file_name": "know-cannabis_booklet.txt",
+                    "file_type": "text/plain",
+                    "file_size": 16518,
+                    "creation_date": "2024-10-27",
+                    "last_modified_date": "2024-10-27"
+                },
+                "hash": "752758527a051cdbf27e68da9b1e5d51810c483a47c07a1592145d1fd8c7801d",
+                "class_name": "RelatedNodeInfo"
+            }
+        },
+        "text": "Visit the CNB website at www.cnb.gov.sg for more information. \r\n\r\nIf you have been approached to try drugs or wish to report \r\n\r\nany information, please call the CNB hotline at 1800-325-6666\r\n\r\n@CNB.DrugFreeSG\r\n\r\nBrought to you by Central Narcotics Bureau\r\n\r\n",
+        "mimetype": "text/plain",
+        "start_char_idx": 16138,
+        "end_char_idx": 16397,
+        "text_template": "{metadata_str}\n\n{content}",
+        "metadata_template": "{key}: {value}",
+        "metadata_seperator": "\n",
+        "class_name": "TextNode"
+    }
+]
