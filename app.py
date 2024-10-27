@@ -7,6 +7,32 @@ from main import flesh_out_html_images, flesh_out_html_text
 from extractors import extract_text_descriptions
 from regenpipeline import regenerate_image, regenerate_text, replace_image_descriptions, replace_text_descriptions, extract_image_links
 from azure.storage.blob import BlobServiceClient
+import base64  # Add this at the top with your other imports
+
+def get_base64_encoded_image(image_path):
+    with open(image_path, "rb") as img_file:
+        return base64.b64encode(img_file.read()).decode()
+
+def navbar():
+    # Get the base64 encoded logo
+    logo_base64 = get_base64_encoded_image("logo.png")
+
+    navbar_html = f"""
+        <div class="navbar">
+            <div class="nav-content">
+                <div class="nav-logo-container">
+                    <img src="data:image/png;base64,{logo_base64}" class="nav-logo-img" alt="Logo">
+                    <span class="nav-logo-text">Drug Education Generator</span>
+                </div>
+                <div class="nav-links">
+                    <a href="/" class="nav-link">Home</a>
+                    <a href="/about" class="nav-link">About</a>
+                    <a href="/contact" class="nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    """
+    st.markdown(navbar_html, unsafe_allow_html=True)
 
 st.set_page_config(layout="wide", page_title="Preventative Drug Education Generator", page_icon=":octopus:")
 
@@ -14,26 +40,137 @@ st.set_page_config(layout="wide", page_title="Preventative Drug Education Genera
 def load_css():
     return """
     <style>
-        .big-font {
-            font-size:18px !important;
+    /* Navigation Bar */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 70px;  /* Increased height to accommodate logo */
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            padding: 0 2rem;
         }
-        .stButton>button {
+
+        .nav-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             width: 100%;
-            border-radius: 20px;
-            background-color: #0C9;
-            color: white;
+            max-width: 1200px;
+            margin: 0 auto;
         }
-        .stTextInput>div>div>input, .stTextArea>div>div>textarea {
+
+        .nav-logo-container {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .nav-logo-img {
+            height: 40px;  /* Adjust size as needed */
+            width: auto;
+        }
+
+        .nav-logo-text {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1E3A8A;
+        }
+
+        /* Modern Layout and Spacing */
+        .main {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        /* Typography */
+        h1, h2, h3, h4 {
+            color: #1E3A8A;
+            font-family: 'Inter', sans-serif;
+            margin-bottom: 1.5rem;
+        }
+        
+        /* Button Styles */
+        .stButton > button, .generate-button {
+            background: linear-gradient(90deg, #FF8C00, #FF8CFF);
+            color: #121212;
+            font-weight: 600;
+            border-radius: 10px;
+            padding: 10px 20px;
+            font-size: 18px;
+            transition: background 0.3s ease, color 0.3s ease;
+            border: none;
+            width: auto;
+            min-width: 200px;  /* Optional: sets minimum width */
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .stButton > button:hover, .generate-button:hover {
+            background: linear-gradient(90deg, #FF6C00, #FF6CFF);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            cursor: pointer;
+        }
+        
+        /* Input Fields */
+        .stTextInput > div > div > input, 
+        .stTextArea > div > div > textarea {
+            border-radius: 10px;
+            border: 2px solid #E5E7EB;
+            padding: 12px 16px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+            background: #F9FAFB;
+        }
+        
+        .stTextInput > div > div > input:focus,
+        .stTextArea > div > div > textarea:focus {
+            border-color: #FF8C00;
+            box-shadow: 0 0 0 2px rgba(255,140,0,0.1);
+        }
+        
+        /* Cards and Containers */
+        .content-box {
+            background: white;
             border-radius: 15px;
-            padding: 15px;
-            width: calc(100% + 30px);  // Making input area wider
+            padding: 20px;
+            margin: 10px 0;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
         }
-        .stMarkdown {
-            margin-top: -20px;
+        
+        .content-box:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px -1px rgba(0,0,0,0.15);
         }
+        
+        /* Sidebar */
+        .css-1d391kg {
+            background: #F8FAFC;
+            padding: 2rem 1rem;
+        }
+        
+        /* Custom Classes */
+        .text-gradient {
+            background: linear-gradient(90deg, #FF8C00, #FF8CFF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
         .container {
-            padding: 5px;
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            margin: 1rem 0;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
         }
+
+        
     </style>
     """
 
@@ -99,11 +236,15 @@ def get_image_urls(image_titles):
     
     return image_urls
 
+
 async def main():
     st.markdown(load_css(), unsafe_allow_html=True)
+
+    navbar()
     
     st.title("Preventive Drug Education Material Generator")
-    st.image("https://img.freepik.com/premium-vector/cute-octopus-artist-painting-cartoon-vector-icon-illustration-animal-education-icon-isolated-flat_138676-6683.jpg?w=360")
+    st.markdown("Hello DrugFreeSG Champions! Welcome to Your Creative Hub for Preventive Drug Education creation!")
+    st.image("logo.png")  # If the image is in the same directory as app.py
 
 
 
@@ -133,17 +274,23 @@ async def main():
     with st.sidebar:
         st.write("## Generator Settings")
         st.markdown("### Fill out the details below:")
-        target_audience = st.text_input("Target Audience", "Type here, e.g.: general audience")
-        stylistic_description = st.text_input("Stylistic Description","Type here, e.g.: 90's cartoon style")
-        content_description = st.text_input("Content Description", "Type here, e.g.: various scenes")
-        format = st.text_input("Format", "Type here, e.g.: pamphlet")
+        target_audience = st.text_input("Tell me about your audience — Who are you creating this for?")
+        stylistic_description = st.text_input("Pick your style — From comic-book fun to 90s cartoons, choose the look that fits best.")
+        content_description = st.text_input("Describe your message — What's the focus? Awareness, safety, or myth-busting?")
+        format = st.text_input("Format — How do you want to deliver this message? A pamphlet, a poster, or a newsletter?")
 
     with st.container():
         st.markdown("### Hi, I'm Inky!")
-        st.markdown("#### I'm here to help you create content and ideas for your preventive drug education material.")
-        st.write("Let's work together to make cool content! just use the form on the left to tell me your ideas. Once you're ready, click the button below.")
+        st.write("""<div style="max-width: 850px; margin-left: 0 auto; margin-bottom: 100 auto;">
+            I'm your friendly guide in creating impactful, educational content on drug prevention. Whether you're a teacher, community leader, or advocate, I'm here to help you craft meaningful materials that speak to your audience. Let's work together to make cool content! just use the form on the left to tell me your ideas. Once you're ready, click the button below.
+            </div>""", unsafe_allow_html=True)
+        st.write("")
+        st.write("")
+        st.write("")
         
-        if st.button("Generate!"):
+
+        
+        if st.button("Generate!✨"):
             if not target_audience or not stylistic_description or not content_description or not format:
                 st.error("All fields must be filled out before submitting.")
             else:
