@@ -240,11 +240,11 @@ def get_image_urls(image_titles):
 async def main():
     st.markdown(load_css(), unsafe_allow_html=True)
 
-    navbar()
+    # navbar()
     
     st.title("Preventive Drug Education Material Generator")
     st.markdown("Hello DrugFreeSG Champions! Welcome to Your Creative Hub for Preventive Drug Education creation!")
-    st.image("logo.png")  # If the image is in the same directory as app.py
+    st.image("inky.png")  # If the image is in the same directory as app.py
 
 
 

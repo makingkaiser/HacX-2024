@@ -97,6 +97,7 @@ from PIL import Image
 import requests
 from io import BytesIO
 from creativepackuserinputparse import refine_and_generate_main, refine_and_generate_points
+import base64
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))  # Ensures absolute path resolution
 GENERATED_IMAGES_DIR = os.path.join(BASE_DIR, 'generated_images')  # Path to the generated images directory
@@ -142,62 +143,133 @@ async def generate_and_display_images(target_audience, stylistic_description, co
     await refine_and_generate_main(target_audience, stylistic_description, content_description)
     return True
 
+def load_css():
+    return """
+    <style>
+    /* Navigation Bar */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 70px;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            padding: 0 2rem;
+        }
+
+        /* Button Styles */
+        .stButton > button, .generate-button {
+            background: linear-gradient(90deg, #FF8C00, #FF8CFF);
+            color: #121212;
+            font-weight: 600;
+            border-radius: 10px;
+            padding: 10px 20px;
+            font-size: 18px;
+            transition: background 0.3s ease, color 0.3s ease;
+            border: none;
+            width: auto;
+            min-width: 200px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .stButton > button:hover, .generate-button:hover {
+            background: linear-gradient(90deg, #FF6C00, #FF6CFF);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            cursor: pointer;
+        }
+
+        /* Input Fields */
+        .stTextInput > div > div > input, 
+        .stTextArea > div > div > textarea {
+            border-radius: 10px;
+            border: 2px solid #E5E7EB;
+            padding: 12px 16px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+            background: #F9FAFB;
+        }
+        
+        .stTextInput > div > div > input:focus,
+        .stTextArea > div > div > textarea:focus {
+            border-color: #FF8C00;
+            box-shadow: 0 0 0 2px rgba(255,140,0,0.1);
+        }
+
+        /* Cards and Containers */
+        .content-box {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 10px 0;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+    </style>
+    """
+
 def main():
-    ensure_directories_exist()
+    st.set_page_config(layout="wide", page_title="Drug Prevention Educational Material Generator", page_icon=":octopus:")
+    st.markdown(load_css(), unsafe_allow_html=True)
+
+
+
+    # Sidebar for input parameters
+    with st.sidebar:
+        st.write("## Generator Settings")
+        st.markdown("### Fill out the details below:")
+        target_audience = st.text_input("Who is your target audience?", "early teens still in school")
+        stylistic_description = st.text_input("What artistic style would you like?", "cartoonish, colorful and engaging")
+        content_description = st.text_area("What's your content about?", "Understanding the effects of cannabis on growing up")
+
+    # Main content area
     st.title("Drug Prevention Educational Material Generator")
+    # octopus_image = download_image("https://img.freepik.com/premium-vector/illustration-cute-cartoon-octopus-character-with-paint-bucket-brush_1151-69783.jpg")
+    octopus_image = Image.open("sticky.png")  # Load local image instead of downloading
+    st.image(octopus_image, caption="Meet our helper, the creative octopus!", width=300)
+    
+    # Welcome message in a container
+    with st.container():
+        st.markdown("### Welcome to the Creative Hub!")
+        st.write("""<div style="max-width: 850px; margin-left: 0 auto; margin-bottom: 100 auto;">
+            Create impactful educational materials for drug prevention campaigns. Use the sidebar to customize your content, 
+            and let's work together to make engaging and effective materials!
+            </div>""", unsafe_allow_html=True)
+        st.write("")
+        st.write("")
 
-    # Display the cute octopus image
-    octopus_image = download_image("https://img.freepik.com/premium-vector/illustration-cute-cartoon-octopus-character-with-paint-bucket-brush_1151-69783.jpg")
-    st.image(octopus_image, caption="Meet our helper, the creative octopus!")
 
-    # Inputs for the generation process
-    target_audience = st.text_input("Target Audience", "early teens still in school")
-    stylistic_description = st.text_input("Artistic Style", "cartoonish, colorful and engaging")
-    content_description = st.text_area("Content Description", "Understanding the effects of cannabis on growing up")
-
-    if st.button("Generate Background, Slogans, and Cards"):
-        with st.spinner('Generating Background, Slogans, and Cards...'):
+    # Generation button with new styling
+    if st.button("Generate Background, Slogans, and Cards ✨", key="generate_main"):
+        with st.spinner('Generating materials...'):
             for i in range(3):
                 result = asyncio.run(generate_and_display_images(target_audience, stylistic_description, content_description))
             if result:
-                st.success("Images have been generated and are being displayed below.")
+                st.success("Materials have been generated successfully!")
                 st.session_state['images_generated'] = True
 
+    # Rest of your display logic with enhanced styling
     if 'images_generated' in st.session_state and st.session_state['images_generated']:
-        # Displaying generated images in a structured format
-        display_images_from_directory("bgs", "Generated Background Images")
-        display_images_from_directory("slogans", "Generated Slogan Images")
-        display_images_from_directory("cards", "Generated Card Images")
+        st.markdown("### Generated Materials")
+        
+        # Display images in styled containers
+        with st.container():
+            display_images_from_directory("bgs", "Background Images")
+            display_images_from_directory("slogans", "Campaign Slogans")
+            display_images_from_directory("cards", "Information Cards")
 
-        # User input for statistics
-        further_input = st.text_input("Support your creation with statistics! What kind of statistics should we find?", placeholder="Enter statistics separated by commas")
-        if further_input:
-            further_input = "17% increase in cannabis users arrested, Cannabis makes up 19% of new drug abusers arrested in 2023, 64% of cannabis users below the age of 30"
-            statistics = [stat.strip() for stat in further_input.split(',')]
+        # Statistics input section
+        st.markdown("### Add Supporting Statistics")
+        further_input = st.text_input(
+            "What statistics would you like to include?", 
+            placeholder="Enter statistics separated by commas"
+        )
 
-            generate_stats = st.button("Generate Visual Aids and Graphs for Statistics")
-            if generate_stats:
-                with st.spinner('Generating visual aids and graphs...'):
-                    asyncio.run(refine_and_generate_points(target_audience, stylistic_description, content_description, statistics))
-                st.success("Visual aids and graphs have been generated for the provided statistics.")
-
-                # Display corresponding visuals for each statistic
-                for stat in statistics:
-                    with st.container():
-                        st.markdown(f"<div style='background-color:#f0f2f6;padding:10px;border-radius:10px;'>\
-                            <h4 style='color:#333;'>{stat}</h4></div>", unsafe_allow_html=True)
-                        vector_images = list_sorted_images(os.path.join(GENERATED_IMAGES_DIR, "vectors"))
-                        visualaid_images = list_sorted_images(os.path.join(GENERATED_IMAGES_DIR, "visualaids"))
-                        if vector_images and visualaid_images:
-                            cols = st.columns(3)
-                            index = statistics.index(stat)
-                            cols[0].image(vector_images[index % len(vector_images)], caption="Vector Image", use_column_width=True)
-                            cols[1].image(visualaid_images[index % len(visualaid_images)], caption="Visual Aid", use_column_width=True)
-                            graph_images = list_sorted_images(os.path.join(GENERATED_IMAGES_DIR, "graphs"))
-                            if index < len(graph_images):  # Check to avoid index out of range error
-                                cols[2].image(graph_images[index], caption="Retrieved Graph", use_column_width=True)
-                            else:
-                                cols[2].write("")  # Placeholder text when no graph image is available
+        # Continue with your existing statistics processing logic...
 
 if __name__ == "__main__":
     main()
